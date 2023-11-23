@@ -4,9 +4,23 @@ import Navigation from './Navigation.astro';
 import ThemeIcon from './ThemeIcon.astro';
 ---
 <header>
-  <nav>
+  <nav class="nav" >
     <Hamburger />
-    <ThemeIcon />
     <Navigation />
+    <ThemeIcon />
   </nav>
 </header>
+
+<style>
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  @media screen and (min-width: 636px) {
+    .nav {
+      align-items: center;
+    }
+  }
+</style>
