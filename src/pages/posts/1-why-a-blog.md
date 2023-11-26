@@ -10,7 +10,7 @@ Welcome to the first issue of my blog.
 
 Yes not everything is centered yet, the colors may be off, I hope that it's readable on mobile and sorry if some things are not overall clean (if you're reading this in the future, this may not apply to you).
 
-But let's put that aside for now, and focus and why did I want to start a blog.
+But let's put that aside for now, and focus on why did I want to start a blog.
 
 ## Motivations
 
