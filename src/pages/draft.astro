@@ -2,12 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 
-const pageTitle = "Krayorn";
+const pageTitle = "Drafts";
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 <BaseLayout pageTitle={pageTitle}>
 <ul>
-    {allPosts.filter(post => post.frontmatterpublished).map((post) => <BlogPost description={post.frontmatter.description} url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
+    {allPosts.filter(post => !post.frontmatterpublished).map((post) => <BlogPost description={post.frontmatter.description} url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
 </ul>
 </BaseLayout>
 

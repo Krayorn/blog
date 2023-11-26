@@ -4,7 +4,7 @@ title: 'Why a blog'
 description: 'motivations and next steps'
 pubDate: 2023-11-27
 tags: ["blogging"]
-draft: true
+published: false
 ---
 Welcome to the first issue of my blog.
 
