@@ -19,26 +19,37 @@
   .nav-links a {
     display: block;
     text-align: center;
-    padding: 10px 0;
-    font-size: 1.2rem;
+    margin: 10px 0;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
   }
   
-
+  html.dark .nav-links a {
+    color: white;
+    border-bottom: 1px solid white;
+  }
   
   .expanded {
     display: unset;
+    width: fit-content;
   }
   
   @media screen and (min-width: 636px) {
     .nav-links {
-        display: block;
+      display: block;
     }
   
     .nav-links a {
       display: inline-block;
-      padding: 15px 20px;
+      margin: 10px 15px;
+    }
+
+    .nav-links :first-child {
+      padding-left: 0px;
     }
   }
 

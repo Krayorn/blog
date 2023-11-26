@@ -4,7 +4,7 @@ html {
   }
   
   html.dark {
-    background-color: #0d0950;
+    background-color: #08090a;
     color: #fff;
   }
   
@@ -15,11 +15,16 @@ html {
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
     line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
+  main {
+    flex: 1;
+  }
+
   * {
     box-sizing: border-box;
   }

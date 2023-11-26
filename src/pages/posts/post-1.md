@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Blog Post'
+description: 'This will be my description containing some details about the content of the blog post'
 pubDate: 2022-07-01
 tags: ["astro", "blogging", "learning in public"]
 ---

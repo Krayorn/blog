@@ -15,11 +15,31 @@ const { pageTitle } = Astro.props;
   </head>
   <body>
     <Header />
-    <h1>{pageTitle}</h1>
-    <slot />
+    <main>
+      <h1>{pageTitle}</h1>
+      <slot />
+    </main>
     <Footer />
     <script>
       import "../scripts/menu.js";
     </script>
   </body>
 </html>
+
+<style>
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+@media screen and (min-width: 636px) {
+    main {
+      width: 80vw;
+      margin: auto;
+    }
+  }
+</style>

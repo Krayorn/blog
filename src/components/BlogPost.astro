@@ -1,5 +1,5 @@
 ---
-const { title, url, pubDate } = Astro.props
+const { title, url, pubDate, description } = Astro.props
 
 var date = new Date(pubDate);
 var options = { year: 'numeric', month: 'long' };
@@ -7,6 +7,28 @@ var formattedDate = date.toLocaleString('en-US', options);
 
 ---
 <li>
-    <h2><a href={url}>{title}</a></h2>
-    <span>{formattedDate}</span>
+    <div><h2><a href={url}>{title}</a></h2><span>{formattedDate}</span></div>
+    <p>{description}</p> 
 </li>
+
+<style>
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 0.4rem 0;
+}
+
+a {
+    color: #6d48ab;
+}
+html.dark a {
+    color: #21c382;
+}
+p {
+    color: gray;
+}
+</style>

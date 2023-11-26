@@ -5,18 +5,20 @@ const { frontmatter } = Astro.props;
 var date = new Date(frontmatter.pubDate);
 var options = { year: 'numeric', month: 'long' };
 var formattedDate = date.toLocaleString('en-US', options);
+
 ---
 <BaseLayout pageTitle={frontmatter.title}>
+  <p class="desc" >{frontmatter.description}</p>
   <p class="pub-date" >{formattedDate}</p>
+
+
+  <slot />
 
   <div class="tags">
     {frontmatter.tags.map((tag) => (
       <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
     ))}
   </div>
-
-  <slot />
-
 </BaseLayout>
 
 <style>
@@ -31,14 +33,29 @@ var formattedDate = date.toLocaleString('en-US', options);
 
   .tag {
     margin: 0.25em;
-    border: dotted 1px #a1a1a1;
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
-    background-color: #F8FCFD;
+    border: dotted 1px #a1a1a1;
+    background-color: #e3e3e3;
+    color: #6d48ab;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  html.dark .tag {
+      background-color: #1f2327;
+      color: #21c382;
   }
 
   .pub-date {
     text-align: end;
+  }
+  
+  .desc {
+    text-align: center;
+    color: gray;
   }
 </style>
