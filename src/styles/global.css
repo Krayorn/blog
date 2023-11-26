@@ -33,3 +33,11 @@ html {
     margin: 1rem 0;
     font-size: 2.5rem;
   }
+
+  .article a {
+    color: #6d48ab;
+  }
+
+  html.dark .article a {
+    color: #21c382;
+  }
