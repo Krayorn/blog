@@ -4,7 +4,7 @@ title: 'Why a blog'
 description: 'motivations and next steps'
 pubDate: 2023-11-27
 tags: ["blogging"]
-published: false
+published: true
 ---
 Hi, this is the first entry of my blog.
 
@@ -34,7 +34,7 @@ With this out of the way, I didn't have any reasons not to write.
 
 So now that I have a blog, what do I hope to accomplish with it ? Plenty of things ! 
 
-First, I will have to see if I manage to write regularly, I want to write about many subjects, but it should mainly be about tech, AI, board games and miniature painting.
+First, I will have to see if I manage to write regularly. I want to write about many subjects, but it should mainly be about tech, AI, board games and miniature painting.
 
 Next, I would like to add some sections to this website:
 
