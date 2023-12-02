@@ -1,9 +1,14 @@
 import { defineConfig } from 'astro/config';
-
 import preact from "@astrojs/preact";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://blog-mauve-theta-43.vercel.app/",
-  integrations: [preact()]
+  site: "https://krayorn.com/",
+  integrations: [preact(), sitemap()],
+  integrations: [
+    sitemap({
+      filter: (page) => page !== 'https://krayorn.com/posts/2-draft/',
+    })
+  ],
 });
