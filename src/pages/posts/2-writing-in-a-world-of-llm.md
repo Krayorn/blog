@@ -4,7 +4,7 @@ title: 'Writing in a world of LLM'
 description: 'competing against the machine'
 pubDate: 2023-12-14
 tags: ["blogging", "AI"]
-published: false
+published: true
 ---
 
 Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLM having a sizeable impact on the world, the act of writing itself might become irrelevant.
