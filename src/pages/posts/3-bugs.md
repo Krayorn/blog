@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'a week of bugs'
+title: 'collecting bugs'
 description: 'software is in great shape'
 pubDate: 2023-12-04
 tags: ["blogging", "software"]
@@ -18,3 +18,6 @@ once in a while after a training, the next training proposed consists only of th
 
 5/12 1620
 ChatGPT interface stuck with "..." for multiples seconds, after a while refreshed and sow error message "could not generate answer, try again ?" then worked.
+
+11/12 0048
+blog article [by zendesk](https://www.zendesk.fr/blog/ai-customer-service/#georedirect) displays "&nbsp ;" at the end of each paragraph
