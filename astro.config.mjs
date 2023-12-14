@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [preact(), sitemap()],
   integrations: [
     sitemap({
-      filter: (page) => page !== 'https://krayorn.com/posts/2-draft/',
+      filter: (page) => !page.includes('draft'),
     })
   ],
 });
