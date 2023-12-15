@@ -12,11 +12,11 @@ Writing is scary and difficult for a multitude of reasons. Lately I've been thin
 My gut tells me this is not true, but I want to expand on that in this piece.
 
 My writing has flaws and bad habits, but it also carries my style and a vibe that should be kinda unique.
-And I like that ! I try to improve it by writing more at work, on this blog and through some of my hobbies. My style is refining and evolving constantly, but sometimes (especially when I'm having trouble putting down what I want) I'm asking myself: "what's the point ?!"
+And I like that! I try to improve it by writing more at work, on this blog and through some of my hobbies. My style is refining and evolving constantly, but sometimes (especially when I'm having trouble putting down what I want) I'm asking myself: "what's the point?!"
 
 I could go on ChatGPT right now, write four terrible sentences containing the gist of my feelings and it would write a better piece than I ever could. Hell, also give him other articles from this blog, my tweets and some of my writing from my job, and it would also match my style. 
 
-So, why do I still try to write myself ?
+So, why do I still try to write myself?
 To be completely honest, I'm not sure. And sometimes I fear that I may be losing my time. But I'll try to answer my own interrogations in this post.
 
 ## The easy win
@@ -33,14 +33,14 @@ I'm going to go astray for a bit, but to understand the place of written content
 
 I have no idea how much more advanced LLMs will become (This is what makes this so daunting to me). Whatever issues they currently have will get fixed, patched, erased by another version, whereas my writing style evolves at a much slower pace (To be fair, if I could output content at a speed of 100s of tokens per second, maybe I would improve much faster). 
 
-So what predictions can I try to make ? How will written content change in a close future ?
+So what predictions can I try to make? How will written content change in a close future?
 
 ### I - Companies/Product/SaaS blogs - SEO abused for aquisition
 
 Some blogs are already fully automated (by [seobot](https://seobotai.com/), [drafthorse](https://www.drafthorseai.com/)). With AI writing titles, outlines and content produced on a daily/weekly basis with no human reviews needed. You can get thousands of articles written in a day. This floods the Web, but this content mostly serves one goal: [facilitate acquisition](https://twitter.com/jakezward/status/1728032634037567509) by appearing on more Search results. 
 As long as Google Search works like it does now, it will keep happening. 
 
-**Prediction #1**: Search will drastically evolve to avoid this trend, with a revolution of SEO as we currently know it. All this content is often what I would consider low quality. Not specially because it's badly written (as mentioned earlier, LLMs will get better) but mostly because there is a limit to how much relevant stuff you can say about a topic. Most of theses articles will end up looking very similar to each other and will not add any value at all. (Google might react way too slowly tho, maybe a new contender will emerge ?).
+**Prediction #1**: Search will drastically evolve to avoid this trend, with a revolution of SEO as we currently know it. All this content is often what I would consider low quality. Not specially because it's badly written (as mentioned earlier, LLMs will get better) but mostly because there is a limit to how much relevant stuff you can say about a topic. Most of theses articles will end up looking very similar to each other and will not add any value at all. (Google might react way too slowly tho, maybe a new contender will emerge?).
 
 **Prediction #2**: This kind of content (Why you should use our product, How to use our SaaS, Tips for X, Differences between Competitor Y and us...) will be replaced by a "chatbot like interface". By chatbot like, I mean a kind of dynamic page where the user query (maybe directly from Search) would be executed and generate something like a blog post, live, for your need. (Kinda sick.)
 
@@ -50,7 +50,7 @@ Social Medias fought against bots and generated content for a long time. Even if
 
 (**Mini Prediction #3**: There'll be some platform that accepts and even encourage the use of LLM trained on your data to generate content, they will then let the LLMs produce content and interact, find the individuals or communities with the most chances of matching what you research and then introduce your real self to that. Matchmaking 2.0). 
 
-I don't know how they can stop/limit this, though. On Twitter, someone is selling a tool to [automatically generate answers](https://twitter.com/nilansaha/status/1730133017010794621) to other people. Someone else is using AI to post [automatically 10 tweets a day](https://twitter.com/codyschneiderxx/status/1720875445099413737). How long before half the interactions of the platforms are AIs talking to each other while some real users get lost trying to make meaningful connections ? The perception, impact of theses changes may vary greatly for people. The ones consuming more, without really interacting with others may not dislike/realize the rise of automated content. And after all, if it fills their needs, why bother ? But the others may desert the unregulated Social Medias in search of a place where they can exchange with other humans.
+I don't know how they can stop/limit this, though. On Twitter, someone is selling a tool to [automatically generate answers](https://twitter.com/nilansaha/status/1730133017010794621) to other people. Someone else is using AI to post [automatically 10 tweets a day](https://twitter.com/codyschneiderxx/status/1720875445099413737). How long before half the interactions of the platforms are AIs talking to each other while some real users get lost trying to make meaningful connections? The perception, impact of theses changes may vary greatly for people. The ones consuming more, without really interacting with others may not dislike/realize the rise of automated content. And after all, if it fills their needs, why bother? But the others may desert the unregulated Social Medias in search of a place where they can exchange with other humans.
 
 AI Companions(romantic/friendship) are also becoming more popular, with [AI Girlfriend](https://twitter.com/enias/status/1729458928897912853) or [Meta characters](https://ai.meta.com/genai/). Theses are human-like connections that are always available and behave in a pre-determined way. This gave them an edge over your real friends or partners. 
 
@@ -62,9 +62,9 @@ In work situations, a huge amount of interactions takes place in writing. Be it 
 
 ### IV - Other - Drastic changes in the web and how we interact with people
 
-We're already encountering stupid situations. I can read a recap produced by my browser using GPT of an article written by GPT. This is funny, and absurd. And I believe it will become a lot more absurd ! 
+We're already encountering stupid situations. I can read a recap produced by my browser using GPT of an article written by GPT. This is funny, and absurd. And I believe it will become a lot more absurd! 
 
-As mentioned earlier, changes of Search may improve some of this. For emails, however, I think this was just the next step in the already heavy automated/spammy world. I guess we will all have to differentiate more between [trusted sources](https://twitter.com/GergelyOrosz/status/1729141146956574797) and unknown ones ?
+As mentioned earlier, changes of Search may improve some of this. For emails, however, I think this was just the next step in the already heavy automated/spammy world. I guess we will all have to differentiate more between [trusted sources](https://twitter.com/GergelyOrosz/status/1729141146956574797) and unknown ones?
 
 **Mini Prediction #5**: Something will emerge to reverse the system of emails currently existing. Instead of being contacted by anyone knowing your email, you'll explicitly allow some emails to contact you (with limitations like "only 3 times per week" or "only Monday"). It could also just be a democratization of the public/secret key system where you would entrust some people, systems or apps with a key to contact you.
 

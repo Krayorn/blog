@@ -21,3 +21,7 @@ ChatGPT interface stuck with "..." for multiples seconds, after a while refreshe
 
 11/12 0048
 blog article [by zendesk](https://www.zendesk.fr/blog/ai-customer-service/#georedirect) displays "&nbsp ;" at the end of each paragraph
+
+15/12 1207
+Slack: on mobile when checking a channel with unread messages, opening the channel, reading the unread message then going back doesn't mark the channel as read.
+clicking on the message to mark it as read show "mark as unread", the only way to remove this is to right click on the channel and click "marked as read"
