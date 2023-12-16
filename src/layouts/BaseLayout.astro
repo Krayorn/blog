@@ -1,9 +1,11 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { SEO } from "astro-seo";
+
 import '../styles/global.css';
 
-const { pageTitle } = Astro.props;
+const { seoProps } = Astro.props;
 ---
 <html lang="en">
   <head>
@@ -11,13 +13,19 @@ const { pageTitle } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <SEO
+      description={seoProps.pageDescription}
+      title={seoProps.pageTitle}
+      twitter={{
+        creator: "@Krayorn"
+      }}
+    />
   </head>
   <body>
     <Header />
     <main>
-      <h1>{pageTitle}</h1>
+      <h1>{seoProps.pageTitle}</h1>
       <slot />
     </main>
     <Footer />

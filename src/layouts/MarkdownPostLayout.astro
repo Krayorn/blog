@@ -2,17 +2,21 @@
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
 
-var date = new Date(frontmatter.pubDate);
-var options = { year: 'numeric', month: 'long' };
-var formattedDate = date.toLocaleString('en-US', options);
+const date = new Date(frontmatter.pubDate);
+const options = { year: 'numeric', month: 'long' };
+const formattedDate = date.toLocaleString('en-US', options);
+
+const seoProps = {
+  pageTitle: frontmatter.title,
+  pageDescription: frontmatter.description,
+}
 
 ---
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout seoProps={seoProps}>
   <p class="desc" >{frontmatter.description}</p>
   <p class="pub-date" >{formattedDate}</p>
 
 <div class="article" >
-
   <slot />
 </div>
 
