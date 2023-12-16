@@ -7,7 +7,7 @@ tags: ["blogging", "AI"]
 published: true
 ---
 
-Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLM having a sizeable impact on the world, the act of writing itself might become irrelevant.
+Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLMs(Large Language Models) having a sizeable impact on the world, the act of writing itself might become irrelevant.
 
 My gut tells me this is not true, but I want to expand on that in this piece.
 
@@ -46,7 +46,7 @@ As long as Google Search works like it does now, it will keep happening.
 
 ### II - Social Medias & Individuals Interactions - Fake content farms for advertising and attention market
 
-Social Medias fought against bots and generated content for a long time. Even if content from LLM improve by a lot and are "similar" to the style of the poster, I don't think I'm taking a lot of risk by saying that they won't be welcomed on most platforms.
+Social Medias fought against bots and generated content for a long time. Even if content from LLMs improve by a lot and are "similar" to the style of the poster, I don't think I'm taking a lot of risk by saying that they won't be welcomed on most platforms.
 
 (**Mini Prediction #3**: There'll be some platform that accepts and even encourage the use of LLM trained on your data to generate content, they will then let the LLMs produce content and interact, find the individuals or communities with the most chances of matching what you research and then introduce your real self to that. Matchmaking 2.0). 
 
