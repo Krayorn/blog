@@ -7,7 +7,7 @@ tags: ["blogging", "AI"]
 published: true
 ---
 
-Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLMs(Large Language Models) having a sizeable impact on the world, the act of writing itself might become irrelevant.
+Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLMs (Large Language Models) having a sizeable impact on the world, the act of writing itself might become irrelevant.
 
 My gut tells me this is not true, but I want to expand on that in this piece.
 
