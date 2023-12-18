@@ -1,0 +1,22 @@
+---
+const { title, description, pubDate, updateDate, tags } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "keywords": tags,
+  "author": {
+    "@type": "Person",
+    "name": "Nathael Arki",
+    "url": "https://krayorn.com"
+  },
+  /* the schema expects Date or DateTime using ISO 8601 format. For Date that is yyyy-MM-dd */
+  "datePublished": pubDate.substring(0, 10),
+  /* updateDate is optional frontmatter, so we conditionally add dateModified if it exists */
+  ...(updateDate && { "dateModified": updateDate.substring(0, 10) }),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

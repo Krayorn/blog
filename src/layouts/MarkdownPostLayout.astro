@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import BlogPostingJSONLD from '../components/BlogPostingJSONLD.astro';
 const { frontmatter } = Astro.props;
 
 const date = new Date(frontmatter.pubDate);
@@ -13,9 +14,9 @@ const seoProps = {
 
 ---
 <BaseLayout seoProps={seoProps}>
+  <BlogPostingJSONLD slot="head" {...frontmatter} />
   <p class="desc" >{frontmatter.description}</p>
   <p class="pub-date" >{formattedDate}</p>
-
 <div class="article" >
   <slot />
 </div>

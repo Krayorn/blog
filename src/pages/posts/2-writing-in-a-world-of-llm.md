@@ -3,6 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Writing in a world of LLM'
 description: 'competing against the machine'
 pubDate: 2023-12-14
+updateDate: 2023-12-17
 tags: ["blogging", "AI"]
 published: true
 ---
