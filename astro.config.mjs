@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://krayorn.com/",
+  site: "https://www.krayorn.com/",
   integrations: [preact(), sitemap()],
   integrations: [
     sitemap({
