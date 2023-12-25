@@ -6,6 +6,7 @@ import { SEO } from "astro-seo";
 import '../styles/global.css';
 
 const { seoProps } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <html lang="en">
   <head>
@@ -15,6 +16,7 @@ const { seoProps } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <SEO
+      canonical={canonicalURL}
       description={seoProps.pageDescription}
       title={seoProps.pageTitle}
       twitter={{
