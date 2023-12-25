@@ -5,6 +5,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.krayorn.com/",
+  trailingSlash: 'always',
   integrations: [preact(), sitemap()],
   integrations: [
     sitemap({
