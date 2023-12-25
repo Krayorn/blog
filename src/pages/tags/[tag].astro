@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const seoProps = {
-  pageTitle: tag,
+  pageTitle: `Posts tagged: ${tag}`,
   pageDescription: `A list of all my posts about ${tag}.`
 }
 const { posts } = Astro.props;
@@ -25,6 +25,6 @@ const { posts } = Astro.props;
 <BaseLayout seoProps={seoProps}>
     <p>Posts tagged with {tag}</p>
     <ul>
-      {posts.filter(post => post.frontmatter.published).map((post) => <BlogPost url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
+      {posts.filter(post => post.frontmatter.published).map((post) => <BlogPost url={post.url} title={post.frontmatter.title} description={post.frontmatter.description} pubDate={post.frontmatter.pubDate} />)}
     </ul>
 </BaseLayout>

@@ -17,9 +17,9 @@ const seoProps = {
   <BlogPostingJSONLD slot="head" {...frontmatter} />
   <p class="desc" >{frontmatter.description}</p>
   <p class="pub-date" >{formattedDate}</p>
-<div class="article" >
-  <slot />
-</div>
+  <div class="article" >
+    <slot />
+  </div>
 
   <div class="tags">
     {frontmatter.tags.map((tag) => (

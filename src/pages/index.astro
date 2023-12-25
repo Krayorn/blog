@@ -13,6 +13,11 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
 
 ---
 <BaseLayout seoProps={seoProps}>
+<section>
+  Here's a list of all my blog posts! If you liked one of them, or did not, if it made you think, 
+  if there's a typo that drove you crazy, if you want to ask some questions, or give me some feedback, or if you just want to chat, shoot me an email at <a href="mailto:me@krayorn.com" target="_blank">me@krayorn.com</a> 
+  or send me a message on <a href={`https://www.twitter.com/krayorn`}>Twitter/X</a> ! I'd be thrilled to read it !
+</section>
 <ul>
     {allPosts.filter(post => post.frontmatter.published).map((post) => <BlogPost description={post.frontmatter.description} url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
 </ul>
@@ -24,4 +29,12 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
     list-style-type: none;
     padding: 0;
   }
+  a {
+    color: #6d48ab;
+  }
+
+  html.dark a {
+    color: #21c382;
+  }
+
 </style>
