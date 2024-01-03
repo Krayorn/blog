@@ -7,7 +7,7 @@ tags: ["board games", "software"]
 published: false
 ---
 
-I'm a big board game fan. I like to play, I like to paint the miniatures from my games and I just love to spend an evening with friends, dices, tokens and cards !
+I'm a big board game fan. I like to play, I like to paint the miniatures from my games and I just love to spend an evening with friends, dice, tokens and cards !
 
 I've recently started to code a board game logging app, I want to use it to get the classic statistics, but other apps also provide that. However, I have a lot more ideas, some of them might see the light of the day, some of them might not but here they are !
 
