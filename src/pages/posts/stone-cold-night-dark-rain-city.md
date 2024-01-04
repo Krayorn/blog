@@ -2,9 +2,9 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Stone cold night in Dark Rain City'
 description: 'Fictional writing relating an adventure played during a one shot game of Savage Worlds.'
-pubDate: 2023-12-04
+pubDate: 2024-01-04
 tags: ["fiction", "RPG"]
-published: false
+published: true
 ---
 
 Lloyd Miller, known as "One-Eye" after an incident that deserves its own story, was just entering the crowded Saloon of Coyote's Hollow. He put his Sunglasses on the counter and his cowboy hat on a stool next to him. Standing tall and wearing a long trenchcoat that gave him an austere posture, he ordered a whiskey.
@@ -66,7 +66,7 @@ Lloyd stopped for a moment and looked around the room.
 "What about the witch ?" said Molly.
 "Ho my, she ate a fucking donut !" yelled a youngster in the back. "Did she fucking turn in the elevator ?"
 
-"She fucking did. I was taking a breather, trying to find any way to save my Lolly when the witch arm started solidifying and went straight for an uppercut at Ella. One of her tooth went flying. She was not happy about that and managed to handcuff the stone arm to the rail in the elevator. Abgror shoved Destiny away on one side, and in one fell swoop I cut her arm clean right before the curse went further up."
+"She fucking did. I was taking a breather, trying to find any way to save my Lolly when the witch arm started solidifying and went straight for an uppercut at Ella. One of her tooth went flying. She was not happy about that and managed to handcuff the stone arm to the rail in the elevator. Abgrog shoved Destiny away on one side, and in one fell swoop I cut her arm clean right before the curse went further up."
 
 "You cut her fucking arm ?"
 
