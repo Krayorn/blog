@@ -20,7 +20,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       description={seoProps.pageDescription}
       title={seoProps.pageTitle}
       twitter={{
-        creator: "@Krayorn"
+        card: "summary",
+        creator: "@Krayorn",
+        title: seoProps.pageTitle,
+        description: seoProps.pageDescription,
       }}
     />
     <slot name="head" />
