@@ -41,3 +41,8 @@ html {
   html.dark .article a {
     color: #21c382;
   }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
