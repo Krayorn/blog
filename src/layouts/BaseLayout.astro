@@ -25,6 +25,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         title: seoProps.pageTitle,
         description: seoProps.pageDescription,
       }}
+      openGraph={seoProps.OG ?? null},
     />
     <slot name="head" />
   </head>

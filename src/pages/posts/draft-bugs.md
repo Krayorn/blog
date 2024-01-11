@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'collecting bugs'
 description: 'software is in great shape'
 pubDate: 2023-12-04
-tags: ["blogging", "software"]
+tags: []
 published: false
 ---
 
@@ -24,4 +24,4 @@ blog article [by zendesk](https://www.zendesk.fr/blog/ai-customer-service/#geore
 
 15/12 1207
 Slack: on mobile when checking a channel with unread messages, opening the channel, reading the unread message then going back doesn't mark the channel as read.
-clicking on the message to mark it as read show "mark as unread", the only way to remove this is to right click on the channel and click "marked as read"
+clicking on the message to mark it as read show "mark as unread", the only way to remove this is to right click on the channel and click "marked as read"g

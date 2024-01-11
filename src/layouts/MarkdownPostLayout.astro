@@ -9,7 +9,21 @@ const formattedDate = date.toLocaleString('en-US', options);
 
 const seoProps = {
   pageTitle: frontmatter.title,
-  pageDescription: frontmatter.description,
+  pageDescription: "Article from Krayorn's blog. The article is called " + frontmatter.title + " and its catchphrase is " + frontmatter.description + ". Krayorn blog is talking mainly about AI, software && board games.",
+  OG: {
+    basic: {
+      title: frontmatter.title,
+      type: "article",
+      image: "https://www.krayorn.com/favicon.svg",
+    },
+    article: {
+      publishedTime: frontmatter.pubDate.substring(0, 10),
+      modifiedTime: frontmatter.updateDate ? frontmatter.updateDate.substring(0, 10) : frontmatter.pubDate.substring(0, 10),
+      author: [{username: 'Krayorn'}],
+      tags: frontmatter.tags,
+    },
+    optional: { description: frontmatter.description }
+  }
 }
 
 ---
