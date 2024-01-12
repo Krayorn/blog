@@ -34,7 +34,7 @@ Most of the patrons of the saloon were now gathered around Miller, paying close 
 
 "Lloyd taking out the trash I see" commented another patron laughingly, an older man named Joe.
 
-"That I do, that I do. Another cop arrived and threw a pair of handcuffs at the feet of rat face, they clipped him. Last punk flew right away with his friend from the garbage bin. Long story short, the cops were here to investigate the murder, they wanted to take me in, but I promised I would burn down their car and still find my way to the murder scene if they didn't let me come look for my sister. I don't really know how, but they accepted to let me come with them. One the other hand, one of the bastards cops gaurding the entrance of the building took my knife, some talk of illegal weapons or something. But how's a man supposed to kill a wild dog or a bear without his knife ?!"
+"That I do, that I do. Another cop arrived and threw a pair of handcuffs at the feet of rat face, they clipped him. Last punk flew right away with his friend from the garbage bin. Long story short, the cops were here to investigate the murder, they wanted to take me in, but I promised I would burn down their car and still find my way to the murder scene if they didn't let me come look for my sister. I don't really know how, but they accepted to let me come with them. One the other hand, one of the bastards cops guarding the entrance of the building took my knife, some talk of illegal weapons or something. But how's a man supposed to kill a wild dog or a bear without his knife ?!"
 
 "We don't care about your knife, was your sister there ? Stop disgressing !"
 
