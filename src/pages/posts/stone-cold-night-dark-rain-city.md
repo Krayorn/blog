@@ -9,7 +9,7 @@ published: true
 
 Lloyd Miller, known as "One-Eye" after an incident that deserves its own story, was just entering the crowded Saloon of Coyote's Hollow. He put his Sunglasses on the counter and his cowboy hat on a stool next to him. Standing tall and wearing a long trenchcoat that gave him an austere posture, he ordered a whiskey.
 
-"Hey Miller," started another patron, "Glad to see you're back in town. Did you manage to handle your business in Dark Rain City ?"
+"Hey Miller," started another patron, "Glad to see you're back in town. Did you manage to handle your business in Dark Rain City?"
 
 "I did." answered Lloyd before downing his drink. "Folks, you ain't gonna believe what I'll tell you." he continued, taking off his trenchcoat, revealing his huge stature, and joining the one who asked at his table in the center of the room.
 "Molly, bring me a bottle and come sit with us," he added to the bartender.
@@ -24,17 +24,17 @@ Most of the patrons of the saloon were now gathered around Miller, paying close 
 
 "And that's when trouble began, people. As I'm advancing towards the escape ladder, four punks with baseball bats stop me, looking for trouble. I'm showing them my knife, trying to give them a chance to escape but their leader, a tiny guy with a rat face is like 'nice knife you got here, ugly face. Give it to me.'. Now you guys know me, I ain't gonna let a little shit speak to me like that, so I say to this bastard: 'Aight, I'll give it to you through your stomach into your throat.'"
 
-"Classic One-Eye !" laughed Molly, the bartender. "T'wasn't very wise, did you fight the four of them heads on ?"
+"Classic One-Eye!" laughed Molly, the bartender. "T'wasn't very wise, did you fight the four of them heads on?"
 
-"Was gonna. But somebody yelled in the back 'What's going on here ?!'" continued Lloyd. "Rat face turned around, startled by the noise. Lucky fella, I ain't the kind of guy to stab a fucker in the back." He marked a pause. "I did punch him in the back of the head though. And as Rat face was trying to get back up, I kneed him in the stomach. His friends reacted and I couldn't finish him, I dodged a few of their hits, weren't very good with their bats those junkies, but still took a bad one on the shoulder."
+"Was gonna. But somebody yelled in the back 'What's going on here?!'" continued Lloyd. "Rat face turned around, startled by the noise. Lucky fella, I ain't the kind of guy to stab a fucker in the back." He marked a pause. "I did punch him in the back of the head though. And as Rat face was trying to get back up, I kneed him in the stomach. His friends reacted and I couldn't finish him, I dodged a few of their hits, weren't very good with their bats those junkies, but still took a bad one on the shoulder."
 
-"But who yelled at the start ?" asked Danny
+"But who yelled at the start?" asked Danny
 
 "It's coming, it's coming, just wait. As I'm starting to think I'll have to kill some punks this evening, a monster cop arrives and outed one of them with his baton. He was a literal monster, two meters and more than three hundred pounds, only fat, but he kinda saved me. With this distraction, I grabbed one of the other fucker, and threw him right into one of those giant garbage bins in the alley."
 
 "Lloyd taking out the trash I see" commented another patron laughingly, an older man named Joe.
 
-"That I do, that I do. Another cop arrived and threw a pair of handcuffs at the feet of rat face, they clipped him. Last punk flew right away with his friend from the garbage bin. Long story short, the cops were here to investigate the murder, they wanted to take me in, but I promised I would burn down their car and still find my way to the murder scene if they didn't let me come look for my sister. I don't really know how, but they accepted to let me come with them. On the other hand, one of the bastard cops guarding the entrance of the building took my knife, some talk of illegal weapons or something. But how's a man supposed to kill a wild dog or a bear without his knife ?!"
+"That I do, that I do. Another cop arrived and threw a pair of handcuffs at the feet of rat face, they clipped him. Last punk flew right away with his friend from the garbage bin. Long story short, the cops were here to investigate the murder, they wanted to take me in, but I promised I would burn down their car and still find my way to the murder scene if they didn't let me come look for my sister. I don't really know how, but they accepted to let me come with them. On the other hand, one of the bastard cops guarding the entrance of the building took my knife, some talk of illegal weapons or something. But how's a man supposed to kill a wild dog or a bear without his knife?!"
 
 "We don't care about your knife, was your sister there? Stop disgressing!"
 
@@ -61,18 +61,18 @@ As he's finishing his sentence, the room erupts in noises.
 
 Lloyd stopped for a moment and looked around the room.
 
-"Well? You folks are slow tonight. No one gonna ask me about the witch now ?"
+"Well? You folks are slow tonight. No one gonna ask me about the witch now?"
 
 "What about the witch?" said Molly.
 "Ho my, she ate a fucking donut!" yelled a youngster in the back. "Did she fucking turn in the elevator?"
 
 "She fucking did. I was taking a breather, trying to find any way to save my Lolly when the witch's arm started solidifying and went straight for an uppercut at Ella. One of her teeth went flying. She was not happy about that and managed to handcuff the stone arm to the rail in the elevator. Abgrog shoved Destiny away on one side, and in one fell swoop I cut her arm clean right before the curse went further up."
 
-"You cut her fucking arm ?"
+"You cut her fucking arm?"
 
 "I also cut the guardrail. I ain't a weakling. The cops were a little taken aback by this, but after the stone uppercut, Ella wasn't too sad, and Abgrog didn't really like Destiny either. They patched her up, and she didn't even cuss at me. Seemed like she understood the situation. We arrived then at the 17th floor, tired, our hearts racing. We took some time to rest and the scientist handed out some pills 'just in case' as a heavy silence weighed on our consciences. We shared a glance, and then, with all the determination and courage we could muster, we went looking for the guy. I split the door open with the axe, the cops stormed in guns out, found the old fella in his living room. The witch darted through the kitchen, her eyes locking on some kind of grimoire. It looked strange and was filled with obscure symbols that I could not understand. Next to it was everything needed to make those cursed donuts. After a quick look, the witch said that the guy was trying to create a bond with an entity from another world called Azgargoth."
 
-"Azgargoth ?" gasped an old lady a little in the back, her voice shaking and her eyes widening in horror. "He's the god of the statues from the etheral plane. But he's more a puppeteer than a sculptor, taking control of his devotees. Very evil, very powerful."
+"Azgargoth?" gasped an old lady a little in the back, her voice shaking and her eyes widening in horror. "He's the god of the statues from the etheral plane. But he's more a puppeteer than a sculptor, taking control of his devotees. Very evil, very powerful."
 
 "If you say so Lady, I didn't know that at the time, but the book sure interested Destiny. She said that she could cure my sis, twas enough for me. When we went back into the main room, Abgrog was approaching the old man, he tried to lay a hand on him but the old man entered a trance. He turned to stone, grew in size to be as big as me, and pushed back the big cop. A shadow was above him, dark figure that disappeared from my sight. He then bolted to the side and went through the wall."
 
@@ -86,7 +86,7 @@ Lloyd stopped for a moment and looked around the room.
 
 The room stayed silent for a while.
 
-"Damn... They didn't give you any trouble after that ?" relaunched Danny
+"Damn... They didn't give you any trouble after that?" relaunched Danny
 
 "Nah they didn't, they had their criminal, the old guy who summoned the devil, not my sister. Right after the fight, Destiny looked strange. And she had something under her coat, something that looked like the grimoire. When Ella requested it, the witch started to flee and the cops went for her. I went the other way for my poor Lolly. We escaped through the fire escape, avoiding any more confrontations. As we were taking our leave, I saw Abgrog carrying a handcuffed Destiny on his shoulder and bringing her to their car, probably for more questioning at the station."
 
