@@ -9,6 +9,24 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 29-01-2024
+
+> Write a function called daysBetween that takes in two dates, and returns the number of days between those dates 
+
+
+```js
+function daysBetween(d1, d2) {
+    d1ms = new Date(d1).getTime()
+    d2ms = new Date(d2).getTime()
+    
+    return Math.abs(Math.round((d1ms-d2ms)/(1000*60*60*24))); 
+}
+
+console.log(daysBetween('Jan 1, 2024', 'Jan 29, 2024')) // 28
+console.log(daysBetween('Feb 29, 2020', 'Oct 31, 2023')) // 1340
+
+```
+
 ## 22-01-2024
 
 > Write a data structure for a simple binary tree, and a function that prints a given tree.
