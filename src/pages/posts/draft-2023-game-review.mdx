@@ -8,19 +8,17 @@ published: false
 ---
 import { Image } from 'astro:assets';
 import global from '../../images/recap2023/global.png';
-import mhw from '../../images/recap2023/mhw.png';
-import arkham from '../../images/recap2023/arkham.png';
 import investigator from '../../images/recap2023/investigator.png';
 import monster from '../../images/recap2023/monster.png';
+import monster2 from '../../images/recap2023/monster2.png';
 import weapons from '../../images/recap2023/weapons.png';
-import wounds from '../../images/recap2023/wounds.png';
 
 I'm a little late, but I thought a review of my board game plays from this year could be fun to do. I've worked on adding some pages to my app to get some fun data explorable through an interface.
 And I've also just released my latest feature: custom fields! They allow me to flag some interesting data in each play depending on the game, for example, the score, or the characters played by each player.... Using this, I was able to do some fun queries and got some more advanced stats for some games.
 
 <Image 
     src={global} 
-    class="img-50"
+    class="img"
     alt="screenshot of my board game app with statistics"
 />
 
@@ -32,12 +30,6 @@ Let's look at some of the games I played this year:
 
 ## Monster Hunter World
 
-<Image 
-    src={mhw} 
-    class="img-50"
-    alt="my stats for Monster Hunter World"
-/>
-
 In this game by [SteamforgedGames](https://twitter.com/SteamforgedLtd), hunters act together to fight one monster whose behavior changes each turn with specific cards. It has a campaign mode, where you upgrade your gear between hunts and fight bigger, stronger, and deadlier monsters!
 
 It's one of my most-played games in 2023 with 9 plays(one in 2024 but shhh) and a 77.8% win rate. I received it this year from a Kickstarter, and I plan to play many more games in 2024, with one campaign already started and another one planned with another group. I'm a big fan of coop games and of the Monster Hunter universe, so it's a hit for me. So far, games felt fun and tense, some of the harder monsters bring a serious challenge and I can't wait to fight them in a campaign setting!
@@ -46,7 +38,7 @@ Let's check out some stats that are explorable thanks to my first custom fields:
 
 <Image 
     src={weapons} 
-    class="img-25"
+    class="img-50"
     alt="Number of time each weapon was picked and its win rate in Monster Hunter World"
 />
 
@@ -56,8 +48,14 @@ Regarding the monsters' stats...
 
 <Image 
     src={monster} 
-    class="img-25"
-    alt="Winrate and number of hunters killed by each monster"
+    class="img-50"
+    alt="Number of time each monster was fought"
+/>
+
+<Image 
+    src={monster2} 
+    class="img-50"
+    alt="number of hunters killed by each monster"
 />
 
 Some monsters seem deadlier than others - Tobi Kadachi, looking at you, what happened? - and almsot all of them managed to kill some hunters each time. But for now, they still get slaughtered a lot. We will see how it changes once we encounter their bigger version (I will probably need another custom field to differenciate these data).
@@ -66,13 +64,6 @@ I'd also like to acknowledge the miniatures, which are pretty! As of today (17/0
 
 ## Arkham Horror
 
-
-<Image 
-    src={arkham} 
-    class="img-50"
-    alt="screenshot of my stats for Arkham Horror the Card Game"
-/>
-
 My most played game this year! With multiple campaigns and quite a few defeats with a 65% win rate! I've bought some small-ish expansions already and will probably get a few more.
 In Arkham, each player is an investigator, some of them can fight, some of them can investigate the weird events in the locations the players are in and some of them are very good at surviving the horrors the game throws at you. Figure out the mystery, eliminate threats, and survive to win!
 
@@ -80,7 +71,7 @@ Despite all these games played, I've not managed to play all the characters I wa
 
 <Image 
     src={investigator} 
-    class="img-25"
+    class="img-50"
     alt="Number of time each player played each investigators"
 />
 
@@ -89,26 +80,17 @@ I wish to chain a full campaign in a try-hard afternoon or evening. With the cha
 
 ## Senjutsu
 
-I wanted to include Senjutsu in this recap with its own section because despite arriving very late last year, I've played it quite a bit with 6 games! I've won the 3 games against friends, and 2 out of 3 against the AI in solo mode.
+I wanted to include Senjutsu ([by StoneSwordGames](https://twitter.com/StoneSwordGames)) in this recap with its own section because despite arriving very late last year, I've played it quite a bit with 6 games! I've won the 3 games against friends, and 2 out of 3 against the AI in solo mode.
 
-In Senjutsu each player incarnates a Samurai warrior, with its deck of cards, strengths, and weaknesses. Every turn, players pick a card simultaneously, and they are then resolved from the fastest to the slowest. Mind games, strategy, and placement make this a great fast-fighting game. I would love to cover some of these games here on my blog in one form or another. I mentioned this game in another post about [board games software ideas](/posts/ideas-board-game-apps/#animation-of-a-play)
-
-There isn't enough data to make some fun stat, but here is one because why not: the average of wounds suffered by each player across all the games they've played.
-
-<Image 
-    src={wounds} 
-    class="img-25"
-    alt="Average of wounds suffered by players in their Senjutsu games"
-/>
+In Senjutsu each player incarnates a Samurai warrior, with its deck of cards, strengths, and weaknesses. Every turn, players pick a card simultaneously, and they are then resolved from the fastest to the slowest. Mind games, strategy, and placement make this a great fast-fighting game. I would love to cover some of these games here on my blog in one form or another. I mentioned this game in another post about [board games software ideas](/posts/ideas-board-game-apps/#animation-of-a-play).
 
 So far we stuck to one game a night, but once everyone is more familiar with the rules, I'm sure we could get two or three fights in a single evening. I've played every character from the base game, with maybe a preference towards the warrior and student gameplay for now. 
 
 ## Some honorable mentions
 
-That's enough for the screenshots, I need more views on my app to explore all this data!
-Let's now talk about some games I didn't play enough of last year but want to bring to the table more often this year! 
+Let's now talk about some games I didn't play enough of last year but want to bring to the table more often this year.
 
-Being Received only in December, I didn't have that much time to enjoy Tales Of the Rift, but the two games I did were a blast, and I hope to get many more games soon. 
+Having received it only in December, I didn't have that much time to enjoy Tales Of the Rift, but the two games I did were a blast, and I hope to get many more games soon. 
 
 I've also only played Star Wars Shatterpoint twice, and that's a shame! It's a great game, but the setup time, rules explanations and just playing is quite long, and I have not found someone to play it regularly with me yet.
 
