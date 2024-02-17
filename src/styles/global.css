@@ -59,3 +59,10 @@ html {
     margin-left: 37.5%;
   }
   
+
+  @media screen and (max-width: 635px) {
+    .img-mobile {
+      width: 100%;
+      height: auto;
+    }
+  }
