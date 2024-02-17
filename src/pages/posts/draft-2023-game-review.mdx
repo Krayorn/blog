@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Board game 2023 review'
-description: '///'
-pubDate: 2023-12-04
+description: 'Some fun stats about the games I have played in 2023.'
+pubDate: 2024-02-17
 tags: ["board games"]
 published: false
 ---
@@ -10,19 +10,23 @@ import { Image } from 'astro:assets';
 import global from '../../images/recap2023/global.png';
 import mhw from '../../images/recap2023/mhw.png';
 import arkham from '../../images/recap2023/arkham.png';
+import investigator from '../../images/recap2023/investigator.png';
+import monster from '../../images/recap2023/monster.png';
+import weapons from '../../images/recap2023/weapons.png';
+import wounds from '../../images/recap2023/wounds.png';
 
-
-I'm a little late, but I thought a review of my board games plays from this year could be fun to do. I've worked on adding some pages to my app to get some fun data explorable through an interface ! 
+I'm a little late, but I thought a review of my board game plays from this year could be fun to do. I've worked on adding some pages to my app to get some fun data explorable through an interface.
+And I've also just released my latest feature: custom fields! They allow me to flag some interesting data in each play depending on the game, for example, the score, or the characters played by each player.... Using this, I was able to do some fun queries and got some more advanced stats for some games.
 
 <Image 
     src={global} 
-    class="img"
+    class="img-50"
     alt="screenshot of my board game app with statistics"
 />
 
-So in 2023 I've played 79(and 2 in 2024 so far, no filters yet) games, that is 6,5 games a month, or one every 4,6 days... not bad, not bad.
+So in 2023, I've played 79(and 2 in 2024 so far, no filters yet) games, that is 6,5 games a month, or one every 4,6 days... not bad, not bad.
 
-I've also played with 27 different people, which is higher than I'd have thought ! 
+I've also played with 27 different people, which is higher than I'd have thought! 
 
 Let's look at some of the games I played this year: 
 
@@ -30,36 +34,84 @@ Let's look at some of the games I played this year:
 
 <Image 
     src={mhw} 
-    class="img"
-    alt="screenshot of my stats for Monster Hunter World"
+    class="img-50"
+    alt="my stats for Monster Hunter World"
 />
 
-This game by [SteamforgedGames](https://twitter.com/SteamforgedLtd) is one of my most played in 2023 with 8 games and 75% winrate. I received the game this year from a Kickstarter, and I plan to play many more games in 2024, with one campaign already started and another one planned with another group. So far the game feels fun, some of the harder monsters definitely brings a serious challenge and I can't wait to fight them in a campaign setting ! 
-I also got 6 of the hunters painted, and plan to work on the monsters from for the current campaign ! 
+In this game by [SteamforgedGames](https://twitter.com/SteamforgedLtd), hunters act together to fight one monster whose behavior changes each turn with specific cards. It has a campaign mode, where you upgrade your gear between hunts and fight bigger, stronger, and deadlier monsters!
+
+It's one of my most-played games in 2023 with 9 plays(one in 2024 but shhh) and a 77.8% win rate. I received it this year from a Kickstarter, and I plan to play many more games in 2024, with one campaign already started and another one planned with another group. I'm a big fan of coop games and of the Monster Hunter universe, so it's a hit for me. So far, games felt fun and tense, some of the harder monsters bring a serious challenge and I can't wait to fight them in a campaign setting!
+
+Let's check out some stats that are explorable thanks to my first custom fields: 
+
+<Image 
+    src={weapons} 
+    class="img-25"
+    alt="Number of time each weapon was picked and its win rate in Monster Hunter World"
+/>
+
+Almost all weapons were tried during one of the games with only 3 missing: Sword & Shield, Bow, and the Light Bowgun. I assume the disparity will only increase as I start to play more campaigns since once a weapon is picked, it tends to be kept for the full length of the campaign as it is upgraded. I'm lacking data to examine the win rates, as some of the less-played weapons were pitched against deadly monsters from the get-go!  However, once some full campaigns are played, maybe we'll get some more insightful data to analyze.
+
+Regarding the monsters' stats...
+
+<Image 
+    src={monster} 
+    class="img-25"
+    alt="Winrate and number of hunters killed by each monster"
+/>
+
+Some monsters seem deadlier than others - Tobi Kadachi, looking at you, what happened? - and almsot all of them managed to kill some hunters each time. But for now, they still get slaughtered a lot. We will see how it changes once we encounter their bigger version (I will probably need another custom field to differenciate these data).
+
+I'd also like to acknowledge the miniatures, which are pretty! As of today (17/02/24), I've got 6 of the hunters (including the 5 most used weapons !) painted and started the monster we're currently facing in my current campaign.
 
 ## Arkham Horror
 
+
 <Image 
     src={arkham} 
-    class="img"
+    class="img-50"
     alt="screenshot of my stats for Arkham Horror the Card Game"
 />
 
-My most played game this year ! with multiples campaign and quite a few defeats with a 65% winrate ! I've bought some small-ish expansions already and will probably get a few more.
+My most played game this year! With multiple campaigns and quite a few defeats with a 65% win rate! I've bought some small-ish expansions already and will probably get a few more.
+In Arkham, each player is an investigator, some of them can fight, some of them can investigate the weird events in the locations the players are in and some of them are very good at surviving the horrors the game throws at you. Figure out the mystery, eliminate threats, and survive to win!
 
-I really wish to chain a full campaign in a try-hard afternoon or evening as it sounds super exciting and fun. I've played as Wendy Adams, Stella Clark and Roland Banks. The red decks being my favorite so far, but I really wish to try “Skids” O'Toole, maybe in the next game.
+Despite all these games played, I've not managed to play all the characters I wanted to try! I've had my eyes on a rogue character named "\`Skids\` O'toole" but one friend played him for two campaigns straight! 
 
-That's enough for the screenshots, I definitely need more views to see games played on a calendar.
-But let's not talk about some games I didn't play enough of last year, but wants to bring to the table more often this year ! 
+<Image 
+    src={investigator} 
+    class="img-25"
+    alt="Number of time each player played each investigators"
+/>
 
-## Some honorables mentions
 
-Being Received only in December, I didn't have that much time to table Tales Of the Rift, but the two games I did were a blast, and I want to get many more games of it. 
+I wish to chain a full campaign in a try-hard afternoon or evening. With the characters I've played so far, I have some preference towards the red characters (the "Survivors"), I've found that they get plenty of tricks to succeed when it matters.
 
-Similarly, Senjutsu arrived late last year, but I still managed to play 3 solo games and 3 games with friends, and it was so fun ! Once the rules are understood I'm sure we can get way way faster playing, allowing us to do two or three fights in a single evening. I've played every character from the base game, with maybe a preference towards the warrior and student gameplay for now. 
+## Senjutsu
 
-I've only played Star Wars Shatterpoint twice, and that's a shame ! It's a great game, but the setup time, rules explanations and just playing are quite long, and I did not find someone to play it regularly with me yet.
+I wanted to include Senjutsu in this recap with its own section because despite arriving very late last year, I've played it quite a bit with 6 games! I've won the 3 games against friends, and 2 out of 3 against the AI in solo mode.
 
-There is plenty of other games I want to play a bit more this year, for example, Godtear, Assassin's creed brotherhood of Venice or The Witcher Old World. But I do not want to be overly optimistic, if I can get a decent number of games in the 3 mentionned earlier, I'd be stoked !
+In Senjutsu each player incarnates a Samurai warrior, with its deck of cards, strengths, and weaknesses. Every turn, players pick a card simultaneously, and they are then resolved from the fastest to the slowest. Mind games, strategy, and placement make this a great fast-fighting game. I would love to cover some of these games here on my blog in one form or another. I mentioned this game in another post about [board games software ideas](/posts/ideas-board-game-apps/#animation-of-a-play)
 
-To accomplish this, I'm starting to think about organizing a bi-weekly game night, but I still have to figure out some of the logistic of it.
+There isn't enough data to make some fun stat, but here is one because why not: the average of wounds suffered by each player across all the games they've played.
+
+<Image 
+    src={wounds} 
+    class="img-25"
+    alt="Average of wounds suffered by players in their Senjutsu games"
+/>
+
+So far we stuck to one game a night, but once everyone is more familiar with the rules, I'm sure we could get two or three fights in a single evening. I've played every character from the base game, with maybe a preference towards the warrior and student gameplay for now. 
+
+## Some honorable mentions
+
+That's enough for the screenshots, I need more views on my app to explore all this data!
+Let's now talk about some games I didn't play enough of last year but want to bring to the table more often this year! 
+
+Being Received only in December, I didn't have that much time to enjoy Tales Of the Rift, but the two games I did were a blast, and I hope to get many more games soon. 
+
+I've also only played Star Wars Shatterpoint twice, and that's a shame! It's a great game, but the setup time, rules explanations and just playing is quite long, and I have not found someone to play it regularly with me yet.
+
+There are plenty of other games I want to play a bit more of this year, for example, Godtear, Assassin's Creed Brotherhood of Venice, or The Witcher Old World.
+
+To help me in this goal, I'm now organizing a game night once every two weeks (I hope to play more often than this, but these are now two nights a month with games on the table minimum !). 
