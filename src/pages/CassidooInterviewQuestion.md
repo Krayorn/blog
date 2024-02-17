@@ -9,6 +9,39 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+
+## 12-02-2023
+
+> Write a function that produces a generator that produces values in a range.
+
+```go
+package main
+
+import "fmt"
+import "errors"
+
+func main() {
+	generator := fromTo(0, 3)
+	
+	fmt.Println(generator()) // 0 <nil>
+	fmt.Println(generator()) // 1 <nil>
+	fmt.Println(generator()) // 2 <nil>
+	fmt.Println(generator()) // -1 Generator expired
+}
+
+func fromTo(from int, to int) func() (int, error)  {
+	current := from
+    return func() (int, error) {
+        if current < to {
+            current++
+            return current - 1, nil
+        }
+        return -1, errors.New("Generator expired")
+    }
+}
+```
+
+
 ## 29-01-2024
 
 > Write a function called daysBetween that takes in two dates, and returns the number of days between those dates 
