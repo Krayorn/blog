@@ -45,6 +45,7 @@ html {
   .img {
     width: 100%;
     height: auto;
+    margin-left: 0%;
   }
 
   .img-50 {
@@ -64,5 +65,6 @@ html {
     .img-mobile {
       width: 100%;
       height: auto;
+      margin-left: 0%;
     }
   }
