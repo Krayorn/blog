@@ -9,6 +9,59 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 19-02-2023
+
+> Given a string array, find the maximum product of word lengths where the words don't share any letters.
+
+(Given the example and how late I was to send this, I assumed we were looking only for the bigger product between two words)
+
+```js
+
+// Example:
+// > wordLengthProduct(["fish","fear","boo","egg","cake","abcdef"])
+// > 16 // "fish" and "cake"
+
+// > wordLengthProduct(["a","aa","aaa","aaaa"])
+// > 0 // all of them share "a"
+
+function wordLengthProduct(words) {
+    let product = 0
+    words.forEach((wordA) => {
+        words.forEach((wordB) => {
+            if (wordA === wordB) {
+                return
+            }
+
+            if (!shareSomeLetter(wordA, wordB)) {
+                const potentialProduct = wordA.length * wordB.length
+                if (potentialProduct > product) {
+                    product = potentialProduct
+                }
+            }
+        })
+    })
+
+    return product
+}
+
+function shareSomeLetter(a, b) {
+    if (b.length > a.length) {
+        return shareSomeLetter(b, a)
+    }
+
+    for (let i = 0; i < a.length; i++) {
+        if (b.includes(a[i])) {
+            return true
+        }
+    }
+
+    return false
+}
+
+console.log(wordLengthProduct(["fish","fear","boo","egg","cake","abcdef"])) // 16
+console.log(wordLengthProduct(["a","aa","aaa","aaaa"])) // 0
+
+```
 
 ## 12-02-2023
 
