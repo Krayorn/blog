@@ -9,6 +9,29 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 26-02-2023
+
+> Given a number and a digit to remove from that number, maximize the resulting number after the digit has been removed and print it. 
+
+```js
+function removeDigit(number, needle) {
+    haystack = number.toString()
+    let biggestNumber = 0;
+    for(let i = 0; i < haystack.length; i++) {
+        if (haystack[i] === needle.toString()) {
+            const cleaned = haystack.slice(0, i) + haystack.slice(i+1)
+            if (parseInt(cleaned) > biggestNumber) {
+                biggestNumber = parseInt(cleaned)
+            }
+        }
+    }
+    return biggestNumber === 0 ? number : biggestNumber
+}
+
+console.log(removeDigit(31415926, 1)) // 3415926
+console.log(removeDigit(1231, 1)) // 231
+```
+
 ## 19-02-2023
 
 > Given a string array, find the maximum product of word lengths where the words don't share any letters.
