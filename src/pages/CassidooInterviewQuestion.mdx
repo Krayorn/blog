@@ -2,6 +2,7 @@
 layout: ../layouts/MarkdownPostLayout.astro
 title: 'Cassidoo Interview question of the week'
 pubDate: 2024-01-25
+updateDate: 2024-03-10
 published: true
 description: 'My answers to the inteview questions from Cassidoo newsletter.'
 tags: []
@@ -14,6 +15,12 @@ You can find here my submissions to the Interview questions of the week from [Ca
 > Make a pomodoro timer where a user can start the timer, pause for a set break time, and continue after the break.
 
 Wanted to do some react, not the prettiest code but it works ! 
+
+Without any Css, here's the component, the times used for the demo are 5 seconds of work, and 3 seconds of break. It will alternate automatically between the two and you can pause the timer completely if needs be.
+
+import { Timer } from '../components/Timer.jsx';
+
+<Timer client:load />
 
 ```js
 

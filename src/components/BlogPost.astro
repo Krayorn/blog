@@ -1,5 +1,5 @@
 ---
-const { title, url, pubDate, description } = Astro.props
+const { title, url, pubDate, description, tags } = Astro.props
 
 var date = new Date(pubDate);
 var options = { year: 'numeric', month: 'long' };
@@ -8,7 +8,10 @@ var formattedDate = date.toLocaleString('en-US', options);
 ---
 <li>
     <div><h2><a href={url}>{title}</a></h2><span>{formattedDate}</span></div>
-    <p>{description}</p> 
+    <div class="sub" >
+        <p>{description}</p>
+        <p class="tags">{tags.map(tag => <a href={`/tags/${tag}/`}>{tag}</a>)}</p>
+    </div>
 </li>
 
 <style>
@@ -24,14 +27,33 @@ h2 {
     margin-bottom: 0;
 }
 
+.sub {
+    display: flex;
+}
+
+@media screen and (max-width: 635px) {
+    .sub {
+        flex-direction: column;
+    }
+
+    .tags {
+        width: 100%
+    }
+}
+
 a {
     color: #6d48ab;
 }
 html.dark a {
     color: #21c382;
 }
+
 p {
     color: gray;
     margin-top: 5px;
+}
+
+.tags a {
+    margin-right: 5px;
 }
 </style>

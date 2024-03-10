@@ -25,6 +25,6 @@ const { posts } = Astro.props;
 <BaseLayout seoProps={seoProps}>
     <p>Posts tagged with {tag}</p>
     <ul>
-      {posts.filter(post => post.frontmatter.published).sort((a, b) => b.frontmatter.pubDate < a.frontmatter.pubDate ? 1 : -1).map((post) => <BlogPost url={post.url} title={post.frontmatter.title} description={post.frontmatter.description} pubDate={post.frontmatter.pubDate} />)}
+      {posts.filter(post => post.frontmatter.published).sort((a, b) => b.frontmatter.pubDate < a.frontmatter.pubDate ? 1 : -1).map((post) => <BlogPost url={post.url} tags={post.frontmatter.tags} title={post.frontmatter.title} description={post.frontmatter.description} pubDate={post.frontmatter.pubDate} />)}
     </ul>
 </BaseLayout>
