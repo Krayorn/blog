@@ -7,9 +7,12 @@ updateDate: 2024-03-11
 tags: []
 ---
 
-### Read List
-
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
+
+## 11-03-2024
+
+Second part of the intro to neural nets. Step two: build a model that generate name from bigrams
+https://www.youtube.com/watch?v=PaCmpygFfXo
 
 ## 04-03-2024
 
