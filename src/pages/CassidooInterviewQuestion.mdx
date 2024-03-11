@@ -10,6 +10,31 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 11-02-2024
+
+> Given an integer array arr, return the maximum difference between two successive elements in arr's sorted form. Return 0 if there's 0 or 1 elements.
+
+import { MaxDiff } from '../components/CassidoosInterviewQuestions/MaxDiff.jsx';
+
+<MaxDiff client:load />
+
+```js
+    const maxDiff = (arr) => {
+        arr.sort((a, b) => a > b)
+
+        let max = 0
+        for (let i = 1;i<arr.length;i++) {
+            const diff = arr[i] - arr[i-1]
+            if (diff > max) {
+                max = diff
+            }
+        }
+
+        return max
+    }
+
+```
+
 ## 04-02-2024
 
 > Make a pomodoro timer where a user can start the timer, pause for a set break time, and continue after the break.
@@ -18,7 +43,7 @@ Wanted to do some react, not the prettiest code but it works !
 
 Without any Css, here's the component, the times used for the demo are 5 seconds of work, and 3 seconds of break. It will alternate automatically between the two and you can pause the timer completely if needs be.
 
-import { Timer } from '../components/Timer.jsx';
+import { Timer } from '../components/CassidoosInterviewQuestions/Timer.jsx';
 
 <Timer client:load />
 
