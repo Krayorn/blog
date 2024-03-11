@@ -4,8 +4,9 @@ export const MaxDiff = () => {
     const [input, setInput] = useState("")
 
     const maxDiff = (arr) => {
-        arr.sort((a, b) => a > b)
+        arr = arr.sort((a, b) => a - b)
 
+        console.log(arr)
         let max = 0
         for (let i = 1;i<arr.length;i++) {
             const diff = arr[i] - arr[i-1]
