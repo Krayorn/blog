@@ -4,11 +4,11 @@ export const MaxDiff = () => {
     const [input, setInput] = useState("")
 
     const maxDiff = (arr) => {
-        arr = arr.sort((a, b) => a - b)
+        const sorted = arr.concat().sort((a, b) => a - b)
 
         let max = 0
-        for (let i = 1;i<arr.length;i++) {
-            const diff = arr[i] - arr[i-1]
+        for (let i = 1; i<sorted.length; i++) {
+            const diff = sorted[i] - sorted[i-1]
             if (diff > max) {
                 max = diff
             }
