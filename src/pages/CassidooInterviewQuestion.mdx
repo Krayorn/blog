@@ -10,7 +10,38 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
-## 11-02-2024
+## 18-03-2024
+
+> Given an integer array, write a function hills(arr) and a function valleys(arr) that return the number of hills and valleys, respectively, in the array.
+
+import { HillsValleys } from '../components/CassidoosInterviewQuestions/HillsValleys.jsx';
+
+<HillsValleys client:load />
+
+```js
+    const hills = (arr) => elevation(arr, false)
+    const valleys = (arr) => elevation(arr, true)
+
+    const elevation = (arr, down) => {
+        let c = 0
+        
+        let mark = false
+        for (let i = 1;i<arr.length;i++) {
+            if ((down && arr[i] < arr[i-1]) || (!down && arr[i] > arr[i-1]) ) {
+                mark = true
+            }
+
+            if (mark && ((down && arr[i] > arr[i-1]) || (!down && arr[i] < arr[i-1]))) {
+                c++
+                mark = false
+            }
+        }
+        return c
+    }
+```
+
+
+## 11-03-2024
 
 > Given an integer array arr, return the maximum difference between two successive elements in arr's sorted form. Return 0 if there's 0 or 1 elements.
 
@@ -35,7 +66,7 @@ import { MaxDiff } from '../components/CassidoosInterviewQuestions/MaxDiff.jsx';
 
 ```
 
-## 04-02-2024
+## 04-03-2024
 
 > Make a pomodoro timer where a user can start the timer, pause for a set break time, and continue after the break.
 
