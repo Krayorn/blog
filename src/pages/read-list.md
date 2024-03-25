@@ -14,6 +14,14 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 Second part of the intro to neural nets. Step two: build a model that generate name from bigrams
 https://www.youtube.com/watch?v=PaCmpygFfXo
 
+Third part of the intro to neural nets. Step three: multilayer perceptron https://www.youtube.com/watch?v=TCH_1BHY58I
+
+These 4 posts about the history of AI, mentioning how Neural networks works and how Symbolic AI works as well:
+- https://divis.io/en/2019/03/ai-for-laymen-part-1-what-is-ai/
+- https://divis.io/en/2019/03/ai-for-laymen-part-2-symbolic-ai-neural-networks-and-deep-learning/
+- https://divis.io/en/2019/04/understanding-ai-part-3-methods-of-symbolic-ai/
+- https://divis.io/en/2019/04/understanding-ai-part-4-the-basics-of-machine-learning/
+
 ## 04-03-2024
 
 State machines && databases: https://blog.lawrencejones.dev/state-machines/
