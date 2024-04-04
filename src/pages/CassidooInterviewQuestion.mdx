@@ -18,6 +18,31 @@ import { Island } from '../components/CassidoosInterviewQuestions/Island.jsx';
 
 <Island client:load />
 
+```js
+    const maxAreaOfIsland = (originalMap) => {
+        let islandMap = originalMap.map(r => r.map(c => c))
+        let biggest = 0
+        
+        for (let i = 0; i < islandMap.length; i++) {
+            for (let j = 0; j < islandMap[i].length; j++) {
+            if (islandMap[i][j] === 1) {
+                biggest = Math.max(biggest, dfs(islandMap, i, j))
+            }
+            }
+        }
+        return biggest
+        }
+    
+    const dfs = (islandMap, x, y) => {
+        if (x < 0 || x >= islandMap.length || y < 0 || y >= islandMap[0].length || islandMap[x][y] === 0) {
+            return 0
+        }        
+        islandMap[x][y] = 0
+        
+        return 1 + dfs(islandMap, x + 1, y) + dfs(islandMap, x - 1, y) + dfs(islandMap, x, y + 1) + dfs(islandMap, x, y - 1)
+    }
+```
+
 ## 18-03-2024
 
 > Given an integer array, write a function hills(arr) and a function valleys(arr) that return the number of hills and valleys, respectively, in the array.
