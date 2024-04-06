@@ -3,11 +3,23 @@ layout: ../layouts/MarkdownPostLayout.astro
 title: 'Read List'
 description: "A list of links to various interesting ressources I wished to share on the internet !"
 pubDate: 2024-03-11
-updateDate: 2024-03-11
+updateDate: 2024-04-05
 tags: []
 ---
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
+
+## 01-04-2024
+
+Try harder https://aaronfrancis.com/2024/try-hard
+
+Are you serious https://visakanv.substack.com/p/are-you-serious
+
+https://jeannen.com/blog/so-you-sucks-now-what
+
+https://fs.blog/how-not-to-be-stupid/
+
+https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/?utm_source=cassidoo&utm_medium=email&utm_campaign=all-we-have-to-decide-is-what-to-do-with-the-time-1254
 
 ## 11-03-2024
 
