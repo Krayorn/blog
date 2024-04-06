@@ -53,7 +53,7 @@ export const DuplicateNumbers = () => {
 
     return (
         <div>
-            <div className='flex' >
+            <div className='flex flex-wrap'>
             {
                 numbers.map((number, i) => {
                     return <div className={`flex flex-col w-fit mr-2`} key={i}>
