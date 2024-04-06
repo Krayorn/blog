@@ -18,6 +18,29 @@ import { DuplicateNumbers } from '../components/CassidoosInterviewQuestions/Dupl
 
 <DuplicateNumbers client:load />
 
+```js
+    function sumUniqueNumbers(arr) {
+        let sum = 0;
+        for (let num of arr) {
+            if (isUnique(num)) {
+                sum += num;
+            }
+        }
+        return sum;
+    }
+    
+    function isUnique(num) {
+        const numString = num.toString();
+        const digitSet = new Set();
+        for (let digit of numString) {
+            if (digitSet.has(digit)) {
+                return false;
+            }
+            digitSet.add(digit);
+        }
+        return true;
+    }
+```
 
 ## 25-03-2024
 
