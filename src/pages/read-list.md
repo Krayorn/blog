@@ -21,6 +21,8 @@ https://fs.blog/how-not-to-be-stupid/
 
 https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/?utm_source=cassidoo&utm_medium=email&utm_campaign=all-we-have-to-decide-is-what-to-do-with-the-time-1254
 
+https://piccalil.li/blog/how-were-approaching-theming-with-modern-css/?utm_source=cassidoo&utm_medium=email&utm_campaign=7-you-have-to-care-about-your-work-but-not-about
+
 ## 11-03-2024
 
 Second part of the intro to neural nets. Step two: build a model that generate name from bigrams

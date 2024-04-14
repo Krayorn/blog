@@ -10,6 +10,38 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 08-04-2024
+
+> Imagine you have n dice, and each die has m faces on it (so the numbers are from 1 to m). Write a function where, given an integer target, it returns the number of possible ways to roll the dice to get the sum of target face up.
+
+import { DiceSum } from '../components/CassidoosInterviewQuestions/DiceSum.jsx';
+
+<DiceSum client:load />
+
+```js
+    const diceSum = (dies, faces, target) => {
+        if (target < dies || target > dies * faces) {
+            return 0;
+        }
+    
+        const dp = Array.from({ length: dies + 1 }, () => Array(target + 1).fill(0));
+    
+        for (let i = 1; i <= faces && i <= target; i++) {
+            dp[1][i] = 1;
+        }
+
+        for (let dice = 2; dice <= dies; dice++) {
+            for (let dice_value = 1; dice_value <= target;dice_value++) {
+                for (let i = 1; i <= faces && i < dice_value; i++) {
+                    dp[dice][dice_value] += dp[dice - 1][dice_value - i];
+                }
+            }
+        }
+    
+        return dp[dies][target];
+    }
+```
+
 ## 01-04-2024
 
 > Given an array of numbers, add all of the values together but only if the number doesn't repeat a digit.
