@@ -25,7 +25,7 @@ export const HillsValleys = () => {
 
     return (
         <div>
-            <input style={{width: "200px"}} type="text" value={input} onChange={e => setInput(e.target.value)} placeholder='3,4,1,1,6,5'></input>
+            <input style={{width: "200px", color:"black"}} type="text" value={input} onChange={e => setInput(e.target.value)} placeholder='3,4,1,1,6,5'></input>
             <p>Hills: {hills(input.split(',').map(a => parseInt(a)))}</p>
             <p>Valleys: {valleys(input.split(',').map(a => parseInt(a)))}</p>
         </div>

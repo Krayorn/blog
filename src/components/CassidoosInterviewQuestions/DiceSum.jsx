@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 export const DiceSum = () => {
     const diceSum = (dies, faces, target) => {
         if (target < dies || target > dies * faces) {

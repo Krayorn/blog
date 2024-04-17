@@ -11,17 +11,19 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 ## 01-04-2024
 
-Try harder https://aaronfrancis.com/2024/try-hard
 
-Are you serious https://visakanv.substack.com/p/are-you-serious
+[How to not be stupid](https://fs.blog/how-not-to-be-stupid/). It's super super insightful.
 
-https://jeannen.com/blog/so-you-sucks-now-what
+[Try hard](https://aaronfrancis.com/2024/try-hard) and [Are you serious?](https://visakanv.substack.com/p/are-you-serious) about what could happen if you tried hard.
 
-https://fs.blog/how-not-to-be-stupid/
 
-https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/?utm_source=cassidoo&utm_medium=email&utm_campaign=all-we-have-to-decide-is-what-to-do-with-the-time-1254
 
-https://piccalil.li/blog/how-were-approaching-theming-with-modern-css/?utm_source=cassidoo&utm_medium=email&utm_campaign=7-you-have-to-care-about-your-work-but-not-about
+[So you sucks, now what?](https://jeannen.com/blog/so-you-sucks-now-what) in how to handle failure.
+
+
+Two frontends posts about css :
+- [What you need to know about modern css spring 2024](https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/?utm_source=cassidoo&utm_medium=email&utm_campaign=all-we-have-to-decide-is-what-to-do-with-the-time-1254)
+- [How we're approaching theming with modern css](https://piccalil.li/blog/how-were-approaching-theming-with-modern-css/?utm_source=cassidoo&utm_medium=email&utm_campaign=7-you-have-to-care-about-your-work-but-not-about)
 
 ## 11-03-2024
 

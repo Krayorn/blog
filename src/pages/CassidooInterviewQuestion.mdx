@@ -10,6 +10,50 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 15-04-2024
+
+> Given a string str, write a function to determine the longest substring containing only two unique characters.
+
+import { UniqueChars } from '../components/CassidoosInterviewQuestions/UniqueChars.jsx';
+
+<UniqueChars client:load />
+
+```js
+    const longestSubstrofTwoUniqueChars = (str) => {
+        if (str.length < 3) {
+            return str.length
+        }
+        
+        let charsByCount = {}
+        let start = 0
+        let maxCount = 0;
+
+        charsByCount[str[start]] = (charsByCount[str[start]] || 0) + 1;
+
+        for (let end = 1; end < str.length; end++) {
+            charsByCount[str[end]] = (charsByCount[str[end]] || 0) + 1;
+
+            while (true) {
+                if (Object.values(charsByCount).length > 2) {
+                    charsByCount[str[start]] = charsByCount[str[start]] - 1
+                    if (charsByCount[str[start]] === 0) {
+                        delete charsByCount[str[start]]
+                    }
+                    start++
+                    continue
+                }
+                break
+            }
+
+            if (end - start + 1 > maxCount) {
+                maxCount = end - start + 1
+            }
+        }
+
+        return maxCount
+    }
+```
+
 ## 08-04-2024
 
 > Imagine you have n dice, and each die has m faces on it (so the numbers are from 1 to m). Write a function where, given an integer target, it returns the number of possible ways to roll the dice to get the sum of target face up.

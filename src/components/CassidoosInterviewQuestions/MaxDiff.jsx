@@ -19,7 +19,7 @@ export const MaxDiff = () => {
 
     return (
         <div>
-            <input style={{width: "200px"}} type="text" value={input} onChange={e => setInput(e.target.value)} placeholder='3,6,9,1,2'></input>
+            <input style={{width: "200px", color:"black"}} type="text" value={input} onChange={e => setInput(e.target.value)} placeholder='3,6,9,1,2'></input>
             <p>Max difference for {input} is {maxDiff(input.split(',').map(a => parseInt(a)))}</p>
         </div>
     )
