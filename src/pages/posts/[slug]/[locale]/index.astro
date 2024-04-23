@@ -5,7 +5,7 @@ import MarkdownPostLayout from '../../../../layouts/MarkdownPostLayout.astro';
 export async function getStaticPaths() {
     return (await getTranslatedPosts()).map((post) => {
         return {
-            params: { slug: post.data.perma != undefined ? post.data.perma : post.slug, locale: 'fr'},
+            params: { slug: post.slug, locale: 'fr'},
             props: { entry: post },
         };
     });
