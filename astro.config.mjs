@@ -11,5 +11,9 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [sitemap({
     filter: page => !page.includes('draft')
-  }), mdx(), react(), tailwind()]
+  }), mdx(), react(), tailwind()],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "fr"],
+  }
 });

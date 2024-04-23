@@ -13,9 +13,9 @@ const schema = {
     "url": "https://www.krayorn.com"
   },
   /* the schema expects Date or DateTime using ISO 8601 format. For Date that is yyyy-MM-dd */
-  "datePublished": pubDate.substring(0, 10),
+  "datePublished": pubDate.toString().substring(0, 10),
   /* updateDate is optional frontmatter, so we conditionally add dateModified if it exists */
-  ...(updateDate && { "dateModified": updateDate.substring(0, 10) }),
+  ...(updateDate && { "dateModified": updateDate.toString().substring(0, 10) }),
 };
 ---
 

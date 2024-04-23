@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'collecting bugs'
 description: 'software is in great shape'
 pubDate: 2023-12-04

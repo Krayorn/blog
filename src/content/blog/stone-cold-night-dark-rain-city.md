@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Stone cold night in Dark Rain City'
 description: 'Fictional writing relating an adventure played during a one shot game of Savage Worlds.'
 pubDate: 2024-01-04

@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Writing in a world of LLM'
 description: 'competing against the machine'
 pubDate: 2023-12-14

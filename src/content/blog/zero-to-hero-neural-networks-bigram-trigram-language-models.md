@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'From Zero to Hero - Neural networks: Training a bigram and trigram language models'
 description: 'The excercises suggested by Andrej Karpathy in his serie from Zero to Hero, introduction to neural networks: Building Makemore'
 pubDate: 2024-03-25

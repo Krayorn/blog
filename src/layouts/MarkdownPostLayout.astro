@@ -17,8 +17,8 @@ const seoProps = {
       image: "https://www.krayorn.com/favicon.svg",
     },
     article: {
-      publishedTime: frontmatter.pubDate.substring(0, 10),
-      modifiedTime: frontmatter.updateDate ? frontmatter.updateDate.substring(0, 10) : frontmatter.pubDate.substring(0, 10),
+      publishedTime: frontmatter.pubDate.toString().substring(0, 10),
+      modifiedTime: frontmatter.updateDate ? frontmatter.updateDate.toString().substring(0, 10) : frontmatter.pubDate.toString().substring(0, 10),
       author: [{username: 'Krayorn'}],
       tags: frontmatter.tags,
     },

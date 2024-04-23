@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Why a blog'
 description: 'motivations and next steps'
 pubDate: 2023-11-27
