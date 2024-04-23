@@ -1,7 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import BlogPostingJSONLD from '../components/BlogPostingJSONLD.astro';
-const { frontmatter } = Astro.props;
+const { frontmatter, slug } = Astro.props;
 
 const date = new Date(frontmatter.pubDate);
 const options = { year: 'numeric', month: 'long' };
@@ -14,7 +14,7 @@ const seoProps = {
     basic: {
       title: frontmatter.title,
       type: "article",
-      image: "https://www.krayorn.com/favicon.svg",
+      image: `${import.meta.env.SITE}posts/${slug}/og.png`,
     },
     article: {
       publishedTime: frontmatter.pubDate.toString().substring(0, 10),
