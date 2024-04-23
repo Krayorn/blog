@@ -107,7 +107,7 @@ export async function getStaticPaths() {
   const posts = await getTranslatedPosts()
   
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.slug, locale: 'fr' },
     props: { post },
   }));
 }
