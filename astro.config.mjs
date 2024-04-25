@@ -9,9 +9,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://www.krayorn.com/",
   trailingSlash: 'always',
-  integrations: [sitemap({
-    filter: page => !page.includes('draft')
-  }), mdx(), react(), tailwind()],
+  integrations: [sitemap(), mdx(), react(), tailwind()],
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],
