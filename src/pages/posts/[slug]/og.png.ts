@@ -26,7 +26,7 @@ export async function GET({ props }: Props) {
           type: 'div',
           props: {
             // using tailwind
-            tw: 'w-[200px] h-[200px] flex rounded-3xl overflow-hidden',
+            tw: 'w-[500px] h-[500px] flex rounded-3xl overflow-hidden',
             children: [
               {
                 type: 'img',

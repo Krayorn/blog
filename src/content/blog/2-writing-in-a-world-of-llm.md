@@ -4,7 +4,6 @@ description: 'competing against the machine'
 pubDate: 2023-12-14
 updateDate: 2023-12-17
 tags: ["blogging", "AI"]
-published: true
 ---
 
 Writing is scary and difficult for a multitude of reasons. Lately I've been thinking a lot about the idea that with the LLMs (Large Language Models) having a sizeable impact on the world, the act of writing itself might become irrelevant.

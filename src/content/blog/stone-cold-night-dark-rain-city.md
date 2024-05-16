@@ -3,7 +3,6 @@ title: 'Stone cold night in Dark Rain City'
 description: 'Fictional writing relating an adventure played during a one shot game of Savage Worlds.'
 pubDate: 2024-01-04
 tags: ["fiction", "RPG"]
-published: true
 ---
 
 Lloyd Miller, known as "One-Eye" after an incident that deserves its own story, was just entering the crowded Saloon of Coyote's Hollow. He put his Sunglasses on the counter and his cowboy hat on a stool next to him. Standing tall and wearing a long trenchcoat that gave him an austere posture, he ordered a whiskey.

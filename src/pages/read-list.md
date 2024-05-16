@@ -13,6 +13,10 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 https://lunduke.locals.com/post/5477752/if-this-one-guy-got-hit-by-a-bus-the-worlds-software-would-fall-apart?utm_source=cassidoo&utm_medium=email&utm_campaign=the-bird-a-nest-the-spider-a-web-man-friendship
 
+https://thoughtbot.com/blog/wip-is-waste?utm_content=buffer997e7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+https://strikemag.org/bullshit-jobs/
+
 ## 01-04-2024
 
 [How to not be stupid](https://fs.blog/how-not-to-be-stupid/). It's super super insightful.

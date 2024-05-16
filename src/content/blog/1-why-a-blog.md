@@ -3,7 +3,6 @@ title: 'Why a blog'
 description: 'motivations and next steps'
 pubDate: 2023-11-27
 tags: ["blogging"]
-published: true
 ---
 Hi, this is the first entry of my blog.
 

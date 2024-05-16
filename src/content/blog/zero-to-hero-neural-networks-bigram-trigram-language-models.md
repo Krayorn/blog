@@ -3,7 +3,6 @@ title: 'From Zero to Hero - Neural networks: Training a bigram and trigram langu
 description: 'The excercises suggested by Andrej Karpathy in his serie from Zero to Hero, introduction to neural networks: Building Makemore'
 pubDate: 2024-03-25
 tags: ["AI"]
-published: true
 ---
 
 In this post, you'll follow me along as I accomplish the 5 exercises suggested by [Andrej Karpathy](https://twitter.com/karpathy) in the second video from his series [Neural Networks: from Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ). You can find [the original notebooks from the lectures](https://github.com/karpathy/nn-zero-to-hero/tree/master).
