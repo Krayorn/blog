@@ -9,20 +9,27 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 22-05-2024
+
+Short analogy to grow as a software engineer: [From any spot on the field](https://registerspill.thorstenball.com/p/from-any-spot-on-the-field)
+
+[So you want to make a game engine](https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html)
+
+[When the vision isn't manifesting](https://visakanv.substack.com/p/when-the-vision-isnt-manifesting)
+
 ## 15-04-2024
 
-https://lunduke.locals.com/post/5477752/if-this-one-guy-got-hit-by-a-bus-the-worlds-software-would-fall-apart?utm_source=cassidoo&utm_medium=email&utm_campaign=the-bird-a-nest-the-spider-a-web-man-friendship
+[If this one guy got hit by a bus the world software would fall apart](https://lunduke.locals.com/post/5477752/if-this-one-guy-got-hit-by-a-bus-the-worlds-software-would-fall-apart)utm_campaign=the-bird-a-nest-the-spider-a-web-man-friendship
 
-https://thoughtbot.com/blog/wip-is-waste?utm_content=buffer997e7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+Go deploy your stuff: [WIP is Waste](https://thoughtbot.com/blog/wip-is-waste)
 
-https://strikemag.org/bullshit-jobs/
+[Bullshit jobs](https://strikemag.org/bullshit-jobs/)
 
 ## 01-04-2024
 
 [How to not be stupid](https://fs.blog/how-not-to-be-stupid/). It's super super insightful.
 
 [Try hard](https://aaronfrancis.com/2024/try-hard) and [Are you serious?](https://visakanv.substack.com/p/are-you-serious) about what could happen if you tried hard.
-
 
 [So you sucks, now what?](https://jeannen.com/blog/so-you-sucks-now-what) in how to handle failure.
 
