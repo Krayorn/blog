@@ -9,6 +9,12 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+https://paulgraham.com/taste.html
+
+https://www.todepond.com/wikiblogarden/better-computing/just/
+
+https://thehistoryoftheweb.com/the-analog-web
+
 ## 22-05-2024
 
 Short analogy to grow as a software engineer: [From any spot on the field](https://registerspill.thorstenball.com/p/from-any-spot-on-the-field)
