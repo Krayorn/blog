@@ -9,11 +9,17 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
-https://paulgraham.com/taste.html
+## 29-07-2024
 
-https://www.todepond.com/wikiblogarden/better-computing/just/
+List of [The basics](https://registerspill.thorstenball.com/p/the-basics). Really good things not shared enough.
 
-https://thehistoryoftheweb.com/the-analog-web
+## 15-07-2024
+
+[Taste](https://paulgraham.com/taste.html)
+
+[Just: I don't like that word](https://www.todepond.com/wikiblogarden/better-computing/just/)
+
+[The analog web](https://thehistoryoftheweb.com/the-analog-web)
 
 ## 22-05-2024
 
