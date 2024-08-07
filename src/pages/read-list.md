@@ -13,6 +13,8 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 List of [The basics](https://registerspill.thorstenball.com/p/the-basics). Really good things not shared enough.
 
+[How HEAD works in git](https://jvns.ca/blog/2024/03/08/how-head-works-in-git/)
+
 ## 15-07-2024
 
 [Taste](https://paulgraham.com/taste.html)
