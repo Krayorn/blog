@@ -52,7 +52,7 @@ func main() {
 
 ### Step 2: Respond with a 200
 
-To response with 200, I have to `Write` to the accepted connection following the HTTP Response format: 
+To respond with a 200 status code, I have to `Write` to the accepted connection following the HTTP Response format: 
  - a status line
  - some headers 
  - the response body
@@ -71,11 +71,12 @@ conn.Write([]byte("HTTP/1.1 200 OK\r\n\r\n"))
 
 ### Step 3: Extract URL path
 
-I'm now reading the request, it is very similar to the HTTP response format, a status line instead of the request line, and a response body instead of a request body. I'm splitting it on `\r\n` to handle each part separately.
+Next, I'm reading the request, which is similar to the HTTP response format: a request line instead of a status line, and a request body instead of a response body. I split it on `\r\n` to handle each part separately.
 
 I can then split again the requestLine to extract the path. If it's `/` I return our 200. If not, a 404.
 
 ```go
+// Not handling bigger payload for now
 req := make([]byte, 4096)
 conn.Read(req)
 
@@ -238,7 +239,11 @@ for i := 1; i < len(metaParts); i++ {
     }
 }
 
-contentLength, _ := strconv.Atoi(headers["Content-Length"])
+contentLength, err := strconv.Atoi(headers["Content-Length"])
+if err != nil {
+    fmt.Println("Could not convert content length to int, ignoring body")
+    contentLength = 0
+}
 
 request := HTTPRequest{
     Url:     requestLineParts[1],
@@ -572,10 +577,11 @@ I won't paste all the code here but you can find it on my [repository](https://g
 
 # The end
 
-This is it for now! There is plenty of other improvements to do but I have a lot of other shiny things I want to try out. 
+That's it for now! There are plenty of other improvements to do but I have a lot of other shiny things I want to try out. 
 
-I might revisit this later in part 2 tho, and tackle a few things:
+I might revisit this later in a part 2, and tackle a few things:
 
+- Handle bigger request body
 - Query parameters
 - Read the request in a more optimized way instead of a series of `strings.Split` (Sorry if that hurt you)
 - Allowing Subrouters
