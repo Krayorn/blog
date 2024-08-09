@@ -225,7 +225,7 @@ type HTTPRequest struct {
     Body    []byte
 }
 
-// in listenReq
+// in listenReq() function
 
 parts := strings.Split(string(rawReq), "\r\n\r\n")
 metaParts := strings.Split(parts[0], "\r\n")
@@ -570,7 +570,7 @@ router.start()
 
 ### Improvement seven: Move the code related to the Server in a package
 
-I moved everything not in main or a function used as a callback for a route inside a package called `server`.
+I moved everything that was not in main() or a function used as a callback for a route inside a package called `server`.
 
 I won't paste all the code here but you can find it on my [repository](https://github.com/Krayorn/codecrafters-http-server-go).
 
