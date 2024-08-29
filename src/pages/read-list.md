@@ -9,6 +9,16 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 26-08-2024
+
+[On becoming competitive when joining a new company](https://ludwigabap.bearblog.dev/on-becoming-competitive-when-joining-a-new-company/)
+
+## 12-08-2024
+
+Some advices: [Advice to the young](https://muratbuffalo.blogspot.com/2024/07/advice-to-young.html).
+
+Writing strategy: [How I write](https://muratbuffalo.blogspot.com/2013/08/how-i-write.html).
+
 ## 29-07-2024
 
 List of [The basics](https://registerspill.thorstenball.com/p/the-basics). Really good things not shared enough.
