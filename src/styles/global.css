@@ -59,6 +59,42 @@ html {
     padding-inline-start: 40px;
   }
 
+
+  
+  blockquote {
+    background: #f1f5f9;
+    border-left: 10px solid #6d48ab;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    filter: brightness(90%);
+  }
+
+  blockquote:before {
+    color: #6d48ab;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote p {
+    display: inline;
+  }
+
+  .dark {
+    blockquote {
+      background: #1f1c1c;
+      border-left: 10px solid #21c382;
+      filter: brightness(150%);
+    }
+  
+    blockquote:before {
+      color: #21c382;
+    }
+  }
+
   main {
     flex: 1;
   }

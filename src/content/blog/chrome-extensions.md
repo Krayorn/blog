@@ -22,6 +22,8 @@ So now that I wanted to write an extension, I needed to pick a topic. I recalled
 ## Building
 
 I extensively used Anthropic's Claude to build the extension, I had battle-tested it on some Swift earlier (stay tuned, this was for a fun project!) and thought it would be amazing for this use case.
+
+
 It took a few iterations, but Claude is really really good. In no time I had the buttons ready, I had to adapt the code and prompt it multiple times to use some html attributes to detect the different actions instead of just reading the text (which would not work for every language). It also used some relatively long timeout between the actions and would open the options menus a few milliseconds before closing it.
 
 So I suggested a trick: just before opening the menu, add some CSS to make it very small, almost invisible, then click on the button. It worked perfectly and made everything cleaner. Claude also handled the confirmation modal to block someone like a pro.
