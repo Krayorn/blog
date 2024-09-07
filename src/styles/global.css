@@ -142,3 +142,21 @@ html {
       margin-left: 0%;
     }
   }
+    pre {
+      font-feature-settings: normal;
+      font-variation-settings: normal;
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: var(--color-gray-200);
+      outline-color: #52a9ff;
+      font-variant-ligatures: none;
+      font-family: "__commitMono_6e147a","__commitMono_Fallback_6e147a";
+      margin: 0;
+      overflow: auto;
+      border-radius: .75rem;
+      padding: 1rem;
+      font-size: .75rem;
+      line-height: 1rem;
+      box-shadow: 0 0 #0000,0 0 #0000,inset 0 0 0 1px hsla(0,0%,100%,.12);
+    }

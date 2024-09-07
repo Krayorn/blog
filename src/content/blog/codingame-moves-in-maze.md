@@ -4,7 +4,6 @@ description: 'My implementation for the codingame puzzle: Moves in a maze in gol
 pubDate: 2024-09-06
 tags: ["go"]
 ---
-
 First, [the puzzle link](https://www.codingame.com/ide/puzzle/moves-in-maze) if you didn't complete it already, I encourage you to finish it first! 
 
 ## Parsing 
@@ -14,7 +13,7 @@ I store the width, the height and make the grid.
 
 When I find the `S` indicating the Start, I replace it with a `0` (for the distance) and save this location in a queue.
 
-We'll use the queue like in a Breadth-First Search to find the shortest path.
+We'll use the queue like in a [Breadth-First Search](https://en.wikipedia.org/wiki/Breadth-first_search) to find the shortest path.
 
 ```go
 	var w, h int
@@ -106,7 +105,7 @@ The letter A correspond the the rune `65`. So `string(rune(55 + val))` makes sur
 
 If you have any questions or suggestions, send me a message at `me@krayorn.com` or a DM on [Twitter/X](https://x.com/Krayorn)
 
-```
+```go
 package main
 
 import (
