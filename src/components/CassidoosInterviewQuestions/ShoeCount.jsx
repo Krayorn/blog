@@ -48,7 +48,6 @@ export const ShoeCount = () => {
 
     return (
         <div className="p-4">
-            <h2 className="text-2xl font-bold mb-4">Shoe Pair Counter</h2>
             <table className="mb-6">
                 <thead>
                     <tr>
