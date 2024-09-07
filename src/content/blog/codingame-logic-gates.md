@@ -1,7 +1,7 @@
 ---
 title: 'Codingame puzzle walkthough: Logic gates'
 description: 'My implementation for the codingame puzzle: Logic gates in golang'
-pubDate: 2024-09-06
+pubDate: 2024-09-07
 tags: ["go"]
 ---
 
