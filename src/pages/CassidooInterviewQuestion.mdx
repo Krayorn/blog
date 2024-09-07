@@ -9,6 +9,35 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 02-09-2024 Shoe Pair Counter
+
+> You are given an array of strings representing a collection of shoes. Each shoe is labeled with its type ("L" for left or "R" for right) and its size. Determine the maximum number of matching pairs of shoes that can be formed.
+
+import { ShoeCount } from '../components/CassidoosInterviewQuestions/ShoeCount.jsx';
+
+<ShoeCount client:load />
+
+```
+function maxPairs(shoes) {
+    const shoeCounts = {};
+    let pairs = 0;
+
+    for (const shoe of shoes) {
+        const [type, size] = shoe.split('-');
+        const oppositeShoe = `${type === 'L' ? 'R' : 'L'}-${size}`;
+
+        if (shoeCounts[oppositeShoe]) {
+            pairs++;
+            shoeCounts[oppositeShoe]--;
+        } else {
+            shoeCounts[shoe] = (shoeCounts[shoe] || 0) + 1;
+        }
+    }
+
+    return pairs;
+}
+```
+
 ## 15-04-2024
 
 > Given a string str, write a function to determine the longest substring containing only two unique characters.

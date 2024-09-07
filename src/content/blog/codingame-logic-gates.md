@@ -57,7 +57,6 @@ Because I didn"t want to convert the "-" and "_" into 1 and 0, I wrote a small f
 			fmt.Print("_")
 		}
 	}
-
 ```
 
 ## Complete solution
