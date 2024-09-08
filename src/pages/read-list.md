@@ -9,9 +9,22 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 02-09-2024
+
+Two great questions, and some help to maybe find part of their answers: [A life well lived](https://muratbuffalo.blogspot.com/2019/03/a-life-well-lived.html).
+
+Information, influence and social media: [An argument for logging off](https://aaronfrancis.com/2024/an-argument-for-logging-off-9a4de45b).
+
+Clip path explanations && showcases: [The magic of clip path](https://emilkowal.ski/ui/the-magic-of-clip-path).
+
+Social media && attention: [How I got my attention back](https://craigmod.com/essays/how_i_got_my_attention_back/).
+
+
 ## 26-08-2024
 
 [On becoming competitive when joining a new company](https://ludwigabap.bearblog.dev/on-becoming-competitive-when-joining-a-new-company/)
+
+Really good mindset: [You Are NOT Dumb, You Just Lack the Prerequisites](https://lelouch.dev/blog/you-are-probably-not-dumb/)
 
 ## 12-08-2024
 
