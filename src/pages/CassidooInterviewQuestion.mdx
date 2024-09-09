@@ -9,6 +9,34 @@ tags: []
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
 
+## 09-09-2024 Minimum number of rows to seat group
+
+> You are given an array of people represented by integers, where each number corresponds to the number of people in a group. Determine the minimum number of rows required to seat everyone such that no group is split across different rows. You can assume no group will be larger than a given row size!
+
+import { MinimumRow } from '../components/CassidoosInterviewQuestions/MinimumRow.jsx';
+
+<MinimumRow client:load />
+
+```js
+  const minRows = (groupSizes, rowSize) => {
+      const rows = [];
+      for (const size of groupSizes.map(a => a).sort((a, b) => b - a)) {
+        let foundSpace = false;
+        for (let i = 0; i < rows.length; i++) {
+          if (rows[i] + size <= rowSize) {
+            rows[i] += size;
+            foundSpace = true;
+            break;
+          }
+        }
+        if (!foundSpace) {
+          rows.push(size);
+        }
+      }
+      return rows.length;
+    }
+```
+
 ## 02-09-2024 Shoe Pair Counter
 
 > You are given an array of strings representing a collection of shoes. Each shoe is labeled with its type ("L" for left or "R" for right) and its size. Determine the maximum number of matching pairs of shoes that can be formed.
