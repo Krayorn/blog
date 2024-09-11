@@ -1,7 +1,7 @@
 ---
 title: 'Codingame puzzle walkthough: abcdefghijklmnopqrstuvwxyz'
 description: 'My implementation for the codingame puzzle: abcdefghijklmnopqrstuvwxyz in golang'
-pubDate: 2024-09-07
+pubDate: 2024-09-11
 tags: ["go"]
 ---
 
@@ -9,8 +9,8 @@ Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle
 
 ## Parsing 
 
-Classic puzzle start, save the input in a grid! 
-I'm also saving the locations of all the `a` to know where to start solves later on.
+Classic puzzle start, store the input in a grid! 
+I'm also saving the locations of all the `a` to know where to start the searches later on.
 
 ```go
 	grid := make([][]string, n)
