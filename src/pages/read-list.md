@@ -9,6 +9,13 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 09-09-2024
+
+[CSS 3D guide](https://www.youtube.com/watch?v=dgEHpkm0xTI). 
+
+[Content Driven Development](https://ntietz.com/blog/making-progress-with-content-driven-development/).
+
+
 ## 02-09-2024
 
 Two great questions, and some help to maybe find part of their answers: [A life well lived](https://muratbuffalo.blogspot.com/2019/03/a-life-well-lived.html).
