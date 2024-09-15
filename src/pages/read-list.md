@@ -15,6 +15,9 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 [Content Driven Development](https://ntietz.com/blog/making-progress-with-content-driven-development/).
 
+On [Consitency vs Intensity](https://www.luffyb.dev/blogs/consistency-vs-intensity). And how consistency is not enough.
+
+[You don't need discipline](https://www.luffyb.dev/blogs/you-dont-need-discipline). Caring more than other is the same.
 
 ## 02-09-2024
 
