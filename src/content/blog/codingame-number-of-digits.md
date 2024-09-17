@@ -46,6 +46,8 @@ Starting at the digit representing the biggest unit (ie: the 3 in 341 for the hu
 
 The limit is used to make sure I'm not counting digit above the number. the limit stays on only when I launch the search from the last possible digit. If the search is from an earlier digit, I remove the limit iterate from 0 to 9.
 
+It's a kind of [Depth-First-Search](https://en.wikipedia.org/wiki/Depth-first_search) algorithm.
+
 ```go
 // fmt.Println(dfs(digits, k, length-1, 0, true))
 func dfs(digits []int, target, pos, count int, limit bool) int {
