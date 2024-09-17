@@ -7,6 +7,42 @@ tags: ["go"]
 
 Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle/equivalent-resistance-circuit-building).
 
+## Prompt 
+
+Calculate the equivalent resistance of a circuit containing only resistors.
+
+Resistors in series will be noted with parentheses ( R_1 R_2 R_3 ... and so on ).
+
+The resistance of a series arrangement is: R_eq = R_1 + R_2 + R_3 + ... and so on, where R_eq is the equivalent resistance of the series arrangement.
+
+Resistors in parallel will be noted with brackets [ R_1 R_2 R_3 ... and so on ].
+
+The resistance of resistors in parallel is R_eq = 1/(1/R_1 + 1/R_2 + 1/R_3 + 1/... and so on).
+
+A branch can be treated as a single resistor by determining its equivalent resistance.
+
+Example:
+
+N = 3
+A 24
+B 8
+C 48
+[ ( A B ) [ C A ] ]
+
+This will look something like this:
+
+       +---[C]---+
+       |         |
+    +--+         +--+
+    |  |         |  |
+    |  +---[A]---+  |
+    |               |
+    +---[A]---[B]---+
+    |               |
+    +---[Battery]---+
+
+[ ( A B ) [ C A ] ] => [ 24+8 1/(1/48+1/24) ] => [ 32 16 ] => 1/(1/32+1/16) => 32/3 => 10.666... => 10.7
+
 ## Parsing 
 
 The first step is to parse the input string and translate it into a more fitting datastructure, I picked a tree-like structure.
@@ -59,11 +95,11 @@ func createNode(circuit string) Node {
 }
 ```
 
-We end up with a tree where each node tells us if the resistances are in series or in parallel, and with an array of all child nodes OR a resistance name.
+I end up with a tree where each node tells us if the resistances are in series or in parallel, and with an array of all child nodes OR a resistance name.
 
 ## Calculate the output
 
-Once the tree is done, we can call the second recursive function `tree.Output(res)`.
+Once the tree is done, I can call the second recursive function `tree.Output(res)`.
 This function start at the root, and then iterate through all the child nodes.
 
 For each of these childs, if it's a resistance it takes its value, if not it calls `Output` on the child.
@@ -71,7 +107,7 @@ For each of these childs, if it's a resistance it takes its value, if not it cal
 Then uses the values detected to make the correct calculation depending on if the Resistance is in Series or in parallel.
 
 ```go
-// Called with: fmt.Println(fmt.Sprintf("%.1f", tree.Output(res)))
+// fmt.Println(fmt.Sprintf("%.1f", tree.Output(res)))
 func (node Node) Output(res map[string]float64) float64 {
 	sum := 0.0
 	for _, child := range node.Values {

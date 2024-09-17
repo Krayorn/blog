@@ -7,12 +7,16 @@ tags: ["go"]
 
 Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle/number-of-digits).
 
+## Prompt
+
+Count the number of times the digit k appears in all non-negative integers less than or equal to a given integer n.
+
 ## Parsing 
 
-For the setup of this puzzle, we're storing each digit of the max number in an array.
+For the setup of this puzzle, I'm storing each digit of the max number in an array.
 This is splitting the "unit", the "ten", the "hundred", etc... numbers. This is what will allow us to save time by saving the results of some exploration.
 
-We're also creating a memo array that will be used to save those results.
+I'm also creating a memo array that will be used to save those results.
 
 ```go
     digits := make([]int, 9)
@@ -38,12 +42,12 @@ We're also creating a memo array that will be used to save those results.
 Now the hard part!
 Here's the code without the memoization to start.
 
-Starting at the digit representing the biggest unit (ie: the 3 in 341 for the hundreds) we're iterating from 0 to that digit, adding one to our count if it's our target, then launching the same algo on the next biggest digit (ie: the 4 in 341 for the tens). 
+Starting at the digit representing the biggest unit (ie: the 3 in 341 for the hundreds) I'm iterating from 0 to that digit, adding one to our count if it's our target, then launching the same algo on the next biggest digit (ie: the 4 in 341 for the tens). 
 
-The limit is used to make sure we're not counting digit after our number. the limit stays on only when we launch the search from the last possible digit. If we're from an earlier digit, we remove it, and will then iterate from 0 to 9.
+The limit is used to make sure I'm not counting digit above the number. the limit stays on only when I launch the search from the last possible digit. If the search is from an earlier digit, I remove the limit iterate from 0 to 9.
 
 ```go
-// We call fmt.Println(dfs(digits, k, length-1, 0, true))
+// fmt.Println(dfs(digits, k, length-1, 0, true))
 func dfs(digits []int, target, pos, count int, limit bool) int {
     if pos < 0 {
         return count
@@ -67,7 +71,7 @@ func dfs(digits []int, target, pos, count int, limit bool) int {
 }
 ```
 
-This means that for 341, we will:
+This means that for 341, the search will:
 - Iterate between 0 and 3 (limit is **true**)
     - 0 : Iterate between 0 and 9 (limit is false)
         - 0 : Iterate between 0 and 9 (limit is false)
@@ -86,14 +90,14 @@ This means that for 341, we will:
         [...]
         - 4 : Iterate between 0 and 1 (limit is **true**)
 
-And remember that each time we find our target, we're incrementing our count by one
+And remember that each time the target is found, I'm incrementing our count by one
 
-We can now add the memo. Before iterating through the numbers, if limit is false (most of the time) we're checking if we didn't already made a check for this position and this count. If we did, we just return the count found last time.
+I can now add the memo. Before iterating through the numbers, if limit is false (most of the time) I'm checking if this combinaison of position and count were already checked. If they were, I just return the count found last time.
 
-If we didn't, we do it, then save the result!
+If they weren't, I do the calculation, then save the result!
 
 ```go
-// We call fmt.Println(dfs(digits, k, length-1, 0, true))
+// fmt.Println(dfs(digits, k, length-1, 0, true))
 func dfs(digits []int, target, pos, count int, limit bool) int {
     if pos < 0 {
         return count

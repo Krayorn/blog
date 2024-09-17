@@ -9,6 +9,10 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 16-09-2024
+
+Super fun post full of anecdotes: [Ugliest beautiful codebase](https://jimmyhmiller.github.io/ugliest-beautiful-codebase).
+
 ## 09-09-2024
 
 [CSS 3D guide](https://www.youtube.com/watch?v=dgEHpkm0xTI). 
