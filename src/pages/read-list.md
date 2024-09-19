@@ -11,6 +11,8 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 ## 16-09-2024
 
+How we trick ourselves into not progressing towards our goals: [Do the real thing](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/).
+
 Super fun post full of anecdotes: [Ugliest beautiful codebase](https://jimmyhmiller.github.io/ugliest-beautiful-codebase).
 
 ## 09-09-2024
