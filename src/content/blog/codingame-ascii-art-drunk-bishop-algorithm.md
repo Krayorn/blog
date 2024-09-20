@@ -7,7 +7,7 @@ tags: ["go"]
 
 Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle/ascii-art-the-drunken-bishop-algorithm).
 
-## Prompt 
+## Problem 
 
 The algorithm is well described in the document "The drunken bishop: An analysis of the OpenSSH fingerprint visualization algorithm".
 To summarize, OpenSSH uses MD5 to generate a 128 bits fingerprint for the server's key, for example in hexadecimal
@@ -62,7 +62,6 @@ The special values S and the end value E mark the start and end position of the 
 I start by initiating an empty grid full of 0. Then, I take the hexadecimal fingerprint, and convert it into binary.
 
 ```go
-
 	func asBits(val uint64) []uint64 {
 		bits := []uint64{}
 		for i := 0; i < 8; i++ {
@@ -89,7 +88,7 @@ I start by initiating an empty grid full of 0. Then, I take the hexadecimal fing
 	}
 ```
 
-The `asBits` function works by iterating 8 times through the number provided (because we want to extract 8 bits, as specified in the prompt).
+The `asBits` function works by iterating 8 times through the number provided (because we want to extract 8 bits, as specified in the problem).
 It's then using the golang bitwise operator `&` (AND) to extract the least significant bit. 
 
 If we take a look at the truth table for the AND operator:
@@ -108,7 +107,7 @@ The function then use the shift `>>` operator to shift val by one bit, effective
 
 Once I've got the moves, I can execute each of these move on the grid created earlier.
  
-I start by reading the bits two by two in the order specified in the prompt, and then ensure that it won't make the bishop slide off the grid. 
+I start by reading the bits two by two in the order specified in the problem, and then ensure that it won't make the bishop slide off the grid. 
 Once the move is executed, I increment the number in the grid where the bishop is to mark is passage.
 
 ```go

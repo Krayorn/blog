@@ -7,7 +7,7 @@ tags: ["go"]
 
 Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle/number-of-digits).
 
-## Prompt
+## Problem
 
 Count the number of times the digit k appears in all non-negative integers less than or equal to a given integer n.
 

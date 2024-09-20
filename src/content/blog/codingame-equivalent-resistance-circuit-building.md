@@ -7,7 +7,7 @@ tags: ["go"]
 
 Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle/equivalent-resistance-circuit-building).
 
-## Prompt 
+## Problem 
 
 Calculate the equivalent resistance of a circuit containing only resistors.
 
