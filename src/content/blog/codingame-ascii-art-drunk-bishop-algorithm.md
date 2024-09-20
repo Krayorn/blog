@@ -9,11 +9,12 @@ Find the puzzle on Codingame: [Puzzle link](https://www.codingame.com/ide/puzzle
 
 ## Problem 
 
-The algorithm is well described in the document "The drunken bishop: An analysis of the OpenSSH fingerprint visualization algorithm".
+I'm gonna reimplement The drunken bishop algorithm, which is used by OpenSSH for their fingerprint visualization algorithm.
+
 To summarize, OpenSSH uses MD5 to generate a 128 bits fingerprint for the server's key, for example in hexadecimal
 fc:94:b0:c1:e5:b0:98:7c:58:43:99:76:97:ee:9f:b7
 
-You should create a chess board 17x9 (origin 0,0 at top left corner) and place a Bishop (the letter S) at the center (position 8,4).
+They create a chess board 17x9 (origin 0,0 at top left corner) and place a Bishop (the letter S) at the center (position 8,4).
 ```
             1111111
   01234567890123456
@@ -31,7 +32,7 @@ You should create a chess board 17x9 (origin 0,0 at top left corner) and place a
  y
  ```
 
-Then, break the 128 bit fingerprint in input into pairs of bits that define 4 possible moves:
+Then, they break the 128 bit fingerprint in input into pairs of bits that define 4 possible moves:
 - 00: up-left (↖ North West )
 - 01: up-right (↗ North East)
 - 10: down-left(↙ South West)
@@ -45,17 +46,15 @@ Example: The fingerprint FC:94
       |  |  |  |    |  |  |  |
 Step  4  3  2  1    8  7  6  5
 ```
-For each pair of bits in the input we move the bishop one space on the board and increment a counter recording how many times we visit each square. Instead of moving off the board at the edges, the bishop slides along the sides as if they were walls. 
+For each pair of bits in the input they move the bishop one space on the board and increment a counter recording how many times the bishop visited each square. Instead of moving off the board at the edges, the bishop slides along the sides as if they were walls. 
 
 At the end of the 64 steps, the board is drawn assigning a symbol to each position on the board according to how many times it was visited. OpenSSH uses these symbols:
 ```
 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14
    .  o  +  =  *  B  O  X  @  %  &  #  /  ^
 ```
-We apply the wrap-around logic if the number of times visited is greater than 14, e.g. we use `o` if a position is visited 17 times.
 
-The special values S and the end value E mark the start and end position of the walk and overwrite the real value of the respective position. Surround the chessboard with + for corners, - for top and bottom edges and | for left and right edges. Put [CODINGAME] at center in the top edge.
-
+The special values S and the end value E mark the start and end position of the walk and overwrite the real value of the respective position.
 
 ## Parsing 
 
