@@ -2,7 +2,7 @@
 title: '2024 Winter arc'
 description: 'Things I want to do during the next few months'
 pubDate: 2024-10-19
-tags: []
+tags: ["blogging"]
 ---
 
 ## Situation overview
