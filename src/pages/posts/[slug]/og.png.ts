@@ -16,7 +16,7 @@ export async function GET({ props }: Props) {
     path.resolve('public/DMSans-Regular.ttf'),
   );
 
-  const postCover = fs.readFileSync(path.resolve(post.data.cover ? post.data.cover : 'public/og/default.jpeg'));
+  const postCover = fs.readFileSync(path.resolve(post.data.cover ? post.data.cover : 'public/og/default.png'));
 
   const html = {
     type: 'div',
@@ -77,7 +77,7 @@ export async function GET({ props }: Props) {
       ],
       tw: 'w-full h-full flex items-center justify-center relative px-22',
       style: {
-        background: '#08090a',
+        background: 'black',
         fontFamily: 'DM Sans Regular',
       },
     },

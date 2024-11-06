@@ -1,0 +1,56 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SEO } from "astro-seo";
+
+import '../styles/global.css';
+
+const { seoProps } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<html lang="en">
+  <head class="dark">
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <SEO
+      canonical={canonicalURL}
+      description={seoProps.pageDescription}
+      title={seoProps.pageTitle}
+      twitter={{
+        card: "summary_large_image",
+        creator: "@Krayorn",
+        title: seoProps.pageTitle,
+        description: seoProps.pageDescription,
+      }}
+      openGraph={seoProps.OG ?? null},
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+@media screen and (min-width: 636px) {
+    main {
+      width: 80vw;
+      margin: auto;
+    }
+  }
+</style>

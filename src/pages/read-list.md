@@ -9,6 +9,13 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+
+## 28-10-2024
+
+My introduction to DuckDB, such a cool tool: [Astro + DuckDB](https://shayy.org/posts/astro-duckdb)! 
+
+On performance: [always measure one level deeper](https://cacm.acm.org/research/always-measure-one-level-deeper/).
+
 ## 16-09-2024
 
 How we trick ourselves into not progressing towards our goals: [Do the real thing](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/).
