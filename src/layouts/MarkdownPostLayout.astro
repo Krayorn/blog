@@ -9,7 +9,7 @@ const formattedDate = date.toLocaleString('en-US', options);
 
 const seoProps = {
   pageTitle: frontmatter.title,
-  pageDescription: "Article from Krayorn's blog. It's catchphrase is '" + frontmatter.description + "''.",
+  pageDescription: "Article from Krayorn's blog. it's description is '" + frontmatter.description + "''. It was published on " + frontmatter.pubDate.toString().substring(0, 10) + ".",
   OG: {
     basic: {
       title: frontmatter.title,
