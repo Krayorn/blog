@@ -2,19 +2,31 @@
 .outer-border {
     clip-path: polygon(
         0% 0%,      /* Top left */
-        100% 0%,      /* Top right */
+        51px 0%,
+        56px 5px,
+        100% 5px,      /* Top right */
         100% 52px,    /* start bottom right angle */
         287px 100%,    /*  finish bottom right angle */
-        0% 100%       /* Bottom left */
-    );
+        0% 100%,       /* Bottom left */
+        0% 51px,
+        1px 50px,
+        1px 35px,
+        0% 34px
+        );
 }
 
 .tabTrigger {    
     clip-path: polygon(
-        0% 0%,      /* Top left */
-        100% 0%,      /* Top right */
-        100% 50px,    /* start bottom right angle */
-        285px 100%,    /*  finish bottom right angle */
-        0% 100%       /* Bottom left */
+        0% 0%,
+        50px 0%,
+        55px 5px,      
+        100% 5px,      
+        100% 50px,    
+        285px 100%,   
+        0% 100%,
+        0% 51px,
+        1px 50px,
+        1px 35px,
+        0% 34px
     );
 } 
