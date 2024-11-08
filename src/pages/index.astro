@@ -1,8 +1,6 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
-
-import { getPosts } from '../utils/blog';
+import CyberpunkLayout from '../layouts/CyberpunkLayout.astro';
+import CyberTabs from '../components/Cyberpunk/CyberTabs.jsx'
 
 const pageTitle = "Krayorn's Blog";
 const pageDescription = "A blog containing my thoughts and reflections on AI, Software, Board Games and whatever else finds it's way in my mind.";
@@ -11,31 +9,28 @@ const seoProps = {
   pageDescription: pageDescription,
 }
 
-const allPosts = await getPosts();
+const tabsData = [
+  {
+    title: "DonkeyCarrot",
+    content: "Crazy app"
+  },
+  {
+    title: "My blog",
+    content: "wow woooow"
+  }
+]
+
 ---
-<BaseLayout seoProps={seoProps}>
-<section>
-  Here's a list of all my blog posts! If you liked one of them, or did not, if it made you think, 
-  if there's a typo that drove you crazy, if you want to ask some questions, or give me some feedback, or if you just want to chat, shoot me an email at <a href="mailto:me@krayorn.com" target="_blank">me@krayorn.com</a> 
-  or send me a message on <a href={`https://www.twitter.com/krayorn`}>Twitter/X</a> ! I'd be thrilled to read it !
-</section>
-<ul>
-    {allPosts.sort((a, b) => b.data.pubDate > a.data.pubDate ? 1 : -1).map((post) => <BlogPost tags={post.data.tags} description={post.data.description} url={`/posts/${post.data.perma != undefined ? post.data.perma : post.slug}/`} title={post.data.title} pubDate={post.data.pubDate} />)}
-</ul>
-</BaseLayout>
+<CyberpunkLayout seoProps={seoProps} >
+  
+  <div class="tabs" >
+    <CyberTabs data={tabsData} client:load />
+  </div>
+</CyberpunkLayout>
 
 
 <style>
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  a {
-    color: #6d48ab;
-  }
-
-  html.dark a {
-    color: #21c382;
-  }
-
+.tabs {
+  margin: 0px 10%;
+}
 </style>
