@@ -2,11 +2,11 @@
 .outer-border {
     clip-path: polygon(
         0% 0%,      /* Top left */
-        51px 0%,
-        56px 5px,
+        52px 0%,
+        57px 5px,
         100% 5px,      /* Top right */
-        100% 52px,    /* start bottom right angle */
-        287px 100%,    /*  finish bottom right angle */
+        100% 54px,    /* start bottom right angle */
+        289px 100%,    /*  finish bottom right angle */
         0% 100%,       /* Bottom left */
         0% 51px,
         1px 50px,
@@ -15,7 +15,7 @@
         );
 }
 
-.tabTrigger {    
+.tabTrigger {
     clip-path: polygon(
         0% 0%,
         50px 0%,
@@ -30,3 +30,11 @@
         0% 34px
     );
 } 
+
+.tabTrigger[data-state="active"] .highlight {
+    display: block;
+}
+
+.tabsroot {
+    font-family: "Rajdhani", sans-serif;
+}
