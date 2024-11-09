@@ -27,13 +27,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     />
     <slot name="head" />
   </head>
-  <body>
+  <body class="h-full min-h-screen bg-dark" >
       <slot />
   </body>
 </html>
 
 <style>
-    body {
-        background-color: #071016;
-    }
 </style>

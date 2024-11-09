@@ -6,8 +6,18 @@ const CyberTabs = ({ data }) => {
         <Tabs.Root className="flex tabsroot" defaultValue={data[0].title}>
 		<Tabs.List className="flex flex-col w-1/2" aria-label="Manage your account">
 			{data.map(tab => (
-				<div className="outer-border h-[69px] w-[304px] bg-neonr mt-2" >
-					<Tabs.Trigger className="tabTrigger relative top-[2px] left-[2px] flex items-center h-[65px] w-[300px] bg-red text-left uppercase" key={tab.title} value={tab.title}>
+				<Tabs.Trigger key={tab.title} value={tab.title} className="tabTrigger relative mt-4" >
+				{
+					tab.tasks && tab.tasks.some(task => task.targeted) && 
+					<div className={`absolute left-[-18px] bg-neony cybercheckbox min-w-[15px] w-[15px] h-[15px] top-[-1px]`}>
+						<div className="inner-cybercheckbox relative top-px left-px w-[13px] h-[13px] bg-dark">
+							<div className="targeted-cybercheckbox relative top-px left-px w-[11px] h-[11px] bg-neony text-sm flex justify-center items-center text-black">!</div>
+						</div>
+					</div>
+				}
+				<div className="outer-border h-[69px] w-[304px] bg-neonr" >
+					<div className="inner-border relative top-[2px] left-[2px] flex items-center h-[65px] w-[300px] bg-red text-left uppercase">
+					
 						<div className="h-full mx-2 border-x-2 border-l-black border-r-neonr " />
 						
 						{
@@ -24,13 +34,35 @@ const CyberTabs = ({ data }) => {
 							<span className="text-neony text-sm" >Status: {tab.status}</span>
 						</div>
 						<div className="hidden highlight ml-auto h-full w-4 shadow-neon bg-neony" ></div>
-					</Tabs.Trigger>
+					</div>
 				</div>
+				</Tabs.Trigger>
 			))}
 		</Tabs.List>
 		{data.map(tab => (
-			<Tabs.Content className="w-1/2 bg-blue-500" key={tab.title} value={tab.title}>
-				{tab.content}
+			<Tabs.Content className="w-1/3" key={tab.title} value={tab.title}>
+				<h2 className="uppercase text-neonr glow-text border-b pb-2 border-neonr/[.3]" >{tab.title}</h2>
+				{
+					tab.tasks && tab.tasks.length > 0
+					? tab.tasks.map(task => {
+						return (
+							<div className="uppercase flex items-center" >
+								<div className={`${task.targeted ? 'bg-neony' : 'bg-neonr'} cybercheckbox min-w-[15px] w-[15px] h-[15px] relative top-[-1px]`}>
+									<div className="inner-cybercheckbox relative top-px left-px w-[13px] h-[13px] bg-dark">
+										{task.targeted && <div className="targeted-cybercheckbox relative top-px left-px w-[11px] h-[11px] bg-neony text-sm flex justify-center items-center text-black">!</div> }
+									</div>
+								</div>
+								<div className="ml-4">{task.name}</div>
+							</div>
+						)
+					})
+					: <div className="no_tasks shadow-neonr flex m-auto justify-center p-2 uppercase w-[130px]" >
+						<span className="bg-dark px-4" >No tasks</span>
+					</div>
+				}
+				<div className="border-t mt-2 py-2 border-neonr/[.3] text-neonr" >
+					{tab.content.map(c => <p>{c}</p>)}
+				</div>
 			</Tabs.Content>
 		))}
 	</Tabs.Root>

@@ -12,37 +12,69 @@ const seoProps = {
 const tabsData = [
   {
     title: "Krayorn's blog",
-    content: "wow woooow",
+    content: [
+    "That's my website. It's a part of my identity. An aggregate that shows my tastes, my passions, my hobbies. That's where you should start to find out anything about me.",
+    "That's where I started my online journey, it's a hub where you can find my social links to contact me, my blog posts and all of my other projects.",
+    "See your around, edgerunner."
+    ],
     kind: "web",
     status: "live",
+    tasks: [
+      {name: "Transform the blog with a Cyberpunk theme", targeted: true},
+    ]
   },  
   {
     title: "DonkeyCarrot",
-    content: "Crazy app",
+    content: [
+      "This is the first app I made. And the first time I earned money by selling something online. It's a little silly, but this app tracks your daily income in your macOs menu bar.",
+      "Enter your daily wage, your work schedule, and it will increase durig the day, with an occasional animation every time you earn a certain amount."
+    ],
     kind: "app",
-    status: "in progress"
+    status: "in progress",
+    tasks: [
+      {name: "Complete the landing page", targeted: true},
+      {name: "Aggressive marketing on Instagram && Tiktok", targeted: false},
+    ]
   },
   {
     title: "bg-log",
-    content: "Crazy app",
+    content: [
+      "The first 'big project' I worked on. The target is to use it to log every time I play some board game, enter some details and then get some fun statistics.",
+      "You can customize what you want to track so it's compatible with every board game, see with whom you play and if one of your friend always uses the same character."
+
+    ],
+    tasks: [
+      {name: "UX redesign to encourage the use of the app"}
+    ],
     kind: "web",
     status: "paused"
   },
   {
     title: "Algorithm arena",
-    content: "Crazy app",
+    content: [
+      "I've participated in a lot of online challenges. One of them was the Algorithm Arena. Every week, a prize pool and a small challenge.",
+      "I've participated quite a lot and you can find all my submissions on here."
+    ],
     kind: "contest",
     status: "completed"
   },
   {
     title: "Scotland diary",
-    content: "Crazy app",
+    content: [
+      "I made a website with my partner after our trip to scotland. It's kind of a diary with our commentary, some locations and a recap of what we did there.",
+      "A good way to recall our experience."
+    ],
     kind: "web",
     status: "completed"
   },
   {
     title: "Dwarf Clicker",
-    content: "Crazy app",
+    content: [
+      "I got hooked on the game Universal Paperclip for a week and decided that I wanted to make a similar idle click game."
+    ],
+    tasks: [
+      {name: "Add the second 'level'"}
+    ],
     kind: "web",
     status: "paused"
   },
@@ -50,7 +82,6 @@ const tabsData = [
 
 ---
 <CyberpunkLayout seoProps={seoProps} >
-  
   <div class="tabs" >
     <CyberTabs data={tabsData} client:load />
   </div>
@@ -60,5 +91,6 @@ const tabsData = [
 <style>
 .tabs {
   margin: 0px 10%;
+  margin-top: 100px;
 }
 </style>
