@@ -97,33 +97,81 @@ const allPosts = shuffle(await getPosts());
   <div class="flex w-full mt-[100px]">
     <CyberTabs className="ml-16 w-2/3" data={tabsData} client:load />
     <div class="w-1/6 ml-auto h-[500px]">
-      <div class="h-4 mb-8 text-center">Latest news</div>
+      <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
+      <div class="news_ticker h-4 py-4 flex items-center justify-center text-neonr uppercase bg-neonb ">Latest posts</div>
       <div class="h-full relative overflow-hidden">
         <div class="posts_container absolute">
           <div>
             {allPosts.map(p => (
-              <div class="border border-neonr p-4">
+              <div class="border border-neonb p-4">
                 {p.data.title}
               </div>
             ))}
           </div>
           <div class="posts_secondary">
             {allPosts.slice(0, 9).map(p => (
-              <div class="border border-neonr p-4">
+              <div class="border border-neonb p-4">
                 {p.data.title}
               </div>
             ))}
           </div>
         </div>
       </div>
+      <div class="news_ticker_b h-4 py-4 flex items-center justify-center text-neonr uppercase bg-neonb ">Latest posts</div>
     </div>
   </div>
 </CyberpunkLayout>
 
 <style>
-  /* Calculate animation duration based on number of items */
+
+  .fancy_news_ticker {
+    clip-path: polygon(
+        20px 0%,
+        98px 0%,
+        91px 100%,
+        10px 100%
+      );
+
+      background: repeating-linear-gradient(    135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
+  }
+  .news_ticker {
+    clip-path: polygon(
+        10px 0%,
+        calc(100% - 30px) 0%,
+        calc(100% - 30px) 15px,
+        calc(100% - 27px) 15px,
+        calc(100% - 27px) 0%,
+        100% 0%,
+        100% 100%,
+        0% 100%,
+        0% 23px,
+        15px 23px,
+        15px 20px,
+        0% 20px,
+        0% 10px
+      );
+  }
+
+  .news_ticker_b {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        calc(100% - 27px) 100%,
+        calc(100% - 27px) calc(100% - 15px),
+        calc(100% - 30px) calc(100% - 15px),
+        calc(100% - 30px) 100%,
+        10px 100%,
+        0% calc(100% - 10px),
+        0% calc(100% - 20px),
+        15px calc(100% - 20px),
+        15px calc(100% - 23px),
+        0% calc(100% - 23px)
+    );
+  }
+  
   .posts_container {
-    animation: smoothScroll 20s linear infinite;
+    animation: smoothScroll 30s linear infinite;
     will-change: transform;
 
   }

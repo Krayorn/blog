@@ -6,6 +6,7 @@ export default {
 			colors: {
 				neony: "#ffdb4b",
 				neonr: "#d9453f",
+				neonb: "#07f0ff",
 				red: "#7c2626",
 				dark: "#071016",
 			},
