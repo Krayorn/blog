@@ -80,17 +80,70 @@ const tabsData = [
   },
 ]
 
+import { getPosts } from '../utils/blog';
+
+const shuffle = (array) => { 
+  for (let i = array.length - 1; i > 0; i--) { 
+    const j = Math.floor(Math.random() * (i + 1)); 
+    [array[i], array[j]] = [array[j], array[i]]; 
+  } 
+  return array; 
+}; 
+
+const allPosts = shuffle(await getPosts());
+
 ---
-<CyberpunkLayout seoProps={seoProps} >
-  <div class="tabs" >
-    <CyberTabs data={tabsData} client:load />
+<CyberpunkLayout seoProps={seoProps}>
+  <div class="flex w-full mt-[100px]">
+    <CyberTabs className="ml-16 w-2/3" data={tabsData} client:load />
+    <div class="w-1/6 ml-auto h-[500px]">
+      <div class="h-4 mb-8 text-center">Latest news</div>
+      <div class="h-full relative overflow-hidden">
+        <div class="posts_container absolute">
+          <div>
+            {allPosts.map(p => (
+              <div class="border border-neonr p-4">
+                {p.data.title}
+              </div>
+            ))}
+          </div>
+          <div class="posts_secondary">
+            {allPosts.slice(0, 9).map(p => (
+              <div class="border border-neonr p-4">
+                {p.data.title}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </CyberpunkLayout>
 
-
 <style>
-.tabs {
-  margin: 0px 10%;
-  margin-top: 100px;
-}
+  /* Calculate animation duration based on number of items */
+  .posts_container {
+    animation: smoothScroll 20s linear infinite;
+    will-change: transform;
+
+  }
+
+  .posts_secondary {
+    position: absolute;
+    top: 100%;
+  }
+
+  @keyframes smoothScroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  /* Optional: Pause on hover */
+  .posts_container:hover {
+    animation-play-state: paused;
+  }
 </style>

@@ -1,10 +1,10 @@
 import * as Tabs from "@radix-ui/react-tabs";
 import "./CyberTabs.css"
 
-const CyberTabs = ({ data }) => {
+const CyberTabs = ({ data, className }) => {
 	return (
-        <Tabs.Root className="flex tabsroot" defaultValue={data[0].title}>
-		<Tabs.List className="flex flex-col w-1/2" aria-label="Manage your account">
+        <Tabs.Root className={`${className} flex`} defaultValue={data[0].title}>
+		<Tabs.List className="flex flex-col w-1/2 w-min-[304px] " aria-label="Manage your account">
 			{data.map(tab => (
 				<Tabs.Trigger key={tab.title} value={tab.title} className="tabTrigger relative mt-4" >
 				{
@@ -40,7 +40,7 @@ const CyberTabs = ({ data }) => {
 			))}
 		</Tabs.List>
 		{data.map(tab => (
-			<Tabs.Content className="w-1/3" key={tab.title} value={tab.title}>
+			<Tabs.Content  className="w-1/2" key={tab.title} value={tab.title}>
 				<h2 className="uppercase text-neonr glow-text border-b pb-2 border-neonr/[.3]" >{tab.title}</h2>
 				{
 					tab.tasks && tab.tasks.length > 0
