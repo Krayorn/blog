@@ -98,7 +98,7 @@ const allPosts = shuffle(await getPosts());
     <CyberTabs className="ml-16 w-2/3" data={tabsData} client:load />
     <div class="w-1/6 ml-auto h-[500px]">
       <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
-      <div class="news_ticker h-4 py-4 flex items-center justify-center text-neonr uppercase bg-neonb ">Latest posts</div>
+      <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
       <div class="h-full relative overflow-hidden">
         <div class="posts_container absolute">
           <div>
@@ -117,7 +117,7 @@ const allPosts = shuffle(await getPosts());
           </div>
         </div>
       </div>
-      <div class="news_ticker_b h-4 py-4 flex items-center justify-center text-neonr uppercase bg-neonb ">Latest posts</div>
+      <div class="news_ticker_b font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
     </div>
   </div>
 </CyberpunkLayout>
@@ -132,7 +132,7 @@ const allPosts = shuffle(await getPosts());
         10px 100%
       );
 
-      background: repeating-linear-gradient(    135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
+      background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
   }
   .news_ticker {
     clip-path: polygon(
