@@ -33,7 +33,7 @@ const CyberTabs = ({ data, className }) => {
 							<span>{tab.title}</span>
 							<span className="text-neony text-sm" >Status: {tab.status}</span>
 						</div>
-						<div className="hidden highlight ml-auto h-full w-4 shadow-neon bg-neony" ></div>
+						<div className="highlight hidden ml-auto h-full w-4 shadow-neon bg-neony" ></div>
 					</div>
 				</div>
 				</Tabs.Trigger>
@@ -46,7 +46,7 @@ const CyberTabs = ({ data, className }) => {
 					tab.tasks && tab.tasks.length > 0
 					? tab.tasks.map(task => {
 						return (
-							<div className="uppercase flex items-center" >
+							<div  key={task.name} className="uppercase flex items-center" >
 								<div className={`${task.targeted ? 'bg-neony' : 'bg-neonr'} cybercheckbox min-w-[15px] w-[15px] h-[15px] relative top-[-1px]`}>
 									<div className="inner-cybercheckbox relative top-px left-px w-[13px] h-[13px] bg-dark">
 										{task.targeted && <div className="targeted-cybercheckbox relative top-px left-px w-[11px] h-[11px] bg-neony text-sm flex justify-center items-center text-black">!</div> }
@@ -61,7 +61,7 @@ const CyberTabs = ({ data, className }) => {
 					</div>
 				}
 				<div className="border-t mt-2 py-2 border-neonr/[.3] text-neonr" >
-					{tab.content.map(c => <p>{c}</p>)}
+					{tab.content.map(c => <p key={c}>{c}</p>)}
 				</div>
 			</Tabs.Content>
 		))}

@@ -13,7 +13,7 @@ const tabsData = [
   {
     title: "Krayorn's blog",
     content: [
-    "That's my website. It's a part of my identity. An aggregate that shows my tastes, my passions, my hobbies. That's where you should start to find out anything about me.",
+    "That's my website. It's a part of my  <!--identity. An aggregate that shows my tastes, my passions, my hobbies. That's where you should start to find out anything about me.",
     "That's where I started my online journey, it's a hub where you can find my social links to contact me, my blog posts and all of my other projects.",
     "See your around, edgerunner."
     ],
@@ -94,8 +94,15 @@ const allPosts = shuffle(await getPosts());
 
 ---
 <CyberpunkLayout seoProps={seoProps}>
-  <div class="flex w-full mt-[100px]">
-    <CyberTabs className="ml-16 w-2/3" data={tabsData} client:load />
+  <div class="header header-shadow mx-auto w-[300px]" >
+    <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[300px] flex justify-center pt-4 pb-6">
+      <a class="mx-4" href="/">Home</a>
+      <a class="mx-4" href="/posts/">Blog</a>
+      <a class="mx-4" href="/tags/">Tags</a>
+    </nav>
+  </div>
+  <div class="z-10 flex w-full mt-[100px]">
+    <CyberTabs className="ml-16 w-2/3" data={tabsData ?? []} client:load />
     <div class="w-1/6 ml-auto h-[500px]">
       <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
       <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
@@ -123,6 +130,34 @@ const allPosts = shuffle(await getPosts());
 </CyberpunkLayout>
 
 <style>
+
+  .header-shadow {
+    box-shadow: inset 0px 10px 300px 0 #ffdb4b;
+  }
+
+  .header {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        260px calc(100% - 10px),
+        240px calc(100% - 10px),
+      
+        /* dent in and out */
+        235px calc(100% - 15px), 
+        215px calc(100% - 15px),
+        205px calc(100% - 5px),
+        185px calc(100% - 5px),
+        180px calc(100% - 10px),
+
+        /* triangle */
+        115px calc(100% - 10px),
+        105px 100%,
+        85px calc(100% - 20px),
+        75px calc(100% - 10px),
+
+        40px calc(100% - 10px)
+      );
+  }
 
   .fancy_news_ticker {
     clip-path: polygon(

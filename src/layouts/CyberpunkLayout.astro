@@ -27,7 +27,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     />
     <slot name="head" />
   </head>
-  <body class="h-full min-h-screen bg-dark" >
+  <body class="h-full min-h-screen bg-black" >
+      <!-- <div class="bg-img" ></div> -->
       <slot />
   </body>
 </html>
@@ -35,5 +36,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <style is:global >
   body {
     font-family: "Rajdhani", sans-serif;
+
+    /* background: black;
+    background-image: radial-gradient(#ffdb4b 1px, transparent 0);
+    background-size: 100px 100px;
+    background-position: -19px -19px; */
+
   }
+  /* .bg-img {
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    position: absolute;
+    background-image: url(../../public/bg.png);
+    filter: blur(20px) grayscale(60%);
+  } */
 </style>
