@@ -1,0 +1,78 @@
+
+.outer-border {
+    clip-path: polygon(
+        0% 0%,      /* Top left */
+        52px 0%,
+        57px 5px,
+        100% 5px,      /* Top right */
+        100% 54px,    /* start bottom right angle */
+        289px 100%,    /*  finish bottom right angle */
+        0% 100%,       /* Bottom left */
+        0% 51px,
+        1px 50px,
+        1px 35px,
+        0% 34px
+        );
+}
+
+.inner-border {
+    clip-path: polygon(
+        0% 0%,
+        50px 0%,
+        55px 5px,      
+        100% 5px,      
+        100% 50px,    
+        285px 100%,   
+        0% 100%,
+        0% 51px,
+        1px 50px,
+        1px 35px,
+        0% 34px
+    );
+} 
+
+.cybercheckbox {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        7px 100%,
+        0% 8px
+    );
+}
+
+.inner-cybercheckbox {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        6px 100%,
+        0% 7px
+    );
+}
+
+.targeted-cybercheckbox {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        5px 100%,
+        0% 6px
+    );  
+}
+
+
+.no_tasks {
+    background: repeating-linear-gradient(    45deg,    #071016,    #d9453f 3px,    #071016 6px,    #071016 9px);
+}
+
+.tabTrigger[data-state="active"] .highlight {
+    display: block;
+}
+
+.glow-text {
+    color: #d9453f;
+    text-shadow:
+      0 0 1px #d9453f,
+      0 0 10px #d9453f;
+}

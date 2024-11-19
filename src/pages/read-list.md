@@ -9,6 +9,17 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+
+## 11-11-2024
+
+Really good perspective on data in software: [Make it ephemeral](https://lucumr.pocoo.org/2024/10/30/make-it-ephemeral/).
+
+## 28-10-2024
+
+My introduction to DuckDB, such a cool tool: [Astro + DuckDB](https://shayy.org/posts/astro-duckdb)! 
+
+On performance: [always measure one level deeper](https://cacm.acm.org/research/always-measure-one-level-deeper/).
+
 ## 16-09-2024
 
 How we trick ourselves into not progressing towards our goals: [Do the real thing](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/).

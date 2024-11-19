@@ -1,8 +1,6 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
-
-import { getPosts } from '../utils/blog';
+import CyberpunkLayout from '../layouts/CyberpunkLayout.astro';
+import CyberTabs from '../components/Cyberpunk/CyberTabs.jsx'
 
 const pageTitle = "Krayorn's Blog";
 const pageDescription = "A blog containing my thoughts and reflections on AI, Software, Board Games and whatever else finds it's way in my mind.";
@@ -11,31 +9,224 @@ const seoProps = {
   pageDescription: pageDescription,
 }
 
-const allPosts = await getPosts();
----
-<BaseLayout seoProps={seoProps}>
-<section>
-  Here's a list of all my blog posts! If you liked one of them, or did not, if it made you think, 
-  if there's a typo that drove you crazy, if you want to ask some questions, or give me some feedback, or if you just want to chat, shoot me an email at <a href="mailto:me@krayorn.com" target="_blank">me@krayorn.com</a> 
-  or send me a message on <a href={`https://www.twitter.com/krayorn`}>Twitter/X</a> ! I'd be thrilled to read it !
-</section>
-<ul>
-    {allPosts.sort((a, b) => b.data.pubDate > a.data.pubDate ? 1 : -1).map((post) => <BlogPost tags={post.data.tags} description={post.data.description} url={`/posts/${post.data.perma != undefined ? post.data.perma : post.slug}/`} title={post.data.title} pubDate={post.data.pubDate} />)}
-</ul>
-</BaseLayout>
+const tabsData = [
+  {
+    title: "Krayorn's blog",
+    content: [
+    "That's my website. It's a part of my  <!--identity. An aggregate that shows my tastes, my passions, my hobbies. That's where you should start to find out anything about me.",
+    "That's where I started my online journey, it's a hub where you can find my social links to contact me, my blog posts and all of my other projects.",
+    "See your around, edgerunner."
+    ],
+    kind: "web",
+    status: "live",
+    tasks: [
+      {name: "Transform the blog with a Cyberpunk theme", targeted: true},
+    ]
+  },  
+  {
+    title: "DonkeyCarrot",
+    content: [
+      "This is the first app I made. And the first time I earned money by selling something online. It's a little silly, but this app tracks your daily income in your macOs menu bar.",
+      "Enter your daily wage, your work schedule, and it will increase durig the day, with an occasional animation every time you earn a certain amount."
+    ],
+    kind: "app",
+    status: "in progress",
+    tasks: [
+      {name: "Complete the landing page", targeted: true},
+      {name: "Aggressive marketing on Instagram && Tiktok", targeted: false},
+    ]
+  },
+  {
+    title: "bg-log",
+    content: [
+      "The first 'big project' I worked on. The target is to use it to log every time I play some board game, enter some details and then get some fun statistics.",
+      "You can customize what you want to track so it's compatible with every board game, see with whom you play and if one of your friend always uses the same character."
 
+    ],
+    tasks: [
+      {name: "UX redesign to encourage the use of the app"}
+    ],
+    kind: "web",
+    status: "paused"
+  },
+  {
+    title: "Algorithm arena",
+    content: [
+      "I've participated in a lot of online challenges. One of them was the Algorithm Arena. Every week, a prize pool and a small challenge.",
+      "I've participated quite a lot and you can find all my submissions on here."
+    ],
+    kind: "contest",
+    status: "completed"
+  },
+  {
+    title: "Scotland diary",
+    content: [
+      "I made a website with my partner after our trip to scotland. It's kind of a diary with our commentary, some locations and a recap of what we did there.",
+      "A good way to recall our experience."
+    ],
+    kind: "web",
+    status: "completed"
+  },
+  {
+    title: "Dwarf Clicker",
+    content: [
+      "I got hooked on the game Universal Paperclip for a week and decided that I wanted to make a similar idle click game."
+    ],
+    tasks: [
+      {name: "Add the second 'level'"}
+    ],
+    kind: "web",
+    status: "paused"
+  },
+]
+
+import { getPosts } from '../utils/blog';
+
+const shuffle = (array) => { 
+  for (let i = array.length - 1; i > 0; i--) { 
+    const j = Math.floor(Math.random() * (i + 1)); 
+    [array[i], array[j]] = [array[j], array[i]]; 
+  } 
+  return array; 
+}; 
+
+const allPosts = shuffle(await getPosts());
+
+---
+<CyberpunkLayout seoProps={seoProps}>
+  <div class="header header-shadow mx-auto w-[300px]" >
+    <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[300px] flex justify-center pt-4 pb-6">
+      <a class="mx-4" href="/">Home</a>
+      <a class="mx-4" href="/posts/">Blog</a>
+      <a class="mx-4" href="/tags/">Tags</a>
+    </nav>
+  </div>
+  <div class="z-10 flex w-full mt-[100px]">
+    <CyberTabs className="ml-16 w-2/3" data={tabsData ?? []} client:load />
+    <div class="w-1/6 ml-auto h-[500px]">
+      <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
+      <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
+      <div class="h-full relative overflow-hidden">
+        <div class="posts_container absolute">
+          <div>
+            {allPosts.map(p => (
+              <div class="border border-neonb p-4">
+                {p.data.title}
+              </div>
+            ))}
+          </div>
+          <div class="posts_secondary">
+            {allPosts.slice(0, 9).map(p => (
+              <div class="border border-neonb p-4">
+                {p.data.title}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="news_ticker_b font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
+    </div>
+  </div>
+</CyberpunkLayout>
 
 <style>
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  a {
-    color: #6d48ab;
+
+  .header-shadow {
+    box-shadow: inset 0px 10px 300px 0 #ffdb4b;
   }
 
-  html.dark a {
-    color: #21c382;
+  .header {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        260px calc(100% - 10px),
+        240px calc(100% - 10px),
+      
+        /* dent in and out */
+        235px calc(100% - 15px), 
+        215px calc(100% - 15px),
+        205px calc(100% - 5px),
+        185px calc(100% - 5px),
+        180px calc(100% - 10px),
+
+        /* triangle */
+        115px calc(100% - 10px),
+        105px 100%,
+        85px calc(100% - 20px),
+        75px calc(100% - 10px),
+
+        40px calc(100% - 10px)
+      );
   }
 
+  .fancy_news_ticker {
+    clip-path: polygon(
+        20px 0%,
+        98px 0%,
+        91px 100%,
+        10px 100%
+      );
+
+      background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
+  }
+  .news_ticker {
+    clip-path: polygon(
+        10px 0%,
+        calc(100% - 30px) 0%,
+        calc(100% - 30px) 15px,
+        calc(100% - 27px) 15px,
+        calc(100% - 27px) 0%,
+        100% 0%,
+        100% 100%,
+        0% 100%,
+        0% 23px,
+        15px 23px,
+        15px 20px,
+        0% 20px,
+        0% 10px
+      );
+  }
+
+  .news_ticker_b {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        calc(100% - 27px) 100%,
+        calc(100% - 27px) calc(100% - 15px),
+        calc(100% - 30px) calc(100% - 15px),
+        calc(100% - 30px) 100%,
+        10px 100%,
+        0% calc(100% - 10px),
+        0% calc(100% - 20px),
+        15px calc(100% - 20px),
+        15px calc(100% - 23px),
+        0% calc(100% - 23px)
+    );
+  }
+  
+  .posts_container {
+    animation: smoothScroll 30s linear infinite;
+    will-change: transform;
+
+  }
+
+  .posts_secondary {
+    position: absolute;
+    top: 100%;
+  }
+
+  @keyframes smoothScroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  /* Optional: Pause on hover */
+  .posts_container:hover {
+    animation-play-state: paused;
+  }
 </style>

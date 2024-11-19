@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,18 +32,10 @@
 }
 
 html {
-    background-color: #f1f5f9;
-    font-family: sans-serif;
-  }
-  
-  html.dark {
     background-color: #1f1c1c;
     color: #fff;
-  }
-  
-  .dark .nav-links a {
-    color: #fff;
-  }
+    font-family: sans-serif;
+}
 
   body {
     margin: 0 auto;
@@ -62,16 +56,17 @@ html {
 
   
   blockquote {
-    background: #f1f5f9;
-    border-left: 10px solid #6d48ab;
+    background: #1f1c1c;
+    border-left: 10px solid #21c382;
+    filter: brightness(150%);
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-    filter: brightness(90%);
+    filter: brightness(150%);
   }
 
   blockquote:before {
-    color: #6d48ab;
+    color: #21c382;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -81,18 +76,6 @@ html {
 
   blockquote p {
     display: inline;
-  }
-
-  .dark {
-    blockquote {
-      background: #1f1c1c;
-      border-left: 10px solid #21c382;
-      filter: brightness(150%);
-    }
-  
-    blockquote:before {
-      color: #21c382;
-    }
   }
 
   main {
@@ -109,12 +92,9 @@ html {
   }
 
   .article a {
-    color: #6d48ab;
-  }
-
-  html.dark .article a {
     color: #21c382;
   }
+
 
   .img {
     width: 100%;

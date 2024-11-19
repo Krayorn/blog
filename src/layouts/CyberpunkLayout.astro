@@ -1,0 +1,54 @@
+---
+import { SEO } from "astro-seo";
+
+import '../styles/global.css';
+
+const { seoProps } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <SEO
+      canonical={canonicalURL}
+      description={seoProps.pageDescription}
+      title={seoProps.pageTitle}
+      twitter={{
+        card: "summary_large_image",
+        creator: "@Krayorn",
+        title: seoProps.pageTitle,
+        description: seoProps.pageDescription,
+      }}
+      openGraph={seoProps.OG ?? null},
+    />
+    <slot name="head" />
+  </head>
+  <body class="h-full min-h-screen bg-black" >
+      <!-- <div class="bg-img" ></div> -->
+      <slot />
+  </body>
+</html>
+
+<style is:global >
+  body {
+    font-family: "Rajdhani", sans-serif;
+
+    /* background: black;
+    background-image: radial-gradient(#ffdb4b 1px, transparent 0);
+    background-size: 100px 100px;
+    background-position: -19px -19px; */
+
+  }
+  /* .bg-img {
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    position: absolute;
+    background-image: url(../../public/bg.png);
+    filter: blur(20px) grayscale(60%);
+  } */
+</style>
