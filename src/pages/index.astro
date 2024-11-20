@@ -94,32 +94,33 @@ const allPosts = shuffle(await getPosts());
 
 ---
 <CyberpunkLayout seoProps={seoProps}>
-  <div class="header header-shadow mx-auto w-[300px]" >
-    <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[300px] flex justify-center pt-4 pb-6">
-      <a class="mx-4" href="/">Home</a>
-      <a class="mx-4" href="/posts/">Blog</a>
-      <a class="mx-4" href="/tags/">Tags</a>
+  <div class="header header-shadow mx-auto w-[500px]" >
+    <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[500px] flex justify-center pt-4 pb-6">
+      <a class="mx-6 no-underline font-bold" href="/">Home</a>
+      <a class="mx-6 no-underline" href="/posts/">Blog</a>
+      <a class="mx-6 no-underline" href="/tags/">Tags</a>
+      <a class="mx-6 no-underline" href="/readlist/">Readlist</a>
     </nav>
   </div>
   <div class="z-10 flex w-full mt-[100px]">
     <CyberTabs className="ml-16 w-2/3" data={tabsData ?? []} client:load />
-    <div class="w-1/6 ml-auto h-[500px]">
+    <div class="mr-16 w-1/6 ml-auto h-[500px]">
       <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
       <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
-      <div class="h-full relative overflow-hidden">
+      <div class="h-full relative overflow-hidden border-neonb border-r">
         <div class="posts_container absolute">
-          <div>
+          <div class="flex flex-col" >
             {allPosts.map(p => (
-              <div class="border border-neonb p-4">
+              <a href={`/posts/${p.slug}/`} class="no-underline border border-neonb p-4">
                 {p.data.title}
-              </div>
+              </a>
             ))}
           </div>
-          <div class="posts_secondary">
+          <div class="posts_secondary flex flex-col">
             {allPosts.slice(0, 9).map(p => (
-              <div class="border border-neonb p-4">
+              <a href={`/posts/${p.slug}/`} class="no-underline border border-neonb p-4">
                 {p.data.title}
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -139,10 +140,19 @@ const allPosts = shuffle(await getPosts());
     clip-path: polygon(
         0% 0%,
         100% 0%,
-        260px calc(100% - 10px),
-        240px calc(100% - 10px),
-      
+        460px calc(100% - 10px),
+
         /* dent in and out */
+        440px calc(100% - 10px),      
+        435px calc(100% - 20px), 
+        415px calc(100% - 20px),
+        405px calc(100% - 15px),
+        385px calc(100% - 15px),
+        380px calc(100% - 10px),
+
+
+        /* dent in and out */
+        240px calc(100% - 10px),      
         235px calc(100% - 15px), 
         215px calc(100% - 15px),
         205px calc(100% - 5px),
@@ -169,6 +179,11 @@ const allPosts = shuffle(await getPosts());
 
       background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
   }
+  .fancy_news_ticker_2 {
+      background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
+  }
+
+
   .news_ticker {
     clip-path: polygon(
         10px 0%,
