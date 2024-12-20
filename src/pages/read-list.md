@@ -10,6 +10,18 @@ tags: []
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
 
+## 15-12-2024
+
+
+Good analysis on the state of software, with plenty of good other links: [Nothing works](https://danluu.com/nothing-works/)
+
+On migrating and moving forward, always good to read: 
+    - https://swizec.com/blog/why-software-only-moves-forward/
+    - https://swizec.com/blog/you-can-t-stop-the-business-or-why-rewrites-fail/
+
+[How to ship](https://www.seangoedecke.com/how-to-ship/)
+
+
 ## 11-11-2024
 
 Really good perspective on data in software: [Make it ephemeral](https://lucumr.pocoo.org/2024/10/30/make-it-ephemeral/).
