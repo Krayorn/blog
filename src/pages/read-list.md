@@ -9,9 +9,28 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 10-02-2025
+
+[How to send progress updates](https://www.spakhm.com/updates-howto).
+
+[A visual look at 2 million chess games](https://blog.ebemunk.com/a-visual-look-at-2-million-chess-games/).
+
+[Why blog if nobody reads it](https://andysblog.uk/why-blog-if-nobody-reads-it/).
+[Why your blog post didn't go viral](https://andysblog.uk/why-your-blog-post-didnt-go-viral/).
+
+[What makes strong engineers strong](https://www.seangoedecke.com/what-makes-strong-engineers-strong/).
+
+[How I program with LLMs](https://crawshaw.io/blog/programming-with-llms).
+
+## 03-02-2025
+
+[Cognitive load is what matters](https://minds.md/zakirullin/cognitive).
+
+[Speed matters](https://www.scattered-thoughts.net/writing/speed-matters/) (the whole series is great).
+
+[There is no speed limit](https://sive.rs/kimo).
 
 ## 15-12-2024
-
 
 Good analysis on the state of software, with plenty of good other links: [Nothing works](https://danluu.com/nothing-works/)
 
