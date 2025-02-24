@@ -9,6 +9,21 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+<!-- ## 22-02-2025 -->
+
+## 17-02-2025
+
+Some interestings thoughts and I think somewhat useful stuff to know: [Building effective agents](https://www.anthropic.com/research/building-effective-agents).
+
+> Nothing great was ever created from a playbook. 
+> Playbooks are the death of creativity and joy.
+
+[Burn the playbooks](https://www.notboring.co/p/burn-the-playbooks).
+
+Quick and fun: [Bullshit ratio](https://www.spakhm.com/bullshit-ratio).
+
+Shipping in a different way with [Headline driven development](https://www.spakhm.com/headline-development).
+
 ## 10-02-2025
 
 [How to send progress updates](https://www.spakhm.com/updates-howto).
