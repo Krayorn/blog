@@ -14,7 +14,7 @@ Last week I read these two blog posts: [Why blog if nobody reads it](https://and
 
 I then realized that my last post on this blog was more than 3 months ago and I kicked myself a little.
 
-I then took a page out of the levelsio book, and publicly tweeted that I would send 30€ to a friend of mine if I didn't have a blog spot online by the end of the month. 
+I then took a page out of the levelsio book, and publicly tweeted that I would send 30€ to a friend of mine if I didn't have a blog post online by the end of the month. 
 
 As I'm writing these words, we're the 28th of february and there is no leap day to buy me an extra 24 hours.
 
