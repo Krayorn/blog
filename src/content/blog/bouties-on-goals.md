@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/MarkdownPostLayout.astro
 title: Putting bounties on my goals
 description: 
 pubDate: 2025-02-28
