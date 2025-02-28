@@ -1,11 +1,11 @@
 ---
 title: Putting bounties on my goals
-description: 
+description: Sending 30€ to my friend if I didn't post on my blog this month.
 pubDate: 2025-02-28
 updateDate: 2025-02-28
-tags:
-  - blogging
+tags: ["blogging"]
 ---
+
 Writing this is saving me 30 bucks.
 
 Last week I read these two blog posts: [Why blog if nobody reads it](https://andysblog.uk/why-blog-if-nobody-reads-it/) and [Why your blog post didn't go viral](https://andysblog.uk/why-your-blog-post-didnt-go-viral/) and really liked this quote from the second one:
