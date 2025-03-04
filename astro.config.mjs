@@ -13,5 +13,8 @@ export default defineConfig({
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],
+  },
+  redirects: {
+    '/posts/bouties-on-goals/': '/posts/bounties-on-goals/',
   }
 });
