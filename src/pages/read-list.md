@@ -9,16 +9,15 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
-<!-- ## 22-02-2025 -->
+## 22-02-2025
+
+This is a collection of [short stories](https://beza1e1.tuxen.de/lore/index.html) about the weirdest bugs description encountered by multiple devs.
+
+Two posts on deploying LLMs in prod: [Building effectives agents](https://www.anthropic.com/research/building-effective-agents) and [Applied LLMs](https://applied-llms.org/).
 
 ## 17-02-2025
 
 Some interestings thoughts and I think somewhat useful stuff to know: [Building effective agents](https://www.anthropic.com/research/building-effective-agents).
-
-> Nothing great was ever created from a playbook. 
-> Playbooks are the death of creativity and joy.
-
-[Burn the playbooks](https://www.notboring.co/p/burn-the-playbooks).
 
 Quick and fun: [Bullshit ratio](https://www.spakhm.com/bullshit-ratio).
 
