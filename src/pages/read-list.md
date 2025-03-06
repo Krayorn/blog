@@ -9,6 +9,19 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+## 03-03-2025
+
+[The difference between Want vs Want now](https://www.spakhm.com/wantnow).
+
+[On Ugly code](https://lucumr.pocoo.org/2025/2/20/ugly-code/).
+
+[PRs over design docs](https://softwaredoug.com/blog/2024/12/14/throwaway-prs-not-design-docs).
+
+[Do hard things](https://writing.nikunjk.com/p/do-hard-things).
+
+[The three clues rule in Role Playing Games](https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule).
+
+
 ## 22-02-2025
 
 This is a collection of [short stories](https://beza1e1.tuxen.de/lore/index.html) about the weirdest bugs description encountered by multiple devs.
