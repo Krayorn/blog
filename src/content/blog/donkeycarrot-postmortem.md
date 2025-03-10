@@ -39,12 +39,16 @@ This is quite cool, it's our first internet money. But let's get real for a sec,
 
 ## Where did we get our sales ? analysis by vibe
 
-I didn't track every sale made, but got some general idea about which platforms brought what (promo code and referrer for the win).
+I didn't track every sale made, but got some general idea about which platforms brought what (promo code and referrer based tracking).
 
 Youtube: 1 sale
+
 Linkedin: 3 sales
+
 BlackFriday deal repositories:  3 sales
+
 Twitter: 4 sales (2 from launch tweet, and 2 by submitting it in a relevant convo)
+
 Reddit: 7 sales (4 from launch, 3 other when one user recommended our app in another post!)
 
 Reddit did the best with just a single post (that had very few upvotes!) whereas I spoke about the app a lot on twitter or linkedin and it really did not stick at all.
@@ -97,5 +101,5 @@ As mentioned earlier, I'd redesign the landing page a bit, a few hours should be
 
 ## Final thoughts
 
-To conclude on some happier words, launching DonkeyCarrot was super fun. We learned a lot, we did some silly things, and we created something and put it there. We may not have had an outstanding return on that, but that was the first try, and I can't wait to work on the next project!
+To conclude on some happier words, launching DonkeyCarrot was super fun. We learned a lot, we did some silly things, and we created something and put it out there. We may not have had an outstanding return on that, but that was the first try, and I can't wait to work on the next project!
 And we already have a few ideas ;).
