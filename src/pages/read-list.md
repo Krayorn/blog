@@ -9,7 +9,21 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 10-03-2025
+
+[Every line is a potential bug](https://www.teamten.com/lawrence/writings/every_line_is_a_potential_bug.html)
+
+[How venture capital works](https://techcrunch.com/2022/08/17/how-venture-capital-works/)
+
+[Artifical intelligence revolutin](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+
+[Build it yourself](https://lucumr.pocoo.org/2025/1/24/build-it-yourself/)
+
+[How to create ennemies NPCS in the Warhammer RPG: example with trolls ](https://lawhammer.blogspot.com/2020/01/trolls-trolls-trolls-trolls.html?m=1)
+
 ## 03-03-2025
+
+[B-trees and databases indexes](https://planetscale.com/blog/btrees-and-database-indexes)
 
 [The difference between Want vs Want now](https://www.spakhm.com/wantnow).
 
