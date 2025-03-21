@@ -9,6 +9,24 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 17-03-25
+
+[Some programming opinions](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/) by Thorsten Ball, it's really good stuff.
+
+[Latency of IO devices visualized](https://planetscale.com/blog/io-devices-and-latency).
+
+[If your product is great, it does not need to be good](https://www.founderstribune.org/p/if-your-product-is-great-it-doesn-t-need-to-be-good-by-paul-buchheit).
+
+This post on AI was interesting: [Is it okay](https://www.robinsloan.com/lab/is-it-okay/)
+And I really enjoyed reading the whole discussion it created with this [response](https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/?utm_source=Robin_Sloan_sent_me) and the [next](https://www.robinsloan.com/lab/science-fiction/) [two](https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/).
+
+We may not get a [Scientific AI](https://thomwolf.io/blog/scientific-ai.html).
+
+an [LLM Codegen workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) detailed.
+
+[Some devs are Not Gonna Make It](https://ghuntley.com/ngmi/), not sure I agree, but always good to read conflicted opinions.
+
+
 # 10-03-2025
 
 [Every line is a potential bug](https://www.teamten.com/lawrence/writings/every_line_is_a_potential_bug.html)
