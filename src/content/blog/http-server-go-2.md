@@ -10,8 +10,9 @@ The [git repository](https://github.com/Krayorn/codecrafters-http-server-go) is 
 
 ### The first unit test
 
-Let's start by adding a unit test, I was relying on the Codecrafters test suite but now I want to have some of my own unit tests..
+Let's start by adding a unit test, I was relying on the Codecrafters test suite but now I want to have some of my own unit tests.
 
+This should mimic the first stage of the Codecrafters test suit:
 ```go
 func TestServerStart(t *testing.T) {
 	// Start the server
@@ -19,7 +20,7 @@ func TestServerStart(t *testing.T) {
 	go router.Start()
 
 	// Give the server a moment to start
-	time.Sleep(100 * time.Millisecond)
+	time.Sleep(100 * time.Millisecond) // Not the most robust, good enough to start
 
 	// Try to connect to the server
 	conn, err := net.Dial("tcp", "localhost:4221")
@@ -56,6 +57,7 @@ func (header Header) Add(key string, value string) {
 	header[strings.ToUpper(key)] = append(header[strings.ToUpper(key)], value)
 }
 ```
+Instead of using `toUpper` I could have used `textproto.CanonicalMIMEHeaderKey(s)` but it felt like cheating a bit in this "from scratch" serie, and I did not want to implement it myself today!
 
 I'm also adding a second test to check that I'm correctly parsing the request.
 ```go
@@ -92,8 +94,8 @@ func TestParseRequest(t *testing.T) {
 	if string(request.Body) != "abc" {
 		t.Errorf("Expected body %s, got %s", "abc", string(request.Body))
 	}
-}```
-
+}
+```
 
 ### Stream the response instead of sending it as a single string
 
