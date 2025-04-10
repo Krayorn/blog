@@ -9,6 +9,14 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 31-03-2025
+
+[Database sharding visualization](https://planetscale.com/blog/database-sharding).
+
+[Write blog posts developers read](https://refactoringenglish.com/chapters/write-blog-posts-developers-read/).
+
+[What to do](https://paulgraham.com/do.html).
+
 # 17-03-25
 
 [Some programming opinions](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/) by Thorsten Ball, it's really good stuff.
