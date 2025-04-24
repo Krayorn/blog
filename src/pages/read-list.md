@@ -9,6 +9,28 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 21-04-2025
+
+[Career advice for 2025](https://lethain.com/career-advice-2025/).
+
+[Using LLMs for code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/).
+
+# 14-04-2025
+
+Some traits shared by the [Best programmers](https://endler.dev/2025/best-programmers/).
+
+[Why hire AI engineers](https://incident.io/blog/why-hire-ai-engineers).
+
+[Fallacies of code generation](https://olano.dev/blog/fallacies-of-code-generation/).
+
+# 07-04-2025
+
+[70% is good enough](https://ckarchive.com/b/wvu2hghk5m82zf9r552rqtn34kzxxc8).
+
+[The case against conversational interfaces](https://julian.digital/2025/03/27/the-case-against-conversational-interfaces/).
+
+[AI and Esoteric Fascism](https://www.baldurbjarnason.com/2025/esoteric-fascism/).
+
 # 31-03-2025
 
 [Database sharding visualization](https://planetscale.com/blog/database-sharding).
