@@ -18,7 +18,7 @@ As a player I've mostly done:
 
 As a DM I did:
 - An ongoing witcher campaign ~10 or so sessions in
-- Started a Warhammer fantasy short adventure (1 session done out of two)
+- A Warhammer fantasy short adventure (2 sessions)
 - Witcher One shots
 - D&D one shots
 - some murder mystery games without any rule system

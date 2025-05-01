@@ -2,7 +2,7 @@
 title: 'Im afraid of publishing my best posts.'
 description: 'My best posts are sitting in my draft folder, untouched.'
 pubDate: 2025-05-01
-tags: ["writing"]
+tags: ["blogging"]
 ---
 
 I have three files in my draft folder with only a few lines written. I know those could well be my best blog posts if I stopped being scared long enough to finish them. 
