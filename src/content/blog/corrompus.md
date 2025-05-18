@@ -11,7 +11,7 @@ Tallion laissait son regard suivre les collines et le soleil couchant de la rég
 Charles aurait pu se faire passer pour un chevalier, mais son bouclier sans héraldique et les veines aux couleurs changeantes qu'on voyait remonter au niveau de son cou, au dessus de son armure, le trahissaient. Il s'agissait bien d'un corrompu.
 Pierrot, à côté, ne laissait aucune place au doute, il était immense et ses vêtements déchirés laissaient voir une pilosité presque animale sur son corps ainsi que de terribles cicatrices qui aurait laissé un humain sur une civière ou dans un cimetière.
 
-Cela faisait bien longtemps que Tallion ne s'était pas retrouvé avec d'autres corrompus. Il n'était pas difficile de réaliser qu'ils ne seraient pas bien reçus en arrivant à Vareshiben. De son côté, même s'il essayait de bien se présenter pour ne pas effrayer les gens, ses yeux dorés et ses tatouages révélaient sa véritable nature. Et avec deux épées a la ceinture et son armure de cuir clouté, il n'inspirait pas confiance non plus.
+Cela faisait bien longtemps que Tallion ne s'était pas retrouvé avec d'autres corrompus. Il n'était pas difficile de réaliser qu'ils ne seraient pas bien reçus en arrivant à Vareshiben. De son côté, même s'il essayait de bien se présenter pour ne pas effrayer les gens, ses yeux dorés et ses tatouages révélaient sa véritable nature. Avec deux épées à la ceinture et son armure de cuir clouté, il n'inspirait pas confiance non plus.
 
 Leur employeur, Phébastien III, les avait chargés de récupérer la couronne de Pharon, une relique permettant supposément d'exaucer tous les voeux de son porteur. Tallion n'en croyait pas un mot, mais Phébastien payait, et il payait bien en plus. Il n'y avait réellement que deux petits soucis : le premier, c'est que du groupe de cinq hommes envoyés par Phébastien pour récupérer la couronne la dernière fois, seulement un était revenu, et trop traumatisé pour raconter quoi que ce soit. Le deuxième, c'est que la crypte où devrait se trouver la couronne était dans les terres de Roland le Borgne, un grand opposant de Phébastien, qui ne tolérerait pas que ce dernier envoie des corrompus dans son comté.
 
@@ -48,7 +48,7 @@ Le gamin ne manquait pas de cran, ça, c'était clair.
 À contrecoeur, Charles laissa le fanfaron et vint s'installer à côté de Tallion. Quelques instants plus tard, Pierrot entra à son tour dans la taverne et se dirigea vers eux dès qu'il les aperçut. Le même jeune rebelle cracha de nouveau aux pieds du géant, qui rugit immédiatement à quelques centimètres de sa tête, révélant des dents acérées qui aurait fait envie à un loup. Le jeune blêmit et ne dit pas un mot, s'accrochant à sa chaise pour ne pas en tomber.
 Pierrot rejoignit les deux autres corrompus et rendit son savon à Charles, noir de saleté et plein de poils.
 
-- Et voilà, messieurs. 
+- Et voilà, messieurs.
 Le tavernier venait de leur apporter trois pintes de bières.
 - Vous prendrez tous les trois le ragoût ? 
 Les voyant acquiescer, il continua :
@@ -146,17 +146,17 @@ Du sang se mis à couler des cicatrices de Pierrot qui envoya une nuée de mouch
 
 Tallion frappait de tous côtés, ouvrant des plaies béantes dans les chairs putréfiés. Les zombies tombaient, puis se relevaient avec lenteur et maladresse, mais malgré leur acharnement, il se fraya un chemin jusqu'au géant. Il planta son épée à plusieurs reprise dans la masse imposante de son adversaire, mais rien n'y faisait. Il bondit en arrière pour éviter un violent revers de bras, et dans le même élan, décapita un zombie qui s'approchait sur son flanc. Il s'aperçut avec satisfaction que la créature ne se relevait pas.
 
-Charles s'était repris, les têtes des zombies qui l'assaillait explosaient sous ses coups et volaient a plusieurs mètres de distance. Pierrot, quand à lui, ne ressemblait plus a un homme, ses dents et ses ongles s'étaient transformés en crocs et en griffes, et il déchiquetait les chairs comme s'il s'agissait de simple tissu.
+Charles s'était repris, les têtes des zombies qui l'assaillait explosaient sous ses coups et volaient à plusieurs mètres de distance. Pierrot, quand à lui, ne ressemblait plus à un homme, ses dents et ses ongles s'étaient transformés en crocs et en griffes, et il déchiquetait les chairs comme s'il s'agissait de simple tissu.
 
 Une grenade incendiaire explosa au pied du géant, qui commençait visiblement à faiblir. La horde de zombie, elle aussi, semblait s'amenuiser. Charles et Pierrot étaient mal en point, mais les corrompus reprenaient espoir. C'est alors que d'énormes pas résonnèrent de nouveau, hors de leur champs de vision. Un autre géant émergea des ombres, droit vers Tallion. Ce dernier esquvia de justesse les griffes du monstre, mais la masse de l'énorme mort-vivant le projeta tout de même contre une pierre tombale un peu plus loin.
 
 Charles attrapa une fiole à sa ceinture et en vida le contenu dans sa bouche. Ses veines saillantes se teintèrent d'un liquide vert, et il hurla de douleur avant de se relancer dans la mêlée avec une vigueur renouvelée.
 
-Pierrot lança un nouvel appel a la lune, puis bondit sur le géant affaibli avec uner age décuplée. la créature finit par s'effondrer sous les coups de griffes répétés du corrompu métamorphe.
+Pierrot lança un nouvel appel à la lune, puis bondit sur le géant affaibli avec une rage décuplée. la créature finit par s'effondrer sous les coups de griffes répétés du corrompu métamorphe.
 
 Le tatouage sur le bras droit de Tallion s'embrasa alors qu'il se ruait sur le second géant. Une avalanche de coups s'abbatit sur le mastodonte, qui recula sous les assauts répétés du duelliste. Charles chargea le monstre dans le dos et lui enfonça son pic de guerre dans le crâne. La créature resta figée un instant, puis s'écroula aux pieds des deux corrompus.
 
-- Pauvre paysans... Si c'était pas nous qui les avions tués, ces choses-là l'auraient fait sans aucun doute, cracha Charles en reprenant son souffle.
+- Pauvres paysans... Si c'était pas nous qui les avions tués, ces choses-là l'auraient fait sans aucun doute, cracha Charles en reprenant son souffle.
 - J'espère que c'était le dernier. On récupère la couronne de Pharon et on s'arrache. Je veux pas rester un instant de plus dans cet endroit maudit, ajouta Tallion.
 
 Le trio explora plus loin dans le cimetière et finit par trouver la crypte contenant l'objet de leur quête. Lorsqu'ils y pénétrèrent, ils virent la couronne de Pharon flotter au dessus du sol, au centre de la pièce. Pierrot s'apprêtait à la récupérer quand une grille se referma brutalement sur l'entrée de la crypte.
@@ -165,10 +165,10 @@ Un fantôme apparut soudainement :
 - Je ne pensais pas que des aventuriers arriveraient ici si tôt. Mais c'était très divertissant. Vous êtes fort, très fort, dit une voix spectrale en riant.
 - On est venu pour la couronne, Pharon. Donnes-la-nous et nous n'aurons aucune raison de te renvoyer d'où tu viens, lança Tallion.
 - Tss tsss... Mais la couronne est à vous, mes chers, vous qui êtes arrivés jusqu'ici. Cependant, je n'en ai qu'une seule, et vous êtes trois. Seul le plus fort d'entre vous  pourra s'en emparer, et je me repaîtrai de l'énergie des deux vaincus.
-- Calmez vous, les gars. Ce n'est qu'un vieux fantôme. On peut s'en sortir, dit Tallion en regardant les deux autres.
+- Calmez-vous, les gars. Ce n'est qu'un vieux fantôme. On peut s'en sortir, dit Tallion en regardant les deux autres.
 - Ouais, ou alors on fait comme il dit, répondit Pierrot avant de se métamorphoser et de se jeter sur Charles, qui lui tournait le dos.
 
-l'impact projeta le guerrier au sol, mais avant que l'homme-bête n'arrive sur lui, Charles s'était déjà relevé et bloqua le coup de griffe de Pierrot avec son bouclier.
+L'impact projeta le guerrier au sol, mais avant que l'homme-bête n'arrive sur lui, Charles s'était déjà relevé et bloqua le coup de griffe de Pierrot avec son bouclier.
 
 Le fantôme éclata de rire..
 - Je sais sur qui je parie!  
@@ -180,4 +180,4 @@ Peut-être surpris par les effets de la couronne, Pierrot ne réagit pas assez v
 
 Tallion s'était éloigné des deux autres. Il cherchait une issue, ou un moyen de régler son compte au fantôme, mais rien ne lui sautait aux yeux. Il se retourna juste à temps pour voir Pierrot lui bondir dessus et lui mordre sauvagement le bras gauche. D'un coup de pied, il se dégagea et se repositionna à quelques mètres. Charles chargea, il percuta Tallion avec son bouclier, puis frappa Pierrot d'un nouveau coup de pic.
 
-Tallion les observa tous les deux d'un oeil sombre. Sa lame s'enflamma, et les tatouages sur ces deux bras commencèrent à brillait tandis qu'il absorbait l'énergie autour de lui. Il ignorait quelle folie habitait ses compagnons, mais il savait qu'il ne serait pas de ceux qui mourraient aujourd'hui. Il se jeta sur ses anciens alliés, alors que la couronne venait se poser délicatement sur sa tête.
+Tallion les observa tous les deux d'un oeil sombre. Sa lame s'enflamma, et les tatouages sur ces deux bras commencèrent à briller tandis qu'il absorbait l'énergie autour de lui. Il ignorait quelle folie habitait ses compagnons, mais il savait qu'il ne serait pas de ceux qui mourraient aujourd'hui. Il se jeta sur ses anciens alliés, alors que la couronne venait se poser délicatement sur sa tête.
