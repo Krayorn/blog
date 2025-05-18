@@ -18,6 +18,7 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const seoProps = {
+  language: "en",
   pageTitle: `Posts tagged: ${tag}`,
   pageDescription: `A list of all the blogs posts tagged "${tag}" present in Krayorn's blog.`
 }

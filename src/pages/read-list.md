@@ -9,6 +9,22 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 05-05-2025
+
+[Knowing where your engineer salary comes from](https://www.seangoedecke.com/where-the-money-comes-from/).
+
+[Don't Call Yourself A Programmer, And Other Career Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/).
+
+
+# 28-04-2025
+
+[This reddit post fried my brain](https://posthuman.blog/this-reddit-post-fried-my-brain/).
+
+[The future is safe, effective, and absolutely unbearable](https://posthuman.blog/the-future-is-safe-effective-and-absolutely-unbearable/).
+
+[The colors of her coat](https://www.astralcodexten.com/p/the-colors-of-her-coat).
+
+
 # 21-04-2025
 
 [Career advice for 2025](https://lethain.com/career-advice-2025/).

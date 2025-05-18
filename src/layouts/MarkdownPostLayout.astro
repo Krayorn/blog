@@ -8,6 +8,7 @@ const options = { year: 'numeric', month: 'long' };
 const formattedDate = date.toLocaleString('en-US', options);
 
 const seoProps = {
+  language: frontmatter.lang ?? "en",
   pageTitle: frontmatter.title,
   pageDescription: "Article from Krayorn's blog. it's description is '" + frontmatter.description + "''. It was published on " + frontmatter.pubDate.toString().substring(0, 10) + ".",
   OG: {

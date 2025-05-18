@@ -9,6 +9,7 @@ const allPosts = await getPosts();
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
 const seoProps = {
+  language: "en",
   pageTitle: pageTitle,
   pageDescription: pageDescription,
 }
