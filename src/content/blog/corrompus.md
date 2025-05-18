@@ -9,7 +9,7 @@ lang: 'fr'
 Tallion laissait son regard suivre les collines et le soleil couchant de la région. Cela faisait maintenant quelques heures qu'ils étaient entrés dans le territoire de Roland le Borgne, et la calèche suivait difficilement la petite route montant dans la montagne. Il se retourna vers ses compagnons de voyage et les examina discrètement.
 
 Charles aurait pu se faire passer pour un chevalier, mais son bouclier sans héraldique et les veines aux couleurs changeantes qu'on voyait remonter au niveau de son cou, au dessus de son armure, le trahissaient. Il s'agissait bien d'un corrompu.
-Pierrot, à côté, ne laissait aucune place au doute, il était immense et ses vêtements déchirés laissaient voir une pilosité presque animale sur son corps ainsi que de terribles cicatrices qui aurait laissé un humain sur une civière ou dans un cimetière.
+Pierrot, à côté, ne laissait aucune place au doute, il était immense et ses vêtements déchirés laissaient voir une pilosité presque animale sur son corps ainsi que de terribles cicatrices qui aurait laissé un humain sur une civière, ou dans un cimetière.
 
 Cela faisait bien longtemps que Tallion ne s'était pas retrouvé avec d'autres corrompus. Il n'était pas difficile de réaliser qu'ils ne seraient pas bien reçus en arrivant à Vareshiben. De son côté, même s'il essayait de bien se présenter pour ne pas effrayer les gens, ses yeux dorés et ses tatouages révélaient sa véritable nature. Avec deux épées à la ceinture et son armure de cuir clouté, il n'inspirait pas confiance non plus.
 
@@ -57,7 +57,7 @@ Les voyant acquiescer, il continua :
 Le vieil homme hésita quelques instants, puis se décida :
 - Ce n'est pas le chemin le plus rapide. Ni un arrêt nécessaire. Je pense savoir ce que vous êtes vraiment venu faire, et je vous en prie: partez. Personne n'est jamais revenu de la crypte.
 - Si tu connaissais déjà la réponse, pourquoi tu poses la question, vieil homme ? Ce que nous faisons ici ne te regarde pas plus que ça. Nous partirons demain à l'aube vers l'Est et nous ne remettrons jamais les pieds ici. Ça devrait te suffire.
-- Nombreux sont les groupes d'aventuriers qui ont tenté d'explorer cette crypte. Aucun n'est jamais revenu. Il y avait cinq hommes il y a quelques temps, trois hommes avant eux, et deux corrompus encore avant. Vous ne devriez pas y aller, conclut le tavernier en retournant vers les cuisines.
+- Nombreux sont les groupes d'aventuriers qui ont tenté d'explorer cette crypte. Aucun n'est jamais revenu. Vous ne devriez pas y aller, conclut le tavernier en retournant vers les cuisines.
 
 
 Le tavernier revint un peu plus tard avec trois assiettes qu'il posa devant les corrompus. Les conversations avaient repris dans la taverne, mais plus discrètement qu'avant leur arrivée, et quelques regards se perdaient encore dans leur direction. 
@@ -68,14 +68,14 @@ Il échangea un regard avec Pierrot, qui reniflait également son assiette d'un 
 Tallion se tourna ensuite vers Charles et constata avec désespoir qui celui-ci avait déjà englouti tout le contenu de son plat, sans remarquer la moindre anomalie.
 
 Les corrompus firent disparaître leurs assiettes, puis prirent la direction de l'étage et de leur chambre. 
-Ce n'étais probablement qu'une illusion, mais Tallion était sûr que le jeune homme qui les avait provoqués les suivait du regard alors qu'ils montaient l'escalier. Et le paysan avec qui il parlait semblait dissimuler un long couteau sous sa veste.
+Ce n'était probablement qu'une illusion, mais Tallion était sûr que le jeune homme qui les avait provoqués les suivait du regard alors qu'ils montaient l'escalier. Et ses yeux devaient lui jouer des tours, mais le paysan avec qui il parlait semblait dissimuler un long couteau sous sa veste.
 
 Leur chambre était spartiate: deux lits superposés, un tapis et une fenêtre. Par précaution, Tallion posa l'une de ses deux épées sur la poignée de la porte, de façon à ce qu'elle tombe si celle-ci s'ouvrait de l'extérieur. Il garda l'autre lame bien proche de lui, dans sa couche.
 Quelque chose n'allait pas dans ce village, et Tallion eut du mal a trouver le sommeil. Il commencait enfin à sombrer petit à petit dans un repos calme et réparateur, quand un bruit sourd se fit entendre. Son épée venait de tomber au sol.
 
-Gardant les yeux fermés mais resserrant sa main sur la poignée de son épée, Tallion attendit quelques instants. Il sentit la porte s'ouvrir lentement, repoussant l'arme un peu plus loin sur le sol.
+Gardant les yeux fermés mais resserrant sa main sur la poignée de son épée, Tallion attendit quelques secondes. Il sentit la porte s'ouvrir lentement, repoussant l'arme un peu plus loin sur le sol.
 
-- Je crois que c'est bon, le poison a dû bien les assommer, chuchota une voix, se rapprochant petit a petit. Je prends celui du bas, occupe-toi de celui du haut.
+- Je crois que c'est bon, ils ont rien entendu, le poison a dû bien les assommer, chuchota une voix, se rapprochant petit a petit. Je prends celui du bas, occupe-toi de celui du haut.
 
 Tallion n'attendit pas plus. Il se propulsa hors du lit par une extrémité et se redressa, son épée pointée vers l'un des nouveaux venus. Il constata avec satisfaction que le second intrus avait la dague de Pierrot sous la gorge, et que le grand sauvage lui tenait la tête fermement.
 
@@ -101,7 +101,7 @@ Il se leva et vérifia l'état de leurs deux prisonniers. Derrière lui, Pierrot
 - Qu'est-ce qui se passe ? J'ai l'impression qu'un ogre m'est passé dessus... C'est qui, ces deux-là ? demanda Charles en se réveillant difficilement.
 - Pas le temps d'expliquer. C'est l'heure de se battre.
 
-Les corrompus s'équipèrent aussi vite que possible et descendirent au rez-de-chaussée de l'auberge. En passant près d'une fenêtre sale, Tallion aperçut quelques silhouettes à l'extérieur. Il s'arrêta quelques instants, plissant les yeux pour mieux voir ce qui les attendait, pendant que ses compagnons sortaient.
+Les corrompus s'équipèrent aussi vite que possible et descendirent au rez-de-chaussée de l'auberge. En passant près d'une fenêtre sale, Tallion aperçut quelques silhouettes à l'extérieur. Il s'arrêta quelques instants, plissant les yeux pour mieux voir ce qui les attendait pendant que ses compagnons sortaient.
 
 Dehors, six hommes, dont le tavernier, se tenaient devant la sortie, leurs fourches pointées dans leur direction.
 
@@ -120,7 +120,7 @@ Le dernier paysan de ce côté du mur tenta d'embrocher Tallion avec sa fourche.
 
 Dans son dos, un craquement sinistre retentit lorsque le pic de guerre de Charles fracassa la mâchoire de l'un de ses adversaires, le tuant sur le coup. Pierrot, lui, évitait toujours les coups du vieux tavernier, qui se révélait être un bien meilleur bretteur qu'il ne l'avait laissé paraître au premier abord.
 
-Tallion fit un pas en arrière et observa ses trois adversaires. Il sourit, cela lui rappelait les arènes de sang du Sud, où il avait grandi. Il avait déjà affronté bien pire.
+Tallion fit un pas en arrière et observa ses trois adversaires. Il sourit, cela lui rappelait les arènes de sang du Sud, où il avait grandi. Il avait déjà affronté bien plus nombreux.
 
 Il ouvrit sa garde, s' exposant volontairement pour provoquer une attaque. L'un des paysans tomba dans le piège et s'élança pour porter un coup de fourche. Tallion se décala, attrapa la fourche d'une main et tira violemment, faisant trébucher son pauvre porteur, qui s'effondra en avant. Il fut aussitôt cueilli par la lame de l'ancien gladiateur, qui lui trancha la gorge. 
 
