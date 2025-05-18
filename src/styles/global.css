@@ -94,7 +94,17 @@ html {
   .article a {
     color: #21c382;
   }
-
+  
+  .story li {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .story li::before {
+    content: "-";
+    margin-right: 0.5em;
+    flex-shrink: 0;
+  }
 
   .img {
     width: 100%;

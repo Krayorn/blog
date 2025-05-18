@@ -4,6 +4,7 @@ description: 'Fictional writing relating an adventure played during a one shot g
 pubDate: 2025-05-18
 tags: ["fiction", "RPG"]
 lang: 'fr'
+kind: 'story'
 ---
 
 Tallion laissait son regard suivre les collines et le soleil couchant de la région. Cela faisait maintenant quelques heures qu'ils étaient entrés dans le territoire de Roland le Borgne, et la calèche suivait difficilement la petite route montant dans la montagne. Il se retourna vers ses compagnons de voyage et les examina discrètement.

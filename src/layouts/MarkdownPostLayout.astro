@@ -32,7 +32,7 @@ const seoProps = {
   <BlogPostingJSONLD slot="head" {...frontmatter} />
   <p class="desc" >{frontmatter.description}</p>
   <p class="pub-date" >{formattedDate}</p>
-  <div class="article" >
+  <div class={`article ${frontmatter.kind ?? ''}`} >
     <slot />
   </div>
 
