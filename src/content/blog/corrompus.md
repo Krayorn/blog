@@ -117,19 +117,19 @@ Un mur de plus de deux mètres surgit du sol dans un fracas de pierre, projetant
 
 Sur la gauche, Charles repoussait les assauts de deux adversaires et projeta l'un d'eux au sol d'un puissant coup de bouclier. Au centre, Pierrot avait réussi à entailler le bras du tavernier tout en esquivant les ripostes précises de l'épée de ce dernier.
 
-Le dernier paysan de ce côté du mur tenta d'embrocher Tallion avec sa fourche. Le corrompu fit un pas de côté, puis se fendit en avant. Sa lame ouvrit profondément la cuisse de l'assaillan, qui cria de douleur. De l'autre côté, les deux paysans bloqués par le mur étaient en train de l'escalader et seraient sur lui dans quelques instants.
+Le dernier paysan de ce côté du mur tenta d'embrocher Tallion avec sa fourche. Le corrompu fit un pas de côté, puis se fendit en avant. Sa lame ouvrit profondément la cuisse de l'assaillant, qui cria de douleur. De l'autre côté, les deux paysans bloqués par le mur étaient en train de l'escalader et seraient sur lui dans quelques instants.
 
 Dans son dos, un craquement sinistre retentit lorsque le pic de guerre de Charles fracassa la mâchoire de l'un de ses adversaires, le tuant sur le coup. Pierrot, lui, évitait toujours les coups du vieux tavernier, qui se révélait être un bien meilleur bretteur qu'il ne l'avait laissé paraître au premier abord.
 
-Tallion fit un pas en arrière et observa ses trois adversaires. Il sourit, cela lui rappelait les arènes de sang du Sud, où il avait grandi. Il avait déjà affronté bien plus nombreux.
+Tallion fit un pas en arrière et observa ses trois adversaires. Il sourit, cela lui rappelait les arènes de sang du Sud où il avait grandi. Il avait déjà affronté bien plus nombreux.
 
-Il ouvrit sa garde, s' exposant volontairement pour provoquer une attaque. L'un des paysans tomba dans le piège et s'élança pour porter un coup de fourche. Tallion se décala, attrapa la fourche d'une main et tira violemment, faisant trébucher son pauvre porteur, qui s'effondra en avant. Il fut aussitôt cueilli par la lame de l'ancien gladiateur, qui lui trancha la gorge. 
+Il ouvrit sa garde, s'exposant volontairement pour provoquer une attaque. L'un des paysans tomba dans le piège et s'élança pour porter un coup de fourche. Tallion se décala, attrapa la fourche d'une main et tira violemment, faisant trébucher son pauvre porteur, qui s'effondra en avant. Il fut aussitôt cueilli par la lame de l'ancien gladiateur, qui lui trancha la gorge. 
 
 Dans le même mouvement, Tallion tourna sur lui-même pour éviter un coup de l'ennemi à sa droite, puis se jeta sur celui qui était déjà blessé, alternant les attaques hautes et basses pour le forcer à reculer et appuyer sur sa jambe meurtrie. Le sentant faiblir, il feinta une dernière fois, passa sous le bras du paysan, et lui ouvrit les entrailles.
 
 Un cri se fit entendre derrière lui : Pierrot avait fini par trouver une faille, et sa dague était plantée dans le torse du tavernier. Leur chef tombant au sol, les deux derniers paysans prirent la fuite.
 
-- Je voulais seulement protéger mon village.. furent les dernier mots du vieux guerrier.
+- Je voulais seulement protéger mon village... furent les dernier mots du vieux guerrier.
 
 Tallion contempla les cadavres des hommes. Une fois l'adrénaline du combat retombée, il ne restait plus que la honte et la tristesse. Il n'éprouvait aucun plaisir à tuer. Ils les avaient forcés à se battre, mais tout cela n'était que du gâchis. Il lança un regard à ses deux compagnons :  Pierrot arborait un sourire cruel, et Charles pestait contre l'imbécilité de ces hommes qui avaient osé s'en prendre à lui.
 Tallion essuya sa lame sur la tunique d'un des morts.
