@@ -91,7 +91,7 @@ Tallion n'attendit pas plus. Il se propulsa hors du lit par une extrémité et s
 - Attachons-les, Pierrot. J'ai pas envie de faire couler du sang inutilement ce soir, déclara Tallion en récupérant une corde dans son sac.  
 Les deux jeunes ne résistèrent pas plus que ça, la poigne de Pierrot était beaucoup trop puissante pour eux. 
 
-Charles dormait toujours d'un sommeil de plomb. Tallion s'apprêtait à demander à leur prisonnier ce qu'il y avait dans le ragoût, quand un bruit retentit derrière lui. Il se retourna et vit les deux captifs assomlés dans un coin de la pièce. Pierrot se tenait au-dessus d'eux, un sourire narquois sur les lèvres.
+Charles dormait toujours d'un sommeil de plomb. Tallion s'apprêtait à demander à leur prisonnier ce qu'il y avait dans le ragoût, quand un bruit retentit derrière lui. Il se retourna et vit les deux captifs assomés dans un coin de la pièce. Pierrot se tenait au-dessus d'eux, un sourire narquois sur les lèvres.
 - Ils feront pas de bruit comme ça.
 
 Les deux corrompus essayèrent de retrouver le sommeil, mais moins d'une heure plus tard, ils furent réveillés par quelqu'un tambourinant à la porte.
