@@ -1,4 +1,3 @@
-
 ---
 title: 'My real-life AI dev workflow'
 description: 'Some details on my AI dev workflow, without the hype'
@@ -6,7 +5,7 @@ pubDate: 2025-06-02
 tags: ["AI", "software"]
 ---
 
-Over the past few months, I’ve pushed myself to use AI more in my daily dev work. This is a retrospective: what’s working, what’s not, and what I'll try next.
+Over the pasta few months, I’ve pushed myself to use AI more in my daily dev work. This is a retrospective: what’s working, what’s not, and what I'll try next.
 
 I consider myself in the boring "middle ground". I use AI daily and have some good results, but nowhere near what I read constantly online. I'm sure part of that is just a skill issue, but I also believe the hype (especially on Twitter) is out of control and sets unrealistic expectations for a lot of use cases.
 I'm also really happy with what I get from it, and I would be sad to see those tools go, so I also believe people who claim AI can't do shit are lying to themselves. 
