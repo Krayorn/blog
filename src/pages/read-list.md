@@ -9,6 +9,30 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 26-05-2025
+
+Bad ai features: [AI Horseless Carriages](https://koomen.dev/essays/horseless-carriages/).
+
+[Be kind](https://boz.com/articles/be-kind).
+
+On AI coding tools, really like this take: [Coding as Craft: Going Back to the Old Gym](https://cekrem.github.io/posts/coding-as-craft-going-back-to-the-old-gym/).
+
+[just fucking code](https://www.justfuckingcode.com/).
+
+Somewhat carreer related posts: [Burn your title](https://notes.eatonphil.com/2025-04-22-burn-your-title.html) and [Cheerleading](https://notes.eatonphil.com/2025-05-26-cheerleading.html).
+
+# 19-05-2025
+
+[Why I don't discuss politics with friends](https://shwin.co/blog/why-i-dont-discuss-politics-with-friends).
+
+Some good answers on questions I asked myself a lot before starting my blog: [Writing FAQ](https://eugeneyan.com/writing/writing-faq/).
+
+Video on why [Clickbait is Unreasonably Effective](https://www.youtube.com/watch?v=S2xHZPH5Sng). 
+
+[A Society That Lost Focus](https://ploum.net/2024-03-18-lost-focus.html).
+
+[AI 2027](https://ai-2027.com/).
+
 # 05-05-2025
 
 [Knowing where your engineer salary comes from](https://www.seangoedecke.com/where-the-money-comes-from/).
