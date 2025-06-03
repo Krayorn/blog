@@ -5,10 +5,10 @@ pubDate: 2025-06-02
 tags: ["AI", "software"]
 ---
 
-Over the pasta few months, I’ve pushed myself to use AI more in my daily dev work. This is a retrospective: what’s working, what’s not, and what I'll try next.
+Over the past few months, I’ve pushed myself to use AI more in my daily dev work. This is a retrospective: what’s working, what’s not, and what I'll try next.
 
-I consider myself in the boring "middle ground". I use AI daily and have some good results, but nowhere near what I read constantly online. I'm sure part of that is just a skill issue, but I also believe the hype (especially on Twitter) is out of control and sets unrealistic expectations for a lot of use cases.
-I'm also really happy with what I get from it, and I would be sad to see those tools go, so I also believe people who claim AI can't do shit are lying to themselves. 
+I consider myself in the boring "middle ground". I use AI daily and have some good results, but nowhere near what I read constantly online. I'm sure part of that is just a skill issue, but I believe the hype (especially on Twitter) is out of control and sets unrealistic expectations for a lot of use cases.
+But I'm really happy with what I get from it, and I would be sad to see those tools go, so I also believe people who claim AI can't do shit are lying to themselves. 
 
 My setup is simple: I'm using ChatGPT+ and Cursor.
 
@@ -17,7 +17,7 @@ My setup is simple: I'm using ChatGPT+ and Cursor.
 When I need to update something in a codebase I'm very familiar with, like an edge case or a feature change, I'll simply link the files to modify to Cursor and let the Agent Mode handle the changes. 
 
 If I'm not sure how this part of the codebase is currently working or organized, I rarely rely on the Cursor Agent Mode to change it because it makes code reviews messy and it's very easy to miss important side effects.
-So I'll be reading through everything, making sure I understand it, and then start making the change by hand and then leverage the Cursor autocomplete to make the changes, or move back to the chat and Agent Mode if there's a lot of code to write now that I know what to expect.
+So I'll be reading through everything, making sure I understand it, and then start making the change by hand and then leverage the Cursor autocomplete to speed up the implementation, or move back to the chat and Agent Mode if there's a lot of code to write now that I know what to expect.
 
 ## New features: small vs big projects
 
@@ -87,7 +87,7 @@ I edited the `tables_to_copy` and the two db paths, ran it, and rm-ed the script
 ## Documentation
 
 ChatGPT is also my doc guy, I think I could do it in Cursor, but I prefer to do my research in the browser. I still read a lot of docs, but when I have some broader questions, asking ChatGPT saves me a ton of time by giving me the keywords or the concepts that are relevant to my question. I then sometimes go back and forth between the chat and official docs to ask clarifying questions and read some specs + examples. 
-If I don't like the documentation for the technology I'm asking questions about, I just stay in ChatGPT and have it give me examples.
+If I don't like the documentation for the technology I'm asking questions about, I just stay in ChatGPT and have it give me code examples.
 
 ## What I'm not doing
 
