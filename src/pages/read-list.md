@@ -9,6 +9,12 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 09-06-2025
+
+https://blog.samaltman.com/the-gentle-singularity
+https://fly.io/blog/youre-all-nuts/
+https://www.henrikkarlsson.xyz/p/problem-selection?utm_source=profile&utm_medium=reader2
+
 # 26-05-2025
 
 Bad ai features: [AI Horseless Carriages](https://koomen.dev/essays/horseless-carriages/).
