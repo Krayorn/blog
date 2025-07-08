@@ -9,11 +9,32 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+<!-- # 07-07-2025 -->
+
+# 30-06-2025
+
+[Welcome to the future](https://www.noahpinion.blog/p/welcome-to-the-future).
+[Reservoir sampling](https://samwho.dev/reservoir-sampling/).
+[Obsession](https://notes.eatonphil.com/2024-08-24-obsession.html).
+
+# 22-06-2025
+
+https://slatestarcodex.com/2013/05/18/against-bravery-debates/
+https://slatestarcodex.com/2013/06/09/all-debates-are-bravery-debates/
+https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/
+
+[Impact](https://www.benkuhn.net/impact/).
+
+# 15-06-2025
+
+[Wicked features](https://www.seangoedecke.com/wicked-features/).
+[Slightly rude notes on writing](https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing).
+
 # 09-06-2025
 
-https://blog.samaltman.com/the-gentle-singularity
-https://fly.io/blog/youre-all-nuts/
-https://www.henrikkarlsson.xyz/p/problem-selection?utm_source=profile&utm_medium=reader2
+[](https://blog.samaltman.com/the-gentle-singularity).
+[](https://fly.io/blog/youre-all-nuts/).
+[](https://www.henrikkarlsson.xyz/p/problem-selection?utm_source=profile&utm_medium=reader2).
 
 # 26-05-2025
 
