@@ -9,7 +9,9 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
-<!-- # 07-07-2025 -->
+# 14-07-2025
+
+Analysis of [The Fiverr CEO memo](https://substack.com/@itssophieschoice/note/c-115766170) on AI.
 
 # 30-06-2025
 
@@ -19,22 +21,25 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 # 22-06-2025
 
-https://slatestarcodex.com/2013/05/18/against-bravery-debates/
-https://slatestarcodex.com/2013/06/09/all-debates-are-bravery-debates/
-https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/
+[Against bravery debates](https://slatestarcodex.com/2013/05/18/against-bravery-debates/).
+[All debates are bravery debates](https://slatestarcodex.com/2013/06/09/all-debates-are-bravery-debates/).
+[Should you reverse any advice you here ?](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/).
 
 [Impact](https://www.benkuhn.net/impact/).
 
 # 15-06-2025
 
 [Wicked features](https://www.seangoedecke.com/wicked-features/).
+
 [Slightly rude notes on writing](https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing).
 
 # 09-06-2025
 
-[](https://blog.samaltman.com/the-gentle-singularity).
-[](https://fly.io/blog/youre-all-nuts/).
-[](https://www.henrikkarlsson.xyz/p/problem-selection?utm_source=profile&utm_medium=reader2).
+[The Gentle Singularity](https://blog.samaltman.com/the-gentle-singularity).
+
+[What problem should you be working on now?](https://www.henrikkarlsson.xyz/p/problem-selection?utm_source=profile&utm_medium=reader2).
+
+I'm not sure about that one, this is well written, and I think there's some interesting ideas, but I don't think the refutal of the other side's arguments are good: [My AI Skeptic Friends Are All Nuts](https://fly.io/blog/youre-all-nuts/).
 
 # 26-05-2025
 
