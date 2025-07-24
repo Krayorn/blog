@@ -1,3 +1,11 @@
+---
+title: 'future'
+description: ''
+pubDate: 2024-10-19
+tags: []
+---
+
+
 This post ("Welcome ot the future") is full of links and videos of crazy tech innovations. From self-driving cars and home made prothesis  to security robots and gamified drone warfare. The post claims we live in the cyberpunk future we read about in old-school sci-fi, and I'd say that's pretty accurate. 
 
 Part of it is amazing, but most of it is unfortunately way too distopian.

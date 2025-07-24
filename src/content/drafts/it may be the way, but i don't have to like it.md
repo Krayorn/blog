@@ -1,3 +1,10 @@
+---
+title: 'rant'
+description: ''
+pubDate: 2024-10-19
+tags: []
+---
+
 So this post is my first rant. Let's go. 
 
 Aaron Francis, who is amazing shared this quote in his newsletter
