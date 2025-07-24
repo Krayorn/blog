@@ -15,6 +15,7 @@ As a player I've mostly done:
 - a lot of D&D
 - a few very long Cops games
 - a long standing Black Flag campaign
+- a few game of call of cthulu
 
 As a DM I did:
 - An ongoing witcher campaign ~10 or so sessions in

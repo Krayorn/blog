@@ -7,7 +7,7 @@ lang: 'en'
 ---
 
 I went to Disneyland Paris last week and walked away with more than tired legs.
-I came back thinking about the future of theme parks because the technology powering these rides is wild. It's not just about speed, drops, or loopings anymore, which I love btw, it's about immersion, interaction, and storytelling in new dimensions.
+I came back thinking about the future of theme parks because the technology powering these rides is wild. It's not just about speed, drops, or loopings anymore, which I love btw, immersion, interaction, and storytelling are as important.
 
 ## The future is now
 
@@ -41,7 +41,7 @@ Again, this is a super interesting ride because it is so different from the othe
 In **Star Wars Hyperspace Mountain** and **Avengers Assemble: Flight Force**, you're launched at high speed in space and end up in a sort of dogfight with sharp turns, drops, or spins. During the ride, in the darkness of ~~the far future~~ (oops [wrong universe](https://www.google.com/search?q=site%3Alexicanum.com+%22in+the+grim+darkness+of+the+far+future%22&sca_esv=e293ca8d199e0e1f&sxsrf=AHTn8zq0-5AK_BbT8kSNmZopDi7wpfeOqg%3A1747686436802&ei=JJQraPrdMMWckdUPvZfnqAk&ved=0ahUKEwj6__mpr7CNAxVFTqQEHb3LGZUQ4dUDCBA&uact=5&oq=site%3Alexicanum.com+%22in+the+grim+darkness+of+the+far+future%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiO3NpdGU6bGV4aWNhbnVtLmNvbSAiaW4gdGhlIGdyaW0gZGFya25lc3Mgb2YgdGhlIGZhciBmdXR1cmUiSN0NUKsBWIkNcAF4AJABAJgBM6ABgQGqAQEzuAEDyAEA-AEBmAIAoAIAmAMAiAYBkgcAoAeHAbIHALgHAA&sclient=gws-wiz-serp/)) the attraction, huge screens and speakers are used to give contextual clues to what's happening in the ride.
 For example, you'll hear a voice telling "There is another one, behind you! Evasive maneuver" right before your cart does a sharp turn with a spin, and a screen will display the explosion while you pass under it.
 
-The first time you do both of these rides, it's amazing. You didn't just go on a thrilling ride, you participated in a gun fight in hyperspace. If you do them again, it loses a bit of the effect, but it's still fun to go that fast. The audio and visuals can't replace exciting ride design, but they can enhance it. And I'm really glad there are still this kind of roller coasters, amusement parks would not be the same without big thrill stuff!
+The first time you do both of these rides, it's amazing. You were in a gun fight in hyperspace and not just in an attraction. If you do them again, it loses a bit of the effect, but it's still fun to go that fast. The audio and visuals can't replace exciting ride design, but they can enhance it. And I'm really glad there are still this kind of roller coasters, amusement parks would not be the same without big thrill stuff!
 ## Storytelling Over Speed
 
 **Star Tours : The adventure continues** is another 3D glasses ride. There is not as much interaction in this one, it's like going to a movie, but the theater shakes *a lot*. The Disney website claims over 60 possibilities for this roller coaster, using clever cuts (during hyperspace jumps, I'd guess) to change scenes. Really enjoyable.
@@ -50,12 +50,10 @@ In **Ratatouille**, there are plenty of giant screens, you roll around in your c
 
 ## I can't wait
 
-All that just to say that I can't wait to see the next steps. I'm still a huge fan of big, fast rides with loops and 360 spins like in Parc Asterix and EuropaPark, but this trip to Disney really made me realize the potential of tech-powered rides.
+All that just to say that I can't wait to see the next steps. I'm still a huge fan of big, fast rides with loops and 360 spins like in Parc Asterix or EuropaPark, but this trip to Disney really made me realize the potential of tech-powered rides.
 
-I recently watched [this video](https://www.youtube.com/watch?v=oESoI6XxZTg) about how theme parks are designed. I used to think it was mostly about the layout, scenery, and shops of the park. But now I see how both the rides and the park can be impacted to create really unique experiences. 
+I recently watched [this video](https://www.youtube.com/watch?v=oESoI6XxZTg) about how theme parks are designed. I used to think it was mostly about the layout, scenery, and shops of the park. But now I see how the park can also be used to create really unique experiences. 
 
 Theme parks won't be just adding gadget tech to their rides, they'll rethink how the park itself works. Blending digital codes with real life, and blurring the lines where the fun begins and ends.
 
-This is something I want to play around with at some point, bringing some video game magic into the IRL world. 
-
-That's not just exciting, that's thrilling.
+This is something I want to play around with at some point, bringing some video game magic into the IRL world. Exciting times!

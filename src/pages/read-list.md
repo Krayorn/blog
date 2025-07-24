@@ -9,9 +9,18 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 21-07-2025
+
+https://ludic.mataroa.blog/blog/brainwash-an-executive-today
+
 # 14-07-2025
 
 Analysis of [The Fiverr CEO memo](https://substack.com/@itssophieschoice/note/c-115766170) on AI.
+
+[I am disappointed in the AI discourse](https://steveklabnik.com/writing/i-am-disappointed-in-the-ai-discourse/).
+
+Adivces for software engineers [in these troubled times]](https://www.seangoedecke.com/in-these-troubled-times/).
+
 
 # 30-06-2025
 
