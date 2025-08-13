@@ -8,7 +8,7 @@ tags: ["blogging"]
 
 Writing this is saving me 30 bucks.
 
-Last week I read these two blog posts: [Why blog if nobody reads it](https://andysblog.uk/why-blog-if-nobody-reads-it/) and [Why your blog post didn't go viral](https://andysblog.uk/why-your-blog-post-didnt-go-viral/) and really liked this quote from the second one:
+Last week I read these two blog posts: [Why blog if nobody reads it](https://web.archive.org/web/20250219111210/https://andysblog.uk/why-blog-if-nobody-reads-it/) and [Why your blog post didn't go viral](https://web.archive.org/web/20250214201735/https://andysblog.uk/why-your-blog-post-didnt-go-viral/) and really liked this quote from the second one:
 
 > "If you post once a month, every post feels like a bet. It has to work. If you post every day, you stop caring so much. Some will land. Some won’t."
 

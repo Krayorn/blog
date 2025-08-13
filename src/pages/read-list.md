@@ -9,9 +9,21 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 04-08-2025
+
+[I hate the news](http://www.aaronsw.com/weblog/hatethenews).
+
+[High Agency](https://www.highagency.com/).
+
+[On Seeing Through and Unseeing: The Hacker Mindset](https://gwern.net/unseeing).
+
 # 21-07-2025
 
-https://ludic.mataroa.blog/blog/brainwash-an-executive-today
+[Brainwash an executive today](https://ludic.mataroa.blog/blog/brainwash-an-executive-today).
+[I accidentally saved half a million dollars](https://ludic.mataroa.blog/blog/i-accidentally-saved-half-a-million-dollars/).
+[Quitting my job for the way of pain](https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/).
+
+[Learn to love the Moat of Low Status](https://usefulfictions.substack.com/p/learn-to-love-the-moat-of-low-status).
 
 # 14-07-2025
 
