@@ -9,6 +9,8 @@ export default {
 				neonb: "#07f0ff",
 				red: "#7c2626",
 				dark: "#071016",
+				green: "#21c382", // blog value, not for cyberpunk
+
 			},
 			boxShadow: {
 				'neon': '0 0 10px 0 #ffdb4b',

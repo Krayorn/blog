@@ -57,7 +57,7 @@ html {
   
   blockquote {
     background: #1f1c1c;
-    border-left: 10px solid #21c382;
+    border-left: 10px solid theme('colors.green');
     filter: brightness(150%);
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -66,7 +66,7 @@ html {
   }
 
   blockquote:before {
-    color: #21c382;
+    color: theme('colors.green');
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -92,7 +92,7 @@ html {
   }
 
   .article a {
-    color: #21c382;
+    color: theme('colors.green');
   }
   
   .story li {
