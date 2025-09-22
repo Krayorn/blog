@@ -9,6 +9,27 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+
+https://andrewkelley.me/post/why-we-cant-have-nice-software.html 
+
+https://www.seangoedecke.com/low-hanging-fruit/
+
+https://www.seangoedecke.com/the-simplest-thing-that-could-possibly-work/
+
+# 25-08-2025
+
+https://samwho.dev/big-o/
+
+https://rgoldfinger.com/blog/2025-07-26-claude-code-is-a-slot-machine/
+
+# 17-08-2025
+
+https://www.seangoedecke.com/good-system-design/
+
+https://www.sirlin.net/ptw
+
+https://www.alicemaz.com/writing/minecraft.html
+
 # 04-08-2025
 
 [I hate the news](http://www.aaronsw.com/weblog/hatethenews).

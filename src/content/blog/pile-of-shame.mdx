@@ -1,0 +1,131 @@
+---
+title: My miniature painting tracking app - PileOfShame
+description: Details on the features and the future of this miniature tracking side project
+pubDate: 2025-09-22
+tags:
+  - board
+  - games
+  - software
+---
+import { Image } from 'astro:assets';
+
+In the wargaming community, the *Pile of Shame* is all the boxes of miniatures you own that are not painted or worse, still unbuilt. 
+
+I love miniatures, wargames and board games. Add the facts that I used to really prefer playing than painting, and that you don't need to paint the miniatures for most board games, and you end up with this conclusion: my Pile of Shame is massive.
+
+In the last few years, I've painted a bit more and really enjoyed it, but I was still way too slow to tackle all my backlog. So I decided to [paint at least 5 minis a month](/posts/bounties-on-goals/) (still on track btw!). 
+
+And now, to help track my progress, see where I'm making progress and where I'm not, I made [PileOfShame](https://pileofshame.krayorn.com).
+
+It's a very simple app, tracking my collection of miniatures, how many are painted and how many aren't. 
+
+I've organized the minis into folders, and it gives me the percentage of painted minis in each folder.
+
+Right now the app is the most bare bone I could make it, but it works. I'm logging my minis on it and I can also upload pictures to create an album for each folder.
+
+
+import warhammer_example from '../../images/pileofshame/warhammer_example.png';
+import album from '../../images/pileofshame/album.png';
+
+<Image 
+    src={warhammer_example} 
+    class="img"
+    alt="Screenshot of the app showing the completion of my Sisters of Battle army"
+/>
+
+<p style="
+    text-align: center;
+    font-size: small;
+    color: darkgray;
+">The progress of my Sisters of Battle army</p>
+
+
+<Image 
+    src={album} 
+    class="img"
+    alt="Screenshot of the app showing the album with painted miniatures for the Assassin's creed game terrain set"
+/>
+
+<p style="
+    text-align: center;
+    font-size: small;
+    color: darkgray;
+">The album for the terrain of the Assassin's Creed game</p>
+
+
+The minis are linked to an account, so if you've got some and are curious, feel free to create an account and try the app out! Consider that it's still in beta tho, so things might change a lot. But feedbacks are highly appreciated. Shoot me a message by mail or on Twitter if you do try it, I'd be thrilled to hear your ideas! 
+
+I already have some plans for the next steps, but I don't know the priorities yet, so let's see the list.
+
+### Design rework
+Currently the app's style is boooooooooring. It has no personality at all, but I have a few ideas. 
+
+First option would be to just make it look better by adding colors, padding, and just turning into a clean regular modern website out of it. But that still sound somewhat boring imo. 
+
+Since I started the website to log the progress on my Warhammer minis, I think it could be fitting and super fun to try to make it so that the whole app looks like it fits in the universe. Dark green HUD-like displays from the imperiums, random quotes on the side, and very self-important wording everywhere.
+
+import hud from '../../images/pileofshame/hud.png';
+import hud2 from '../../images/pileofshame/hud2.png';
+
+<Image 
+    src={hud} 
+    class="img"
+    alt="Screenshot of the seceret level warhammer episode showing a computer with 'MISSIONS OBJECTIVES'"
+/>
+
+<p style="
+    text-align: center;
+    font-size: small;
+    color: darkgray;
+">This could be the general idea old school imperium tech</p>
+
+
+<Image 
+    src={hud2} 
+    class="img"
+    alt="Screenshot of the seceret level warhammer episode showing all kind of data to a space marine"
+/>
+
+<p style="
+    text-align: center;
+    font-size: small;
+    color: darkgray;
+">Or all in HUD with these kinds of details</p>
+
+I think this could be a killer idea, and I'd learn a ton. My main concern with this option is readability, accessibility, and general taste. I'd love to have other people use the app and I wonder if it would deter people, but I guess I could always add the option to tone it down later on.
+
+### The Fun factor
+
+I like fun things. Most of the new modern websites I use feel less fun than they used to be. They're all about efficiency or minimalism, I'd like to make things that make people (and me) smile. 
+
+I really liked the concept of the [Goobertown Roulette](https://www.youtube.com/watch?v=hZS4203dwNs&list=PLMxY5TTsl9Rndq2Ghp9h4MslgAIj88ylG&index=11) from _Goobertown Hobbies_, I could make a random wheel that picks a miniature at random in your collection, or in a certain folder to help you decide what to paint.
+
+This could also mean plenty of Easter eggs hidden in the app or anything really, as long as it's fun and not hindering the usability of the site.
+
+### Sharing / Showing
+
+I'm less certain about this section. 
+
+I like the idea of sending a link to a buddy so that they could check my collection. It's useful when I'm sharing my recently painted models to my friends, and when they ask what minis I have that they could use for an upcoming D&D game. Right now I have an album with my phone, but it's not up-to-date, I forget to add or sort some minis and it only contains the painted ones.
+
+To facilitate the creation of the collection, it could also be good to have "preset entries", so if someone says "I own Gloomhaven", it automatically adds all the minis from that game. It would work similarly for Warhammer boxes. I think it could be a simple community effort to create the box if you're the first to own it, but then you can just register a folder as a "preset" and everyone could add it to their own. 
+
+An interesting side effect of this feature is that it would allow the site to keep a list of all the people who have a certain miniature (let's say a Diablos from the monster hunter board game), and someone who's looking for inspiration could just click on a link to see other painted version of community members. Currently, to help me find inspiration when I'm painting I'm doing a Google search on images, or end up on BGG to scroll through all the board game miniatures. I find good stuff, but I'd love to see more varied pictures, and only the correct miniatures.  
+
+However, I don't think I want to add the option to like a picture, I might change my opinion on this, but the main goal would be to share your progress, not for attention, reputation, karma, likes, or views, but to feel proud of your progress in painting your collection and improving your skills.
+
+I don't want it to be a social media platform, a clone or mix of Instagram, Reddit or Discord. 
+
+The focus should be on creation, not consumption. 
+
+Which is why maybe a painting competition once a month in which every user could submit a miniature, maybe with a theme or constraint, could still be interesting. But I'd need to think more about it first, to make sure I'm not falling back in the social media vices.
+
+Similarly, I think challenges could be a good community thing. Register in a challenge, get paired with a few other users from around the world (or your buddies) and commit to paint X mini this month, everyone could see the painted miniatures of the other and give / receive encouragements. 
+
+## Final thoughts
+
+That's it for now. I'm really glad the site is deployed, and I can't wait to iterate on it a bit more. I've got tons of ideas, and I hope I won't get lost in some dumb technical side quest instead of making progress on this app. 
+
+I'll start by sharing it with my friends that paint some minis, and this will probably already greatly improve the site, but if someone else ends up on it and has some fun with it at this stage, I'd be super happy!
+
+It feels good to be working on a side project again.
