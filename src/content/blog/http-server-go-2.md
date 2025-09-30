@@ -1,5 +1,5 @@
 ---
-title: "An HTTP Server in Go From scratch: Part 2"
+title: "An HTTP Server in Go from scratch: Part 2"
 description: Follow along while I improve the HTTPServer I wrote from scratch in Go.
 pubDate: 2025-03-21
 tags: ["go", "software"]

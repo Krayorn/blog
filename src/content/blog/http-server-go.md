@@ -1,6 +1,6 @@
 ---
-title: 'An HTTP Server in Go From scratch'
-description: 'Follow along while I write an HTTPServer in Go From scratch following a codecrafters challenge.'
+title: 'An HTTP Server in Go from scratch'
+description: 'Follow along while I write an HTTPServer in Go from scratch following a codecrafters challenge.'
 pubDate: 2024-08-07
 tags: ["go", "software"]
 ---

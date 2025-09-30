@@ -10,25 +10,33 @@ tags: []
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
 
-https://andrewkelley.me/post/why-we-cant-have-nice-software.html 
+# 29-09-2025
 
-https://www.seangoedecke.com/low-hanging-fruit/
+[The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html).
 
-https://www.seangoedecke.com/the-simplest-thing-that-could-possibly-work/
+# 22-09-2025
+
+[Why We Can't Have Nice Software](https://andrewkelley.me/post/why-we-cant-have-nice-software.html).
+
+[Finding the low-hanging fruit](https://www.seangoedecke.com/low-hanging-fruit/).
+
+[Do the simplest thing that could possibly work](https://www.seangoedecke.com/the-simplest-thing-that-could-possibly-work/).
+
+[Running a million-board chess MMO in a single process](https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process/).
 
 # 25-08-2025
 
-https://samwho.dev/big-o/
+[Big O](https://samwho.dev/big-o/).
 
-https://rgoldfinger.com/blog/2025-07-26-claude-code-is-a-slot-machine/
+[Claude Code is a Slot Machine](https://rgoldfinger.com/blog/2025-07-26-claude-code-is-a-slot-machine/).
 
 # 17-08-2025
 
-https://www.seangoedecke.com/good-system-design/
+[Good system design](https://www.seangoedecke.com/good-system-design/).
 
-https://www.sirlin.net/ptw
+[Playing to win handbook](https://www.sirlin.net/ptw).
 
-https://www.alicemaz.com/writing/minecraft.html
+[Playing to win: minecraft example](https://www.alicemaz.com/writing/minecraft.html).
 
 # 04-08-2025
 
