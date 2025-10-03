@@ -12,7 +12,7 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 
 # 29-09-2025
 
-[The Day You Became A Better Writer](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html).
+[The Day You Became A Better Writer](https://web.archive.org/web/20250926114421/https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html).
 
 # 22-09-2025
 

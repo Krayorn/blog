@@ -30,4 +30,4 @@ I need to write, to read, to refine and to think to finalize my thoughts. But I 
 
 I will continue writing all kind of posts, keep publishing. That's really important, the more I post, the easier It gets. But I want to increase the number of "bigger pieces", they're the more interesting ones.  
 
-I don't want to push back on some entries because I'm not brave enough. Maybe I'll regret it. Maybe it'll suck. Or maybe I'll read it again and cringe. But I'll post one of them this month anyway.
+I don't want to push back on some entries because I'm not brave enough. Maybe I'll regret it. Maybe it'll suck. Maybe I'll read it again and cringe, but I really want to get them out there.
