@@ -60,7 +60,7 @@ Analysis of [The Fiverr CEO memo](https://substack.com/@itssophieschoice/note/c-
 
 [I am disappointed in the AI discourse](https://steveklabnik.com/writing/i-am-disappointed-in-the-ai-discourse/).
 
-Adivces for software engineers [in these troubled times]](https://www.seangoedecke.com/in-these-troubled-times/).
+Adivces for software engineers [in these troubled times](https://www.seangoedecke.com/in-these-troubled-times/).
 
 
 # 30-06-2025
