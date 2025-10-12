@@ -10,6 +10,13 @@ tags: []
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
 
+
+# 06-10-2025
+
+https://www.seangoedecke.com/how-to-influence-politics/
+
+https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/
+
 # 29-09-2025
 
 [The Day You Became A Better Writer](https://web.archive.org/web/20250926114421/https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html).
@@ -60,7 +67,7 @@ Analysis of [The Fiverr CEO memo](https://substack.com/@itssophieschoice/note/c-
 
 [I am disappointed in the AI discourse](https://steveklabnik.com/writing/i-am-disappointed-in-the-ai-discourse/).
 
-Adivces for software engineers [in these troubled times](https://www.seangoedecke.com/in-these-troubled-times/).
+Advices for software engineers [in these troubled times](https://www.seangoedecke.com/in-these-troubled-times/).
 
 
 # 30-06-2025
@@ -249,7 +256,7 @@ On migrating and moving forward, always good to read:
     - https://swizec.com/blog/why-software-only-moves-forward/
     - https://swizec.com/blog/you-can-t-stop-the-business-or-why-rewrites-fail/
 
-[How to ship](https://www.seangoedecke.com/how-to-ship/)
+[How to ship](https://www.seangoedecke.com/how-to-ship/).
 
 
 ## 11-11-2024
