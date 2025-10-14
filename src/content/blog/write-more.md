@@ -7,7 +7,7 @@ tags: ["blogging"]
 
 During my last vacation, I had finished reading the blog posts I had bookmarked on my phone, and needed new content: so I turned to all the blog newsletters I subscribe to and rarely read since they're auto-archived in a special inbox.
 
-I was reading through the 50 posts from [sean goedecke](seangoedecke.com) I had received since I subscribed, one after the other. I read all of them on the flight back home. Once done, I was surprised, that was not what I was expecting from him! Don't get me wrong, all the posts were fine, but only one or two made me think "Hot damn, that's great!". 
+I was reading through the 50 posts from [sean goedecke](https://www.seangoedecke.com) I had received since I subscribed, one after the other. I read all of them on the flight back home. Once done, I was surprised, that was not what I was expecting from him! Don't get me wrong, all the posts were fine, but only one or two made me think "Hot damn, that's great!". 
 
 And that surprised me because I shared a lot of Sean's posts to friends and coworkers, a lot of his work really changed my perspective on my work and my career:
 - [Wicked features](https://www.seangoedecke.com/wicked-features/)
