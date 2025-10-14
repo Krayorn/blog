@@ -50,6 +50,7 @@ const CyberTabs = ({ data, className }) => {
 								<div className={`${task.targeted ? 'bg-neony' : 'bg-neonr'} cybercheckbox min-w-[15px] w-[15px] h-[15px] relative top-[-1px]`}>
 									<div className="inner-cybercheckbox relative top-px left-px w-[13px] h-[13px] bg-dark">
 										{task.targeted && <div className="targeted-cybercheckbox relative top-px left-px w-[11px] h-[11px] bg-neony text-sm flex justify-center items-center text-black">!</div> }
+										{task.completed && <div className="targeted-cybercheckbox relative top-px left-px w-[11px] h-[11px] bg-neonr text-sm flex justify-center items-center text-black">✓</div> }
 									</div>
 								</div>
 								<div className="ml-4">{task.name}</div>
