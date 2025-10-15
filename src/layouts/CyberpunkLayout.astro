@@ -27,8 +27,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     />
     <slot name="head" />
   </head>
-  <body class="h-full min-h-screen bg-black" >
-      <!-- <div class="bg-img" ></div> -->
+  <body class="h-full min-h-screen" >
       <slot />
   </body>
 </html>
@@ -37,12 +36,58 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   body {
     font-family: "Rajdhani", sans-serif;
 
-    /* background: black;
+    /* dots grid like
+    background: black;
     background-image: radial-gradient(#ffdb4b 1px, transparent 0);
     background-size: 100px 100px;
     background-position: -19px -19px; */
 
   }
+
+  
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.02) 0px,
+    rgba(255, 255, 255, 0.02) 1px,
+    transparent 2px,
+    transparent 3px
+  );
+  animation: scanlines 2s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes scanlines {
+  from { background-position: 0 0; }
+  to { background-position: 0 3px; }
+} 
+
+
+  
+  /* pulsing 
+   body {
+  background: linear-gradient(
+    -45deg,
+    #0a0002,
+    #600020,
+    #b300ff,
+    #ffcc00,
+    #1a1a1a
+  );
+    background-size: 200% 200%;
+    animation: moveBg 10s ease-in-out infinite;
+  }
+
+@keyframes moveBg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+
   /* .bg-img {
     width: 100vw;
     height: 100vh;
@@ -51,4 +96,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     background-image: url(../../public/bg.png);
     filter: blur(20px) grayscale(60%);
   } */
+
+
 </style>

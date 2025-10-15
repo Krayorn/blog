@@ -1,6 +1,7 @@
 ---
 import CyberpunkLayout from '../layouts/CyberpunkLayout.astro';
 import CyberTabs from '../components/Cyberpunk/CyberTabs.jsx'
+import CyberRadio from '../components/Cyberpunk/CyberRadio.jsx'
 
 const pageTitle = "Krayorn's Blog";
 const pageDescription = "A blog containing my thoughts and reflections on AI, Software, Board Games and whatever else finds it's way in my mind.";
@@ -119,12 +120,12 @@ const allPosts = shuffle(await getPosts());
 
 ---
 <CyberpunkLayout seoProps={seoProps}>
-    <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[500px] flex justify-center pt-4 pb-6">
-      <a class="mx-6 no-underline" href="/">Home</a>
-      <a class="mx-6 no-underline font-bold" href="/projects/">Projects</a>
-      <a class="mx-6 no-underline" href="/tags/">Tags</a>
-      <a class="mx-6 no-underline" href="/read-list/">Readlist</a>
-    </nav>
+  <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[500px] flex justify-center pt-4 pb-6">
+    <a class="mx-6 no-underline" href="/">Home</a>
+    <a class="mx-6 no-underline font-bold" href="/projects/">Projects</a>
+    <a class="mx-6 no-underline" href="/tags/">Tags</a>
+    <a class="mx-6 no-underline" href="/read-list/">Readlist</a>
+  </nav>
   <div class="z-10 flex w-full mt-[100px]">
     <CyberTabs className="ml-16 w-2/3" data={tabsData ?? []} client:load />
     <div class="w-[200px] ml-auto h-[500px]">
@@ -151,6 +152,7 @@ const allPosts = shuffle(await getPosts());
       <div class="news_ticker_b font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
     </div>
   </div>
+  <CyberRadio client:load />
 </CyberpunkLayout>
 
 <style>
@@ -202,10 +204,6 @@ const allPosts = shuffle(await getPosts());
 
       background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
   }
-  .fancy_news_ticker_2 {
-      background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
-  }
-
   .news_ticker {
     clip-path: polygon(
         10px 0%,
