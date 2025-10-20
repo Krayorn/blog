@@ -1,0 +1,32 @@
+{
+    "id": "secure_no_mans_land",
+    "type": "Secondary Mission",
+    "name": "Secure no man's land",
+    "content": [
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You control one or more objective markers in No Man's Land."
+            ],
+            "value": 2
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "You control two or more objective markers in No Man's Land."
+            ],
+            "value": 5
+        }
+    ]
+}

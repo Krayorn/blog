@@ -1,0 +1,44 @@
+{
+    "id": "storm_hostile_objective",
+    "type": "Secondary Mission",
+    "name": "Storm hostile objective",
+    "fixed": true,
+    "content": [
+        {"type": "text",
+            "text": ["**WHEN DRAWN:** If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You control one or more objective markers that were controlled by your opponent at the start of the turn."
+            ],
+            "value": 4
+        },
+        {
+            "type": "section",
+            "title": "SECOND BATTLE ROUND ONWARDS"
+
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Your opponent did not control any objective markers at the start of the turn, and you control one or more objective markers that you did not control at the start of the turn."
+            ],
+            "value": 4
+        }
+    ]
+}

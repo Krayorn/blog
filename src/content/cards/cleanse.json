@@ -1,0 +1,42 @@
+{
+    "id": "cleanse",
+    "type": "Secondary Mission",
+    "name": "Cleanse",
+    "fixed": true,
+    "content": [
+        {
+            "type": "action",
+            "title": "Cleanse (action)",
+            "starts": "Your Shooting phase.",
+            "units": "One or more units from your army within range of an objective marker that is not within your deployment zone.",
+            "completes": "End of your turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.",
+            "ifCompleted": "That objective marked is **cleansed** by your army."
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One objective marker was **cleansed** by your army this turn."
+            ],
+            "value": 4
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Two or more objective markers were **cleansed** by your army this turn."
+            ],
+            "valueFixed": 4,
+            "value": 5
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": "establish_locus",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Establish locus",
+    "content": [
+        {
+            "type": "action",
+            "title": "Establish locus (action)",
+            "starts": "Your Shooting phase.",
+            "units": "One unit from your army.",
+            "completes": "End of your turn, if that unit is whithin your opponent's deployment zone or within 6\" of the center of the battlefield.",
+            "ifCompleted": "Your unit **establishes a locus**."
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Your unit **established a locus** this turn and is within 6\" of the center of the battlefield."
+            ],
+            "value": 2
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Your unit **established a locus** this turn and is within your opponent's deployment zone."
+            ],
+            "value": 4
+        }
+    ]
+}

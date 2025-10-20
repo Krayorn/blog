@@ -1,0 +1,42 @@
+{
+    "id": "cull_the_horde",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Cull the horde",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** If there are on enemy units on the battefield that satisfy the condition required to achieve this card, you can discard this card and draw a new Secondary Mission card."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One or more **INFANTRY** units with a Starting Strength of 13+ (including Attached units) were destroyed this turn."
+            ],
+            "value": 5
+        },
+        {   "type": "section",
+            "fixed": true,
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Each time an enemy **INFANTRY** unit with a Starting Strength of 13+ (including Attached units) is destroyed."
+            ],
+            "value": 5
+        }
+    ]
+}

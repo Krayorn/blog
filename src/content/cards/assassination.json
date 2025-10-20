@@ -1,0 +1,59 @@
+{
+    "id": "assassination",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Assassination",
+    "content": [
+        {   "type": "section",
+            "title": "Any battle round"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One or more enemy **CHARACTER** models were destroyed this turn."
+            ],
+            "value": 5
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "All enemy **CHARACTER** models have been destroyed during the battle."
+            ],
+            "value": 5
+        },
+        {   "type": "section",
+            "fixed": true,
+            "title": "Any battle round"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Each time an enemy **CHARACTER** model with a Wounds characteristic of 4 or higher is destroyed."
+            ],
+            "value": 4
+        },
+        {
+            "type": "dashed_line"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Each time an enemy **CHARACTER** model with a Wounds characteristic of less then 4 is destroyed."
+            ],
+            "value": 3
+        }
+    ]
+}

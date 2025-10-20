@@ -1,0 +1,64 @@
+{
+    "id": "bring_it_down",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Bring it down",
+    "content": [
+        {
+            "type": "text",
+            "text": ["**WHEN DRAWN:** If there are no enemy **MONSTER** or **VEHICLE** units on the battlefield, you can discard this card and draw a new Secondary Mission card."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One or more enemy **MONSTER** or **VEHICLE** units were destroyed this turn."
+            ],
+            "value": 4
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND",
+            "fixed": true
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Each time an enemy **MONSTER** or **VEHICLE** unit is destroyed."
+            ],
+            "value": 2
+        },
+        {
+            "type": "and"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "The total of the Wounds characteristic of the models in that destroyed unit was 15+ (at its Starting Strength)."
+            ],
+            "value": 2
+        },
+        {
+            "type": "and"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "The total of the Wounds characteristic of the models in that destroyed unit was 20+ (at its Starting Strength)."
+            ],
+            "value": 2
+        }
+    ]
+}

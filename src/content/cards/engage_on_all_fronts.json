@@ -1,0 +1,46 @@
+{
+    "id": "engage_on_all_fronts",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Engage on all fronts",
+    "content": [
+        {   "type": "text",
+            "text": ["If one or more units from your army (excluding **AIRCRAFT** and Battle-shocked units) are wholly within a table quarter, and those units are more than 6\" away from the center of the battlefield, you have a presence in that table quarter."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You have a presence in two table quarters."
+            ],
+            "value": 1
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "You have a presence in three table quarters."
+            ],
+            "value": 2
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "You have a presence in four table quarters."
+            ],
+            "value": 4
+        }
+    ]
+}

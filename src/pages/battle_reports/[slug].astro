@@ -1,0 +1,61 @@
+---
+import MissionCard from '../../components/BattleReports/MissionCard';
+import { getCollection } from "astro:content";
+import PlayerSection from '../../components/BattleReports/PlayerSection.astro';
+
+export async function getStaticPaths() {    
+    return (await getCollection('battle_report')).map((report) => {
+        return {
+            params: { slug: report.id},
+            props: { entry: report },
+        };
+    });
+}
+
+const raw_cards = await getCollection('cards')
+const indexed_cards = raw_cards.reduce((acc, card) => {
+    acc[card.id] = card;
+    return acc;
+}, {});
+
+
+const { entry } = Astro.props;
+---
+
+<div class="m-12">
+    <h1 class="text-2xl text-center font-bold">{entry.data.title}</h1>
+    <div class="flex mt-4 items-top justify-between">
+        <p class="text-sm">{entry.data.description}</p>
+        <p class="text-sm">{entry.data.date}</p>
+    </div>
+
+
+    <h2 class="text-center text-xl font-bold" >Preparation</h2>
+
+    <div class="flex justify-around">
+        <div class="w-1/2 mr-2" >
+            <PlayerSection name={entry.data.game_data.attacker.name} faction={entry.data.game_data.attacker.faction} detachment={entry.data.game_data.attacker.detachment} list={entry.data.game_data.attacker.list} />
+        </div>
+        <div class="w-1/2 ml-2" >
+            <PlayerSection name={entry.data.game_data.defender.name} faction={entry.data.game_data.defender.faction} detachment={entry.data.game_data.defender.detachment} list={entry.data.game_data.defender.list} />
+        </div>
+    </div>
+
+
+    {entry.data.rounds.map((round) => (
+        <div>
+            <h2>Round {round.rounds}</h2>
+            <p>Player 1</p>
+            {round.attacker.content.map((content) => (
+                <p>{content.content}</p>
+            ))}
+
+
+            <div class="flex flex-wrap gap-2">
+                {round.attacker.secondary_missions.map((mission) => (
+                    <MissionCard mission={indexed_cards[mission].data} defender={false} />
+                ))}
+            </div>
+        </div>
+    ))}
+</div>

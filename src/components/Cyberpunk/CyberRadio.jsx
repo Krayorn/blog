@@ -2,106 +2,106 @@ import { useState, useEffect, useRef } from 'react';
 
 
 const titles = [
-    "CYBERPUNK 2077 SOUNDTRACK - DARKRETRO by Count & Dukes of Azure (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DAGGA by Konrad OldMoney & Kartel Sonoro (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - BRUZEZ by Konrad OldMoney feat Johnny Gr4ves & Knixit (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - BLOUSES BLUE by Konrad OldMoney feat Cidro Onetoo, Perry Porter & NC3",
-    "CYBERPUNK 2077 SOUNDTRACK - BIGGER MAN by Konrad OldMoney feat Taelor Yung & Droox (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - BAMO by Konrad OldMoney feat Tonoso and Kartel Sonoro (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - I REALLY WANT TO STAY AT YOUR HOUSE by Rosa Walton & Hallie Coggins",
-    "CYBERPUNK 2077 SOUNDTRACK - HOLE IN THE SUN (feat COS & Conway) by Raney Shockne & Point Break Candy",
-    "CYBERPUNK 2077 SOUNDTRACK - HISTORY by Gazelle Twin & Trash Generation (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - HELLO GOOD MORNING by Konrad OldMoney feat. S-God & Pazoozu",
-    "CYBERPUNK 2077 - GO BLAZE by Konrad OldMoney feat Chanarah, Cidro OneToo? & DNA feat. G'Natt",
-    "CYBERPUNK 2077 - FOLLOW THE WHITE CROW by Kid Moxie, Ivan Iusco & Nablus",
-    "CYBERPUNK 2077 SOUNDTRACK - FLYING HEADS by Kid Moxie, Ivan Iusco & Ashes Potts",
-    "CYBERPUNK 2077 SOUNDTRACK - DELICATE WEAPON by Grimes & Lizzy Wizzy (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DAY OF DEAD by Konrad OldMoney feat Taelor Yung & HAPS (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - ON MY WAY TO HELL by Połoz & Tinnitus (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - NBOM by Konrad OldMoney feat Cidro Onetoo, Perry Porter & DAPxFLEM",
-    "CYBERPUNK 2077 SOUNDTRACK - MAJOR CRIMES by HEALTH & Window Weather (Official Video)",
-    "CYBERPUNK 2077 - KILL THE MESSENGER by Rezodrone (Jason Charles Miller & Jamison Boaz)",
-    "CYBERPUNK 2077 SOUNDTRACK - PLUCK U by Konrad OldMoney feat Ded Stark & Triple-B feat Gun-Fu",
-    "CYBERPUNK 2077 SOUNDTRACK - PONPON SHIT by Namakopuri & Us Cracks (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - PROBLEM KIDS by Konrad OldMoney feat Taelor Yung & Young Kenny",
-    "CYBERPUNK 2077 - RUN THE BLOCK by Konrad OldMoney feat Taelor Yung & Bez Tatami feat Gully Foyle",
-    "CYBERPUNK 2077 SOUNDTRACK - SUBVERT by Rhys Fulber & Spoon Eater (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - SURPRISE ME, I'M SURPRISED TODAY by Nina Kraviz & Bara Nova",
-    "CYBERPUNK 2077 SOUNDTRACK - WHO'S READY FOR TOMORROW by Rat Boy & IBDY (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - WORLDS by Sebastian Robertson and Daniel Davies & The Unresolved",
-    "CYBERPUNK 2077 SOUNDTRACK - ANTAGONISTIC by Chris Cardena and Sebastian Robertson & Pacific Avenue",
-    "CYBERPUNK 2077 SOUNDTRACK - BARRIO by Konrad OldMoney feat Frawst & Big Machete (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - Black Terminal (Upgrade) - Blue Stahli, Danny Cocke & Inversion",
-    "CYBERPUNK 2077 SOUNDTRACK - BLIND by Raney Shockne & American Medical Association (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - COME CLOSE by Sebastian Robertson and Daniel Davies & Keine",
-    "CYBERPUNK 2077 SOUNDTRACK - DRAINED by Rhys Fulber & Sao Mai (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - FROST by Konrad OldMoney feat Frawst & XerzeX (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - HEAVE HO by Konrad OldMoney feat Frawst & XerzeX (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - ISOMETRIC AIR by Bryan Aspey & Quantum Lovers (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - HOOD by Konrad OldMoney feat Awrath & ChickyChickas (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - HIGH SCHOOL BULLY by Konrad OldMoney feat Cideo Onetoo and Perry Porter",
-    "CYBERPUNK 2077 SOUNDTRACK - MANIAK by Picasso & Doctor Berserk (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - MUERTO TRASH by Konrad OldMoney feat Blackheart NC & FKxU",
-    "CYBERPUNK 2077 SOUNDTRACK - MUÉVELO (Cumbia) by David Rolas & Papito Gringo (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - NEVER STOP ME by Steven Richard Davis & Den Of Degenerates",
-    "CYBERPUNK 2077 SOUNDTRACK - ONLY SON by Konrad OldMoney feat 37 Heartbreak & ChickyChickas",
-    "CYBERPUNK 2077 SOUNDTRACK - PRACTICAL HEART by Bryan Aspey & Quantum Lovers (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - REAL WINDOW by Bryan Aspey & Quantum Lovers (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - SERPANT by Konrad OldMoney feat Cerbeus and Johnney Gr4ves & 7 Facas",
-    "CYBERPUNK 2077 SOUNDTRACK - SIMPLE PLEASURES by Kid Moxie & Jänsens (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - NIGHT CITY by R E L & Artemis Delta (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - SUFFER ME by The Cold Stares & Brutus Backlash (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - TATTED ON MY FACE by Konrad OldMoney feat 37 Heartbreak & Don Mara",
-    "CYBERPUNK 2077 - THE GOD MACHINES by Sebastian Robertson, Killl The Computer, Indijinouz",
-    "CYBERPUNK 2077 SOUNDTRACK - TRAUMA by Aligns & Rubicones (Official Video)",
-    "CYBERPUNK 2077 - WARNING SHOTS by Konrad OldMoney feat Perry Porter w Cidro Onetoo & Laputan Machine",
-    "CYBERPUNK 2077 SOUNDTRACK - WESTCOAST TIL I DIE by Konrad OldMoney & DJ CholoZ (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - WITH HER by Steven Richard Davis & Ego Affliction (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - WORLDS (Vocal Stem) by Sebastian Robertson and Daniel Davies & The Un...",
-    "CYBERPUNK 2077 SOUNDTRACK - NIGHT CITY ALIENS by The Armed & Homeshool Dropouts (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - METAMORPHOSIS by Yugen Blakrok & Gorgon Madonna (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - MAKES ME FEEL BETTER by OnenO & Perilous Futur (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - KILL KILL by Le Destroy & The Bait (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - I WON'T LET YOU GO by Converge & Shattered Void (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - FRIDAY NIGHT FIRE FIGHT by Aligns & Rubicones (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DINERO (feat. CERBEUS) by Konrad OldMoney & 7 Facas (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DEAD PILOT by Sebastian Robertson and Daniel Davies & Keine (Official)",
-    "CYBERPUNK 2077 SOUNDTRACK - ADAPTIVE MANIPULATOR by Tomb Mold & Bacillus (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DIRTY ROSES by Oneno & Perilous Futur (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - NO SAVE POINT - Run The Jewels & Yankee And The Brave (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - PAIN by Le Destroy & The Red Glare (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - REAKTION by Rezodrone (Jason Charles Miller & Jamison Boaz)",
-    "CYBERPUNK 2077 - RESIST AND DISORDER by Rezodrone (Jason Charles Miller & Jamison Boaz)",
-    "CYBERPUNK 2077 SOUNDTRACK - RUN by Steven Richard Davis & Kings of Collapse (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - SELVA PULSÁTIL by Deafkids & Tainted Overlord (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - SUICIDE by Geno Lenardo feat. Valin \"ZEALE\" Zamerron & Code 137",
-    "CYBERPUNK 2077 SOUNDTRACK - VIOLENCE by Le Destroy & The Bait (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - WHEN IT'S WAR by Deadly Hunta, Maro Music & Footage Missing",
-    "CYBERPUNK 2077 SOUNDTRACK - GR4VES by Konrad OldMoney feat- Johnny Gr4ves & Kyubik",
-    "CYBERPUNK 2077 - CLIP BOSS by Konrad OldMoney feat Johnny Gr4ves & Sugarcoob feat ANAK KONDA",
-    "CYBERPUNK 2077 SOUNDTRACK - USER FRIENDLY by Namakopuri & Us Cracks (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - MY LULLABY FOR YOU by Nina Kraviz & Bara Nova (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - HARM SWEATY PIT by Nina Kraviz & Bara Nova (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - DELIRIUM 2 by Nina Kraviz & Bara Nova (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - CHIPPIN' IN by Damian Ukeje, P.T. Adamczyk & Kerry Eurodyne",
-    "CYBERPUNK 2077 SOUNDTRACK - USER FRIENDLY by Namakopuri & Us Cracks (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - RATATATA by Baron Black, Auer & Baron Celine (Official Video)",
-    "CYBERPUNK 2077 SOUNDTRACK - LIKEWISE by RAT BOY & IBDY (Official Video)"
+  "88.1 - DARKRETRO by Count & Dukes of Azure",
+  "80.5 - DAGGA by Konrad OldMoney & Kartel Sonoro",
+  "84.1 - BRUZEZ by Konrad OldMoney feat Johnny Gr4ves & Knixit",
+  "83.1 - BLOUSES BLUE by Konrad OldMoney feat Cidro Onetoo, Perry Porter & NC3",
+  "98.1 - BIGGER MAN by Konrad OldMoney feat Taelor Yung & Droox",
+  "81.0 - BAMO by Konrad OldMoney feat Tonoso and Kartel Sonoro",
+  "86.1 - I REALLY WANT TO STAY AT YOUR HOUSE by Rosa Walton & Hallie Coggins",
+  "82.0 - HOLE IN THE SUN (feat COS & Conway) by Raney Shockne & Point Break Candy",
+  "85.5 - HISTORY by Gazelle Twin & Trash Generation",
+  "88.6 - HELLO GOOD MORNING by Konrad OldMoney feat. S-God & Pazoozu",
+  "85.4 - GO BLAZE by Konrad OldMoney feat Chanarah, Cidro OneToo? & DNA feat. G'Natt",
+  "98.5 - FOLLOW THE WHITE CROW by Kid Moxie, Ivan Iusco & Nablus",
+  "94.2 - FLYING HEADS by Kid Moxie, Ivan Iusco & Ashes Potts",
+  "87.6 - DELICATE WEAPON by Grimes & Lizzy Wizzy",
+  "91.1 - DAY OF DEAD by Konrad OldMoney feat Taelor Yung & HAPS",
+  "98.9 - ON MY WAY TO HELL by Połoz & Tinnitus",
+  "92.8 - NBOM by Konrad OldMoney feat Cidro Onetoo, Perry Porter & DAPxFLEM",
+  "88.4 - MAJOR CRIMES by HEALTH & Window Weather",
+  "94.0 - KILL THE MESSENGER by Rezodrone (Jason Charles Miller & Jamison Boaz)",
+  "82.4 - PLUCK U by Konrad OldMoney feat Ded Stark & Triple-B feat Gun-Fu",
+  "95.1 - PONPON SHIT by Namakopuri & Us Cracks",
+  "93.7 - PROBLEM KIDS by Konrad OldMoney feat Taelor Yung & Young Kenny",
+  "81.1 - RUN THE BLOCK by Konrad OldMoney feat Taelor Yung & Bez Tatami feat Gully Foyle",
+  "92.0 - SUBVERT by Rhys Fulber & Spoon Eater",
+  "86.3 - SURPRISE ME, I'M SURPRISED TODAY by Nina Kraviz & Bara Nova",
+  "86.0 - WHO'S READY FOR TOMORROW by Rat Boy & IBDY",
+  "80.9 - WORLDS by Sebastian Robertson and Daniel Davies & The Unresolved",
+  "93.7 - ANTAGONISTIC by Chris Cardena and Sebastian Robertson & Pacific Avenue",
+  "91.1 - BARRIO by Konrad OldMoney feat Frawst & Big Machete",
+  "91.2 - Black Terminal (Upgrade) - Blue Stahli, Danny Cocke & Inversion",
+  "93.8 - BLIND by Raney Shockne & American Medical Association",
+  "92.1 - COME CLOSE by Sebastian Robertson and Daniel Davies & Keine",
+  "90.4 - DRAINED by Rhys Fulber & Sao Mai",
+  "83.7 - FROST by Konrad OldMoney feat Frawst & XerzeX",
+  "98.5 - HEAVE HO by Konrad OldMoney feat Frawst & XerzeX",
+  "97.1 - ISOMETRIC AIR by Bryan Aspey & Quantum Lovers",
+  "94.1 - HOOD by Konrad OldMoney feat Awrath & ChickyChickas",
+  "88.4 - HIGH SCHOOL BULLY by Konrad OldMoney feat Cideo Onetoo and Perry Porter",
+  "98.7 - MANIAK by Picasso & Doctor Berserk",
+  "87.2 - MUERTO TRASH by Konrad OldMoney feat Blackheart NC & FKxU",
+  "84.7 - MUÉVELO (Cumbia) by David Rolas & Papito Gringo",
+  "99.6 - NEVER STOP ME by Steven Richard Davis & Den Of Degenerates",
+  "97.5 - ONLY SON by Konrad OldMoney feat 37 Heartbreak & ChickyChickas",
+  "96.5 - PRACTICAL HEART by Bryan Aspey & Quantum Lovers",
+  "93.9 - REAL WINDOW by Bryan Aspey & Quantum Lovers",
+  "97.7 - SERPANT by Konrad OldMoney feat Cerbeus and Johnney Gr4ves & 7 Facas",
+  "96.8 - SIMPLE PLEASURES by Kid Moxie & Jänsens",
+  "86.6 - NIGHT CITY by R E L & Artemis Delta",
+  "87.4 - SUFFER ME by The Cold Stares & Brutus Backlash",
+  "93.0 - TATTED ON MY FACE by Konrad OldMoney feat 37 Heartbreak & Don Mara",
+  "86.9 - THE GOD MACHINES by Sebastian Robertson, Killl The Computer, Indijinouz",
+  "97.8 - TRAUMA by Aligns & Rubicones",
+  "81.8 - WARNING SHOTS by Konrad OldMoney feat Perry Porter w Cidro Onetoo & Laputan Machine",
+  "92.5 - WESTCOAST TIL I DIE by Konrad OldMoney & DJ CholoZ",
+  "81.0 - WITH HER by Steven Richard Davis & Ego Affliction",
+  "89.4 - WORLDS (Vocal Stem) by Sebastian Robertson and Daniel Davies & The Un...",
+  "80.5 - NIGHT CITY ALIENS by The Armed & Homeshool Dropouts",
+  "81.6 - METAMORPHOSIS by Yugen Blakrok & Gorgon Madonna",
+  "86.0 - MAKES ME FEEL BETTER by OnenO & Perilous Futur",
+  "97.3 - KILL KILL by Le Destroy & The Bait",
+  "90.4 - I WON'T LET YOU GO by Converge & Shattered Void",
+  "86.4 - FRIDAY NIGHT FIRE FIGHT by Aligns & Rubicones",
+  "80.9 - DINERO (feat. CERBEUS) by Konrad OldMoney & 7 Facas",
+  "88.2 - DEAD PILOT by Sebastian Robertson and Daniel Davies & Keine (Official)",
+  "92.3 - ADAPTIVE MANIPULATOR by Tomb Mold & Bacillus",
+  "91.4 - DIRTY ROSES by Oneno & Perilous Futur",
+  "84.1 - NO SAVE POINT - Run The Jewels & Yankee And The Brave",
+  "80.2 - PAIN by Le Destroy & The Red Glare",
+  "84.4 - REAKTION by Rezodrone (Jason Charles Miller & Jamison Boaz)",
+  "80.7 - RESIST AND DISORDER by Rezodrone (Jason Charles Miller & Jamison Boaz)",
+  "92.1 - RUN by Steven Richard Davis & Kings of Collapse",
+  "93.0 - SELVA PULSÁTIL by Deafkids & Tainted Overlord",
+  "97.0 - SUICIDE by Geno Lenardo feat. Valin \"ZEALE\" Zamerron & Code 137",
+  "93.3 - VIOLENCE by Le Destroy & The Bait",
+  "85.8 - WHEN IT'S WAR by Deadly Hunta, Maro Music & Footage Missing",
+  "96.8 - GR4VES by Konrad OldMoney feat- Johnny Gr4ves & Kyubik",
+  "96.1 - CLIP BOSS by Konrad OldMoney feat Johnny Gr4ves & Sugarcoob feat ANAK KONDA",
+  "92.9 - USER FRIENDLY by Namakopuri & Us Cracks",
+  "98.2 - MY LULLABY FOR YOU by Nina Kraviz & Bara Nova",
+  "87.3 - HARM SWEATY PIT by Nina Kraviz & Bara Nova",
+  "86.8 - DELIRIUM 2 by Nina Kraviz & Bara Nova",
+  "80.9 - CHIPPIN' IN by Damian Ukeje, P.T. Adamczyk & Kerry Eurodyne",
+  "90.8 - USER FRIENDLY by Namakopuri & Us Cracks",
+  "90.9 - RATATATA by Baron Black, Auer & Baron Celine",
+  "91.5 - LIKEWISE by RAT BOY & IBDY"
 ]
 
 const CyberRadio = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTitle, setCurrentTitle] = useState('Cyberpunk Radio');
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [volume, setVolume] = useState(50);
+  const [currentIndex, setCurrentIndex] = useState(6);
+  const [volume, setVolume] = useState(30);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [isPlayerReady, setIsPlayerReady] = useState(false);
   const [showVolumeSlider, setShowVolumeSlider] = useState(false);
   const [showPlaylist, setShowPlaylist] = useState(false);
-  const [playlistTitles, setPlaylistTitles] = useState([]);
   const [volumeButtonPosition, setVolumeButtonPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
+  
+
   
   const playerRef = useRef(null);
   const playerInstanceRef = useRef(null);
@@ -110,50 +110,8 @@ const CyberRadio = () => {
   const volumeButtonRef = useRef(null);
   const volumeSliderContainerRef = useRef(null);
 
-  // YouTube Radio URL
-  const YOUTUBE_URL = 'https://www.youtube.com/watch?v=gzbLODUb1sA&list=PLRFAOvDITgP8WEBHjuI-j9NTiDzIJlucz';
-  
-  // Extract video ID from URL
-  const getVideoId = (url) => {
-    const match = url.match(/[?&]v=([^&]+)/);
-    return match ? match[1] : null;
-  };
+  const currentTitle = titles[currentIndex];
 
-  // Clean song title by removing the "CYBERPUNK 2077 SOUNDTRACK - " prefix and "(Official Video)" suffix
-  const cleanSongTitle = (title) => {
-    if (!title) return 'Cyberpunk Radio';
-    
-    let cleanedTitle = title;
-    
-    // Remove prefix
-    const prefix = 'CYBERPUNK 2077 SOUNDTRACK - ';
-    if (cleanedTitle.startsWith(prefix)) {
-      cleanedTitle = cleanedTitle.substring(prefix.length);
-    }
-    
-    const prefix2 = 'CYBERPUNK 2077 - ';
-    if (cleanedTitle.startsWith(prefix2)) {
-      cleanedTitle = cleanedTitle.substring(prefix2.length);
-    }
-
-    // Remove suffix
-    const suffix = ' (Official Video)';
-    if (cleanedTitle.endsWith(suffix)) {
-      cleanedTitle = cleanedTitle.substring(0, cleanedTitle.length - suffix.length);
-    }
-    
-    return cleanedTitle;
-  };
-
-  const loadPlaylistTitles = () => {
-    // Use the hardcoded titles array
-    const cleanedTitles = titles.map(title => cleanSongTitle(title));
-    setPlaylistTitles(cleanedTitles);
-  };
-
-  const videoId = getVideoId(YOUTUBE_URL);
-
-  // Load YouTube IFrame API
   useEffect(() => {
     if (!window.YT) {
       const tag = document.createElement('script');
@@ -166,7 +124,6 @@ const CyberRadio = () => {
       initializePlayer();
     };
 
-    // If API is already loaded
     if (window.YT && window.YT.Player) {
       initializePlayer();
     }
@@ -179,12 +136,11 @@ const CyberRadio = () => {
   }, []);
 
   const initializePlayer = () => {
-    if (!videoId) return;
-
+    // from https://www.youtube.com/watch?v=gzbLODUb1sA&list=PLRFAOvDITgP8WEBHjuI-j9NTiDzIJlucz
     playerInstanceRef.current = new window.YT.Player(playerRef.current, {
       height: '1',
       width: '1',
-      videoId: videoId,
+      videoId: 'gzbLODUb1sA',
       playerVars: {
         autoplay: 0,
         controls: 0,
@@ -203,14 +159,8 @@ const CyberRadio = () => {
               events: {
                 onReady: (event) => {
                   setIsPlayerReady(true);
-                  const initialIndex = event.target.getPlaylistIndex();
-                  setCurrentIndex(initialIndex);
-                  setCurrentTitle(cleanSongTitle(event.target.getVideoData().title));
                   event.target.setVolume(volume);
-                  // Start muted to avoid autoplay issues
                   event.target.mute();
-                  // Load playlist titles immediately
-                  loadPlaylistTitles();
                 },
         onStateChange: (event) => {
           if (event.data === window.YT.PlayerState.PLAYING) {
@@ -232,7 +182,6 @@ const CyberRadio = () => {
       playerInstanceRef.current.pauseVideo();
     } else {
       playerInstanceRef.current.playVideo();
-      // Unmute when user starts playing
       playerInstanceRef.current.unMute();
     }
   };
@@ -270,21 +219,15 @@ const CyberRadio = () => {
     if (playerInstanceRef.current) {
       playerInstanceRef.current.playVideoAt(index);
       setCurrentIndex(index);
-      // Start playing if not already playing
       if (!isPlaying) {
         playerInstanceRef.current.playVideo();
         playerInstanceRef.current.unMute();
       }
-      setShowPlaylist(false);
-      // Update title immediately using titles array
-      setCurrentTitle(cleanSongTitle(titles[index]));
     }
   };
 
-  // Handle clicks outside volume slider and mouse events for dragging
   useEffect(() => {
     const handleClickOutside = (event) => {
-      // Check if click is outside both the volume button and the volume slider
       const isVolumeButton = volumeSliderRef.current && volumeSliderRef.current.contains(event.target);
       const isVolumeSlider = event.target.closest('.volume-slider-container');
       const isPlaylist = event.target.closest('.playlist-container');
@@ -301,7 +244,7 @@ const CyberRadio = () => {
     const handleMouseMove = (e) => handleVolumeSliderMouseMove(e);
     const handleMouseUp = () => handleVolumeSliderMouseUp();
 
-    if (showVolumeSlider) {
+    if (showVolumeSlider || showPlaylist) {
       document.addEventListener('mousedown', handleClickOutside);
     }
 
@@ -315,10 +258,9 @@ const CyberRadio = () => {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [showVolumeSlider, isDragging]);
+  }, [showVolumeSlider, isDragging, showPlaylist]);
 
 
-  // Update progress bar
   useEffect(() => {
     if (!isPlayerReady || !playerInstanceRef.current) return;
 
@@ -328,12 +270,11 @@ const CyberRadio = () => {
         const total = playerInstanceRef.current.getDuration();
         setCurrentTime(current);
         setDuration(total);
-        
       }
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isPlaying, isPlayerReady, currentTitle]);
+  }, [isPlaying, isPlayerReady]);
 
 
   const progressPercentage = duration > 0 ? (currentTime / duration) * 100 : 0;
@@ -341,17 +282,12 @@ const CyberRadio = () => {
   return (
     <div className="fixed bottom-8 left-8 z-50">
       <div className="cyber-radio-container relative">
-        {/* Hidden YouTube player */}
         <div ref={playerRef} className="hidden"></div>
         
-        {/* Outer border with cyberpunk clip-path - reduced size */}
         <div className="outer-radio-border bg-neonb p-0.5 overflow-visible">
           <div className="inner-radio-border bg-dark p-2 overflow-visible">
-            {/* Radio Display - horizontal layout */}
             <div className="flex items-center space-x-3">
-              {/* Controls */}
               <div className="flex items-center space-x-1">
-                {/* Previous Button */}
                 <button
                   onClick={() => playSongAtIndex(currentIndex === 0 ? titles.length - 1 : currentIndex - 1)}
                   disabled={!isPlayerReady}
@@ -362,7 +298,6 @@ const CyberRadio = () => {
                   </svg>
                 </button>
 
-                {/* Play/Pause Button - neonb color */}
                 <button
                   onClick={togglePlayPause}
                   disabled={!isPlayerReady}
@@ -379,7 +314,6 @@ const CyberRadio = () => {
                   )}
                 </button>
 
-                {/* Next Button */}
                 <button
                   onClick={() => playSongAtIndex((currentIndex + 1) % titles.length)}
                   disabled={!isPlayerReady}
@@ -390,31 +324,22 @@ const CyberRadio = () => {
                   </svg>
                 </button>
 
-                {/* Random Button */}
                 <button
                   onClick={() => playSongAtIndex(Math.floor(Math.random() * titles.length))}
                   disabled={!isPlayerReady}
                   className="cyber-nav-button relative bg-transparent hover:bg-neonb/20 border border-neonb text-neonb font-bold py-1 px-1 transition-all duration-200 disabled:opacity-50"
                 >
-                  <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 00-1-1z" clipRule="evenodd" />
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l2 2a1 1 0 010 1.414l-2 2a1 1 0 01-1.414-1.414L12.586 8l-.707-.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                    <path fillRule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414l2-2a1 1 0 011.414 1.414L7.414 12l.707.707a1 1 0 010 1.414z" clipRule="evenodd" />
-                  </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 3h5v5M4 20L20.2 3.8M21 16v5h-5M15 15l5.1 5.1M4 4l5 5"/></svg>
                 </button>
 
-                {/* Playlist Button */}
                 <button
                   onClick={() => setShowPlaylist(!showPlaylist)}
                   disabled={!isPlayerReady}
                   className="cyber-nav-button relative bg-transparent hover:bg-neonb/20 border border-neonb text-neonb font-bold py-1 px-1 transition-all duration-200 disabled:opacity-50"
                 >
-                  <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                  </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
                 </button>
                 
-                {/* Volume Control - collapsible */}
                 <div className="relative overflow-visible" ref={volumeSliderRef}>
                   <button
                     ref={volumeButtonRef}
@@ -439,9 +364,7 @@ const CyberRadio = () => {
                 </div>
               </div>
               
-              {/* Title and Progress Bar */}
               <div className="flex flex-col space-y-1 min-w-0 flex-1">
-                {/* Song Title with scroll animation */}
                 <div 
                   ref={titleRef}
                   className="text-xs font-bold uppercase tracking-wider glow-text overflow-hidden whitespace-nowrap"
@@ -452,7 +375,6 @@ const CyberRadio = () => {
                   </div>
                 </div>
                 
-                {/* Simple Progress Bar */}
                 <div className="w-full bg-neonr h-0.5 relative">
                   <div 
                     className="h-full bg-neonb transition-all duration-300"
@@ -465,7 +387,6 @@ const CyberRadio = () => {
         </div>
       </div>
       
-      {/* Volume Slider - positioned outside the main container to avoid Astro island containment */}
       {showVolumeSlider && (
         <div 
           className="volume-slider-container fixed z-50"
@@ -494,25 +415,25 @@ const CyberRadio = () => {
         </div>
       )}
 
-      {/* Playlist Menu - positioned above the radio */}
       {showPlaylist && (
         <div className="playlist-container fixed z-50 bottom-24 left-8">
           <div className="bg-dark border border-neonb p-3 rounded max-h-64 w-64 overflow-y-auto">
             <div className="text-xs font-bold text-neonb mb-2 uppercase tracking-wider">Playlist</div>
             <div className="space-y-1">
-              {playlistTitles.map((title, index) => {
+              {titles.map((title, index) => {
                 const isCurrent = currentTitle === title;
                 return (
-                  <button
-                    key={index}
-                    onClick={() => playSongAtIndex(index)}
-                    className={`w-full text-left p-2 text-xs hover:bg-neonb/20 transition-all duration-200 ${
-                      isCurrent ? 'bg-neonb/30 text-neonb font-bold' : 'text-neonb'
-                    }`}
-                  >
-                    {isCurrent ? '▶ ' : ''}{title}
-                  </button>
-                );
+                  <div className={`song-button-border hover:bg-neonb ${isCurrent ? 'bg-neonb' : ''}`} key={index}>
+                    <button
+                      onClick={() => playSongAtIndex(index)}
+                      className={`song-button bg-dark m-[1px] w-full text-left p-2 text-xs bg-dark text-neonb ${
+                        isCurrent ? 'font-bold' : ''
+                      }`}
+                    >
+                      {isCurrent ? '▶ ' : ''}{title}
+                    </button>
+                  </div>
+              );
               })}
             </div>
           </div>
@@ -560,7 +481,27 @@ const CyberRadio = () => {
             0% 3px
           );
         }
-        
+    
+        .song-button-border {
+    clip-path: polygon(
+            0% 0%,
+            100% 0%,
+            100% calc(100% - 10px),
+            calc(100% - 10px) 100%,
+            0% 100%
+          );
+        }
+
+        .song-button {
+    clip-path: polygon(
+            0% 0%,
+            calc(100% - 2px) 0%,
+            calc(100% - 2px) calc(100% - 10px),
+            calc(100% - 11px) 100%,
+            0% 100%
+          );
+        }
+
         .glow-text {
           text-shadow: 0 0 5px #07f0ff, 0 0 10px #07f0ff, 0 0 15px #07f0ff;
         }

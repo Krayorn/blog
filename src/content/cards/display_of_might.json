@@ -1,0 +1,25 @@
+{
+    "id": "display_of_might",
+    "type": "Secondary Mission",
+    "name": "Display of might",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {   
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "There are more units from your army than from your opponent's army wholly within No Man's Land."
+            ],
+            "value": 4
+        }
+    ]
+}

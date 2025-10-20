@@ -1,0 +1,23 @@
+{
+    "id": "overwhelming_force",
+    "type": "Secondary Mission",
+    "name": "Overwhelming force",
+    "content": [
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Each time an enemy unit that started the turn within range of an objective marker is destroyed."
+            ],
+            "value": 3,
+            "max": 5
+        }
+    ]
+}

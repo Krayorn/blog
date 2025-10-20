@@ -1,0 +1,41 @@
+{
+    "id": "no_prisoners",
+    "type": "Secondary Mission",
+    "name": "No prisoners",
+    "fixed": true,
+    "content": [
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Each time an enemy unit is destroyed."
+            ],
+            "value": 2,
+            "max": 5
+        },
+        {   "type": "section",
+            "fixed": true,
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** While this card is active."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Each time an enemy Bodyguard unit or enemy non-**CHARACTER** unit is destroyed."
+            ],
+            "value": 2,
+            "max": 5
+        }
+    ]
+}

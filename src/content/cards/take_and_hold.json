@@ -1,0 +1,24 @@
+{
+    "id": "take_and_hold",
+    "type": "Primary Mission",
+    "name": "Take and hold",
+    "content": [
+        {   "type": "section",
+            "title": "SECOND BATTLE ROUND ONWARDS"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of the Command phase. (or the end of your turn if it is the fifth battle round and you are going second)."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "The player whose turn it is scores:",
+                "For each objective marker that they control."
+            ],
+            "value": 5,
+            "max": 15
+        }
+    ]
+}

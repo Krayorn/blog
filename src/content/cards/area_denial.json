@@ -1,0 +1,32 @@
+{
+    "id": "area_denial",
+    "type": "Secondary Mission",
+    "name": "Area denial",
+    "content": [
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One or more units from your army (excluding **AIRCRAFT** and Battle-shocked units) are within 3\" of the center of the battlefield, and there are no enemy units within 3\" of the center of the battlefield."
+            ],
+            "value": 2
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "One or more units from your army (excluding **AIRCRAFT** and Battle-shocked units) are within 3\" of the center of the battlefield, and there are no enemy units within 6\" of the center of the battlefield."
+            ],
+            "value": 5
+        }
+    ]
+}

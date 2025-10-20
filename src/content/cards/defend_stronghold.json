@@ -1,0 +1,25 @@
+{
+    "id": "defend_stronghold",
+    "type": "Secondary Mission",
+    "name": "Defend stronghold",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck."]
+        },
+        {   "type": "section",
+            "title": "SECOND BATTLE ROUND ONWARDS"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your opponent's turn or the end of the battle (whichever comes first)."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You control one or more objective markers in your deployment zone."
+            ],
+            "value": 3
+        }
+    ]
+}

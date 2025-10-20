@@ -1,0 +1,37 @@
+{
+    "id": "behind_enemy_lines",
+    "type": "Secondary Mission",
+    "fixed": true,
+    "name": "Behind enemy lines",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One unit from your army (excluding **AIRCRAFT** and Battle-shocked units) is wholly within your opponent's deployment zone."
+            ],
+            "value": 3
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Two or ore units from your army (excluding **AIRCRAFT** and Battle-shocked units) are wholly within your opponent's deployment zone."
+
+            ],
+            "value": 4
+        }
+    ]
+}

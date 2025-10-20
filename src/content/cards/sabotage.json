@@ -1,0 +1,40 @@
+{
+    "id": "sabotage",
+    "type": "Secondary Mission",
+    "name": "Sabotage",
+    "content": [
+        {
+            "type": "action",
+            "title": "Sabotage (action)",
+            "starts": "Your Shooting phase.",
+            "units": "One unit from your army that is within a terrain feature and not within your deployment zone.",
+            "completes": "End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.",
+            "ifCompleted": "Your unit **commits sabotage**."
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your opponent's turn or the end of the battle (whichever comes first)."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Your unit **commited sabotage** this turn and is not within your opponent's deployment zone."
+            ],
+            "value": 3
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Your unit **commited sabotage** this turn and is within your opponent's deployment zone."
+            ],
+            "value": 6
+        }
+    ]
+}

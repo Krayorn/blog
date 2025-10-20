@@ -1,0 +1,215 @@
+{
+    "title": "Adepta Sororitas vs Space Marines - 1000pts",
+    "date": "2025-10-18",
+    "description": "Battle report of our second affrontement with our armies. Emmanuel switched quite a few units around, and I did not because nothing new was built.",
+    "game_data": {
+        "points": 1000,
+        "attacker": {
+            "name": "Nathael",
+            "faction": "Adepta Sororitas",
+            "detachment": "Hallowed Martyrs",
+            "list": [
+                {
+                    "name": "Canoness",
+                    "equipment": [
+                        "Blessed blade, Plasma pistol, Saintly example"
+                    ],
+                    "points": 60
+                },
+                {
+                    "name": "Canoness with Jump Pack",
+                    "equipment": [
+                        "Blessed halberd, Through Suffering Strength"
+                    ],
+                    "points": 100
+                },
+                {
+                    "name": "Battle Sisters Squad",
+                    "number": 10,
+                    "equipment": [
+                        "1x Sister Superior: Plasma pistol, Power weapon",
+                        "6x Battle Sister: Boltgun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Simulacrum Imperialis, Boltgun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Meltagun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Multi-melta, Bolt pistol, Close combat weapon"
+                    ],
+                    "points": 105
+                },
+                {
+                    "name": "Arco-flagellants",
+                    "number": 3,
+                    "equipment": [
+                        "3x Arco-flagellant: Arco-flails"
+                    ],
+                    "points": 45
+                },
+                {
+                    "name": "Repentia Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Repentia Superior: Bolt pistol, Neural Whips",
+                        "4x Sister Repentia: Penitent Eviscerator"
+                    ],
+                    "points": 75
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Seraphim Superior: Plasma pistol, Power weapon",
+                        "2x Seraphim: 2 Bolt pistols, Close combat weapon",
+                        "2x Seraphim: 2 Ministorum hand flamers, Close combat weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Seraphim Superior: Plasma pistol, Power weapon",
+                        "2x Seraphim: 2 Bolt pistols, Close combat weapon",
+                        "2x Seraphim: 2 Ministorum hand flamers, Close combat weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Zephirim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Zephirim Superior: Plasma pistol, Power weapon, Sacred Banner",
+                        "4x Zephirim: Bolt pistol, Power weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Exorcist",
+                    "equipment": [
+                        "Exorcist Missile Launcher, Hunter-killer missile, Heavy Bolter, Armoured tracks"
+                    ],
+                    "points": 210
+                },
+                {
+                    "name": "Penitent Engine",
+                    "equipment": [
+                        "Penitent Flamers, Twin Penitent Buzz-Blades"
+                    ],
+                    "points": 75
+                },
+                {
+                    "name": "Sororitas Rhino",
+                    "equipment": [
+                        "Hunter-killer missile, Storm Bolter, Armoured tracks"
+                    ],
+                    "points": 75
+                }
+            ]
+        },
+        "defender": {
+            "name": "Emmanuel",
+            "faction": "Space Marines",
+            "detachment": "Gladius Task Force",
+            "list": [
+                {
+                    "name": "Captain with Jump Pack",
+                    "equipment": [
+                        "The Honour Vehement"
+                    ],
+                    "points": 90
+                },
+                {
+                    "name": "Leftenant with combi-weapon",
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 70
+                },
+                {
+                    "name": "Assault Intercessors",
+                    "number": 10,
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 150
+                },
+                {
+                    "name": "Heavy Intercessors",
+                    "number": 5,
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 100
+                },
+                {
+                    "name": "Jump pack Intercessors",
+                    "number": 5,
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 90
+                },
+                {
+                    "name": "Inceptors",
+                    "number": 3,
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 120
+                },
+                {
+                    "name": "Bladeguards veteran",
+                    "number": 3,
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Ballistus Dreadnought",
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 150
+                },
+                {
+                    "name": "Gladiator Valiant",
+                    "equipment": [
+                        "stuff"
+                    ],
+                    "points": 150
+                }
+            ]
+        },
+        "primary_mission": "take_and_hold",
+        "deployment": "dawn_of_war"
+    },
+    "rounds": [
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "establish_locus",
+                    "bring_it_down"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "deployment is a bit messy, but with more terrain, we're all hidden! Great!"
+                    },
+                    {
+                        "type": "text",
+                        "content": "can't do establish locus (didn't advance enough troops at the start) and bring it down is kinda hard... but maybe, yes who knows... The exorcist shoots the gladiator. Plenty of shoots, one wound. Failed. damage roll. 6! Good start but it's not dead, but the rhino moved forward to bring the repentia to the right, there is an angle for the gladiator! The hunter killer missile hits, wounds. Damage roll. 6!!! "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Well, that's a gladiator down, and I felt quite sorry for the opponent. On the left side, I didn't move my flagellant, I'm not sure they can handle the leftenant, on the right side, the rhino moved up but that's it. "
+                    }
+                ]
+            },
+            "defender": {
+                "content": [
+                    {   "type": "text",
+                        "content": "Turn 1"
+                    }
+                ]
+            }
+        }
+    ]
+}

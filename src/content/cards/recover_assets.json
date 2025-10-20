@@ -1,0 +1,43 @@
+{
+    "id": "recover_assets",
+    "type": "Secondary Mission",
+    "name": "Recover assets",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** If you are playing an Incursion mission, or if there are fewer than three units from your army on the battelfield, you can discard this card and draw a new Secondary Mission card."]
+        },
+        {
+            "type": "action",
+            "title": "Recover assets (action)",
+            "starts": "Your Shooting phase.",
+            "units": "Two or more units from your army, if each of those units is wholly within a different one of the following areas: your deployment zone; No Man's Land; your opponent's deployment zone.",
+            "completes": "End of your turn, if either two of three of those units are on the battlefield.",
+            "ifCompleted": "Those units **recover assets**."
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn or the end of the battle (whichever comes first)."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Two of your units **recovered assets** this turn."
+            ],
+            "value": 3
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Three of your units **recovered assets** this turn."
+            ],
+            "value": 5
+        }
+    ]
+}

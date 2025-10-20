@@ -10,12 +10,26 @@ tags: []
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
 
+# 20-10-2025
+
+https://emilkowal.ski/ui/good-vs-great-animations
+https://emilkowal.ski/ui/7-practical-animation-tips
+
+# 13-10-2025
+
+[How I provide technical clarity to non-technical leaders](https://www.seangoedecke.com/clarity/).
+
+[Make Something Heavy.](https://www.workingtheorys.com/p/make-something-heavy).
+
+[Signaling as a service](https://julian.digital/2020/03/28/signaling-as-a-service/).
+
+[Open social](https://overreacted.io/open-social/).
 
 # 06-10-2025
 
-https://www.seangoedecke.com/how-to-influence-politics/
+[How I influence tech company politics as a staff software engineer](https://www.seangoedecke.com/how-to-influence-politics/).
 
-https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/
+[Stop Avoiding Politics](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/).
 
 # 29-09-2025
 

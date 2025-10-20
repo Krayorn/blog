@@ -1,0 +1,36 @@
+{
+    "id": "marked_for_death",
+    "type": "Secondary Mission",
+    "name": "Marked for death",
+    "content": [
+        {
+            "type": "text",
+            "text": ["**WHEN DRAWN:** Your opponent must select three units from their army on the battelfield. If there are only one or two units from their army on the battlefield, they must select those units. The selected units are your **Alpha Target** units. You can then select one unit from your opponent's army on the battelfield to be your **Gamma Target** unit. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "One or more of your **Alpha Target** units were destroyed (or removed from the battlefield for any other reason) this turn."
+            ],
+            "value": 5
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "None of your **Alpha Target** units were destroyed (or removed from the battlefield for any other reason) this turn, but your **Gamma Target** unit was destroyed (or removed from the battlefield for any other reason) this turn."
+            ],
+            "value": 2
+        }
+    ]
+}

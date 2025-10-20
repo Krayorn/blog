@@ -1,0 +1,32 @@
+{
+    "id": "extend_battle_lines",
+    "type": "Secondary Mission",
+    "name": "Extend battle lines",
+    "content": [
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You control one or more objective markers within your deployment zone and one or more objective markers within No Man's Land."
+            ],
+            "value": 4
+        },
+        {
+            "type": "or"
+        },
+        {
+            "type": "reward",
+            "text": [
+                "You control one or more objective markers within No Man's Land."
+            ],
+            "value": 2
+        }
+    ]
+}

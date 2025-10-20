@@ -1,0 +1,25 @@
+{
+    "id": "tempting_target",
+    "type": "Secondary Mission",
+    "name": "A tempting target",
+    "content": [
+        {   "type": "text",
+            "text": ["**WHEN DRAWN:** Your opponent must select one objective in No man's Land to be your **Tempting Target** objective marker."]
+        },
+        {   "type": "section",
+            "title": "ANY BATTLE ROUND"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of either player's turn."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "You control your **Tempting Target** objective marker."
+            ],
+            "value": 5
+        }
+    ]
+}
