@@ -21,6 +21,7 @@ const indexed_cards = raw_cards.reduce((acc, card) => {
 
 
 const { entry } = Astro.props;
+
 let attackerScore = 0;
 let defenderScore = 0;
 ---
@@ -32,14 +33,13 @@ let defenderScore = 0;
         <p class="text-sm">{entry.data.date}</p>
     </div>
 
-
     <h2 class="text-center text-xl font-bold" >Preparation</h2>
 
-    <div class="flex justify-around">
-        <div class="w-1/2 mr-2" >
+    <div class="flex justify-around flex-col space-y-4 md:space-x-4 md:space-y-0 md:flex-row">
+        <div class="w-1/2" >
             <PlayerSection name={entry.data.game_data.attacker.name} faction={entry.data.game_data.attacker.faction} detachment={entry.data.game_data.attacker.detachment} list={entry.data.game_data.attacker.list} />
         </div>
-        <div class="w-1/2 ml-2" >
+        <div class="w-1/2" >
             <PlayerSection name={entry.data.game_data.defender.name} faction={entry.data.game_data.defender.faction} detachment={entry.data.game_data.defender.detachment} list={entry.data.game_data.defender.list} />
         </div>
     </div>
@@ -48,7 +48,6 @@ let defenderScore = 0;
         <!-- <div>{entry.data.game_data.deployment}</div> -->
         <MissionCard mission={indexed_cards[entry.data.game_data.primary_mission].data} defender={false} />
     </div>
-    
 
     {entry.data.rounds.map((round, i) => {
         const currentAttackerScore = attackerScore 
@@ -82,9 +81,7 @@ let defenderScore = 0;
         )
     })}
 
-
     <h2 class="text-xl font-bold text-center" >Final Score</h2>
     <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {attackerScore} | {defenderScore} - {entry.data.game_data.defender.faction} </div>
     <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (attackerScore > defenderScore ? 1 : -1) )} | {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (defenderScore > attackerScore ? 1 : -1) )} - {entry.data.game_data.defender.faction} </div>
-
 </div>

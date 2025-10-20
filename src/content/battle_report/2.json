@@ -190,6 +190,11 @@
                     "bring_it_down"
                 ],
                 "content": [
+                    {
+                        "type": "image",
+                        "src": "/src/images/battle_reports/2/turn1_sororitas.png",
+                        "alt": "Deployment"
+                    },
                     {   "type": "text",
                         "content": "deployment is a bit messy, but with more terrain, we're all hidden! Great!"
                     },
@@ -285,6 +290,11 @@
                 "content": [
                     {   "type": "text",
                         "content": "The space marines need to react violently now, not a single sisters is dead yet, and they lost 2 tanks and a squad of assault intercessors. They launch the assaul doctrine and the bladeguard veterans run up the center to take care of the squad of battle sisters. The assault intercessors also take position to help them and eliminate the rhino, hoping that the heavy intercessors would handle the repentia themselves. They also drop three inceptors on the sisters home objectives, just behind the exorcist, plasma heating. On the left, the leftenant charges the arco flagellants. and a squad of zephirims and a canoness with jumppack drop behind cover to threaten the heavy intercessors on the marines home objective"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/src/images/battle_reports/2/turn2_marines.jpeg",
+                        "alt": "After turn 2 movement phase"
                     },
                     {
                         "type": "text",
