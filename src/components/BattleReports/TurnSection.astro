@@ -1,0 +1,31 @@
+---
+import MissionCard from "./MissionCard"
+
+const { indexed_cards, round_number, faction, secondary_missions, content, defender, score } = Astro.props
+
+---
+<section class="mt-4">
+    <h3 class="text-lg font-bold text-center mb-4" >Turn {round_number + 1} - {faction} </h3>
+    <div class="flex flex-wrap gap-8 justify-center mb-4">
+        {secondary_missions.map((mission) => (
+            <MissionCard mission={indexed_cards[mission].data} defender={defender} />
+        ))}
+    </div>
+
+    {content.map((content) => (
+        <p>{content.content}</p>
+    ))}
+
+    <div class="flex flex-col items-center mt-2" >
+        {score.map(scoreItem => {
+            return (
+                <div><span class="font-bold" >{indexed_cards[scoreItem.source].data.name}</span>: +{scoreItem.value}VPs</div>
+            )
+        })}
+    </div>
+</section>
+
+
+<style>
+
+</style>

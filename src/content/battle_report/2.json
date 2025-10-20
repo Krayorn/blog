@@ -201,14 +201,237 @@
                         "type": "text",
                         "content": "Well, that's a gladiator down, and I felt quite sorry for the opponent. On the left side, I didn't move my flagellant, I'm not sure they can handle the leftenant, on the right side, the rhino moved up but that's it. "
                     }
+                ],
+                "score": [
+                    {
+                        "source": "bring_it_down",
+                        "value": 4
+                    }
                 ]
             },
             "defender": {
+                "secondary_missions": [
+                    "marked_for_death",
+                    "secure_no_mans_land"
+                ],
                 "content": [
                     {   "type": "text",
-                        "content": "Turn 1"
+                        "content": "Devastator doctrine"
+                    },
+                    {
+                        "type": "text",
+                        "content": "After this big blow, the ballistus dreadnought advance to take care of the rhino to expose the repentia inside, the assault intercessors take position on the right flank, to take the objective. The ballistus left the rhino on 3 wounds."
+                    },
+                    {
+                        "type": "text",
+                        "content": "In the center, the bladguard veteran start moving, getting ready to take the central objetive next turn."
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the left the leftenant take the objective."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "secure_no_mans_land",
+                        "value": 5
                     }
                 ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "extend_battle_lines",
+                    "no_prisoners"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "Very good draw of secondary objectives, I decide to move on the right flank. The repentia and the lone canonness leave the rhino, ready to threaten the intercessors or the ballistus. The penitent engine moves up to join them, and behind them two squad of seraphims drop, ready to bring flames on those marines. The battle sisters squad moves a bit up the board, to contest the central objective or move right to help. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "The arco flagellants move up to the leftenant on the left, he uses his reactive move to avoid them. They still end up taking the objective."
+                    },
+                    {
+                        "type": "text",
+                        "content": "At the end of the movement phase, the assault intercessors with jump pack and their captain drop behind the ballistus, to maybe threaten a countercharge, or to at least avenge their brothers by cleaning up what will die now."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The exorcist and the repentia grenades severly wounds the ballistus, and the flamers hell from seraphims and penitent engines and the heavy bolter of the exorcist kill 7 assault intercessors making a repentia charge difficult. To ensure they leave space for the rhino, they charge the ballistus instead, the rhino follows them, tank shock the ballistus, killing it. The lone canoness make a 11 charge on the assault intercessors, followed by the penitent engines. Together they kill the last 3 and claim the right flank for their order."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "extend_battle_lines",
+                        "value": 4
+                    },
+                    {
+                        "source": "no_prisoners",
+                        "value": 4
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "extend_battle_lines",
+                    "area_denial"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "The space marines need to react violently now, not a single sisters is dead yet, and they lost 2 tanks and a squad of assault intercessors. They launch the assaul doctrine and the bladeguard veterans run up the center to take care of the squad of battle sisters. The assault intercessors also take position to help them and eliminate the rhino, hoping that the heavy intercessors would handle the repentia themselves. They also drop three inceptors on the sisters home objectives, just behind the exorcist, plasma heating. On the left, the leftenant charges the arco flagellants. and a squad of zephirims and a canoness with jumppack drop behind cover to threaten the heavy intercessors on the marines home objective"
+                    },
+                    {
+                        "type": "text",
+                        "content": "The inceptors focus fire and get rid of the exorcist, who fortunately already did his job. The heavy intercessors do not kill a single repentia, forcing the bladeguard veterans to charge the battle sisters alone while the assault intercessors with jumppack charge the rhino and the repentias. They manage to eliminate both threats, but the bladeguard leave 3 sisters alive. They still control the objective, but cannot score max point for area denial. On the left the leftenant do not wound a single arco flagellants, who fight back, and do not scratch his armor either. They do however keep the objective."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "extend_battle_lines",
+                        "value": 4
+                    },
+                    {
+                        "source": "area_denial",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "marked_for_death",
+                    "area_denial"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "The two flank objectives being secure, the sistesr now focus on the 3 at the center where the remaining enemies forces lies. The seraphims, penitent engine and lone canoness close up the assault intercessors with jumppack and burn the 5 marines, leaving the captain alone. one squad of seraphims then move back on the right objective. The zephirim squad charges the heavy intercessors in gravis armor, and their champion canoness, buffed with through suffering strength, the reroll hits objectives, her once per battle rage, and the zephirim buff, kills 3 of them while the rest of the squad dispatch the last two. The last three battle sisters in the center fell back from the bladeguard veteran and sit on the objective to make sure the opponent won't get it. The lone canoness, the penitent engine and one squad of seraphim charges the captain with jump pack and dispatch of him before he can retaliate. On the left side, the flagellant finally wound the leftenant, who also wound one of them in return."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 10
+                    },
+                    {
+                        "source": "marked_for_death",
+                        "value": 2
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "sabotage",
+                    "cleanse"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "The situation is complex, the inceptor cleanse the sisters home objective, the bladeguard kill the last 3 battle sisters, and the leftenant use the tactical doctrine to fall back from the flagellants and tries a sabotage."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "cleanse",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "assassination",
+                    "behind_enemy_lines"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "Assasination drops, so the arco flagellants charge the leftenant, and manage to kill him, cancelling the sabotage. one squad of seraphims stays on the right side to keep the right objective while the second one shoots at the bladeguard then moves to the space marines homes objectives. In the center, the bladeguard get charged by the zephirim and the jumppack canoness which is too much for them. Leaving only the inceptors on the field."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 15
+                    },
+                    {
+                        "source": "assassination",
+                        "value": 5
+                    },
+                    {
+                        "source": "behind_enemy_lines",
+                        "value": 3
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "overwhelming_force",
+                    "assassination"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "the inceptor stay put, kill the penitent engine"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "engage_on_all_fronts",
+                    "cleanse"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "the two seraphims squad cleanse, the arco flagellants, the lone canoness and the zephirims with the jump pack canoness all charge the inceptors, and kill two of them, leaving the last one almost dead."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 15
+                    },
+                    {
+                        "source": "engage_on_all_fronts",
+                        "value": 4
+                    },
+                    {
+                        "source": "cleanse",
+                        "value": 5
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "display_of_might",
+                    "no_prisoners"
+                ],
+                "content": [
+                    {   "type": "text",
+                        "content": "the last inceptor try to take the lone canoness with him in the tomb, but her invul 2+ saves her, he then die in the final fight phase of the game."
+                    }
+                ],
+                "score": []
             }
         }
     ]

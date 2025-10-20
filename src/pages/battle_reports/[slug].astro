@@ -2,6 +2,7 @@
 import MissionCard from '../../components/BattleReports/MissionCard';
 import { getCollection } from "astro:content";
 import PlayerSection from '../../components/BattleReports/PlayerSection.astro';
+import TurnSection from '../../components/BattleReports/TurnSection.astro';
 
 export async function getStaticPaths() {    
     return (await getCollection('battle_report')).map((report) => {
@@ -20,9 +21,11 @@ const indexed_cards = raw_cards.reduce((acc, card) => {
 
 
 const { entry } = Astro.props;
+let attackerScore = 0;
+let defenderScore = 0;
 ---
 
-<div class="m-12">
+<div class="p-12 bg-gray-200">
     <h1 class="text-2xl text-center font-bold">{entry.data.title}</h1>
     <div class="flex mt-4 items-top justify-between">
         <p class="text-sm">{entry.data.description}</p>
@@ -41,21 +44,47 @@ const { entry } = Astro.props;
         </div>
     </div>
 
+    <div class="flex flex-col items-center mt-4" >
+        <!-- <div>{entry.data.game_data.deployment}</div> -->
+        <MissionCard mission={indexed_cards[entry.data.game_data.primary_mission].data} defender={false} />
+    </div>
+    
 
-    {entry.data.rounds.map((round) => (
-        <div>
-            <h2>Round {round.rounds}</h2>
-            <p>Player 1</p>
-            {round.attacker.content.map((content) => (
-                <p>{content.content}</p>
-            ))}
-
-
-            <div class="flex flex-wrap gap-2">
-                {round.attacker.secondary_missions.map((mission) => (
-                    <MissionCard mission={indexed_cards[mission].data} defender={false} />
-                ))}
+    {entry.data.rounds.map((round, i) => {
+        const currentAttackerScore = attackerScore 
+        const currentDefenderScore = defenderScore 
+        attackerScore = round.attacker.score.reduce((total, newScoreItem) => total + newScoreItem.value, attackerScore)
+        defenderScore = round.defender.score.reduce((total, newScoreItem) => total + newScoreItem.value, defenderScore)
+        return (
+            <div class="my-4" >
+                <h2 class="text-xl font-bold text-center" >Round {i + 1}</h2>
+                <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {currentAttackerScore} | {currentDefenderScore} - {entry.data.game_data.defender.faction} </div>
+                <TurnSection 
+                    indexed_cards={indexed_cards}
+                    round_number={i}
+                    faction={entry.data.game_data.attacker.faction}
+                    secondary_missions={round.attacker.secondary_missions}
+                    content={round.attacker.content}
+                    score={round.attacker.score}
+                    defender={false}
+                />
+                
+                <TurnSection 
+                    indexed_cards={indexed_cards}
+                    round_number={i}
+                    faction={entry.data.game_data.defender.faction}
+                    secondary_missions={round.defender.secondary_missions}
+                    content={round.defender.content}
+                    score={round.defender.score}
+                    defender={true}
+                />
             </div>
-        </div>
-    ))}
+        )
+    })}
+
+
+    <h2 class="text-xl font-bold text-center" >Final Score</h2>
+    <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {attackerScore} | {defenderScore} - {entry.data.game_data.defender.faction} </div>
+    <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (attackerScore > defenderScore ? 1 : -1) )} | {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (defenderScore > attackerScore ? 1 : -1) )} - {entry.data.game_data.defender.faction} </div>
+
 </div>
