@@ -12,6 +12,18 @@ const turnSchema = (image) => z.object({
     score: z.array(z.object({ source: z.string(), value: z.number() }))
 });
 
+const playerSchema = z.object({
+  name: z.string(),
+  faction: z.string(),
+  detachment: z.string(),
+  list: z.array(z.object({
+    name: z.string(),
+    number: z.number().optional(),
+    equipment: z.array(z.string()),
+    points: z.number()
+  }))
+});
+
 const battleReportCollection = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/battle_report' }),
   schema: ({ image }) => z.object({
@@ -20,46 +32,8 @@ const battleReportCollection = defineCollection({
     description: z.string(),
     game_data: z.object({
       points: z.number(),
-      attacker: z.object({
-        name: z.string(),
-        faction: z.string(),
-        detachment: z.string(),
-        list: z.array(
-          z.union([
-            z.object({
-              name: z.string(),
-              equipment: z.array(z.string()),
-              points: z.number()
-            }),
-            z.object({
-              name: z.string(),
-              number: z.number(),
-              equipment: z.array(z.string()),
-              points: z.number()
-            })
-          ])
-        )
-      }),
-      defender: z.object({
-        name: z.string(),
-        faction: z.string(),
-        detachment: z.string(),
-        list: z.array(
-          z.union([
-            z.object({
-              name: z.string(),
-              equipment: z.array(z.string()),
-              points: z.number()
-            }),
-            z.object({
-              name: z.string(),
-              number: z.number(),
-              equipment: z.array(z.string()),
-              points: z.number()
-            })
-          ])
-        )
-      }),
+      attacker: playerSchema,
+      defender: playerSchema,
       primary_mission: z.string(),
       deployment: z.string()
     }),
