@@ -1,0 +1,33 @@
+---
+import BlogPost from '../../components/BlogPost.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import { getCollection } from "astro:content";
+
+const pageTitle = "Krayorn's Battle Reports";
+const pageDescription = "A list of all my battle reports for Warhammer 40k.";
+const seoProps = {
+  language: "en",
+  pageTitle: pageTitle,
+  pageDescription: pageDescription,
+}
+
+const allBattleReports = await getCollection('battle_report');
+---
+<BaseLayout seoProps={seoProps}>
+    <ul>
+        {allBattleReports.sort((a, b) => b.data.date > a.data.date ? 1 : -1).map((post) => <BlogPost tags={post.data.tags} description={post.data.description} url={`/battle_reports/${post.id}/`} title={post.data.title} pubDate={post.data.date} />)}
+    </ul>
+</BaseLayout>
+
+
+<style>
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  a {
+    color: theme('colors.green');
+  }
+
+</style>

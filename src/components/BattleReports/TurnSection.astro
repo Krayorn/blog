@@ -18,7 +18,21 @@ const { indexed_cards, round_number, faction, secondary_missions, content, defen
             
             if (item.type === 'image') {
                 return (
-                    <Image class="max-w-full md:max-w-[800px] mx-auto" src={item.src} alt={item.alt} />
+                    <div class="flex flex-col items-center">
+                        <Image class="max-w-full md:max-w-[800px] mx-auto" src={item.src} alt={item.alt} />
+                        <span class="text-sm text-center mt-2" >{item.alt}</span>
+                    </div>
+                )
+            }
+
+            if (item.type === 'quote') {
+                return (
+                    <div class="py-2">
+                        <blockquote class="border-l-4 border-black pl-2 ml-2 italic" >
+                            <p>{item.content}</p>
+                            <span class="text-sm font-bold" >{item.source}</span>
+                        </blockquote>
+                    </div>
                 )
             }
 

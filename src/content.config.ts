@@ -6,7 +6,8 @@ const turnSchema = (image) => z.object({
     content: z.array(
       z.union([
         z.object({ type: z.literal('image'), src: image(), alt: z.string() }),
-        z.object({ type: z.literal('text'), content: z.string() })
+        z.object({ type: z.literal('text'), content: z.string() }),
+        z.object({ type: z.literal('quote'), content: z.string(), source: z.string() })
       ])
     ),
     score: z.array(z.object({ source: z.string(), value: z.number() }))
@@ -27,6 +28,7 @@ const playerSchema = z.object({
 const battleReportCollection = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/battle_report' }),
   schema: ({ image }) => z.object({
+    tags: z.array(z.string()),
     title: z.string(),
     date: z.string(),
     description: z.string(),
@@ -35,7 +37,9 @@ const battleReportCollection = defineCollection({
       attacker: playerSchema,
       defender: playerSchema,
       primary_mission: z.string(),
-      deployment: z.string()
+      deployment: z.string(),
+      introduction: z.string(),
+      conclusion: z.string()
     }),
     rounds: z.array(
         z.object({

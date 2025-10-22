@@ -15,6 +15,8 @@ Some article I really enjoyed, sorted by "week" for now, with hopefully some tag
 https://emilkowal.ski/ui/good-vs-great-animations
 https://emilkowal.ski/ui/7-practical-animation-tips
 
+https://mitchellh.com/writing/non-trivial-vibing
+
 # 13-10-2025
 
 [How I provide technical clarity to non-technical leaders](https://www.seangoedecke.com/clarity/).

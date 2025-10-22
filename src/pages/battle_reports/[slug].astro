@@ -33,14 +33,21 @@ let defenderScore = 0;
     <title>{entry.data.title}</title>
 </head>
 <body>
-    <div class="p-12 bg-gray-200">
+    <nav class="bg-gray-200 flex justify-center py-2" >
+        <a href="/" class="mr-2">Home</a>
+        <a href="/projects/" class="mr-2">Projects</a>
+        <a href="/tags/" class="mr-2">Tags</a>
+        <a href="/read-list/" class="mr-2">Read List</a>
+    </nav>
+
+    <div class="px-12 pt-4 bg-gray-200">
         <h1 class="text-2xl text-center font-bold">{entry.data.title}</h1>
-        <div class="flex mt-4 items-top justify-between">
-            <p class="text-sm">{entry.data.description}</p>
-            <p class="text-sm">{entry.data.date}</p>
+        <div class="text-sm text-right">{entry.data.date}</div>
+        <div class="mt-4">
+            <p class="">{entry.data.description}</p>
         </div>
 
-        <h2 class="text-center text-xl font-bold" >Preparation</h2>
+        <h2 class="text-center text-xl font-bold my-4" >Lists</h2>
 
         <div class="flex justify-around flex-col space-y-4 md:space-x-4 md:space-y-0 md:flex-row">
             <div class="md:w-1/2" >
@@ -52,6 +59,7 @@ let defenderScore = 0;
         </div>
 
         <div class="flex flex-col items-center mt-4" >
+            <div>{entry.data.game_data.introduction}</div>
             <!-- <div>{entry.data.game_data.deployment}</div> -->
             <MissionCard mission={indexed_cards[entry.data.game_data.primary_mission].data} defender={false} />
         </div>
@@ -91,6 +99,8 @@ let defenderScore = 0;
         <h2 class="text-xl font-bold text-center" >Final Score</h2>
         <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {attackerScore} | {defenderScore} - {entry.data.game_data.defender.faction} </div>
         <div class="text-center my-2" >{entry.data.game_data.attacker.faction} - {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (attackerScore > defenderScore ? 1 : -1) )} | {10 + (Math.floor((Math.abs(attackerScore - defenderScore)) / 5) * (defenderScore > attackerScore ? 1 : -1) )} - {entry.data.game_data.defender.faction} </div>
+    
+        <div class="my-2" >{entry.data.game_data.conclusion}</div>
     </div>
 </body>
 </html>

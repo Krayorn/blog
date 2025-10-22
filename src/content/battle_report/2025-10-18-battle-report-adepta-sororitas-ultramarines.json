@@ -1,7 +1,8 @@
 {
     "title": "Adepta Sororitas vs Space Marines - 1000pts",
     "date": "2025-10-18",
-    "description": "Battle report of our second affrontement with our armies. Emmanuel switched quite a few units around, and I did not because nothing new was built.",
+    "description": "Our second game ever. We're getting confortable with the rules but we still have a lot to learn! Especially when reading the table. Once again, by reading the datasheets, both of us thought the Space Marines had all the tools to win and that the Sisters would have to settle for secondary objectives. It turned out to be completely wrong, but experience will help us understand that earlier and therefore make better choices in the future.",
+    "tags": ["warhammer", "battle report"],
     "game_data": {
         "points": 1000,
         "attacker": {
@@ -112,14 +113,14 @@
                 {
                     "name": "Captain with Jump Pack",
                     "equipment": [
-                        "The Honour Vehement"
+                        "Relic weapon, Plasma pistol, The Honour Vehement"
                     ],
                     "points": 90
                 },
                 {
-                    "name": "Leftenant with combi-weapon",
+                    "name": "Lieutenant with combi-weapon",
                     "equipment": [
-                        "stuff"
+                        "Combi-weapon, Paired combat blades"
                     ],
                     "points": 70
                 },
@@ -127,7 +128,8 @@
                     "name": "Assault Intercessors",
                     "number": 10,
                     "equipment": [
-                        "stuff"
+                        "9x Heavy bolt pistol, Astartes chainsword",
+                        "1x Plasma pistol, Thunder Hammer"
                     ],
                     "points": 150
                 },
@@ -135,7 +137,8 @@
                     "name": "Heavy Intercessors",
                     "number": 5,
                     "equipment": [
-                        "stuff"
+                        "4x Bolt pistol, Heavy bolt rifle, Close combat weapon",
+                        "1x Bolt pistol, Heavy bolter, Close combat weapon"
                     ],
                     "points": 100
                 },
@@ -143,7 +146,9 @@
                     "name": "Jump pack Intercessors",
                     "number": 5,
                     "equipment": [
-                        "stuff"
+                        "3x Heavy bolt pistol, Astartes chainsword",
+                        "1x Plasma pistol, Astartes chainsword",
+                        "1x Plasma pistol, Power fist"
                     ],
                     "points": 90
                 },
@@ -151,7 +156,7 @@
                     "name": "Inceptors",
                     "number": 3,
                     "equipment": [
-                        "stuff"
+                        "3x Plasma exterminators, Close combat weapon"
                     ],
                     "points": 120
                 },
@@ -159,28 +164,31 @@
                     "name": "Bladeguards veteran",
                     "number": 3,
                     "equipment": [
-                        "stuff"
+                        "2x Heavy bolt pistol, Master-crafted power weapon",
+                        "1x Plasma pistol, Master-crafted power weapon"
                     ],
                     "points": 80
                 },
                 {
                     "name": "Ballistus Dreadnought",
                     "equipment": [
-                        "stuff"
+                        "Ballistus missile launcher, Ballistus lascannon, Twin storm bolter, Armoured feet"
                     ],
                     "points": 150
                 },
                 {
                     "name": "Gladiator Valiant",
                     "equipment": [
-                        "stuff"
+                        "2 Multi-meltas, Twin las-talon, Icarus rocket pod, Ironhail heavy stubber, Armoured hull"
                     ],
                     "points": 150
                 }
             ]
         },
         "primary_mission": "take_and_hold",
-        "deployment": "dawn_of_war"
+        "deployment": "dawn_of_war",
+        "introduction": "We used the Dawn of War deployment, which contrary to our first game gave us plenty of space to fight on the whole table. Take and hold primary mission meant that we would have to hold objectives at all costs, as the Sister players, I'd have maybe liked something with actions to try to use my superior numbers to my advantage.",
+        "conclusion": "Huge victory for the Sisters of Battle. I got super lucky in the first round of the battle by blowing up the Gladiator, and I think this impacted the rest of the game a lot. We learned a lot from this game and the next one will surely be better on a tactical level. Hopefully, it won't be too long before we play again, and we should have a few more terrain pieces to replace the books!"
     },
     "rounds": [
         {
@@ -191,13 +199,18 @@
                 ],
                 "content": [
                     {
+                        "type": "quote",
+                        "content": "Sisters, the Order require that we hold these positions, and with the guidance of the Emperor, we will.",
+                        "source": "Canoness Elira"
+                    },
+                    {
                         "type": "image",
                         "src": "/src/images/battle_reports/2/turn1_sororitas.png",
                         "alt": "Deployment"
                     },
                     {   
                         "type": "text",
-                        "content": "We added a bit of terrain (good ol' books) to the board so everthing is hidden."
+                        "content": "We learned from our first game and added a bit of terrain (good ol' books) to the board so everthing is hidden."
                     },
                     {
                         "type": "text",
@@ -206,6 +219,11 @@
                     {
                         "type": "text",
                         "content": "I felt quite sorry for my opponent, but this is a thorn out of my side. On the left side, the Arco-flagellants didn't move, not feeling sure about a fight with the Lieutenant with Combi Weapon."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Impact confirmed. The heretic's machine is ash.",
+                        "source": "Sister Kathia, Rhino's gunner"
                     }
                 ],
                 "score": [
@@ -223,7 +241,12 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "After this big blow, the Space Marines use their Devastator doctrine to move fast and retaliate. The Ballistus Dreadnought advances to take care of the Rhino, hiding the Repentia, leaving him with 3 wounds left. The assault Intercessors rush on the right flank objective, challenging the Sisters to come take it from them."
+                        "content": "After this big blow, the Space Marines use their Devastator doctrine to move fast and retaliate. The Ballistus Dreadnought advances to take care of the Rhino hiding the Repentia, leaving him with 3 wounds left. The assault Intercessors rush on the right flank objective, challenging the Sisters to come take it from them."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Critical hits received. Evacuate the transport. The Emperor's hand will shield you.",
+                        "source": "Sister Aspatea, Rhino's pilot"
                     },
                     {
                         "type": "text",
@@ -258,6 +281,11 @@
                         "content": "At the end of the movement phase, the Intercessors with Jump Packs and their Captain drop behind the Ballistus, threatening a counter charge or at least to provide a second wave of Marines to kill some of the sisters on the right."
                     },
                     {
+                        "type": "quote",
+                        "content": "Sister Riennolis, let our flames cleanse this ground of the unworthy!",
+                        "source": "Seraphim Superior Praxis, descending on the enemy lines"
+                    },
+                    {
                         "type": "text",
                         "content": "The Exorcist missiles and the Repentia grenades severely wounds the Ballistus. While the Exorcist heavy bolter and the flamers from the Seraphims and Penitent engine kill seven of the Assault Intercessors, making a Repentia charge difficult. To ensure they leave space for the Rhino, they charge the Ballistus instead, the Rhino then follows, and with a good Tank Shock finish the Dreadnought. The Penitent engine charges the three remaining marines on the objective, and the Canoness makes a heroic 11 charge to join him. Together, with her Blessed blade and his Buzz-blades, they eliminate their foes."
                     }
@@ -286,6 +314,11 @@
                     {   
                         "type": "text",
                         "content": "The Space Marines now need to react extremely violently, as not a single Sister has died yet, while they have lost two tanks and a full squad. They use the full strength of their Assault doctrine to close the distance between them and the sisters. The Bladeguard Veterans run up the center to charge the squad of Battle Sisters. The Jump Pack squad prepares a charge on the Rhino and the Repentia. Three Inceptors also drop on the Sisters home objective, behind the Exorcist, their plasma exterminators heating up. "
+                    },
+                    {
+                        "type": "quote",
+                        "content": "The foe descends upon position Tetha! We won't be able to hold.",
+                        "source": "Sister Santora, Exorcist's pilot"
                     },
                     {   
                         "type": "text",
@@ -328,13 +361,23 @@
                     "area_denial"
                 ],
                 "content": [
+                    {
+                        "type": "quote",
+                        "content": "Squads Ventus Sanctus and Ira Volucris, purge the target before us then hold Echo and Delta!",
+                        "source": "Canoness Elira"
+                    },
                     {   
                         "type": "text",
                         "content": "The two squads of Seraphims, Penitent engine, and lone Canoness approach the Assault Intercessors with Jump Pack and burn down the 5 marines, leaving the Captain alone. One squad of Seraphim then uses her extra movement to fly back to the right objective."
                     },
                     {
+                        "type": "quote",
+                        "content": "The Light burns brightest amid the dark! May our blades find their armor weaknesses.",
+                        "source": "Canoness Velatrix"
+                    },
+                    {
                         "type": "text",
-                        "content": "In the Space Marines deployment zone, things get tense as the Zephirims charge the Heavy Intercessors. The Canoness, with her Blessed Halberd, the enhancement \"Through Suffering, Strength\", her ability Divine Deliverance, the Zephirim buff giving her Lethal Hits and Sustained Hits, and a Stratagem to reroll hits, is the army Champion. All this gives her 9 attacks, 2+ to hit, sustain, and lethal, with reroll. Strength 6 with Devastating wounds,  -2 AP,  3 damage. Even the Marines Gravis Armor could not save them, and three of them fell through the Canoness blows, while the rest of the Zephirims finished the last two."
+                        "content": "In the Space Marines deployment zone, things get tense as the Zephirims charge the Heavy Intercessors. The Canoness, with her Blessed Halberd, the enhancement \"Through Suffering, Strength\", her ability Divine Deliverance, the Zephirim buff giving her Lethal Hits and Sustained Hits, and a Stratagem to reroll hits, is the army Champion. All this gives her 9 attacks, 2+ to hit, sustain, and lethal, with reroll. Strength 6 with Devastating wounds, -2 AP,  3 damage. Even their Gravis Armor could not save the Marines, and three of them fall under the Canoness blows, while the rest of the Zephirims finish the last two."
                     },
                     {
                         "type": "text",
@@ -348,7 +391,7 @@
                     },
                     {
                         "source": "marked_for_death",
-                        "value": 2
+                        "value": 5
                     }
                 ]
             },
@@ -389,6 +432,15 @@
                     {   
                         "type": "text",
                         "content": "With the Assassination mission dropping, the Arco-flagellants leave the left objective and charge the Lieutenant, hoping to kill him to complete the mission and stop him from completing the Sabotage."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Kill! Pain! Blood! Suffering!",
+                        "source": "Arco-flagellant Ezra 847"
+                    },
+                    {   
+                        "type": "text",
+                        "content": "They succeed."
                     },
                     {   
                         "type": "text",
@@ -443,6 +495,11 @@
                     {   
                         "type": "text",
                         "content": "In this final turn, the two Seraphim squads cleanse the objectives and take position in two of the four table quarters. While the Arco-flagellants, both Canoness and the Zephirims, all charge the Inceptors while taking position in the remaining two table quarters. Two Inceptors die."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Objective Delta purified.",
+                        "source": "Seraphim Superior Riennolis"
                     }
                 ],
                 "score": [
@@ -469,6 +526,11 @@
                     {   
                         "type": "text",
                         "content": "The last Inceptor tries to take the lone Canoness with him in the tomb, but her 2+ invulnerable save saves her. He then dies in the final fight phase of the game, leaving the victorious Sisters of Battle alone on the battlefield."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Weep not for the fallen, for their blood anoints the Emperor's victory. Not one foe endured His judgment this day.",
+                        "source": "Zephirim Superior Vayle"
                     }
                 ],
                 "score": []
