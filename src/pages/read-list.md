@@ -10,6 +10,14 @@ tags: []
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
 
+# 27-10-2025
+
+https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/
+
+https://boz.com/articles/self-actualization
+
+https://www.simplermachines.com/why-you-need-a-wtf-notebook/
+
 # 20-10-2025
 
 https://emilkowal.ski/ui/good-vs-great-animations
