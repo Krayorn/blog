@@ -1,13 +1,13 @@
 ---
 import { Image } from 'astro:assets';
 
-const { list } = Astro.props
+const { list, alt } = Astro.props
 ---
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     {list.map((img, i) => (
         <div class={"w-full flex justify-center items-center " + ((i === list.length - 1 && list.length % 2 === 1) ? "md:col-span-2" : "")}>
             <div class={(i === list.length - 1 && list.length % 2 === 1) ? "w-full md:w-1/2" : "w-full"}>
-                <Image src={img} alt="test" class="w-full h-auto rounded-lg" />
+                <Image src={img} alt={alt} class="w-full h-auto rounded-lg" />
             </div>
         </div>
     ))}
