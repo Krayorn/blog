@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "What I'm doing now";
+const pageDescription = "What I'm doing now";
+const seoProps = {
+  language: "en",
+  pageTitle: pageTitle,
+  pageDescription: pageDescription,
+}
+
+---
+<BaseLayout seoProps={seoProps}>
+  <section>    
+    Updated on 2025-11-02, with some doubt about what to put on there.
+  </section>
+
+  <h3>General</h3>
+  <div>
+    I've been on a 4 day work week for the last few months, trying to spend that extra time on the passions projects that were taking the dust.
+
+    I'm reading more books, mostly recommandations from friends and family. I recently finished and really enjoyed The Count of Monte-Cristo, Ubik and Dracula. (If you have recommandations, send them my way at <span class="highlight" >me@krayorn.com</span>!)
+
+    Also thinking a lot about ways to reduce my use of Social medias and other consumption habits, I want to regain my time and my concentration.
+  </div>
+  
+  <h3>Writing</h3>
+  <div>
+    I'm writing a lot more, about programming, miniature painting, boardgames and roleplaying games. I try to post one thing a week, but I'm more around 2 or 3 a month.
+  </div>
+
+  <h3>Programming</h3>
+  <div>
+    I made a small app to track my progress in painting my collection of miniatures and I'd like to open it to more people. 
+
+    I also made a little template to write the battle reports for the Warhammer game I'm playing, and I'm thinking about ways to make it accessible to other people.
+    
+    Unfortunately, on both cases, the next step is to make the sites pretty, but I have trouble coming up with good ideas.
+  </div>
+
+  <h3>Role playing games</h3>
+  <div>
+    I'm playing and DM-ing a lot of games and that's ton of fun!
+    I'm trying a lot of new systems, playing games set in 1715 (pirate), 2030(Los Angeles detective), ancient China and the classic D&D as well. 
+
+    And on the Dungeon Master side, I ran a short Warhammer fantasy adventure, have another one currently on-going, and I am planning a 20 person pirate mystery party game for a birthday in december, two other warhammer games, and one in the wild imaginary west.
+  </div>
+</BaseLayout>
+
+
+<style>
+  .highlight {
+    color: theme('colors.green');
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+</style>

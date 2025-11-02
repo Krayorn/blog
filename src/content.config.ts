@@ -30,6 +30,7 @@ const battleReportCollection = defineCollection({
   schema: ({ image }) => z.object({
     tags: z.array(z.string()),
     title: z.string(),
+    pubDate: z.coerce.date(),
     date: z.string(),
     description: z.string(),
     game_data: z.object({

@@ -1,7 +1,7 @@
 ---
 title: 'No bug policy'
 description: 'Why you should have a no bug policy, how to try and push it at your place of work, and some of the non-obvious benefits of having a no bug policy'
-pubDate: 2025-10-25
+pubDate: 2025-10-28
 tags: ["software"]
 ---
 

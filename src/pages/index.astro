@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 
-import { getPosts } from '../utils/blog';
+import { getPosts, getBattleReports } from '../utils/blog';
 
 const pageTitle = "Krayorn's Blog";
 const pageDescription = "A blog containing my thoughts and reflections on AI, Software, Board Games and whatever else finds it's way in my mind.";
@@ -13,6 +13,10 @@ const seoProps = {
 }
 
 const allPosts = await getPosts();
+const allBattleReports = await getBattleReports();
+
+const allContent = [...allPosts, ...allBattleReports];
+
 ---
 <BaseLayout seoProps={seoProps}>
 <section>
@@ -21,7 +25,13 @@ const allPosts = await getPosts();
   or send me a message on <a href={`https://www.twitter.com/krayorn`}>Twitter/X</a> ! I'd be thrilled to read it !
 </section>
 <ul>
-    {allPosts.sort((a, b) => b.data.pubDate > a.data.pubDate ? 1 : -1).map((post) => <BlogPost tags={post.data.tags} description={post.data.description} url={`/posts/${post.data.perma != undefined ? post.data.perma : post.slug}/`} title={post.data.title} pubDate={post.data.pubDate} />)}
+    {allContent
+      .sort((a, b) => b.data.pubDate > a.data.pubDate ? 1 : -1)
+      .map(
+        (post) => post.collection === 'blog' 
+          ? <BlogPost tags={post.data.tags} description={post.data.description} url={`/posts/${post.data.perma != undefined ? post.data.perma : post.slug}/`} title={post.data.title} pubDate={post.data.pubDate} /> 
+          : <BlogPost tags={post.data.tags} description={post.data.description} url={`/battle_reports/${post.id}/`} title={post.data.title} pubDate={post.data.pubDate} />
+      )}
 </ul>
 </BaseLayout>
 

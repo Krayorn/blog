@@ -1,10 +1,9 @@
 ---
-layout: ../layouts/MarkdownPostLayout.astro
 title: 'Cassidoo Interview question of the week'
 pubDate: 2024-01-25
 updateDate: 2024-03-10
 description: 'My answers to the inteview questions from Cassidoo newsletter.'
-tags: []
+tags: ["coding puzzle"]
 ---
 
 You can find here my submissions to the Interview questions of the week from [Cassidoo newsletter](https://cassidoo.co/newsletter/) ! 
@@ -13,7 +12,7 @@ You can find here my submissions to the Interview questions of the week from [Ca
 
 > You are given an array of people represented by integers, where each number corresponds to the number of people in a group. Determine the minimum number of rows required to seat everyone such that no group is split across different rows. You can assume no group will be larger than a given row size!
 
-import { MinimumRow } from '../components/CassidoosInterviewQuestions/MinimumRow.jsx';
+import { MinimumRow } from '../../components/CassidoosInterviewQuestions/MinimumRow.jsx';
 
 <MinimumRow client:load />
 
@@ -41,7 +40,7 @@ import { MinimumRow } from '../components/CassidoosInterviewQuestions/MinimumRow
 
 > You are given an array of strings representing a collection of shoes. Each shoe is labeled with its type ("L" for left or "R" for right) and its size. Determine the maximum number of matching pairs of shoes that can be formed.
 
-import { ShoeCount } from '../components/CassidoosInterviewQuestions/ShoeCount.jsx';
+import { ShoeCount } from '../../components/CassidoosInterviewQuestions/ShoeCount.jsx';
 
 <ShoeCount client:load />
 
@@ -70,7 +69,7 @@ function maxPairs(shoes) {
 
 > Given a string str, write a function to determine the longest substring containing only two unique characters.
 
-import { UniqueChars } from '../components/CassidoosInterviewQuestions/UniqueChars.jsx';
+import { UniqueChars } from '../../components/CassidoosInterviewQuestions/UniqueChars.jsx';
 
 <UniqueChars client:load />
 
@@ -114,7 +113,7 @@ import { UniqueChars } from '../components/CassidoosInterviewQuestions/UniqueCha
 
 > Imagine you have n dice, and each die has m faces on it (so the numbers are from 1 to m). Write a function where, given an integer target, it returns the number of possible ways to roll the dice to get the sum of target face up.
 
-import { DiceSum } from '../components/CassidoosInterviewQuestions/DiceSum.jsx';
+import { DiceSum } from '../../components/CassidoosInterviewQuestions/DiceSum.jsx';
 
 <DiceSum client:load />
 
@@ -146,7 +145,7 @@ import { DiceSum } from '../components/CassidoosInterviewQuestions/DiceSum.jsx';
 
 > Given an array of numbers, add all of the values together but only if the number doesn't repeat a digit.
 
-import { DuplicateNumbers } from '../components/CassidoosInterviewQuestions/DuplicateNumbers.jsx';
+import { DuplicateNumbers } from '../../components/CassidoosInterviewQuestions/DuplicateNumbers.jsx';
 
 <DuplicateNumbers client:load />
 
@@ -178,7 +177,7 @@ import { DuplicateNumbers } from '../components/CassidoosInterviewQuestions/Dupl
 
 > Given a 2D array of 0s and 1s, where 0 represents water and 1 represents land, return the size of the largest "island" in the water. Diagonal connections don't count!
 
-import { Island } from '../components/CassidoosInterviewQuestions/Island.jsx';
+import { Island } from '../../components/CassidoosInterviewQuestions/Island.jsx';
 
 <Island client:load />
 
@@ -211,7 +210,7 @@ import { Island } from '../components/CassidoosInterviewQuestions/Island.jsx';
 
 > Given an integer array, write a function hills(arr) and a function valleys(arr) that return the number of hills and valleys, respectively, in the array.
 
-import { HillsValleys } from '../components/CassidoosInterviewQuestions/HillsValleys.jsx';
+import { HillsValleys } from '../../components/CassidoosInterviewQuestions/HillsValleys.jsx';
 
 <HillsValleys client:load />
 
@@ -242,7 +241,7 @@ import { HillsValleys } from '../components/CassidoosInterviewQuestions/HillsVal
 
 > Given an integer array arr, return the maximum difference between two successive elements in arr's sorted form. Return 0 if there's 0 or 1 elements.
 
-import { MaxDiff } from '../components/CassidoosInterviewQuestions/MaxDiff.jsx';
+import { MaxDiff } from '../../components/CassidoosInterviewQuestions/MaxDiff.jsx';
 
 <MaxDiff client:load />
 
@@ -271,7 +270,7 @@ Wanted to do some react, not the prettiest code but it works !
 
 Without any Css, here's the component, the times used for the demo are 5 seconds of work, and 3 seconds of break. It will alternate automatically between the two and you can pause the timer completely if needs be.
 
-import { Timer } from '../components/CassidoosInterviewQuestions/Timer.jsx';
+import { Timer } from '../../components/CassidoosInterviewQuestions/Timer.jsx';
 
 <Timer client:load />
 
