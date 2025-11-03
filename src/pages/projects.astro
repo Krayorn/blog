@@ -120,16 +120,16 @@ const allPosts = shuffle(await getPosts());
 
 ---
 <CyberpunkLayout seoProps={seoProps}>
-  <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-[500px] flex justify-center pt-4 pb-6">
-    <a class="mx-6 no-underline" href="/">Home</a>
-    <a class="mx-6 no-underline font-bold" href="/projects/">Projects</a>
-    <a class="mx-6 no-underline" href="/tags/">Tags</a>
-    <a class="mx-6 no-underline" href="/read-list/">Readlist</a>
-    <a class="mx-6 no-underline" href="/now/">Now</a>
+  <nav class="header relative top-[-5px] mx-auto bg-neony text-black w-full max-w-[500px] flex justify-center pt-4 pb-6 px-2">
+    <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/">Home</a>
+    <a class="mx-2 md:mx-6 no-underline font-bold text-sm md:text-base" href="/projects/">Projects</a>
+    <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/tags/">Tags</a>
+    <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/read-list/">Readlist</a>
+    <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/now/">Now</a>
   </nav>
-  <div class="z-10 flex w-full mt-[100px]">
-    <CyberTabs className="ml-16 w-2/3" data={tabsData ?? []} client:load />
-    <div class="w-[200px] ml-auto h-[500px]">
+  <div class="z-10 flex justify-center items-center w-full">
+    <CyberTabs className="w-full px-4 mx-4 lg:mx-0 lg:ml-16 lg:px-0 lg:w-2/3" data={tabsData ?? []} client:load />
+    <div class="hidden lg:block w-[200px] ml-auto h-[500px]">
       <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
       <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
       <div class="h-full relative overflow-hidden border-neonb border-r">
@@ -166,32 +166,32 @@ const allPosts = shuffle(await getPosts());
     clip-path: polygon(
         0% 0%,
         100% 0%,
-        460px calc(100% - 10px),
+        92% calc(100% - 10px),
 
         /* dent in and out */
-        440px calc(100% - 10px),      
-        435px calc(100% - 20px), 
-        415px calc(100% - 20px),
-        405px calc(100% - 15px),
-        385px calc(100% - 15px),
-        380px calc(100% - 10px),
+        88% calc(100% - 10px),      
+        87% calc(100% - 20px), 
+        83% calc(100% - 20px),
+        81% calc(100% - 15px),
+        77% calc(100% - 15px),
+        76% calc(100% - 10px),
 
 
         /* dent in and out */
-        240px calc(100% - 10px),      
-        235px calc(100% - 15px), 
-        215px calc(100% - 15px),
-        205px calc(100% - 5px),
-        185px calc(100% - 5px),
-        180px calc(100% - 10px),
+        48% calc(100% - 10px),      
+        47% calc(100% - 15px), 
+        43% calc(100% - 15px),
+        41% calc(100% - 5px),
+        37% calc(100% - 5px),
+        36% calc(100% - 10px),
 
         /* triangle */
-        115px calc(100% - 10px),
-        105px 100%,
-        85px calc(100% - 20px),
-        75px calc(100% - 10px),
+        23% calc(100% - 10px),
+        21% 100%,
+        17% calc(100% - 20px),
+        15% calc(100% - 10px),
 
-        40px calc(100% - 10px)
+        8% calc(100% - 10px)
       );
   }
 

@@ -101,8 +101,6 @@ const CyberRadio = () => {
   const [volumeButtonPosition, setVolumeButtonPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   
-
-  
   const playerRef = useRef(null);
   const playerInstanceRef = useRef(null);
   const titleRef = useRef(null);
@@ -280,7 +278,7 @@ const CyberRadio = () => {
   const progressPercentage = duration > 0 ? (currentTime / duration) * 100 : 0;
 
   return (
-    <div className="fixed bottom-8 left-8 z-50">
+    <div className="fixed bottom-8 left-8 z-50 max-w-[80%]">
       <div className="cyber-radio-container relative">
         <div ref={playerRef} className="hidden"></div>
         
