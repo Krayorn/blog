@@ -11,7 +11,7 @@ const seoProps = {
   pageDescription: pageDescription,
 }
 
-const tabsData = [
+const activeTabsData = [
   {
     title: "Personal website",
     content: [
@@ -25,9 +25,10 @@ const tabsData = [
     ]
   },
   {
-    title: "pile of shame",
+    title: "Pile of shame",
     content: [
-      "Project to track my miniature collection, and hopefully motivate me to paint more!",
+      "This project allow users to track their miniature collection, see their progress and album of their painted miniatures.",
+      "Next target would be to add the ability to set goals."
     ],
     tasks: [
       {name: "UX redesign to encourage the use of the app", targeted: true}
@@ -35,12 +36,11 @@ const tabsData = [
     kind: "web",
     status: "live"
   },
-    {
+  {
     title: "bg-log",
     content: [
       "The first 'big project' I worked on. The target is to use it to log every time I play some board game, enter some details and then get some fun statistics.",
       "You can customize what you want to track so it's compatible with every board game, see with whom you play and if one of your friend always uses the same character."
-
     ],
     tasks: [
       {name: "Redeploy the project again", targeted: true},
@@ -64,8 +64,7 @@ const tabsData = [
   },
 ]
 
-/* these project sshould be behind another set of vertical tabs maybe ? to allow some filters or smth ? 
-
+const completedTabsData = [
   {
     title: "Algorithm arena",
     content: [
@@ -83,7 +82,10 @@ const tabsData = [
     ],
     kind: "web",
     status: "completed"
-  },
+  }
+]
+
+const pausedTabsData = [
   {
     title: "Dwarf Clicker",
     content: [
@@ -94,7 +96,10 @@ const tabsData = [
     ],
     kind: "web",
     status: "paused"
-  },
+  }
+]
+
+const rolePlayingTabsData = [
   {
     title: "Cops RPG Intranet",
     content: [
@@ -103,8 +108,15 @@ const tabsData = [
     tasks: [],
     kind: "web",
     status: "live"
-  },
-*/
+  }
+]
+
+const tabsData = {
+  "active": activeTabsData,
+  "completed": completedTabsData,
+  "paused": pausedTabsData,
+  "roleplaying": rolePlayingTabsData,
+}
 
 import { getPosts } from '../utils/blog';
 
@@ -127,8 +139,8 @@ const allPosts = shuffle(await getPosts());
     <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/read-list/">Readlist</a>
     <a class="mx-2 md:mx-6 no-underline text-sm md:text-base" href="/now/">Now</a>
   </nav>
-  <div class="z-10 flex justify-center items-center w-full">
-    <CyberTabs className="w-full px-4 mx-4 lg:mx-0 lg:ml-16 lg:px-0 lg:w-2/3" data={tabsData ?? []} client:load />
+  <div class="z-10 flex w-full">
+    <CyberTabs className="px-4 mx-4 lg:mx-0 lg:ml-16 lg:px-0 lg:w-2/3" data={tabsData ?? []} client:load />
     <div class="hidden lg:block w-[200px] ml-auto h-[500px]">
       <div class="mb-0.5 h-2 fancy_news_ticker" ></div>
       <div class="news_ticker font-bold h-4 py-4 flex items-center justify-center text-black uppercase bg-neonb ">Latest posts</div>
@@ -159,7 +171,7 @@ const allPosts = shuffle(await getPosts());
 <style>
 
   .header-shadow {
-    box-shadow: inset 0px 10px 300px 0 #ffdb4b;
+    box-shadow: inset 0px 10px 300px 0 theme('colors.neony');
   }
 
   .header {
@@ -203,7 +215,7 @@ const allPosts = shuffle(await getPosts());
         10px 100%
       );
 
-      background: repeating-linear-gradient(135deg,   #07f0ff,    #07f0ff 3px,    #071016 4px,    #071016 7px);
+      background: repeating-linear-gradient(135deg, theme('colors.neonb'), theme('colors.neonb') 3px,    theme('colors.dark') 4px,    theme('colors.dark') 7px);
   }
   .news_ticker {
     clip-path: polygon(

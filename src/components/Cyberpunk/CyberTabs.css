@@ -63,7 +63,7 @@
 
 
 .no_tasks {
-    background: repeating-linear-gradient(    45deg,    #071016,    #d9453f 3px,    #071016 6px,    #071016 9px);
+    background: repeating-linear-gradient(    45deg,    theme('colors.dark'), theme('colors.neonr'),    theme('colors.dark') 6px,    theme('colors.dark') 9px);
 }
 
 .tabTrigger[data-state="active"] .highlight {
@@ -71,8 +71,32 @@
 }
 
 .glow-text {
-    color: #d9453f;
+    color: theme('colors.neonr');
     text-shadow:
-      0 0 1px #d9453f,
-      0 0 10px #d9453f;
+      0 0 1px theme('colors.neonr'),
+      0 0 10px theme('colors.neonr');
+}
+
+.filter-button {
+    clip-path: polygon(
+        0% 0%,
+        20px 0%,
+        22px 1px,
+        100% 1px,
+        100% calc(100% - 3px),
+        calc(100% - 3px) 100%,
+        0% 100%
+    );
+}
+
+.inner-filter-button {
+    clip-path: polygon(
+        0% 0%,
+        18px 0%,
+        21px 1px,
+        100% 1px,
+        100% calc(100% - 3px),
+        calc(100% - 3px) 100%,
+        0% 100%
+    );
 }

@@ -366,7 +366,7 @@ const CyberRadio = () => {
                 <div 
                   ref={titleRef}
                   className="text-xs font-bold uppercase tracking-wider glow-text overflow-hidden whitespace-nowrap"
-                  style={{ maxWidth: '200px', color: '#07f0ff' }}
+                  style={{ maxWidth: '200px', color: 'theme(\'colors.neonb\')' }}
                 >
                   <div className="title-scroll">
                     {currentTitle}
@@ -440,7 +440,7 @@ const CyberRadio = () => {
       
       <style jsx="true">{`
         .cyber-radio-container {
-          filter: drop-shadow(0 0 10px #07f0ff);
+          filter: drop-shadow(0 0 10px theme('colors.neonb'));
         }
         
         .outer-radio-border {
@@ -501,7 +501,7 @@ const CyberRadio = () => {
         }
 
         .glow-text {
-          text-shadow: 0 0 5px #07f0ff, 0 0 10px #07f0ff, 0 0 15px #07f0ff;
+          text-shadow: 0 0 5px theme('colors.neonb'), 0 0 10px theme('colors.neonb'), 0 0 15px theme('colors.neonb');
         }
         
         .custom-volume-slider {
@@ -519,7 +519,7 @@ const CyberRadio = () => {
         }
         
         .playlist-container {
-          filter: drop-shadow(0 0 5px #07f0ff);
+          filter: drop-shadow(0 0 5px theme('colors.neonb'));
         }
         
         .playlist-container::-webkit-scrollbar {
@@ -527,11 +527,11 @@ const CyberRadio = () => {
         }
         
         .playlist-container::-webkit-scrollbar-track {
-          background: #071016;
+          background: theme('colors.dark');
         }
         
         .playlist-container::-webkit-scrollbar-thumb {
-          background: #07f0ff;
+          background: theme('colors.neonb');
           border-radius: 2px;
         }
       `}</style>
