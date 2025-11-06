@@ -9,6 +9,13 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 03-11-2025
+
+[You have two jobs.](https://jacobian.org/2017/nov/1/you-have-two-jobs/).
+
+[Turn off cursor, turn on your mind](https://allvpv.org/turn-off-cursor/).
+
+[Scripts I wrote that I use all the time](https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/).
 
 # 27-10-2025
 
