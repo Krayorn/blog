@@ -17,5 +17,6 @@ export default defineConfig({
   redirects: {
     '/posts/bouties-on-goals/': '/posts/bounties-on-goals/',
     '/posts/corrompus/': '/posts/corrompus-crown/',
+    '/posts/': '/',
   }
 });
