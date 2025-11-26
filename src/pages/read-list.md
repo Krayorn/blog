@@ -9,6 +9,10 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+https://www.seangoedecke.com/technical-communication/
+
+https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/
+
 # 03-11-2025
 
 [You have two jobs.](https://jacobian.org/2017/nov/1/you-have-two-jobs/).
