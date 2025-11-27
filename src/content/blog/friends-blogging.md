@@ -25,7 +25,7 @@ Every once in a while, they share something interesting with me, something they 
 
 Well, it finally worked! Two of them made their own blog.
 
-The first is already live: it's [unicorns & dragons](https://blog.unicorns-and-dragons.com/). And the second one is almost ready. I've read the draft of the first post and will share it there once it's online.
+The first is [unicorns & dragons](https://blog.unicorns-and-dragons.com/) and the second one is [kaonashi.dev](https://kaonashi.dev/).
 
 I like to think that I had a part in them finally hitting the deploy button. I'm still working on a few other friends, but I'm stoked about those two already and can't wait to see more of their things online. 
 
