@@ -9,6 +9,16 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 01-12-2025
+
+https://www.raycast.com/blog/no-code-reviews-by-default
+
+https://www.morling.dev/blog/on-idempotency-keys/
+
+https://www.nan.fyi/svg-paths
+
+# 24-11-2025
+
 https://www.seangoedecke.com/technical-communication/
 
 https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/
@@ -168,8 +178,6 @@ Video on why [Clickbait is Unreasonably Effective](https://www.youtube.com/watch
 
 [This reddit post fried my brain](https://posthuman.blog/this-reddit-post-fried-my-brain/).
 
-[The future is safe, effective, and absolutely unbearable](https://posthuman.blog/the-future-is-safe-effective-and-absolutely-unbearable/).
-
 [The colors of her coat](https://www.astralcodexten.com/p/the-colors-of-her-coat).
 
 
@@ -268,8 +276,8 @@ Shipping in a different way with [Headline driven development](https://www.spakh
 
 [A visual look at 2 million chess games](https://blog.ebemunk.com/a-visual-look-at-2-million-chess-games/).
 
-[Why blog if nobody reads it](https://andysblog.uk/why-blog-if-nobody-reads-it/).
-[Why your blog post didn't go viral](https://andysblog.uk/why-your-blog-post-didnt-go-viral/).
+[Why blog if nobody reads it](https://web.archive.org/web/20250219111210/https://andysblog.uk/why-blog-if-nobody-reads-it/).
+[Why your blog post didn't go viral](https://web.archive.org/web/20250214201735/https://andysblog.uk/why-your-blog-post-didnt-go-viral/).
 
 [What makes strong engineers strong](https://www.seangoedecke.com/what-makes-strong-engineers-strong/).
 
@@ -316,9 +324,9 @@ Super fun post full of anecdotes: [Ugliest beautiful codebase](https://jimmyhmil
 
 [Content Driven Development](https://ntietz.com/blog/making-progress-with-content-driven-development/).
 
-On [Consitency vs Intensity](https://www.luffyb.dev/blogs/consistency-vs-intensity). And how consistency is not enough.
+On [Consitency vs Intensity](https://www.luffy.sh/blogs/consistency-vs-intensity). And how consistency is not enough.
 
-[You don't need discipline](https://www.luffyb.dev/blogs/you-dont-need-discipline). Caring more than other is the same.
+[You don't need discipline](https://www.luffy.sh/blogs/you-dont-need-discipline). Caring more than other is the same.
 
 ## 02-09-2024
 
