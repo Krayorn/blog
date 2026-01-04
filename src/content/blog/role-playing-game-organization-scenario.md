@@ -1,6 +1,6 @@
 ---
 title: 'Organizing an 18 player Pirate Role Playing Game - Part 1: Scenario'
-description: ''
+description: 'How I designed the factions, puzzles, and story for a pirate roleplaying game blending murder mystery, escape room, and tabletop RPG.'
 pubDate: 2026-01-04
 tags: ["RPG"]
 ---
