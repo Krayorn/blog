@@ -9,6 +9,18 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 29 - 12 - 2025
+
+https://kibty.town/blog/mintlify/
+
+https://www.seangoedecke.com/nobody-knows-how-software-products-work/
+
+https://secureannex.com/blog/buying-browser-extensions/
+
+https://danluu.com/diseconomies-scale/
+
+https://kupajo.com/write-to-escape-your-default-setting/
+
 # 01-12-2025
 
 https://www.raycast.com/blog/no-code-reviews-by-default
