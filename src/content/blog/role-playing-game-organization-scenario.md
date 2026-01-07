@@ -1,5 +1,5 @@
 ---
-title: 'Organizing an 18 player Pirate Role Playing Game - Part 1: Scenario'
+title: 'Organizing an 18-player Pirate Role Playing Game - Part 1: Scenario'
 description: 'How I designed the factions, puzzles, and story for a pirate roleplaying game blending murder mystery, escape room, and tabletop RPG.'
 pubDate: 2026-01-04
 tags: ["RPG"]
@@ -9,30 +9,30 @@ Two years ago, I organized with a friend of mine a roleplaying game for my birth
 
 This year, for Kaonashi's birthday, I proposed to plan another one again. We settled very fast on the Pirate theme, which we both like and has a lot of potential, and I sent her on her way to come up with the guest list so I could start planning.
 
-On the 20th of December 2025, after a few weeks of preparation, we played a 18 person costumed roleplaying game where we had lots of fun!
+On the 20th of December 2025, after a few weeks of preparation, we played an 18-person costumed roleplaying game where we had lots of fun!
 
-This roleplaying game sits somewhere between a murder mystery, an escape game, and a traditional tabletop RPGs. 
+This roleplaying game sits somewhere between a murder mystery, an escape game, and a traditional tabletop RPG. 
 I'm playing a lot of traditional tabletop RPG (D&D, Witcher, BlackFlag, Cops, Warhammer fantasy...), sometimes as a player, and sometimes as a Dungeon Master. These games are usually for 4 to 5 players around a table, so this was a very different beast, but still, many of the tricks I learned DMing in regular games helped me prepare for this one! 
 
 In this post, I’ll focus on how I structured the scenario: factions, goals, puzzles, and the characters.
-In the next post, I'll go into details about how I made every props from the map used in a puzzle to the daggers and gold coins shared with the players. 
-Finally, I'll explain how we set up everything just before the game and how I started it and give a good recap of what happened during the game, what worked and what didn't. 
+In the next post, I'll go into details about how I made every prop from the map used in a puzzle to the daggers and gold coins shared with the players. 
+Finally, I'll explain how we set up everything just before the game and how I started it, and give a good recap of what happened during the game, what worked, and what didn't. 
 
 ## Factions - Organization help
 
 As soon as I had a rough estimate of the number of players, I started working on the global setting.
 
-For the time period, I picked around 1715 without really having to think too much, the golden age of piracy, that was perfect.
+For the time period, I picked around 1715 without really having to think too much, the golden age of piracy, which was perfect.
 
 The first big decision was to pick what the players would be. I had multiple options:
 
 - A single pirate crew on their ship
 - Pirates from plenty of ships meeting up
-	- on an island to plan something
-	- in a random tavern on Nassau
+    - on an island to plan something
+    - in a random tavern on Nassau
 - Two pirate crews
-	- on a third ship, they just captured
-	- looking for the same treasure
+    - on a third ship, they just captured
+    - looking for the same treasure
 
 With the pirate theme, I knew I wanted to put some "Escape game" style elements in the game, clues to follow, puzzles, maps... And I thought that maybe having everyone be part of the same crew would allow me to reduce some of the initial suspicions/tensions the players could have with pirates from other crews, so I went with the first option.
 
@@ -80,7 +80,7 @@ I started with the Loyalists. This seemed logical as it was going to be the fact
 
 I decided that the NPC leading them would be the Second. The right hand of the Captain, loyal and reliable.
 
-The first idea I had was to make a puzzle with a map. I wanted the players to fold it in a certain way to reveal something and they needed to be able to test their solutions themselves, so I figured a lock on the chest would be great, and the folded map could reveal the combination to open it.
+The first idea I had was to make a puzzle with a map. I wanted the players to fold it in a certain way to reveal something, and they needed to be able to test their solutions themselves, so I figured a lock on the chest would be great, and the folded map could reveal the combination to open it.
 
 So I needed to make a map and a page of instructions. This is where I came up with the "Treasure of the Black Thorn":
 
@@ -98,9 +98,9 @@ There would be three notes hidden in the game location:
 
 I'll go into details about how I made the props in the next post of this series.
 
-For each of these steps, I've added a few possible hints that the NPCs could give if the players were stuck too long (a hint around the location of each hidden notes or some insights into who to ask if they needed to find a specific item ).
+For each of these steps, I've added a few possible hints that the NPCs could give if the players were stuck too long (a hint around the location of each hidden note or some insights into who to ask if they needed to find a specific item ).
 
-During the end-of-game reunion, if they managed to open the chest, they'll be able to reveal to everybody that the Captain was right to pursue this treasure, and share the spoils with the rest of the crew.
+During the end-of-game reunion, if they managed to open the chest, they'll be able to reveal to everybody that the Captain was right to pursue this treasure and share the spoils with the rest of the crew.
 
 Once I had the main goal, I also needed to add plenty of little side quests that the Second could use to slow the players if they progressed too fast on the puzzle, to give to some players who were not busy at the moment, or just to create some fun activities.
 
@@ -125,17 +125,17 @@ I then worked on the Mutineers, this faction was simpler to prepare because a lo
 But before doing that, he needs to prepare himself. His faction only starts with a few players, not enough to win a vote.
 
 - The first step would be to get gold. Enough gold to buy the loyalty of some other pirates. His players will need to play a lot of the mini-games onboard to get the funds necessary.
-	- A pair of crooked dice would also be hidden onboard to help them win at the dice game.
+    - A pair of crooked dice would also be hidden onboard to help them win at the dice game.
 
 - Then, they will be able to start recruiting. They'll need to convince people, with gold, promise of promotions, or whatever else they can come up with, that their interest will be better served by the bosun.
 
-	- Once they find someone, they'll have to bring them to the bosun so that the arrangement can be finalized.
+    - Once they find someone, they'll have to bring them to the bosun so that the arrangement can be finalized.
 
 - Finally, to show that they are serious, they should arm themselves with a few weapons from the weapon stash. Unfortunately, it's locked, and the key is in the hand of the Storekeeper NPC.
 
-	- Once they manage to get their hands on the key (through some social interactions with the Storekeeper), they'll still need to get the weapons without getting caught (which can be harder if the Loyalist sent a few people to check on the weapons).
+    - Once they manage to get their hands on the key (through some social interactions with the Storekeeper), they'll still need to get the weapons without getting caught (which can be harder if the Loyalist sent a few people to check on the weapons).
 
-During the end-of-game reunion, the bosun will ask for a vote, and if they managed to accomplish their quests, maybe the Captain will be overthrown. It turned out to be very difficult to play, I made a few mistakes when setting up the game that I'll speak about more in the retex post of the series, but I think it might have been too broad a goal.
+During the end-of-game reunion, the bosun will ask for a vote, and if they managed to accomplish their quests, maybe the Captain will be overthrown. It turned out to be very difficult to play. I made a few mistakes when setting up the game that I'll speak about more in the retex post of the series, but I think it might have been too broad a goal.
 
 In the same vein as the Loyalists, I cooked up quite a few side quests for them:
 
@@ -182,7 +182,7 @@ So for this faction, I needed
 
 Reusing the map from the Loyalist saved me one prop and would create more interactions between factions. This was the hardest faction to create the props for, as you will see in the following post.
 
-During the end-of-game reunion, if they managed to find the way to lift the curse the Cook would be able to intervene and speak about the legend.
+During the end-of-game reunion, if they managed to find the way to lift the curse, the Cook would be able to intervene and speak about the legend.
 
 I didn't create any side quests for this faction, but talked with the NPC leading them at the start of the game to brief him on the timing needed so that he could slow down his players with some nonsense if needed (it seems that the puzzles were hard enough, as this was not necessary during our game).
 
@@ -236,7 +236,7 @@ I then worked on the quests and made sure every player had some item for the gam
 
 ### Chief Gunner - Loyalist
 
-The Chief Gunner's quest, which was the birthday girl, was to get everybody else to sign and write something on a piece of paper. It was a simple way to help her interact with as many persons as possible during the game (it worked very well!).
+The Chief Gunner's quest, which was the birthday girl, was to get everybody else to sign and write something praising her amazing skills on a piece of paper. It was a simple way to help her interact with as many people as possible during the game and get a fun keepsake (it worked very well!).
 
 ### Pilot - Loyalist && Master caulker - Curseseeker
 
@@ -252,7 +252,7 @@ I didn't know if this player was able to stay for the whole game, so I gave him 
 
 ### Survivor - Loyalist
 
-The survivor was found at the same time as the chest and the dagger that were buried on this lost island. He's  amnesiac and couldn't really recall how he ended up here. He's very grateful that the crew of the Crimson Fox rescued him. He had to find 5 other sailors who would vouch for him so that he could join the crew as a permanent member.
+The survivor was found at the same time as the chest and the dagger that were buried on this lost island. He's amnesiac and couldn't really recall how he ended up here. He's very grateful that the crew of the Crimson Fox rescued him. He had to find 5 other sailors who would vouch for him so that he could join the crew as a permanent member.
 
 ### Master sailmaker - Curseseeker
 
