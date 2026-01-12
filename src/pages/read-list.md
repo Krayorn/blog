@@ -9,7 +9,13 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
-# 29 - 12 - 2025
+# 12-01-2026
+
+https://tidyfirst.substack.com/p/party-of-one-for-code-review
+
+https://www.youtube.com/watch?v=cjXp3bBd2h8
+
+# 29-12-2025
 
 https://kibty.town/blog/mintlify/
 
