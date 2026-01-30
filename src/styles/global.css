@@ -127,7 +127,11 @@ html {
     width: 25%;
     margin-left: 37.5%;
   }
-  
+  .image-caption {
+    text-align: center;
+    font-size: small;
+    color: darkgray;
+  }
 
   @media screen and (max-width: 635px) {
     .img-mobile {

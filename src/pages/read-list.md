@@ -9,11 +9,31 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+https://alexharri.com/blog/ascii-rendering
+
+# 19-01-2026
+
+[Really great postmortem](https://mitchellh.com/writing/ghostty-memory-leak-fix)
+
+[Move faster manifesto](https://brianguthrie.com/p/the-move-faster-manifesto/)
+
+[How to fix any bug](https://overreacted.io/how-to-fix-any-bug/)
+
+[Crypto meet AI](https://www.seangoedecke.com/gas-and-ralph/) 
+
+[Agent psychosis](https://lucumr.pocoo.org/2026/1/18/agent-psychosis/)
+
+
 # 12-01-2026
 
 https://tidyfirst.substack.com/p/party-of-one-for-code-review
 
 https://www.youtube.com/watch?v=cjXp3bBd2h8
+
+https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software
+
+https://andreasfragner.com/writing/three-ways-to-solve-problems
+
 
 # 29-12-2025
 
