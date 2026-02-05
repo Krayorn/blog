@@ -9,6 +9,14 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 02-02-2026
+
+https://overreacted.io/a-social-filesystem/
+
+https://om.co/2026/01/21/velocity-is-the-new-authority-heres-why/
+
+https://www.bugsappleloves.com/
+
 https://alexharri.com/blog/ascii-rendering
 
 # 19-01-2026

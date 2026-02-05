@@ -83,6 +83,17 @@ const CyberTabs = ({ data, className }) => {
 						}
 						<div className="border-t mt-2 py-2 border-neonr/[.3] text-neonr" >
 							{tab.content.map(c => <p key={c}>{c}</p>)}
+							{tab.link && (
+								<a 
+									href={tab.link} 
+									target="_blank" 
+									rel="noopener noreferrer"
+									className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-neony/[.2] border border-neony text-neony hover:bg-neony hover:text-black transition-colors uppercase"
+								>
+									<ExternalLink className="w-4 h-4" />
+									Visit Site
+								</a>
+							)}
 						</div>
 					</Tabs.Content>
 				))}
@@ -117,6 +128,12 @@ const App = ({ className }) => {
 const Contest = ({ className }) => {
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"  className={className}><path d="m12 8 6-3-6-3v10"/><path d="m8 11.99-5.5 3.14a1 1 0 0 0 0 1.74l8.5 4.86a2 2 0 0 0 2 0l8.5-4.86a1 1 0 0 0 0-1.74L16 12"/><path d="m6.49 12.85 11.02 6.3"/><path d="M17.51 12.85 6.5 19.15"/></svg>
+	)
+}
+
+const ExternalLink = ({ className }) => {
+	return (
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
 	)
 }
 
