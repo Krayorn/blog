@@ -22,7 +22,15 @@ const { tag } = Astro.params;
 const seoProps = {
   language: "en",
   pageTitle: `Posts tagged: ${tag}`,
-  pageDescription: `A list of all the blogs posts tagged "${tag}" present in Krayorn's blog.`
+  pageDescription: `A list of all the blogs posts tagged "${tag}" present in Krayorn's blog.`,
+  OG: {
+    basic: {
+      title: `Posts tagged: ${tag}`,
+      type: "website",
+      image: `${import.meta.env.SITE}tags/${tag}/og.png`,
+    },
+    optional: { description: `A list of all the blogs posts tagged "${tag}" present in Krayorn's blog.` },
+  },
 }
 const { posts } = Astro.props;
 ---

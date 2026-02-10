@@ -3,6 +3,7 @@
 <style>
     footer {
       display: flex;
+      align-items: center;
       gap: 1rem;
       margin-top: 2rem;
       position: relative;
@@ -19,6 +20,13 @@
       padding: 0.5rem 1rem;
       text-decoration: none;
       color: white
+    }
+
+    .friends-link {
+      margin-left: auto;
+      color: theme('colors.green');
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
 
     #github path {
@@ -44,4 +52,5 @@
   </a>
 
   <a href="/rss.xml" >RSS</a>
+  <a href="/friends/" class="friends-link">See my friends' blogs!</a>
 </footer>

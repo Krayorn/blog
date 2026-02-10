@@ -10,6 +10,14 @@ const seoProps = {
   language: "en",
   pageTitle: pageTitle,
   pageDescription: pageDescription,
+  OG: {
+    basic: {
+      title: pageTitle,
+      type: "website",
+      image: `${import.meta.env.SITE}og.png`,
+    },
+    optional: { description: pageDescription },
+  },
 }
 
 const allPosts = await getPosts();
@@ -19,6 +27,18 @@ const allContent = [...allPosts, ...allBattleReports];
 
 ---
 <BaseLayout seoProps={seoProps}>
+<script slot="head" type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Krayorn's Blog",
+  "url": "https://www.krayorn.com",
+  "description": pageDescription,
+  "author": {
+    "@type": "Person",
+    "name": "Nathael Arki",
+    "url": "https://www.krayorn.com"
+  }
+})} />
 <section>
   Here's a list of all my blog posts! If you liked one of them, or did not, if it made you think, 
   if there's a typo that drove you crazy, if you want to ask some questions, or give me some feedback, or if you just want to chat, shoot me an email at <a href="mailto:me@krayorn.com" target="_blank">me@krayorn.com</a> 

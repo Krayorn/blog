@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "My Friends";
+const pageDescription = "A webring of blogs from my friends and I.";
+const seoProps = {
+  language: "en",
+  pageTitle: pageTitle,
+  pageDescription: pageDescription,
+  OG: {
+    basic: {
+      title: pageTitle,
+      type: "website",
+      image: `${import.meta.env.SITE}friends/og.png`,
+    },
+    optional: { description: pageDescription },
+  },
+}
+
+const friends = [
+  { name: "Krayorn", url: "https://krayorn.com", description: "Software, board games, RPGs, and whatever else." },
+  { name: "Kodinette", url: "https://blog.unicorns-and-dragons.com/", description: "Sewing, personal software projects." },
+  { name: "Kaonashi", url: "https://kaonashi.dev", description: "3D printing, photo, video games, tech." },
+  { name: "Sahra", url: "https://sahravadrot.com/", description: "Tech, sports, video games." },
+];
+---
+<BaseLayout seoProps={seoProps}>
+  <p>A small ring of blogs from friends. Read one, read all.</p>
+
+  <div class="friends">
+    {friends.map(friend => (
+      <a href={friend.url} target="_blank" rel="noopener noreferrer" class="friend-card">
+        <span class="friend-name">{friend.name}</span>
+        {friend.description && <span class="friend-desc">{friend.description}</span>}
+      </a>
+    ))}
+  </div>
+
+  <div class="random-container">
+    <button id="random-btn" class="random-btn">Take me to a random one →</button>
+  </div>
+
+  <script define:vars={{ friends }}>
+    document.getElementById('random-btn').addEventListener('click', () => {
+      const others = friends.filter(f => !f.url.includes('krayorn.com'));
+      const pick = others[Math.floor(Math.random() * others.length)];
+      window.open(pick.url, '_blank');
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .friends {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .friend-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.25rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    transition: border-color 0.2s;
+  }
+
+  .friend-card:hover {
+    border-color: theme('colors.green');
+  }
+
+  .friend-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: theme('colors.green');
+  }
+
+  .friend-desc {
+    color: #a1a1a1;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+  }
+
+  .random-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .random-btn {
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: 1px solid theme('colors.green');
+    color: theme('colors.green');
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .random-btn:hover {
+    background: theme('colors.green');
+    color: black;
+  }
+</style>

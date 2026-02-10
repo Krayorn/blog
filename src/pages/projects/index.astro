@@ -1,14 +1,24 @@
 ---
-import CyberpunkLayout from '../layouts/CyberpunkLayout.astro';
-import CyberTabs from '../components/Cyberpunk/CyberTabs.jsx'
-import CyberRadio from '../components/Cyberpunk/CyberRadio.jsx'
+import CyberpunkLayout from '../../layouts/CyberpunkLayout.astro';
+import CyberTabs from '../../components/Cyberpunk/CyberTabs.jsx'
+import CyberRadio from '../../components/Cyberpunk/CyberRadio.jsx'
 
 const pageTitle = "Krayorn's Blog";
 const pageDescription = "A blog containing my thoughts and reflections on AI, Software, Board Games and whatever else finds it's way in my mind.";
+const siteUrl = Astro.site?.toString() || "";
+const ogImage = siteUrl + "projects/og.png";
 const seoProps = {
   language: "en",
   pageTitle: pageTitle,
   pageDescription: pageDescription,
+  OG: {
+    basic: {
+      title: pageTitle,
+      type: "website",
+      image: ogImage,
+    },
+    optional: { description: pageDescription },
+  },
 }
 
 const activeTabsData = [
@@ -52,19 +62,6 @@ const activeTabsData = [
     status: "live",
     link: "https://tabletop.krayorn.com"
   },
-  {
-    title: "DonkeyCarrot",
-    content: [
-      "This is the first app I made. And the first time I earned money by selling something online. It's a little silly, but this app tracks your daily income in your macOs menu bar.",
-      "Enter your daily wage, your work schedule, and it will increase durig the day, with an occasional animation every time you earn a certain amount."
-    ],
-    kind: "app",
-    status: "paused",
-    tasks: [
-      {name: "Try marketing on Instagram && Tiktok", targeted: false},
-      {name: "Complete the landing page", targeted: false, completed: true},
-    ]
-  },
 ]
 
 const completedTabsData = [
@@ -87,7 +84,21 @@ const completedTabsData = [
     kind: "web",
     status: "completed",
     link: "https://scotland-public.krayorn.com/"
-  }
+  },
+  {
+    title: "DonkeyCarrot",
+    content: [
+      "This is the first app I made. And the first time I earned money by selling something online. It's a little silly, but this app tracks your daily income in your macOs menu bar.",
+      "Enter your daily wage, your work schedule, and it will increase durig the day, with an occasional animation every time you earn a certain amount."
+    ],
+    kind: "app",
+    status: "completed",
+    tasks: [
+      {name: "Try marketing on Instagram && Tiktok", targeted: false},
+      {name: "Complete the landing page", targeted: false, completed: true},
+    ],
+    link: "https://krayorn.gumroad.com/l/donkeyCarrot"
+  },
 ]
 
 const pausedTabsData = [
@@ -125,7 +136,7 @@ const tabsData = {
   "roleplaying": rolePlayingTabsData,
 }
 
-import { getPosts } from '../utils/blog';
+import { getPosts } from '../../utils/blog';
 
 const shuffle = (array) => { 
   for (let i = array.length - 1; i > 0; i--) { 
@@ -173,6 +184,15 @@ const allPosts = shuffle(await getPosts());
     </div>
   </div>
   <CyberRadio client:load />
+  <div class="sr-only">
+    {Object.values(tabsData).flat().map(project => (
+      <div>
+        <h2>{project.title}</h2>
+        <p>{project.content.join(' ')}</p>
+        {project.link && <a href={project.link}>{project.title}</a>}
+      </div>
+    ))}
+  </div>
 </CyberpunkLayout>
 
 <style>

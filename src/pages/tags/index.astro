@@ -12,6 +12,14 @@ const seoProps = {
   language: "en",
   pageTitle: pageTitle,
   pageDescription: pageDescription,
+  OG: {
+    basic: {
+      title: pageTitle,
+      type: "website",
+      image: `${import.meta.env.SITE}tags/og.png`,
+    },
+    optional: { description: pageDescription },
+  },
 }
 ---
 <BaseLayout seoProps={seoProps}>

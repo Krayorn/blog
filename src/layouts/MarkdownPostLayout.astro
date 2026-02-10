@@ -15,7 +15,7 @@ const seoProps = {
     basic: {
       title: frontmatter.title,
       type: "article",
-      image: `${import.meta.env.SITE}posts/${slug}/og.png`,
+      image: `${import.meta.env.SITE}${Astro.url.pathname.replace(/^\//, '')}og.png`,
     },
     article: {
       publishedTime: frontmatter.pubDate.toString().substring(0, 10),

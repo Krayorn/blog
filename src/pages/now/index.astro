@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const pageTitle = "What I'm doing now";
 const pageDescription = "What I'm doing now";
@@ -7,6 +7,14 @@ const seoProps = {
   language: "en",
   pageTitle: pageTitle,
   pageDescription: pageDescription,
+  OG: {
+    basic: {
+      title: pageTitle,
+      type: "website",
+      image: `${import.meta.env.SITE}now/og.png`,
+    },
+    optional: { description: pageDescription },
+  },
 }
 
 ---
