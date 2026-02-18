@@ -1,33 +1,170 @@
 ---
 const { name, faction, detachment, list } = Astro.props
-
+const totalPoints = list.reduce((acc, unit) => acc + unit.points, 0)
 ---
 
-<div class="flex flex-col" >
-    <h3 class="text-center text-lg font-bold mb-2">{name}</h3>
-    <h4 class="mb-2">{faction} - {detachment}</h4>
+<details class="br-player-card">
+    <summary class="br-player-header">
+        <h3 class="font-gothic-decorative text-lg font-bold uppercase tracking-wider text-[var(--br-text-on-dark)]">{name}</h3>
+        <div class="flex items-center justify-center gap-2 mt-1">
+            <span class="h-px w-8 bg-[var(--br-accent)]"></span>
+            <span class="font-gothic text-xs uppercase tracking-widest text-[var(--br-accent)]">{faction}</span>
+            <span class="h-px w-8 bg-[var(--br-accent)]"></span>
+        </div>
+        <div class="text-xs uppercase tracking-wider text-[var(--br-accent-light)] mt-0.5 font-gothic">{detachment}</div>
+        <div class="br-expand-hint">
+            <span class="br-hint-text font-gothic text-xs uppercase tracking-wider text-[var(--br-accent)]">
+                {totalPoints} pts — Click to reveal
+            </span>
+            <svg class="br-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </summary>
 
-    <div class="flex flex-col space-y-3 mt-3">
-        {list.map(unit => {
-            return (
-                <div>
-                    <div class="flex justify-between" >
-                        <h5> {unit.number !== undefined && <span class="">{unit.number}</span>} {unit.name}</h5>
-                        <p>{unit.points} points</p>
+    <div class="br-player-content">
+        <div class="br-player-list">
+            {list.map((unit, i) => (
+                <div class:list={["br-unit-row", { "border-t border-[var(--br-accent)] border-opacity-20 pt-1": i > 0 }]}>
+                    <div class="flex justify-between items-baseline">
+                        <h5 class="font-gothic text-sm font-semibold uppercase tracking-wide">
+                            {unit.number !== undefined && <span class="text-[var(--br-primary)]">{unit.number}× </span>}
+                            {unit.name}
+                        </h5>
+                        <span class="font-gothic text-xs text-[var(--br-text-muted)] ml-2 whitespace-nowrap">{unit.points} pts</span>
                     </div>
-                    {unit.equipment.map(loadout => {
-                        return (
-                            <p class="text-sm" >{loadout}</p>
-                        )
-                    })}
+                    {unit.equipment.map(loadout => (
+                        <p class="text-xs text-[var(--br-text-muted)] leading-tight pl-3">{loadout}</p>
+                    ))}
                 </div>
-            )
-        })}
-        <h4 class="self-end" >Total: {list.reduce((acc, unit) => acc + unit.points, 0)} points</h4>
+            ))}
+        </div>
+
+        <div class="br-player-footer">
+            <span class="font-gothic text-sm font-bold uppercase tracking-wider text-[var(--br-accent)]">Total: {totalPoints} points</span>
+        </div>
     </div>
-</div>
+</details>
 
 
 <style>
+    .br-player-card {
+        border: 1px solid var(--br-accent);
+        background: linear-gradient(180deg, var(--br-bg), var(--br-bg-dark));
+        overflow: hidden;
+    }
 
+    .br-player-header {
+        background: var(--br-panel);
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 2px solid var(--br-accent);
+        cursor: pointer;
+        list-style: none;
+        user-select: none;
+    }
+
+    .br-player-header::-webkit-details-marker {
+        display: none;
+    }
+
+    .br-player-header::marker {
+        content: '';
+    }
+
+    .br-expand-hint {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        opacity: 0.8;
+        transition: opacity 0.2s;
+    }
+
+    .br-player-header:hover .br-expand-hint {
+        opacity: 1;
+    }
+
+    .br-chevron {
+        color: var(--br-accent);
+        transition: transform 0.3s ease;
+    }
+
+    details[open] .br-chevron {
+        transform: rotate(180deg);
+    }
+
+    /* Swap text when open */
+    details[open] .br-hint-text {
+        font-size: 0;
+    }
+
+    details[open] .br-hint-text::after {
+        content: 'Click to collapse';
+        font-size: 0.75rem;
+        font-family: 'Cinzel', serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    /* Animated content wrapper */
+    .br-player-content {
+        display: grid;
+        grid-template-rows: 1fr;
+        transition: grid-template-rows 0.35s ease-out, opacity 0.3s ease-out;
+        opacity: 1;
+    }
+
+    .br-player-content > .br-player-list {
+        overflow: hidden;
+    }
+
+    .br-player-list {
+        padding: 1rem;
+    }
+
+    .br-player-list > * + * {
+        margin-top: 0.25rem;
+    }
+
+    .br-player-footer {
+        background: var(--br-panel);
+        text-align: right;
+        padding: 0.5rem 1rem;
+        border-top: 1px solid var(--br-accent);
+    }
 </style>
+
+<script>
+    document.querySelectorAll<HTMLDetailsElement>('details.br-player-card').forEach(details => {
+        const content = details.querySelector('.br-player-content') as HTMLElement;
+        if (!content) return;
+
+        details.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            if (details.open) {
+                // Closing: animate then remove open
+                content.style.gridTemplateRows = '0fr';
+                content.style.opacity = '0';
+                content.addEventListener('transitionend', () => {
+                    details.open = false;
+                    content.style.removeProperty('grid-template-rows');
+                    content.style.removeProperty('opacity');
+                }, { once: true });
+            } else {
+                // Opening: set open, then animate from 0
+                details.open = true;
+                content.style.gridTemplateRows = '0fr';
+                content.style.opacity = '0';
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        content.style.gridTemplateRows = '1fr';
+                        content.style.opacity = '1';
+                    });
+                });
+            }
+        });
+    });
+</script>

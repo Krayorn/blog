@@ -9,6 +9,20 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 16-02-2026
+
+https://www.seangoedecke.com/getting-the-main-thing-right/
+
+https://www.seangoedecke.com/heroism/
+
+https://mitchellh.com/writing/my-ai-adoption-journey
+
+# 09-02-2026
+
+https://visualrambling.space/dithering-part-2/
+
+https://dubroy.com/blog/look-for-whats-true/
+
 # 02-02-2026
 
 https://overreacted.io/a-social-filesystem/

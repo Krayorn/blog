@@ -4,53 +4,232 @@ import { Image } from 'astro:assets';
 
 const { indexed_cards, round_number, faction, secondary_missions, content, defender, score } = Astro.props
 
+// Split content into segments: groups of text/quote items separated by images.
+// Images render full-width outside the sidebar flex layout.
+type Segment = { type: 'narrative', items: typeof content } | { type: 'image', src: string, alt: string };
+const segments: Segment[] = [];
+let currentNarrative: typeof content = [];
+
+for (const item of content) {
+    if (item.type === 'image') {
+        if (currentNarrative.length > 0) {
+            segments.push({ type: 'narrative', items: currentNarrative });
+            currentNarrative = [];
+        }
+        segments.push({ type: 'image', src: item.src, alt: item.alt });
+    } else {
+        currentNarrative.push(item);
+    }
+}
+if (currentNarrative.length > 0) {
+    segments.push({ type: 'narrative', items: currentNarrative });
+}
+
+let firstTextFound = false;
+const isFirstSegment = (segIndex: number) => segIndex === 0 || (segIndex === 1 && segments[0].type === 'image');
 ---
-<section class="mt-4">
-    <h3 class="text-lg font-bold text-center mb-4" >Turn {round_number + 1} - {faction} </h3>
-    <div class="flex flex-wrap gap-8 justify-center mb-4">
-        {secondary_missions.map((mission) => (
-            <MissionCard mission={indexed_cards[mission].data} defender={defender} />
-        ))}
-    </div>
 
-    <div class="space-y-2" >
-        {content.map((item) => {
-            
-            if (item.type === 'image') {
-                return (
-                    <div class="flex flex-col items-center">
-                        <Image class="max-w-full md:max-w-[800px] mx-auto" src={item.src} alt={item.alt} />
-                        <span class="text-sm text-center mt-2" >{item.alt}</span>
-                    </div>
-                )
-            }
+<section class="br-turn-section">
+    <h3 class="font-gothic text-lg font-bold text-center uppercase tracking-widest text-[var(--br-primary)] mb-4">
+        Turn {round_number + 1} — {faction}
+    </h3>
 
-            if (item.type === 'quote') {
-                return (
-                    <div class="py-2">
-                        <blockquote class="border-l-4 border-black pl-2 ml-2 italic" >
-                            <p>{item.content}</p>
-                            <span class="text-sm font-bold" >{item.source}</span>
-                        </blockquote>
-                    </div>
-                )
-            }
-
+    {segments.map((segment, segIndex) => {
+        if (segment.type === 'image') {
             return (
-                <p>{item.content}</p>
-            )    
-        })}
-    </div>
-    <div class="flex flex-col items-center mt-2" >
-        {score.map(scoreItem => {
-            return (
-                <div><span class="font-bold" >{indexed_cards[scoreItem.source].data.name}</span>: +{scoreItem.value}VPs</div>
+                <figure class="br-battlefield-image">
+                    <Image class="w-full h-auto" src={segment.src} alt={segment.alt} />
+                    <figcaption>
+                        <span class="text-[var(--br-accent)]">⚜</span>
+                        {segment.alt}
+                        <span class="text-[var(--br-accent)]">⚜</span>
+                    </figcaption>
+                </figure>
             )
-        })}
-    </div>
+        }
+
+        return (
+            <div class="br-turn-body">
+                {/* Only show mission cards sidebar with the first narrative segment */}
+                {isFirstSegment(segIndex) && (
+                    <aside class="br-missions-sidebar">
+                        {secondary_missions.map((mission) => (
+                            <div class="br-mission-card-wrapper">
+                                <MissionCard mission={indexed_cards[mission].data} defender={defender} />
+                            </div>
+                        ))}
+                    </aside>
+                )}
+
+                <div class="br-narrative space-y-4">
+                    {segment.items.map((item) => {
+                        if (item.type === 'quote') {
+                            return (
+                                <blockquote class="br-quote">
+                                    <p class="italic text-lg leading-relaxed">"{item.content}"</p>
+                                    <footer class="mt-2 flex items-center gap-2">
+                                        <span class="text-[var(--br-accent)]">⚜</span>
+                                        <cite class="font-gothic text-sm font-bold uppercase tracking-wider text-[var(--br-primary)] not-italic">{item.source}</cite>
+                                    </footer>
+                                </blockquote>
+                            )
+                        }
+
+                        const isFirstText = !firstTextFound;
+                        firstTextFound = true;
+
+                        return (
+                            <p class:list={["leading-relaxed text-base", { "br-drop-cap": isFirstText }]}>{item.content}</p>
+                        )    
+                    })}
+                </div>
+            </div>
+        )
+    })}
+
+    {score.length > 0 && (
+        <div class="br-score-summary mt-6">
+            <div class="text-xs font-gothic uppercase tracking-widest text-[var(--br-accent)] mb-2 text-center">Victory Points Scored</div>
+            <div class="flex flex-wrap justify-center gap-4">
+                {score.map(scoreItem => (
+                    <div class="br-score-chip">
+                        <span class="font-gothic text-xs uppercase tracking-wide">{indexed_cards[scoreItem.source].data.name}</span>
+                        <span class="font-gothic-decorative text-lg font-bold text-[var(--br-accent)]">+{scoreItem.value}</span>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )}
 </section>
 
 
 <style>
+    .br-turn-section {
+        background: linear-gradient(135deg, var(--br-bg-dark), var(--br-bg));
+        border: 1px solid var(--br-accent);
+        border-left: 4px solid var(--br-primary);
+        padding: 1.5rem;
+        position: relative;
+    }
 
+    /* Sidebar layout */
+    .br-turn-body {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .br-missions-sidebar {
+        display: flex;
+        gap: 0.75rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .br-mission-card-wrapper {
+        flex-shrink: 0;
+    }
+
+    @media (min-width: 1100px) {
+        .br-turn-section {
+            padding: 1.5rem 1rem;
+        }
+
+        .br-turn-body {
+            flex-direction: row-reverse;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .br-missions-sidebar {
+            flex-direction: row;
+            flex-shrink: 0;
+            gap: 0.25rem;
+        }
+
+        .br-mission-card-wrapper {
+            transform: scale(0.72);
+            transform-origin: top center;
+            margin-bottom: -118px; /* 420 * 0.28 */
+            margin-right: -84px; /* 300 * 0.28 */
+        }
+
+        .br-mission-card-wrapper:last-child {
+            margin-right: 0;
+        }
+
+        .br-narrative {
+            flex: 1;
+            min-width: 0;
+        }
+    }
+
+    /* Drop cap */
+    .br-drop-cap::first-letter {
+        font-family: 'Cinzel Decorative', serif;
+        float: left;
+        font-size: 3.5em;
+        line-height: 0.8;
+        padding-right: 0.1em;
+        padding-top: 0.05em;
+        color: var(--br-primary);
+        font-weight: 700;
+    }
+
+    /* Full-width battlefield images */
+    .br-battlefield-image {
+        margin: 1.5rem -1.5rem;
+        position: relative;
+        border-top: 2px solid var(--br-accent);
+        border-bottom: 2px solid var(--br-accent);
+        overflow: hidden;
+    }
+
+    .br-battlefield-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .br-battlefield-image figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        padding: 0.5rem 1rem;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+        color: var(--br-text-on-dark);
+        font-family: 'Cinzel', serif;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+    }
+
+    .br-quote {
+        background: var(--br-quote-bg);
+        border-left: 3px solid var(--br-quote-border);
+        padding: 1rem 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .br-score-summary {
+        background: var(--br-panel);
+        border: 1px solid var(--br-accent);
+        padding: 1rem;
+    }
+
+    .br-score-chip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.125rem;
+        color: var(--br-text-on-dark);
+        padding: 0.375rem 0.75rem;
+        border: 1px solid var(--br-accent);
+        background: rgba(201, 168, 76, 0.08);
+    }
 </style>

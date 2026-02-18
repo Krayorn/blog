@@ -15,7 +15,12 @@ export default {
 			boxShadow: {
 				'neon': '0 0 10px 0 #ffdb4b',
 				'neonr': '0 0 15px 3px #d9453f',
-			}
+			},
+			fontFamily: {
+				'gothic': ['Cinzel', 'serif'],
+				'gothic-decorative': ['Cinzel Decorative', 'serif'],
+				'body-serif': ['Crimson Text', 'serif'],
+			},
 		},
 	},
 	plugins: [],
