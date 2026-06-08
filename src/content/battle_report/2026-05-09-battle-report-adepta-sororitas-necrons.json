@@ -2,7 +2,7 @@
     "title": "Adepta Sororitas vs Necrons - 1000pts",
     "pubDate": "2026-06-08",
     "date": "2026-05-09",
-    "description": "More than 6 month after our last game, I didn't paint a single sororitas mini, but my buddy got a whole new Necron army he wanted to try. Nice change! This might have been the third and final game of v10, I'm very hype about v11 but I need to take the time to paint more minis!",
+    "description": "More than 6 month after our last game, I didn't paint a single sororitas mini, but my buddy got a whole new Necron army he wanted to try. Nice change! This might have been my third and final game of v10, I'm very hyped about v11 but I need to take the time to paint more minis to start playing 2k points!",
     "tags": ["warhammer", "battle report"],
     "game_data": {
         "points": 1000,
@@ -185,8 +185,8 @@
         },
         "primary_mission": "take_and_hold",
         "deployment": "crucible_of_battle",
-        "introduction": "We played with the Crucible of Battle deployment, we added more terrains that we printed after last game so I think we're starting to have enough stuff on the table to break LOS (not that we needed it that day with a very melee Necron Army and an Exorcist on the Sisters side!). I was way less scared of this list than the Marines I face before, it was more melee based, destroying whatever it touches, and faster/tankier than the marines list, but at least I'd have opportunities to move around the board.",
-        "conclusion": "What a fun game! Very close compared to our last one and we had tons of fun. During turn 3 I realized that my Rhino with my Canoness and Repentia wouldn't do a thing all game, so that's definitely something I played badly, they could have given me a few more points to transform this into a bigger win. The menace of the big melee units is very present, but thanks to my Exorcist I had some very good damage to soften them up with nothing that could really hurt my tanks from afar."
+        "introduction": "We played with the Crucible of Battle deployment and with more terrain pieces that we printed after our last game so I think we're starting to have enough stuff on the table to break LOS (not that we needed it that day with a very melee Necron Army and an Exorcist on the Sisters side!). I was way less scared of this list than the Marines I faced before, the necrons were more melee focused, destroying whatever they'd touch, and faster/tankier than the marines, but I thought I would be able to maneuver around them more easily.",
+        "conclusion": "What a fun game! Very close compared to our last one and we had tons of fun. During turn 3 I realized that my Rhino with my Canoness and Repentia wouldn't do a thing all game, so that's definitely something I played badly, one fifth of my army didn't participate in the scoring! They should have given me a few more points to transform this into a bigger win. The menace of the big melee units is very present, but thanks to my Exorcist I had some very good damage to soften them up with nothing that could really hurt my tanks from afar."
     },
     "rounds": [
         {
@@ -198,12 +198,12 @@
                 "content": [
                     {
                         "type": "quote",
-                        "content": "The enemy's heavy gun-platforms are reduced to scrap sisters. The emperor has openend the path before us.",
+                        "content": "The enemy's heavy gun-platforms are reduced to scrap sisters. The Emperor has opened the path before us.",
                         "source": "Sister Ignatia, Exorcist's gunner"
                     },
                     {   
                         "type": "text",
-                        "content": "I got the first turn, and an awful secondary draw, so nothing to score T1. However, my exorcist moved out of his cover to get line of sight on the two Lokhust Heavy Destroyers and dispatched them easily. This was huge as those were the only long distance menace for my infantry."
+                        "content": "I got the first turn, and an awful secondary draw, so nothing to score T1. However, my exorcist moves out of his cover to get line of sight on the two Lokhust Heavy Destroyers and dispatch them easily. This is huge as those were the only long distance menace for my infantry."
                     }
                 ],
                 "score": [
@@ -217,7 +217,7 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "On the necrons side, Marked for death is also very difficult to score, with hidden or tanks unit selected by myself. But Extend battle lines is quite simple as no sistesr of battle stepped on the middle objective. Almost the whole army advances, taking the 3 objectives from the No Man's Land. During the shooting phase, the 10 warriors aim at the penitent engine and don't managed to make a single wound, but the Plasmancer inflict 3 wounds with his Plasmic lance."
+                        "content": "On the Necrons side, Marked for death was also very difficult to score, with hidden or tanks unit selected by myself. But Extend battle lines was quite simple as no sistesr of battle stepped on the middle objective. Almost the whole army advances, taking the 3 objectives from the No Man's Land. During the shooting phase, the 10 Warriors aim at the penitent engine and don't managed to make a single wound, but the Plasmancer inflicts 3 wounds with his Plasmic lance."
                     }
                 ],
                 "score": [
@@ -237,11 +237,11 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "Only 5 points of primary because the necrons took the board, but both secondary are possible! My opponenet picked the objective on the right for Tempting target, which kinda protects the Nekrosor but gives me a play via a drop and a shoot and move from a squad of Seraphims."
+                        "content": "Only 5 points of primary because the necrons took the board, but both secondary are possible! My opponenet picks the objective on the right for Tempting target, which kinda protects the Nekrosor but gives me a play via a drop and a shoot and move from a squad of Seraphims."
                     },
                     {
                         "type": "quote",
-                        "content": "Sister Praxis, follow the penitents and purge the left flank of those metal abominationse. Sister Riennolis, you will hold position Gamma on the right flank while we move up towards you. May his light guides you.",
+                        "content": "Sister Praxis, follow the penitents and purge the left flank of those metal abominations. Sister Riennolis, you will hold position Gamma on the right flank while we move up towards you. May his light guides you.",
                         "source": "Canoness Elira"
                     },
                     {
@@ -276,19 +276,19 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "On turn 2 the Necrons reinforcments arrives to claim the secondary objectives while the big melee menace clean up the Sororitas that denied them the two flank objectives."
+                        "content": "The Necrons reinforcements arrive to claim the secondary objectives while the big melee menace moves up to clean up the Sororitas that denied them the two flank objectives."
                     },
                     {
                         "type": "text",
-                        "content": "On the right, one Skorpekh Destroyed is reanimated and they absolutely eradicates the Seraphims in front of them. The Zephirims led by the Jump Pack Canoness rapid ingress in front of them to challenge them next turn."
+                        "content": "On the right, one Skorpekh Destroyed is reanimated and they absolutely eradicate the Seraphims in front of them. The Zephirims led by the Jump Pack Canoness rapid ingress close by to challenge them next turn."
                     },
                     {
                         "type": "text",
-                        "content": "On the left the Nekrosor kill 3 Seraphims by shooting at them, and disable the Penitent Engine, but a strategem to fight on death allows the Penitent to inflicts 4 wounds on the sick Destroyer."
+                        "content": "On the left the Nekrosor kill 3 Seraphims by shooting at them, and disable the Penitent Engine on melee, but a strategem to fight on death allows the Penitent to inflicts 4 wounds back."
                     },
                     {
                         "type": "text",
-                        "content": "On the middle of the board the Hexmark Destroyer drops to secure the objective and do an action while the Ophydian Destroyers deep strike in the Adepta sororitas deployment zone and do another action."
+                        "content": "On the middle of the board the Hexmark Destroyer drops to secure the objective and do Recover Assets while the Ophydian Destroyers deep strike in the Adepta sororitas deployment zone for Establish Locus."
                     }
                 ],
                 "score": [
@@ -316,11 +316,11 @@
                 "content": [
                     {
                         "type": "text",
-                        "content": "Both secondary objectives demands that I take control of the center of the board, but I poorly placed my rhino last turn so that is compromised. I also forgot that I could redraw one for 1 CP and so I'm stuck with a really poor scoring turn. But I'm doing a lot of attrition and preparing to score big in the last two turns."
+                        "content": "Both secondary objectives demands that I take control of the center of the board, but I poorly placed my rhino last turn so that is compromised. I also forgot that I could redraw one for 1 CP and so I'm stuck with a really poor scoring turn. I decide to focus on attrition and prepare to score big in the last two turns."
                     },
                     {
                         "type": "text",
-                        "content": "The surviving Seraphims on the left and the Exorcist finish the Nekrosor, reclaiming the left objective for good this time. On the right, the Rhino with the Canoness and Repentia moves up to charge the Destroyers but fails the charge, leaving those two ressource in a weird spot at the end of the turn. The Zephirims with their Canoness kill the 4 Skorpekh Destroyers, the surviving Lord kill 4 Zephirims, leaving the objective contested. I forgot to use a miracle dice for an auto dev-wound from the Canoness on this fight, this might have been enough to wipe the pack!"
+                        "content": "The surviving Seraphims on the left and the Exorcist finish the Nekrosor, reclaiming the left objective, for good this time as no more Necrons can reach it. On the right, the Rhino with the Canoness and Repentia moves up to charge the Destroyers but fails the charge, leaving those two ressource in a weird spot at the end of the turn. The Zephirims with their Canoness kills the 4 Skorpekh Destroyers and wounds the Lord, but in return he kills 4 Zephirims, keeping the objective contested. I forgot to use a miracle dice for an auto dev-wound from the Canoness on this fight, this might have been enough to wipe the pack!"
                     }
                 ],
                 "score": [
@@ -338,7 +338,7 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "The Skorpekh Lord fall back to avoid getting hit by the Canoness first, during the shooting phase he kills the last Zephirims and wounds the Canoness, making her very very scary thanks to the 'Through Suffering Strength' enhancement. In the Sister's deployment zone, the Ophydian Destroyers charges the Exorcist and do 6 wounds with their devastating wounds ability."
+                        "content": "The Skorpekh Lord fall back to avoid getting hit by the Canoness first, during the shooting phase he kills the last Zephirim and wounds the Canoness, making her very very scary thanks to the 'Through Suffering Strength' enhancement. In the Sister's deployment zone, the Ophydian Destroyers charges the Exorcist and inflicts 6 wounds with their devastating wounds ability."
                     },
                     {
                         "type": "quote",
@@ -368,6 +368,10 @@
                     {   
                         "type": "text",
                         "content": "The Seraphims and the Battle Sisters Squad do the recover assets action. And to score some Overwhelming force point the Canoness charge and kills the Skorpekh Lord (she was indeed very very scary)."
+                    },
+                    {   
+                        "type": "text",
+                        "content": "The Rhino with the Canoness and Repentia tries moves towards the center objective, too far to reach the Hexmark Destroyer this turn so they disembark for the final turn of the game."
                     }
                 ],
                 "score": [
@@ -393,11 +397,11 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "The Hexmark Destroyer scores Assassination by killing the Jumppack Canoness, but she came back to life thanks to a Strategem. The Ophydian can't do anything are they are still engaged and do not have enough OC to deny any objective in their reach."
+                        "content": "The Hexmark Destroyer scores Assassination by killing the JumpPack Canoness, but she is revived thanks to the Strategem 'Divine Intervention'. The Ophydian Destroyers can't do anything as they are still engaged and do not have enough OC to deny any objective in their reach."
                     },
                     {
                         "type": "quote",
-                        "content": "Bless the Emperorv Velatrix is alive! Onwards Sisters, the Xenos forces are weakening!",
+                        "content": "Bless the Emperor, Velatrix is alive! Onwards Sisters, the Xenos forces are weakening!",
                         "source": "Canoness Elira"
                     }
                 ],
@@ -422,7 +426,7 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "Very good draw of secondary to end the game. The Exorcist finishes the Ophydian, while the Rhino Tank Shocks and Kill the Hexmark Destroyer."
+                        "content": "Very good draw of secondary to end the game. The Exorcist finishes the Ophydian Destroyers, while the Rhino Tank Shocks the Hexmark Destroyer, killing him before the Canoness and the Repentia can join and do anything this game."
                     }
                 ],
                 "score": [
