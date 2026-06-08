@@ -1,0 +1,54 @@
+{
+    "id": "scorched_earth",
+    "type": "Primary Mission",
+    "name": "Scorched Earth",
+    "content": [
+        {
+            "type": "action",
+            "title": "Burn Objective (action)",
+            "starts": "Your Shooting phase, from the second battle round onwards.",
+            "units": "One unit from your army that is within range of an objective marker that is not within your deployment zone.",
+            "completes": "End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is still within range of the same objective marker and you control that objective marker.",
+            "ifCompleted": "That objective marker is **burned** and removed from the battlefield."
+        },
+        {   "type": "section",
+            "title": "SECOND BATTLE ROUND ONWARDS"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** Any time.",
+                "Each time a player *burns* an objective marker."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "Objective marker was in No Man's Land."
+            ],
+            "value": 5
+        },
+        {
+            "type": "reward",
+            "text": [
+                "Objective marker was in their opponent's deployment zone."
+            ],
+            "value": 10
+        },
+        {   "type": "section",
+            "title": "SECOND BATTLE ROUND ONWARDS"
+        },
+        {
+            "type": "text",
+            "text": [
+                "**WHEN:** End of your command phase (or the end of your turn if it is the fifth battle round and you are going second)."
+            ]
+        },
+        {   "type": "reward",
+            "text": [
+                "For each objective marker that you control."
+            ],
+            "value": 5,
+            "max": 10
+        }
+    ]
+}
