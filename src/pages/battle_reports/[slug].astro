@@ -117,13 +117,13 @@ let defenderScore = 0;
 
                     <!-- Score Bar -->
                     <div class="br-score-bar mb-6">
-                        <span class="font-gothic text-sm uppercase tracking-wider">{entry.data.game_data.attacker.faction}</span>
-                        <div class="flex items-center gap-3">
+                        <span class="br-score-bar-faction font-gothic text-sm uppercase tracking-wider">{entry.data.game_data.attacker.faction}</span>
+                        <div class="br-score-bar-scores flex items-center gap-3">
                             <span class="text-2xl font-gothic font-bold">{currentAttackerScore}</span>
                             <span class="text-[var(--br-accent)] text-lg">⚔</span>
                             <span class="text-2xl font-gothic font-bold">{currentDefenderScore}</span>
                         </div>
-                        <span class="font-gothic text-sm uppercase tracking-wider">{entry.data.game_data.defender.faction}</span>
+                        <span class="br-score-bar-faction font-gothic text-sm uppercase tracking-wider">{entry.data.game_data.defender.faction}</span>
                     </div>
 
                     <div style={themeToStyle(attackerTheme)}>
@@ -209,13 +209,26 @@ let defenderScore = 0;
     }
 
     .br-score-bar {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
         align-items: center;
-        justify-content: space-between;
+        gap: 1rem;
         background: var(--br-panel);
         color: var(--br-text-on-dark);
         padding: 0.75rem 1.5rem;
         border: 1px solid var(--br-accent);
+    }
+
+    .br-score-bar-faction:first-child {
+        text-align: right;
+    }
+
+    .br-score-bar-faction:last-child {
+        text-align: left;
+    }
+
+    .br-score-bar-scores {
+        justify-self: center;
     }
 
     .br-final-score-card {

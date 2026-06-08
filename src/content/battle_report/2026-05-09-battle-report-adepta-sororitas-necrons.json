@@ -1,0 +1,467 @@
+{
+    "title": "Adepta Sororitas vs Necrons - 1000pts",
+    "pubDate": "2026-06-08",
+    "date": "2026-05-09",
+    "description": "More than 6 month after our last game, I didn't paint a single sororitas mini, but my buddy got a whole new Necron army he wanted to try. Nice change! This might have been the third and final game of v10, I'm very hype about v11 but I need to take the time to paint more minis!",
+    "tags": ["warhammer", "battle report"],
+    "game_data": {
+        "points": 1000,
+        "attacker": {
+            "name": "Nathael",
+            "faction": "Adepta Sororitas",
+            "detachment": "Hallowed Martyrs",
+            "list": [
+                {
+                    "name": "Canoness",
+                    "equipment": [
+                        "Blessed blade, Plasma pistol, Saintly example"
+                    ],
+                    "points": 70
+                },
+                {
+                    "name": "Canoness with Jump Pack",
+                    "equipment": [
+                        "Blessed halberd, Through Suffering Strength"
+                    ],
+                    "points": 100
+                },
+                {
+                    "name": "Battle Sisters Squad",
+                    "number": 10,
+                    "equipment": [
+                        "1x Sister Superior: Plasma pistol, Power weapon",
+                        "6x Battle Sister: Boltgun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Simulacrum Imperialis, Boltgun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Meltagun, Bolt pistol, Close combat weapon",
+                        "1x Battle Sister: Multi-melta, Bolt pistol, Close combat weapon"
+                    ],
+                    "points": 105
+                },
+                {
+                    "name": "Arco-flagellants",
+                    "number": 3,
+                    "equipment": [
+                        "3x Arco-flagellant: Arco-flails"
+                    ],
+                    "points": 45
+                },
+                {
+                    "name": "Repentia Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Repentia Superior: Bolt pistol, Neural Whips",
+                        "4x Sister Repentia: Penitent Eviscerator"
+                    ],
+                    "points": 75
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Seraphim Superior: Plasma pistol, Power weapon",
+                        "2x Seraphim: 2 Bolt pistols, Close combat weapon",
+                        "2x Seraphim: 2 Ministorum hand flamers, Close combat weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Seraphim Superior: Plasma pistol, Power weapon",
+                        "2x Seraphim: 2 Bolt pistols, Close combat weapon",
+                        "2x Seraphim: 2 Ministorum hand flamers, Close combat weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Zephirim Squad",
+                    "number": 5,
+                    "equipment": [
+                        "1x Zephirim Superior: Plasma pistol, Power weapon, Sacred Banner",
+                        "4x Zephirim: Bolt pistol, Power weapon"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Exorcist",
+                    "equipment": [
+                        "Exorcist Missile Launcher, Hunter-killer missile, Heavy Bolter, Armoured tracks"
+                    ],
+                    "points": 210
+                },
+                {
+                    "name": "Penitent Engine",
+                    "equipment": [
+                        "Penitent Flamers, Twin Penitent Buzz-Blades"
+                    ],
+                    "points": 75
+                },
+                {
+                    "name": "Sororitas Rhino",
+                    "equipment": [
+                        "Hunter-killer missile, Storm Bolter, Armoured tracks"
+                    ],
+                    "points": 75
+                }
+            ]
+        },
+        "defender": {
+            "name": "Emmanuel",
+            "faction": "Necrons",
+            "detachment": "Cursed Legion",
+            "list": [
+                {
+                    "name": "Nekrosor Ammentar",
+                    "equipment": [
+                        "Enmitic disintegrators, Unmaker Gauntlet, Blade tail and whip coils, Nullstone field generator"
+                    ],
+                    "points": 185
+                },
+                {
+                    "name": "Hexmark Destroyer",
+                    "equipment": [
+                        "Enmitic disintegrator pistols, Close combat weapon"
+                    ],
+                    "points": 75
+                },
+                {
+                    "name": "Skorpekh Lord",
+                    "number": 1,
+                    "equipment": [
+                        "Enmitic annihilator, Flensing claw, Hyperphase harvester, Mark of the Nekrosor"
+                    ],
+                    "points": 110
+                },
+                {
+                    "name": "Plasmancer",
+                    "number": 1,
+                    "equipment": [
+                        "Plasmic lance"
+                    ],
+                    "points": 55
+                },
+                {
+                    "name": "Skorpekh Destroyers",
+                    "number": 6,
+                    "equipment": [
+                        "Skorpekh hyperphase weapons, 2 Plasmacyte"
+                    ],
+                    "points": 180
+                },
+                {
+                    "name": "Lokhust Heavy Destroyers",
+                    "number": 2,
+                    "equipment": [
+                        "Enmitic exterminator, close combat weapon"
+                    ],
+                    "points": 110
+                },
+                {
+                    "name": "Ophydian Destroyers",
+                    "number": 3,
+                    "equipment": [
+                        "Ophydian hyperphase weapons, 1 Plasmacyte"
+                    ],
+                    "points": 80
+                },
+                {
+                    "name": "Necron Warriors",
+                    "number": 10,
+                    "equipment": [
+                        "Gauss reaper, Close combat weapon"
+                    ],
+                    "points": 90
+                },
+                {
+                    "name": "Necron Warriors",
+                    "number": 10,
+                    "equipment": [
+                        "Gauss reaper, Close combat weapon"
+                    ],
+                    "points": 90
+                }
+            ]
+        },
+        "primary_mission": "take_and_hold",
+        "deployment": "crucible_of_battle",
+        "introduction": "We played with the Crucible of Battle deployment, we added more terrains that we printed after last game so I think we're starting to have enough stuff on the table to break LOS (not that we needed it that day with a very melee Necron Army and an Exorcist on the Sisters side!). I was way less scared of this list than the Marines I face before, it was more melee based, destroying whatever it touches, and faster/tankier than the marines list, but at least I'd have opportunities to move around the board.",
+        "conclusion": "What a fun game! Very close compared to our last one and we had tons of fun. During turn 3 I realized that my Rhino with my Canoness and Repentia wouldn't do a thing all game, so that's definitely something I played badly, they could have given me a few more points to transform this into a bigger win. The menace of the big melee units is very present, but thanks to my Exorcist I had some very good damage to soften them up with nothing that could really hurt my tanks from afar."
+    },
+    "rounds": [
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "cleanse",
+                    "assassination"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "The enemy's heavy gun-platforms are reduced to scrap sisters. The emperor has openend the path before us.",
+                        "source": "Sister Ignatia, Exorcist's gunner"
+                    },
+                    {   
+                        "type": "text",
+                        "content": "I got the first turn, and an awful secondary draw, so nothing to score T1. However, my exorcist moved out of his cover to get line of sight on the two Lokhust Heavy Destroyers and dispatched them easily. This was huge as those were the only long distance menace for my infantry."
+                    }
+                ],
+                "score": [
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "marked_for_death",
+                    "extend_battle_lines"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "On the necrons side, Marked for death is also very difficult to score, with hidden or tanks unit selected by myself. But Extend battle lines is quite simple as no sistesr of battle stepped on the middle objective. Almost the whole army advances, taking the 3 objectives from the No Man's Land. During the shooting phase, the 10 warriors aim at the penitent engine and don't managed to make a single wound, but the Plasmancer inflict 3 wounds with his Plasmic lance."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "extend_battle_lines",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "assassination",
+                    "tempting_target"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "Only 5 points of primary because the necrons took the board, but both secondary are possible! My opponenet picked the objective on the right for Tempting target, which kinda protects the Nekrosor but gives me a play via a drop and a shoot and move from a squad of Seraphims."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Sister Praxis, follow the penitents and purge the left flank of those metal abominationse. Sister Riennolis, you will hold position Gamma on the right flank while we move up towards you. May his light guides you.",
+                        "source": "Canoness Elira"
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the left flank, 5 Seraphims and the Penitent Engine shoot the Necrons Warriors, leaving only one standing with the Plasmancer, but the charge from the Arco-flagellants and the Penitent-Engine secure the left objective and Assassination."
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the right, 5 Seraphims, the Exorcist, and the Hunter-Killer missile from the Rhino eliminate 4 of the 6 Sorpekh Destroyers. The seraphims then slide on the objective to deny it and complete Tempting Target."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "assassination",
+                        "value": 5
+                    },
+                    {
+                        "source": "tempting_target",
+                        "value": 5
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "establish_locus",
+                    "recover_assets"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "On turn 2 the Necrons reinforcments arrives to claim the secondary objectives while the big melee menace clean up the Sororitas that denied them the two flank objectives."
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the right, one Skorpekh Destroyed is reanimated and they absolutely eradicates the Seraphims in front of them. The Zephirims led by the Jump Pack Canoness rapid ingress in front of them to challenge them next turn."
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the left the Nekrosor kill 3 Seraphims by shooting at them, and disable the Penitent Engine, but a strategem to fight on death allows the Penitent to inflicts 4 wounds on the sick Destroyer."
+                    },
+                    {
+                        "type": "text",
+                        "content": "On the middle of the board the Hexmark Destroyer drops to secure the objective and do an action while the Ophydian Destroyers deep strike in the Adepta sororitas deployment zone and do another action."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 10
+                    },
+                    {
+                        "source": "establish_locus",
+                        "value": 4
+                    },
+                    {
+                        "source": "recover_assets",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "area_denial",
+                    "establish_locus"
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "content": "Both secondary objectives demands that I take control of the center of the board, but I poorly placed my rhino last turn so that is compromised. I also forgot that I could redraw one for 1 CP and so I'm stuck with a really poor scoring turn. But I'm doing a lot of attrition and preparing to score big in the last two turns."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The surviving Seraphims on the left and the Exorcist finish the Nekrosor, reclaiming the left objective for good this time. On the right, the Rhino with the Canoness and Repentia moves up to charge the Destroyers but fails the charge, leaving those two ressource in a weird spot at the end of the turn. The Zephirims with their Canoness kill the 4 Skorpekh Destroyers, the surviving Lord kill 4 Zephirims, leaving the objective contested. I forgot to use a miracle dice for an auto dev-wound from the Canoness on this fight, this might have been enough to wipe the pack!"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "assassination",
+                    "behind_enemy_lines"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "The Skorpekh Lord fall back to avoid getting hit by the Canoness first, during the shooting phase he kills the last Zephirims and wounds the Canoness, making her very very scary thanks to the 'Through Suffering Strength' enhancement. In the Sister's deployment zone, the Ophydian Destroyers charges the Exorcist and do 6 wounds with their devastating wounds ability."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Hatred empowers me. You won't escape the fury of the Emperor!",
+                        "source": "Canoness Velatrix"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 10
+                    },
+                    {
+                        "source": "behind_enemy_lines",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "recover_assets",
+                    "overwhelming_force"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "The Seraphims and the Battle Sisters Squad do the recover assets action. And to score some Overwhelming force point the Canoness charge and kills the Skorpekh Lord (she was indeed very very scary)."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 10
+                    },
+                    {
+                        "source": "recover_assets",
+                        "value": 3
+                    },
+                    {
+                        "source": "overwhelming_force",
+                        "value": 3
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "assassination",
+                    "storm_hostile_objective"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "The Hexmark Destroyer scores Assassination by killing the Jumppack Canoness, but she came back to life thanks to a Strategem. The Ophydian can't do anything are they are still engaged and do not have enough OC to deny any objective in their reach."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Bless the Emperorv Velatrix is alive! Onwards Sisters, the Xenos forces are weakening!",
+                        "source": "Canoness Elira"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "assassination",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "no_prisoners",
+                    "display_of_might"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "Very good draw of secondary to end the game. The Exorcist finishes the Ophydian, while the Rhino Tank Shocks and Kill the Hexmark Destroyer."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 15
+                    },
+                    {
+                        "source": "no_prisoners",
+                        "value": 4
+                    },
+                    {
+                        "source": "display_of_might",
+                        "value": 4
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "defend_stronghold",
+                    "overwhelming_force"
+                ],
+                "content": [
+                    {   
+                        "type": "text",
+                        "content": "The last 10 Necron Warriors can't do anything, a redraw of secondary gives Defend Stronghold which brings some points."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "take_and_hold",
+                        "value": 5
+                    },
+                    {
+                        "source": "defend_stronghold",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,460 @@
+{
+    "title": "Adepta Sororitas vs Ultramarines - 1060pts",
+    "pubDate": "2025-06-18",
+    "date": "2025-06-11",
+    "description": "A company of Adepta Sororitas encounters an Ultramarine strike force. Our first game ever, we were excited to field our entire collection, so we played with an unregular 1060 pts.",
+    "tags": ["warhammer", "battle report"],
+    "game_data": {
+        "points": 1060,
+        "attacker": {
+            "name": "Nathael",
+            "faction": "Adepta Sororitas",
+            "detachment": "",
+            "list": [
+                {
+                    "name": "Canoness",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Canoness with Jump Pack",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Imagifier",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Battle Sisters Squad",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Arco-flagellants",
+                    "number": 3,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Repentia Squad",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Seraphim Squad",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Zephyrim Squad",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Exorcist",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Penitent Engine",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Sororitas Rhino",
+                    "equipment": [],
+                    "points": 10
+                }
+            ]
+        },
+        "defender": {
+            "name": "Emmanuel",
+            "faction": "Ultramarines",
+            "detachment": "",
+            "list": [
+                {
+                    "name": "Captain Titus",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Lieutenant in Phobos Armor",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Archivist",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Assault Intercessors",
+                    "number": 10,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Infernus Squad",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Heavy Intercessors",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Terminators",
+                    "number": 5,
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Ballistus Dreadnought",
+                    "equipment": [],
+                    "points": 10
+                },
+                {
+                    "name": "Gladiator",
+                    "equipment": [],
+                    "points": 10
+                }
+            ]
+        },
+        "primary_mission": "scorched_earth",
+        "deployment": "hammer_and_anvil",
+        "twist": "martial_pride",
+        "introduction": "Last week, I finally led my Adepta Sororitas in their first game of Warhammer 40k. I played with a friend who started at the same time as me, we were excited to field our entire collection, so we played with an unregular 1060 pts. This is the first battle report, hopefully many more are to come! For this game, I only have one picture to show, but I will take more pictures from future games. During the deployment, I tried to hide everything to make sure the Ballistus and the Gladiator could not have a line of sight on one of my two tanks on turn one. All my flying units stayed in reserve. I got the initiative, and we started the fight.",
+        "conclusion": "This concludes the game on a 12-8 for the Adepta Sororitas. What was interesting for us in our first game was how bad we were at reading the game. At the end of turn 2, both of us assumed the Marines would win and that I was cooked. But the number of units of the sisters and most importantly their presence in enemy territory allowed me to do almost all secondary objectives in the late game despite not being able to handle the Terminators. We will play a rematch soon enough, and the outcome might be totally different. Maybe I'll have a few more troops to choose from instead of playing my entire collection!"
+    },
+    "rounds": [
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "no_prisoners",
+                    "sabotage"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "Do not overcommit sisters, the emperor will give us an opportunity.",
+                        "source": "Canoness Elira, on the vox comms"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Not a great start for the sisters. 3 Arco-flagellants were sent in a terrain feature of the no man's land to try Sabotage or at least force my opponent to commit one of his squad to deal with them. The Exorcist opened the hostility by firing a battery of missiles at the Ballistus, giving him a few wounds. Small victory."
+                    }
+                ],
+                "score": []
+            },
+            "defender": {
+                "secondary_missions": [
+                    "recover_assets",
+                    "overwhelming_force"
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "content": "The Ultramarines struck on the flank where I was trying Sabotage, the Lieutenant in Phobos armor positioned himself to have an easy charge if it was needed but the Infernus marines advanced and vaporized the flagellants. The Zephyrims made a deep strike behind the enemy lines, ready to punish those who stayed behind."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "overwhelming_force",
+                        "value": 3
+                    },
+                    {
+                        "source": "recover_assets",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "behind_enemy_lines",
+                    "defend_stronghold"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "It's your opportunity to gain your repentance, sisters!",
+                        "source": "Repentia Superior Vyloris, moments before the charge"
+                    },
+                    {
+                        "type": "text",
+                        "content": "It was time for the penitents to show if they truly wanted to earn forgiveness. On the right flank, The Repentia left the Rhino and moved behind a cover, ready to make a charge on the Lieutenant in Phobos armor and the Infernus Marines. The Rhino then moved in the center to screen the rest of my troops from the gladiator. On the left flank, the Penitent Engine advanced to shoot and charge the Assault Intercessors led by Titus. One squad of Seraphims dropped from the sky to help him."
+                    },
+                    {
+                        "type": "text",
+                        "content": "During the shooting phase, the flamers of the Seraphims and the Penitent Engine only killed two Marines, but the Exorcist, with the help of the Rhino Hunter Killer Missile, managed to finish off the Ballistus dreadnought."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Miraculous penetration. Faith and munitions remain high.",
+                        "source": "Sister Ignatia, Exorcist's gunner"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/src/images/battle_reports/2025_06_11_adepta-sororitas-ultramarines/turn2.jpg",
+                        "alt": "Middle of the Adepta sororitas turn 2 movement phase"
+                    },
+                    {
+                        "type": "text",
+                        "content": "The Repentia charged, killed three Marines and left the Lieutenant in Phobos armor with one wound before getting all killed in return. The Rhino charged the Gladiator, Tank shocking him to deal a few wounds. On the other side, the Penitent Engine did not do better and killed two Marines before being destroyed by the swift response. In the backline, the Zephyrims and the Canoness charged the Heavy Intercessors, but their armors were too strong, and only two of them died while two sisters fell from their overwatch."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 5
+                    },
+                    {
+                        "source": "behind_enemy_lines",
+                        "value": 4
+                    },
+                    {
+                        "source": "defend_stronghold",
+                        "value": 3
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "extend_battle_lines",
+                    "display_of_might"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "The enemy approaches sisters, we will make them pay dearly for our lives. Avenge us.",
+                        "source": "Canoness Velatrix, leading the Obscura Vultus, a Zephyrim squad."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The Assault Intercessors moved back to deal with the flying enemies in their deployment zone while the Gladiator finished the Rhino and killed a few sisters further back."
+                    },
+                    {
+                        "type": "text",
+                        "content": "During the fight phase, Titus and his Marines killed all the Zephyrims and the Canoness, but with Spirit of the Martyr, they fought one last time, with way more success than previously. Two Heavy Intercessors and most of the Assault Intercessors died with them."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 10
+                    },
+                    {
+                        "source": "extend_battle_lines",
+                        "value": 4
+                    },
+                    {
+                        "source": "display_of_might",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "recover_assets",
+                    "assassination"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "Press them, press them! The emperor protects us!",
+                        "source": "Imagifier Sylana, following Canoness Elira in the midst of battle"
+                    },
+                    {
+                        "type": "text",
+                        "content": "At the end of Turn 2, the situation was looking bleak, but the heroic death of the Zephyrims gave us hope. The Exorcist finally left his hiding zone, and destroyed the Gladiator with his missiles and the help of some meltas shots from the battle sisters close by, before charging the Lieutenant in Phobos armor and crushing him under his weight."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The last squad of Seraphims joined the fight, and both flying units shot Titus' unit, leaving him without any bodyguards. As the tide started to turn, a squad of Terminators teleported on the left flank objective."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Enemy reinforcements on our left! Complete the mission, we will hold them back.",
+                        "source": "Canoness Elira"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 5
+                    },
+                    {
+                        "source": "assassination",
+                        "value": 5
+                    },
+                    {
+                        "source": "recover_assets",
+                        "value": 3
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "establish_locus",
+                    "marked_for_death"
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "content": "The storm bolters of the Terminators killed a few sisters and they charged to finish the rest of the squad off. Thanks to the Imagifier, the sisters resisted a bit, and the two characters managed to survive."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 5
+                    },
+                    {
+                        "source": "establish_locus",
+                        "value": 4
+                    },
+                    {
+                        "source": "marked_for_death",
+                        "value": 5
+                    },
+                    {
+                        "source": "marked_for_death",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "extend_battle_lines",
+                    "display_of_might"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "Target eliminated. Armored threats removed. Glory to the God-Emperor.",
+                        "source": "Sister Ignatia, Exorcist's gunner"
+                    },
+                    {
+                        "type": "text",
+                        "content": "The Exorcist sniped Titus with his missiles and the last remaining Marines from the Infernus squad with his heavy bolter. The last Seraphim squad burned down the remaining Heavy Intercessor and took control of the objective in the enemy deployment zone."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 10
+                    },
+                    {
+                        "source": "extend_battle_lines",
+                        "value": 4
+                    },
+                    {
+                        "source": "display_of_might",
+                        "value": 4
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "tempting_target",
+                    "area_denial"
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "content": "The Terminators mowed down the two characters with their storm bolter, and when one of them revived through a Divine Intervention, they charged her and made sure she stayed dead this time."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 5
+                    },
+                    {
+                        "source": "area_denial",
+                        "value": 3
+                    },
+                    {
+                        "source": "tempting_target",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "attacker": {
+                "secondary_missions": [
+                    "engage_on_all_fronts",
+                    "establish_locus"
+                ],
+                "content": [
+                    {
+                        "type": "quote",
+                        "content": "The sacrifice of our sisters will not be forgotten, they bought us the time needed to accomplish our mission. They will be honored.",
+                        "source": "Sister Nyssala"
+                    },
+                    {
+                        "type": "text",
+                        "content": "The Exorcist and the Seraphims burned down their objective for the Scorched Earth Primary mission."
+                    },
+                    {
+                        "type": "quote",
+                        "content": "Objectives destroyed. Evacuation authorized.",
+                        "source": "Seraphim Superior Riennolis"
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 20
+                    },
+                    {
+                        "source": "engage_on_all_fronts",
+                        "value": 4
+                    },
+                    {
+                        "source": "establish_locus",
+                        "value": 6
+                    }
+                ]
+            },
+            "defender": {
+                "secondary_missions": [
+                    "bring_it_down",
+                    "no_prisoners"
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "content": "The terminators burned their objectives as well."
+                    }
+                ],
+                "score": [
+                    {
+                        "source": "scorched_earth",
+                        "value": 10
+                    }
+                ]
+            }
+        }
+    ]
+}

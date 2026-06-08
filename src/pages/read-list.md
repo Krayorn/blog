@@ -9,6 +9,54 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+
+# 01-06-2026
+
+https://web.archive.org/web/20260217063113/http://www.userland.com/whatIsStopEnergy
+
+https://ferd.ca/complexity-has-to-live-somewhere.html
+
+https://callmemapo.substack.com/p/ai-the-shadow-prince
+
+# 25-05-2026
+
+https://kevinkelly.substack.com/p/our-uncertain-uncertainties
+
+# 11-05-2026
+
+https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
+
+# 04-05-2026
+
+https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/
+
+https://ben-mini.com/2026/nucleus-nouns
+
+# 27-04-2026
+
+https://alexhwoods.com/dont-let-ai-write-for-you/
+
+https://incident.io/blog/bloom-filters
+
+https://thatshubham.com/blog/news-audit
+
+
+https://daringfireball.net/2026/03/your_frustration_is_the_product
+
+https://apenwarr.ca/log/20260316
+
+https://jakelazaroff.com/words/an-interactive-intro-to-crdts/
+
+https://growingswe.com/blog/quadtrees
+
+https://ogirardot.writizzy.com/p/good-software-knows-when-to-stop
+
+https://www.vangemert.dev/blog/nothing
+
+https://htmx.org/essays/locality-of-behaviour/
+
+https://paulgraham.com/brandage.html
+
 # 16-02-2026
 
 https://www.seangoedecke.com/getting-the-main-thing-right/

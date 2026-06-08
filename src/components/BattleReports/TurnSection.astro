@@ -87,9 +87,9 @@ const isFirstSegment = (segIndex: number) => segIndex === 0 || (segIndex === 1 &
         )
     })}
 
-    {score.length > 0 && (
-        <div class="br-score-summary mt-6">
-            <div class="text-xs font-gothic uppercase tracking-widest text-[var(--br-accent)] mb-2 text-center">Victory Points Scored</div>
+    <div class="br-score-summary mt-6">
+        <div class="text-xs font-gothic uppercase tracking-widest text-[var(--br-accent)] mb-2 text-center">Victory Points Scored</div>
+        {score.length > 0 ? (
             <div class="flex flex-wrap justify-center gap-4">
                 {score.map(scoreItem => (
                     <div class="br-score-chip">
@@ -98,8 +98,10 @@ const isFirstSegment = (segIndex: number) => segIndex === 0 || (segIndex === 1 &
                     </div>
                 ))}
             </div>
-        </div>
-    )}
+        ) : (
+            <p class="font-gothic text-sm uppercase tracking-widest text-[var(--br-text-muted)] text-center">No scoring achieved</p>
+        )}
+    </div>
 </section>
 
 
