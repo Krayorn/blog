@@ -2,7 +2,7 @@
     "title": "Adepta Sororitas vs Necrons - 1000pts",
     "pubDate": "2026-06-08",
     "date": "2026-05-09",
-    "description": "More than 6 month after our last game, I didn't paint a single sororitas mini, but my buddy got a whole new Necron army he wanted to try. Nice change! This might have been my third and final game of v10, I'm very hyped about v11 but I need to take the time to paint more minis to start playing 2k points!",
+    "description": "More than 6 months after our last game, I didn't paint a single sororitas mini, but my buddy got a whole new Necron army he wanted to try. Nice change! This might have been my third and final game of v10, I'm very hyped about v11 but I need to take the time to paint more minis to start playing 2k points!",
     "tags": ["warhammer", "battle report"],
     "game_data": {
         "points": 1000,
@@ -203,7 +203,7 @@
                     },
                     {   
                         "type": "text",
-                        "content": "I got the first turn, and an awful secondary draw, so nothing to score T1. However, my exorcist moves out of his cover to get line of sight on the two Lokhust Heavy Destroyers and dispatch them easily. This is huge as those were the only long distance menace for my infantry."
+                        "content": "I got the first turn, and an awful secondary draw, so nothing to score T1. However, my exorcist moves out of cover to get line of sight on the two Lokhust Heavy Destroyers and dispatch them easily. This is huge as those were the only long range menace for my infantry."
                     }
                 ],
                 "score": [
@@ -237,20 +237,20 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "Only 5 points of primary because the necrons took the board, but both secondary are possible! My opponenet picks the objective on the right for Tempting target, which kinda protects the Nekrosor but gives me a play via a drop and a shoot and move from a squad of Seraphims."
+                        "content": "Only 5 points of primary because the Necrons took the board, but both secondary are possible! My opponent picks the objective on the right for Tempting target, which kinda protects the Nekrosor but gives me a play via a drop and a shoot and move from a squad of Seraphims."
                     },
                     {
                         "type": "quote",
-                        "content": "Sister Praxis, follow the penitents and purge the left flank of those metal abominations. Sister Riennolis, you will hold position Gamma on the right flank while we move up towards you. May his light guides you.",
+                        "content": "Sister Praxis, follow the penitents and purge the left flank of those metal abominations. Sister Riennolis, you will hold position Gamma on the right flank while we move up towards you. May His light guide you.",
                         "source": "Canoness Elira"
                     },
                     {
                         "type": "text",
-                        "content": "On the left flank, 5 Seraphims and the Penitent Engine shoot the Necrons Warriors, leaving only one standing with the Plasmancer, but the charge from the Arco-flagellants and the Penitent-Engine secure the left objective and Assassination."
+                        "content": "On the left flank, 5 Seraphims and the Penitent Engine shoot the Necron Warriors, leaving only one standing with the Plasmancer, but the charge from the Arco-flagellants and the Penitent-Engine secure the left objective and Assassination."
                     },
                     {
                         "type": "text",
-                        "content": "On the right, 5 Seraphims, the Exorcist, and the Hunter-Killer missile from the Rhino eliminate 4 of the 6 Sorpekh Destroyers. The seraphims then slide on the objective to deny it and complete Tempting Target."
+                        "content": "On the right, 5 Seraphims, the Exorcist, and the Hunter-Killer missile from the Rhino eliminate 4 of the 6 Skorpekh Destroyers. The Seraphims then slide on the objective to deny it and complete Tempting Target."
                     }
                 ],
                 "score": [
@@ -320,7 +320,7 @@
                     },
                     {
                         "type": "text",
-                        "content": "The surviving Seraphims on the left and the Exorcist finish the Nekrosor, reclaiming the left objective, for good this time as no more Necrons can reach it. On the right, the Rhino with the Canoness and Repentia moves up to charge the Destroyers but fails the charge, leaving those two ressource in a weird spot at the end of the turn. The Zephirims with their Canoness kills the 4 Skorpekh Destroyers and wounds the Lord, but in return he kills 4 Zephirims, keeping the objective contested. I forgot to use a miracle dice for an auto dev-wound from the Canoness on this fight, this might have been enough to wipe the pack!"
+                        "content": "The surviving Seraphims on the left and the Exorcist finish the Nekrosor, reclaiming the left objective, for good this time as no more Necrons can reach it. On the right, the Rhino with the Canoness and Repentia moves up to charge the Destroyers but fails the charge, leaving those two resource in a weird spot at the end of the turn. The Zephirims with their Canoness kills the 4 Skorpekh Destroyers and wounds the Lord, but in return he kills 4 Zephirims, keeping the objective contested. I forgot to use a miracle dice for an auto dev-wound from the Canoness on this fight, this might have been enough to wipe the pack!"
                     }
                 ],
                 "score": [
@@ -338,11 +338,11 @@
                 "content": [
                     {   
                         "type": "text",
-                        "content": "The Skorpekh Lord fall back to avoid getting hit by the Canoness first, during the shooting phase he kills the last Zephirim and wounds the Canoness, making her very very scary thanks to the 'Through Suffering Strength' enhancement. In the Sister's deployment zone, the Ophydian Destroyers charges the Exorcist and inflicts 6 wounds with their devastating wounds ability."
+                        "content": "The Skorpekh Lord falls back to avoid getting hit by the Canoness first, during the shooting phase he kills the last Zephirim and wounds the Canoness, making her very very scary thanks to the 'Through Suffering Strength' enhancement. In the Sister's deployment zone, the Ophydian Destroyers charges the Exorcist and inflicts 6 wounds with their devastating wounds ability."
                     },
                     {
                         "type": "quote",
-                        "content": "Hatred empowers me. You won't escape the fury of the Emperor!",
+                        "content": "Hatred empowers me. You will not escape the fury of the Emperor!",
                         "source": "Canoness Velatrix"
                     }
                 ],
@@ -401,7 +401,7 @@
                     },
                     {
                         "type": "quote",
-                        "content": "Bless the Emperor, Velatrix is alive! Onwards Sisters, the Xenos forces are weakening!",
+                        "content": "Bless the Emperor, Velatrix lives! Press the attack, Sisters, the Xenos falter!",
                         "source": "Canoness Elira"
                     }
                 ],
