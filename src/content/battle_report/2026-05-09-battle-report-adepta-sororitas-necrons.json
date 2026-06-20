@@ -283,8 +283,18 @@
                         "content": "On the right, one Skorpekh Destroyed is reanimated and they absolutely eradicate the Seraphims in front of them. The Zephirims led by the Jump Pack Canoness rapid ingress close by to challenge them next turn."
                     },
                     {
+                        "type": "image",
+                        "src": "/src/images/battle_reports/3/backdrop.jpg",
+                        "alt": "The sisters moving up on the right."
+                    },
+                    {
                         "type": "text",
                         "content": "On the left the Nekrosor kill 3 Seraphims by shooting at them, and disable the Penitent Engine on melee, but a strategem to fight on death allows the Penitent to inflicts 4 wounds back."
+                    },
+                    {
+                        "type": "image",
+                        "src": "/src/images/battle_reports/3/nekrosor.jpg",
+                        "alt": "The Nekrosor on his way to clean the left flank."
                     },
                     {
                         "type": "text",

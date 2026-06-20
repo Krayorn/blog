@@ -9,6 +9,25 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 15-06-2026
+
+https://htmx.org/essays/code-is-cheap/
+
+https://mechanical-pencil.com/products/pen
+
+https://borretti.me/article/human-routers-of-machine-words
+
+# 08-06-2026
+
+https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/
+
+https://yaoyue.org/blog/2026-oncall/
+
+https://www.alexselimov.com/posts/let_no_crisis_go_to_waste/
+
+https://dubroy.com/blog/fast-is-better-than-slow/
+
+https://www.seangoedecke.com/build-agents-not-pipelines/
 
 # 01-06-2026
 

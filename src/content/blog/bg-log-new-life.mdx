@@ -1,0 +1,40 @@
+---
+title: 'BG log '
+description: 'bg log'
+pubDate: 2026-03-09
+tags: ["software", "board games"]
+---
+
+import { Image } from 'astro:assets';
+
+Two years ago I shared a few ideas I wanted to add to my board game logging app, and a few stats I was able to track using it. http://localhost:4321/posts/ideas-board-game-apps/ http://localhost:4321/posts/2023-game-review/ 
+
+Then this side project died off for a year or so and I started working again on it in late January. Since then, I've done a lot of things! The core of the app was already done, and good enough that I was able to pick up where I left off easily and add a few features on top with ease. The last post was so long ago I feel like it's fine to do a full overview of what we got currently. 
+
+### Home page
+
+The home page is simple for now, and not that's useful, might be changed soon! You can see your global stats on it, number of games in collection, number of plays, number of custom fields, number of people you play with... There's also a few panels to show people you most play with and the games that with the most and the least plays.
+
+### Game
+
+Then there is the game page, it's where you can log a new play and it's where you can also add custom fields to your game. 
+Custom fields are customizable fields that you can add to any game, it can be a number, a string or a list, and they can be linked to a player or to the full game. They allow you to then get some statistics on the game and can improve the way to track campaigns.
+
+## Statistics
+
+The statistics section allows you to create graphs and analyze the data from all the entries you have for a specific game. Combined with the custom fields, you can then try to get the winrate of a certain character, or the pickrate of a certain weapon. You can then save those statistics so that they are always visible for this game. 
+
+> future idea => the custom fields are currently tied to the player that create them, you can copy custom fields shared by admin users to get a good idea of what good fields could be used for a specific game, and later I'd late to add the option to query data across the whole userbase, not just your entries (if you use a copy of a custom field) 
+> I also need to check how it's vizualized for other players
+
+
+## Campaign
+
+The campaign section is used for games where you can chain plays together and need to note somewhere some progress, missions, loot, HP or whatever else you need. You start by defining the Campaign Key you want to track, and give them a type, then you register an entry in this campaign, and you can add events to that entry that modify those values. The tech behind rely on a barebone
+
+
+Campaign
+Admin
+Games
+Circle
+Global stats

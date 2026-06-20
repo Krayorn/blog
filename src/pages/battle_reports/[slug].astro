@@ -1,9 +1,20 @@
 ---
 import MissionCard from '../../components/BattleReports/MissionCard';
 import { getCollection } from "astro:content";
+import { SEO } from "astro-seo";
+import BlogPostingJSONLD from '../../components/BlogPostingJSONLD.astro';
 import PlayerSection from '../../components/BattleReports/PlayerSection.astro';
 import TurnSection from '../../components/BattleReports/TurnSection.astro';
 import { getFactionTheme, themeToStyle } from '../../utils/factionThemes';
+import '@fontsource/cinzel/latin-400.css';
+import '@fontsource/cinzel/latin-600.css';
+import '@fontsource/cinzel/latin-700.css';
+import '@fontsource/cinzel-decorative/latin-400.css';
+import '@fontsource/cinzel-decorative/latin-700.css';
+import '@fontsource/crimson-text/latin-400.css';
+import '@fontsource/crimson-text/latin-400-italic.css';
+import '@fontsource/crimson-text/latin-600.css';
+import '@fontsource/crimson-text/latin-700.css';
 
 export async function getStaticPaths() {    
     return (await getCollection('battle_report')).map((report) => {
@@ -25,6 +36,27 @@ const { entry } = Astro.props;
 const attackerTheme = getFactionTheme(entry.data.game_data.attacker.faction);
 const defenderTheme = getFactionTheme(entry.data.game_data.defender.faction);
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const pageDescription = `${entry.data.description} Played on ${entry.data.date}.`;
+const seoProps = {
+    language: "en",
+    pageTitle: entry.data.title,
+    pageDescription,
+    OG: {
+        basic: {
+            title: entry.data.title,
+            type: "article",
+            image: `${import.meta.env.SITE}og.png`,
+        },
+        article: {
+            publishedTime: entry.data.pubDate.toISOString().substring(0, 10),
+            author: [{ username: 'Krayorn' }],
+            tags: entry.data.tags,
+        },
+        optional: { description: entry.data.description },
+    },
+};
+
 let attackerScore = 0;
 let defenderScore = 0;
 ---
@@ -32,11 +64,29 @@ let defenderScore = 0;
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{entry.data.title}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <SEO
+        canonical={canonicalURL}
+        description={seoProps.pageDescription}
+        title={seoProps.pageTitle}
+        twitter={{
+            card: "summary_large_image",
+            creator: "@Krayorn",
+            title: seoProps.pageTitle,
+            description: seoProps.pageDescription,
+            image: seoProps.OG?.basic?.image,
+        }}
+        openGraph={seoProps.OG}
+    />
+    <BlogPostingJSONLD
+        title={entry.data.title}
+        description={entry.data.description}
+        pubDate={entry.data.pubDate}
+        tags={entry.data.tags}
+    />
 </head>
 <body style={themeToStyle(attackerTheme)} class="bg-[var(--br-bg)] text-[var(--br-text)] font-body-serif min-h-screen">
     <nav class="bg-[var(--br-panel)] flex justify-center py-3 gap-6 text-sm font-gothic uppercase tracking-widest">
