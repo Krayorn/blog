@@ -1,6 +1,6 @@
 ---
-title: 'BG log '
-description: 'bg log'
+title: 'Updates on the Board game logging app'
+description: 'A full tour of my board game logging app, redesign, UX improvements and fun new features.'
 pubDate: 2026-08-02
 tags: ["software", "board games"]
 ---
@@ -26,7 +26,7 @@ In late January I got an inspiration renewal and started working on it again, si
 <Image 
     src={home} 
     class="img"
-    alt=""
+    alt="Dark neon Game Log home dashboard showing games owned, total plays, win rate, recent sessions, and player stats."
 />
 
 The new home page didn't fundamentally change, but there was a complete new design picked. The first iteration was my first try at making something futuristic-looking, with heavy inspirations from Star Citizen.
@@ -40,7 +40,7 @@ Custom fields are customizable fields that you can add to any game, it can be a 
 <Image 
     src={create_game} 
     class="img"
-    alt=""
+    alt="Monster Hunter World play entry form with past sessions on the left and player cards for custom fields like weapon and death count."
 />
 
 Custom fields are customizable fields that you can add to any game, it can be a number, a string or a list, and they can be linked to a player or to the play.
@@ -55,7 +55,7 @@ And here they are in action on the statistics section.
 <Image 
     src={statistics} 
     class="img"
-    alt=""
+    alt="Statistics builder selecting win rate grouped by weapon, with a horizontal bar chart comparing Insect Glaive, Long Sword, and Great Sword."
 />
 
 The statistics section allows you to create graphs and analyze the data from all the entries you have for a specific game. Combined with the custom fields, you can then try to get the winrate of a certain character, or the pickrate of a certain weapon. You can then save those statistics so that they are always visible for this game. 
@@ -72,7 +72,7 @@ The tech behind rely on a barebone implementation of event sourcing, so you can 
 <Image 
     src={campaign} 
     class="img"
-    alt=""
+    alt="OrcQuest Warpath campaign page listing session events on the left and the computed campaign state for skills and stats on the right."
 />
 
 ## Inventory
@@ -84,7 +84,7 @@ I was inspired by some Assassin's creed progress tracker, where all of the game 
 <Image 
     src={inventory} 
     class="img"
-    alt=""
+    alt="My Games inventory page with owned and play stats above a horizontal shelf of vertical game spines, one game expanded."
 />
 
 I think it's pretty cool!
@@ -96,7 +96,7 @@ I also added a new way to vizualise your gaming circle, it's not working super w
 <Image 
     src={circle} 
     class="img"
-    alt=""
+    alt="Your Circle network view with a central You node connected to player cards showing games played and win/loss records."
 />
 
 It shows connections between the players you played with and the number of times they won or lost against you (so not counting co-op games).
@@ -108,13 +108,13 @@ I also added a smallish admin page to get some stats about the site, it's mostly
 <Image 
     src={admin} 
     class="img"
-    alt=""
+    alt="Admin system overview dashboard with totals for users, entries, games, and campaigns, plus top players and recent activity."
 />
 
 <Image 
     src={admin2} 
     class="img"
-    alt=""
+    alt="Admin breakdown of custom fields, campaign metrics, and saved statistics queries."
 />
 
 ## Global stats
