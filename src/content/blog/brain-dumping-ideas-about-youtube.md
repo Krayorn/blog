@@ -1,0 +1,30 @@
+---
+title: 'Brain dumping ideas to start making YouTube videos'
+description: 'I want to start a YouTube channel, I have a vague idea of what I want to do but I need to start putting things down.'
+pubDate: 2026-09-09
+tags: ["blogging"]
+---
+
+Third day of this "blogvent" series where I'm writing one post a day for a week, in one sitting. And today I'm trying something a bit different. The first post was very meta, just writing about the inspiration for the blogvent and once again about me and my writing non-discipline. The second post was a simple movie review, a few words to say what I liked and what it reminded me of. Today we're going to figure out together the plan for one of the projects I'd like to start this year.
+
+--- 
+
+The gist of the project is this: I'm going to start a YouTube channel and publish videos.
+
+That's it. That's all I have for now. As you can see, I still need to figure out a few things.
+
+I can start by trying to figure out a bit of why I want to do this. I like to create things, I like to share those things. I think there is a chance I can make some cool stuff. Do I want to become a full-time content creator? No. The easiest posts I wrote on this blog were either the Warhammer battle reports or the fiction related to some RPG sessions I had. Taking something that happened in a game and narrating it from another perspective, adding a different rhythm, another style... I think trying to take this concept and putting it onto the video format could lead to some fun content and would be a challenging exercise. 
+
+But do I know what the topic of the channel should be? Honestly, not really! But writing the paragraph above confirmed some vague ideas I had. The videos should mainly be about my favorite hobbies: war games, role-playing games, and board games. I also wonder a bit if some programming in the form of devlogs would have its place in video content, but I think that might be too different from the rest and maybe not a good idea at first.
+
+The most developed plan would be the war games videos, it could take the form of a battle report, leaning hard on the storytelling and narration aspect, and less on the rules and dice-rolling part of the game. I watch a few videos from french channel that do battle reports, [French Wargame Studio](https://www.youtube.com/@FrenchWargameStudio)(mainly Warhammer 40K), [Squig Herd](https://www.youtube.com/@TheSquigHerd) (Warhammer 40K and Age Of Sigmar), [Warhammer Amateur](https://www.youtube.com/@Warhamateur) (Warhammer The Old World) and more recently a few from [Gredins du Dunland](https://www.youtube.com/@gredinsdudunland) (Middle Earth Strategy Battle Game). In English, I also very recently watched a few videos from [Conquest Creations](https://www.youtube.com/@ConquestCreations) (Middle Earth Strategy Battle Game again). The French channels, with the exception of Warhammer Amateur, focus mainly on the game, dice rolling, jokes, great visuals, and strategy. The English channel is in the middle, more narrative, loads of terrain, but still some dice rolling and strategy. Warhammer Amateur is going heavy on the narration, with great introductions, custom scenarios, and objectives, but still showing quite a bit of the game.
+
+I'll need to research loads more French content creators to get a broader idea of what's out there, but I think going very narrative in French could be fun. I have no idea how much strategy should be explained, if I should show some dice rolls or not at all, there is tons of unknown. And the bigger issue with this concept is a glaring one. They all play with fully painted armies (a must in my opinion), on absolutely splendid tables. But when I say splendid, I mean splendid. It's amazing! They have loads of good terrain, multiple themes depending on the scenario, fully 3D-printed tables in some cases, battle mats... This is the main obstacle I'd have to face. None of my armies are fully painted. I don't have a battle mat, but a buddy of mine does, so I could use this one. I don't have a full set of terrain yet, just a few pieces, but I'm currently expanding this part of my collection. Still, I don't see myself being capable of aligning multiple armies on different tables. I'll have a space issue on top of my time issue to get everything painted. I can start small, with what I already have on the Warhammer 40K battlemat, but I'll have to find solutions if I want to hit different settings and different themes.
+
+About the game systems to explore, I was tempted to make content on the Middle-earth setting. There isn't a ton of French creators, it's really narrative and cinematic by default. I don't have a single miniature of this game yet, but I really crave some Rohan warriors. The Old World is also interesting for the same reasons, and I have a few Bretonnians built and waiting to be painted.
+
+A few words about the other types of videos that I could consider. On the RPG side, I think there is stuff to do with some scenarios that I prepare for the games where I'm DM. I could share the main ideas of the scenario to present them to other DMs, or I could narrate the events of the game played with an in-character voice. I'm not sure what the appeal would be to others, so this would require more research before thinking about it. On board games, I'm also torn, maybe just a few playthroughs. It can be fun to watch if correctly edited, explain the rules, and showcase the game, but I think that's less interesting, at least for now. 
+
+Anyway, I think the post worked. I now know in which direction I want to start making content. In a way, that's almost like the obvious next step after some of the blog posts I produced, and it could also help me learn some stuff for my new job (more on that in another post, not this week tho!). 
+
+See you tomorrow for another short entry, and hopefully see you before the end of the year for a first short video! I'd better start painting fast.
