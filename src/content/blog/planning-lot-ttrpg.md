@@ -1,6 +1,6 @@
 ---
-title: "I'm planning a lot of TTRPG sessions at the same time"
-description: 'I love TTRPGs, follow along as I pitch you the 5 games that are most likely to be played in the near future.'
+title: 'I am planning a lot of TTRPG sessions at the same time'
+description: 'I love TTRPGs, follow along as I pitch you the 5 adventures that I am most likely to run in the near future.'
 pubDate: 2026-09-10
 tags: ["blogging", "RPG"]
 ---

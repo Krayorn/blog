@@ -1,5 +1,5 @@
 ---
-title: "Annoyed after realizing I read an AI-generated blog post."
+title: "Annoyed after realizing I read an AI-generated blog post.
 description: "A trusted source shared an AI-generated post in a newsletter. Thoughts on AI paranoia, AI detection, and trust."
 pubDate: 2026-09-11
 tags: ["blogging"]
