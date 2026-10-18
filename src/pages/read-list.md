@@ -9,6 +9,26 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+# 05-10-2026
+
+https://www.experimental-history.com/p/i-like-em-thick
+
+# 21-09-2026
+
+https://charity.wtf/p/confessions-of-an-unrepentant-slop
+
+# 17-08-2026
+
+https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text
+
+# 10-08-2026
+
+https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
+
+https://gruhn.me/blog/2026-08-03/
+
+https://ludic.mataroa.blog/blog/the-worlds-left-to-conquer/
+
 # 15-06-2026
 
 https://htmx.org/essays/code-is-cheap/
