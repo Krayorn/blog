@@ -2,7 +2,7 @@
 title: "First impressions on the Wild Imaginary West game system"
 description: "My first thoughts on most of the mechanics in Wild Imaginary West after two short sessions."
 pubDate: 2026-10-18
-tags: ["RPG"]
+tags: ["RPG", "review"]
 ---
 
 A few weeks ago, [I said](/posts/west-marches-rpg/) that I needed to run a game in the Wild Imaginary West (WIW) setting to get a feel for the system and see if it would fit my need for a West Marches-style game. 

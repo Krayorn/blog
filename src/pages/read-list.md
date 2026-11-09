@@ -9,6 +9,13 @@ tags: []
 
 Some article I really enjoyed, sorted by "week" for now, with hopefully some tagging / sorting / searching coming up ! 
 
+
+# 10-11-2026
+
+https://www.youtube.com/watch?v=UytYrhYLOKI
+
+https://danluu.com/ambitious/
+
 # 05-10-2026
 
 https://www.experimental-history.com/p/i-like-em-thick
