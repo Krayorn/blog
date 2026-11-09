@@ -21,7 +21,7 @@ And together, we made [S.I.X.](https://ludicrpg.com/blog/six-building-two-table-
 
 So Ludo invited me to join in on [ludic](https://ludicrpg.com) to also share the experiments I'm doing in TTRPGs and keep building things together.
 
-Right now we're each working on different things. Ludo is [overhauling](https:// ludicrpg.com/blog/pavillon-noir-putting-my-players-in-command/) "Pavillon Noir"(Black flag), cleaning up the rules, making DM and player help cards, etc... to prepare a new regular table where I'll have the pleasure to play [Diane](/posts/roleplaying-characters/#:~:text=Diane%20de%20la%20Rochefoucaut%2C%20Pavillon%20noir%20(Black%20flag)) again, probably my favorite RPG character. 
+Right now we're each working on different things. Ludo is [overhauling](https://ludicrpg.com/blog/pavillon-noir-putting-my-players-in-command/) "Pavillon Noir"(Black flag), cleaning up the rules, making DM and player help cards, etc... to prepare a new regular table where I'll have the pleasure to play [Diane](/posts/roleplaying-characters/#:~:text=Diane%20de%20la%20Rochefoucaut%2C%20Pavillon%20noir%20(Black%20flag)) again, probably my favorite RPG character. 
 
 On my side, I'm still working on my [West March Wild Imaginary West world](/posts/wild-imaginary-west-first-impressions/), I've played the first few sessions, and created the characters of the next batch of players. It's now time to start the work on the companion website for this game!
 
