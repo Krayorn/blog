@@ -2,7 +2,7 @@
 title: 'In too deep - Board Game Review'
 description: 'Review of the board game In too deep, quick rules explanation and some of the strength of weakness of the game'
 pubDate: 2025-09-30
-tags: ["board games"]
+tags: ["board games", "review"]
 ---
 
 I've had _In Too Deep_ in my collection for the last 4 or 5 years, but I only managed to play a full game of it this month! 

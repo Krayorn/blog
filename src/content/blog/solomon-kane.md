@@ -2,7 +2,7 @@
 title: 'Solomon Kane - Board Game Review'
 description: 'Review of the board game Solomon Kane, quick rules explanation and some of the strength of weakness of the game'
 pubDate: 2025-09-30
-tags: ["board games"]
+tags: ["board games", "review"]
 ---
 
 Solomon Kane is a cooperative narrative game. You control Solomon Kane, a travelling puritan. Each player represents one of the Virtues of Solomon: Courage, Justice, Temperance, and Prudence, and can make Solomon act in the world. 
